@@ -9,6 +9,10 @@ body{
 	margin: 0 0;
 	padding: 16px 0 0;
 }
+h1{
+	margin: 0;
+	padding: 0;
+}
 a{
 	text-decoration: none;
 	color: #000;
@@ -17,25 +21,53 @@ a{
 	width: 1284px;
 	margin: 0 auto;
 }
-header{
 
-}
-.header-content{
+/*elements*/
 
+.button-link{
+	display: inline-block;
+	padding: 18px 32px 8px 32px;
+	text-transform: uppercase;
+	font-family: "HelveticaNeueCyr-Bold";
 }
+.button-link.white{
+	background: #fff;
+	color: #000;	
+}
+.button-link.black{
+	background: #000;
+	color: #fff;
+}
+.button-link-span{
+	padding: 0 0 6px 0;
+	display: inline-block;
+}
+.button-link.white .button-link-span{
+	border-bottom: 2px solid #fff;
+	transition: all .2s ease-out;
+}
+.button-link.white:hover > .button-link-span{
+	border-bottom: 2px solid #000;
+	transition: all .2s ease-out;
+}
+.button-link.black .button-link-span{
+	border-bottom: 2px solid #000;
+	transition: all .2s ease-out;
+}
+.button-link.black:hover > .button-link-span{
+	border-bottom: 2px solid #fff;
+	transition: all .2s ease-out;
+}
+
+/*end elements*/
+
 .header-top{
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 33px;
 }
-.header-top-time{
-
-}
 .header-top-time-span{
 	opacity: 0.45;
-}
-.header-top-lang{
-
 }
 .header-top-lang-link{
 	opacity: 0.3;
@@ -53,18 +85,27 @@ header{
 	display: flex;
 	align-items: center;
 }
+.header-center-left-item{
+	position: relative;
+}
 .header-center-left-link{
 	display: flex;
 	align-items: center;
 	padding: 7px 0;
 	margin-right: 38px;
+	transition: all .2s ease-out;
 }
 .header-center-left-link.line{
 	border-right: 1px solid #000;
 	padding-right: 38px;
 }
-.header-center-left-link-span{
-
+.header-center-left-link.active{
+	opacity: 0.5;
+	transition: all .2s ease-out;
+}
+.header-center-left-link.active > .header-center-left-link-icon{
+	transform: rotate(180deg);
+	transition: all .2s ease-out;
 }
 .header-center-left-link-icon{
 	width: 8px;
@@ -74,27 +115,83 @@ header{
 	background-size: 273px;
     background-position: -202px -36px;
     margin-left: 5px;
+    transition: all .2s ease-out;
+}
+.modal-about-us{
+	position: absolute;
+	top: 31px;
+	left: -67px;
+	background: #fff;
+	border-top: 2px solid #000000;
+	box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.24);
+	z-index: 100;
+	display: none;
+}
+.modal-about-us-cols{
+	display: flex;
+}
+.modal-about-us-col.first{
+	width: 305px;
+	border-right: 1px solid rgba(0,0,0,.15);
+}
+.modal-about-us-col.last{
+	width: 221px;
+}
+.modal-about-us-name{
+	display: block;
+	opacity: .4;
+	box-sizing: border-box;
+	padding: 26px 56px 13px;
+	cursor: default;
+	transition: all .2s ease-out;
+}
+.modal-about-us-col:hover > .modal-about-us-name{
+	opacity: 1;
+	transition: all .2s ease-out;
+}
+.modal-about-us-wrap{
+	padding-bottom: 12px;
+}
+.modal-about-us-link{
+	display: block;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 14px 20px 14px 56px;
+	transition: all .2s ease-out;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.modal-about-us-link.active{
+	background: rgba(0,0,0,0.03);
+}
+.modal-about-us-link:hover{
+	background: rgba(0,0,0,0.03);
+	transition: all .2s ease-out;
 }
 .header-center-logo{
-
+	margin-right: 103px;
 }
 .header-center-logo-link{
 	display: inline-block;
-}
-.header-center-logo-img{
-
 }
 .header-center-right{
 	display: flex;
 	align-items: center;
 }
+.header-center-right-item{
+	margin-right: 52px;
+	position: relative;
+}
+.header-center-right-item:last-child{
+	margin-right: 0px;
+}
 .header-center-right-link{
 	display: flex;
-	align-items: center;
-	margin-right: 52px;
+	align-items: center;	
 }
-.header-center-right-link:last-child{
-	margin-right: 0px;
+.header-center-right-link.active{
+	opacity: .5;
 }
 .header-center-right-link-icon{
 	background-image: url("../img/sprite.png");
@@ -131,6 +228,79 @@ header{
 .header-center-right-link-span.bold{
 	font-family: "HelveticaNeueCyr-Bold";
 }
+.modal-geo{
+	position: absolute;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.24);
+	z-index: 100;
+	top: 31px;
+    left: -109px;
+	width: 334px;
+	border-top: 2px solid #000;
+	display: none;
+}
+.modal-close{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-image: url("../img/sprite.png");
+	background-size: 250px;
+	background-repeat: no-repeat;
+	background-position: -167px -36px;
+	top: 14px;
+	right: 14px;
+	cursor: pointer;
+}
+.modal-geo-head{
+	font-size: 16px;
+	line-height: 20px;
+	font-family: "HelveticaNeueCyr-Bold";
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 42px 36px 0px 36px;
+}
+.modal-geo-item{
+	display: block;
+	padding: 26px 36px;
+	box-sizing: border-box;
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+.modal-geo-item:last-child{
+	border-bottom: 0px solid rgba(0,0,0,0.15);
+}
+.modal-geo-item-name{
+	font-size: 14px;
+	display: block;
+	margin-bottom: 6px;
+	line-height: 20px;
+}
+.modal-geo-item-address{
+	font-size: 10px;
+	opacity: .4;
+	line-height: 14px;
+}
+.modal-geo-more{
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 6px 32px 32px 32px;
+	box-sizing: border-box;
+}
+.modal-geo-change-city{
+	width: 100%;
+	display: block;
+	text-align: center;
+	background: #000;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "HelveticaNeueCyr-Bold";
+	padding: 22px 32px;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+}
 nav{
 	display: flex;
 	justify-content: space-between;
@@ -147,4 +317,37 @@ nav{
 .header-nav-link.active{
 	border-bottom: 2px solid rgba(0,0,0,1);
 	transition: all .2s ease-out;
+}
+
+#main-page-shade-1{
+	background-image: url("../img/bg/1.jpg");	
+}
+.main-page-shade{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.main-page-shade-content{
+	padding: 291px 0 49px 0;
+	text-align: center;
+}
+.main-page-shade-text{
+	display: block;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFF;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
+	line-height: 18px;
+	margin-bottom: 5px;
+}
+.main-page-shade-head{
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
+	font-size: 32px;
+	font-family: "HelveticaNeueCyr-Bold";
+	line-height: 42px;
+	margin-bottom: 50px;
 }
