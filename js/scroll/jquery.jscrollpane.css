@@ -18,12 +18,12 @@
 
 .jspVerticalBar
 {
-	background: red;
+	background: none;
 	height: 100%;
 	position: absolute;
-	right: 0;
+	right: 3px;
 	top: 0;
-	width: 16px;
+	width: 3px;
 }
 
 .jspHorizontalBar
@@ -48,13 +48,13 @@
 
 .jspTrack
 {
-	background: #dde;
+	background: rgba(0,0,0,0);
 	position: relative;
 }
 
 .jspDrag
 {
-	background: #bbd;
+	background: #000;
 	cursor: pointer;
 	left: 0;
 	position: relative;

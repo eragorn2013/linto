@@ -32,9 +32,9 @@
 						<div class="header-center-left-item">
 							<a class="header-center-left-link line about-us" href="#">
 								<span class="header-center-left-link-span">О нас</span>
-								<i class="header-center-left-link-icon"></i>
+								<i class="header-arrow-icon"></i>
 							</a>
-							<div class="modal-about-us modal">
+							<div class="modal-about-us header-modal">
 								<div class="modal-about-us-cols">
 									<div class="modal-about-us-col first">
 										<span class="modal-about-us-name">Для бизнеса</span>
@@ -72,7 +72,7 @@
 								<i class="header-center-right-link-icon geo"></i>
 								<span class="header-center-right-link-span">Москва</span>
 							</a>
-							<div class="modal-geo modal">
+							<div class="modal-geo header-modal">
 								<i class="modal-close"></i>
 								<span class="modal-geo-head">Представители в Москве</span>
 								<div class="modal-geo-list">
@@ -95,15 +95,168 @@
 							</a>
 						</div>
 						<div class="header-center-right-item">
-							<a class="header-center-right-link" href="#">
+							<a class="header-center-right-link profile" href="#">
 								<i class="header-center-right-link-icon profile"></i>
+								<span class="header-center-right-link-span">Дарья</span>
+								<i class="header-arrow-icon"></i>
 							</a>
+							<div class="modal-profile header-modal">
+								<a class="modal-profile-item" href="#">
+									<i class="modal-profile-item-icon profile"></i>
+									<span class="modal-profile-item-span">Мой профиль</span>
+								</a>
+								<a class="modal-profile-item" href="#">
+									<i class="modal-profile-item-icon orders"></i>
+									<span class="modal-profile-item-span">Мои заказы</span>
+								</a>
+								<a class="modal-profile-item" href="#">
+									<i class="modal-profile-item-icon pass"></i>
+									<span class="modal-profile-item-span">Сменить пароль</span>
+								</a>
+								<a class="modal-profile-item" href="#">
+									<i class="modal-profile-item-icon exit"></i>
+									<span class="modal-profile-item-span">Выход</span>
+								</a>
+							</div>
 						</div>
 						<div class="header-center-right-item">
-							<a class="header-center-right-link" href="#">
-								<i class="header-center-right-link-icon card"></i>
+							<a class="header-center-right-link basket" href="#">
+								<i class="header-center-right-link-icon basket"></i>
 								<span class="header-center-right-link-span bold">108</span>
 							</a>
+							<div class="modal-basket header-modal">
+								<span class="modal-basket-head">Корзина</span>
+								<span class="modal-basket-count">Всего 108 товаров</span>
+								<div class="modal-basket-goods">
+
+									<div class="modal-basket-item">
+										<div class="modal-basket-item-photo">
+											<img class="modal-basket-item-photo-img" src="../img/goods/1.png" alt="картинка товара">
+										</div>
+										<div class="modal-basket-item-desc">
+											<div class="modal-basket-item-desc-top">
+												<span class="modal-basket-item-desc-top-name">Gel Polish spring long name greenery</span>
+												<i class="modal-basket-item-desc-top-delete"></i>
+											</div>
+											<div class="modal-basket-item-desc-bottom">
+												<div class="modal-basket-item-desc-bottom-count">
+													<span class="modal-basket-item-desc-bottom-count-volume">10 МЛ</span>
+													<span class="modal-basket-item-desc-bottom-count-num">1 ШТ</span>
+												</div>
+												<div class="modal-basket-item-desc-bottom-sum">520 RUB</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="modal-basket-item">
+										<div class="modal-basket-item-photo">
+											<img class="modal-basket-item-photo-img" src="../img/goods/9.png" alt="картинка товара">
+										</div>
+										<div class="modal-basket-item-desc">
+											<div class="modal-basket-item-desc-top">
+												<span class="modal-basket-item-desc-top-name">Antibacterial</span>
+												<i class="modal-basket-item-desc-top-delete"></i>
+											</div>
+											<div class="modal-basket-item-desc-bottom">
+												<div class="modal-basket-item-desc-bottom-count">
+													<span class="modal-basket-item-desc-bottom-count-volume">100 МЛ</span>
+													<span class="modal-basket-item-desc-bottom-count-num">1 ШТ</span>
+												</div>
+												<div class="modal-basket-item-desc-bottom-sum">350 RUB</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="modal-basket-item">
+										<div class="modal-basket-item-photo">
+											<img class="modal-basket-item-photo-img" src="../img/goods/1.png" alt="картинка товара">
+										</div>
+										<div class="modal-basket-item-desc">
+											<div class="modal-basket-item-desc-top">
+												<span class="modal-basket-item-desc-top-name">Gel Polish spring long name greenery</span>
+												<i class="modal-basket-item-desc-top-delete"></i>
+											</div>
+											<div class="modal-basket-item-desc-bottom">
+												<div class="modal-basket-item-desc-bottom-count">
+													<span class="modal-basket-item-desc-bottom-count-volume">10 МЛ</span>
+													<span class="modal-basket-item-desc-bottom-count-num">1 ШТ</span>
+												</div>
+												<div class="modal-basket-item-desc-bottom-sum">520 RUB</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="modal-basket-item">
+										<div class="modal-basket-item-photo">
+											<img class="modal-basket-item-photo-img" src="../img/goods/9.png" alt="картинка товара">
+										</div>
+										<div class="modal-basket-item-desc">
+											<div class="modal-basket-item-desc-top">
+												<span class="modal-basket-item-desc-top-name">Antibacterial</span>
+												<i class="modal-basket-item-desc-top-delete"></i>
+											</div>
+											<div class="modal-basket-item-desc-bottom">
+												<div class="modal-basket-item-desc-bottom-count">
+													<span class="modal-basket-item-desc-bottom-count-volume">100 МЛ</span>
+													<span class="modal-basket-item-desc-bottom-count-num">1 ШТ</span>
+												</div>
+												<div class="modal-basket-item-desc-bottom-sum">350 RUB</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="modal-basket-item">
+										<div class="modal-basket-item-photo">
+											<img class="modal-basket-item-photo-img" src="../img/goods/1.png" alt="картинка товара">
+										</div>
+										<div class="modal-basket-item-desc">
+											<div class="modal-basket-item-desc-top">
+												<span class="modal-basket-item-desc-top-name">Gel Polish spring long name greenery</span>
+												<i class="modal-basket-item-desc-top-delete"></i>
+											</div>
+											<div class="modal-basket-item-desc-bottom">
+												<div class="modal-basket-item-desc-bottom-count">
+													<span class="modal-basket-item-desc-bottom-count-volume">10 МЛ</span>
+													<span class="modal-basket-item-desc-bottom-count-num">1 ШТ</span>
+												</div>
+												<div class="modal-basket-item-desc-bottom-sum">520 RUB</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="modal-basket-item">
+										<div class="modal-basket-item-photo">
+											<img class="modal-basket-item-photo-img" src="../img/goods/9.png" alt="картинка товара">
+										</div>
+										<div class="modal-basket-item-desc">
+											<div class="modal-basket-item-desc-top">
+												<span class="modal-basket-item-desc-top-name">Antibacterial</span>
+												<i class="modal-basket-item-desc-top-delete"></i>
+											</div>
+											<div class="modal-basket-item-desc-bottom">
+												<div class="modal-basket-item-desc-bottom-count">
+													<span class="modal-basket-item-desc-bottom-count-volume">100 МЛ</span>
+													<span class="modal-basket-item-desc-bottom-count-num">1 ШТ</span>
+												</div>
+												<div class="modal-basket-item-desc-bottom-sum">350 RUB</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div class="modal-basket-amount">
+									<span class="modal-basket-amount-text">Итого:</span>
+									<span class="modal-basket-amount-sum">5470 RUB</span>
+								</div>
+								<div class="modal-basket-buttons">
+									<a class="button-link white black-border full margin-right16" href="#">
+										<span class="button-link-span">Оформить заказ</span>
+									</a>
+									<a class="button-link black full" href="#">
+										<span class="button-link-span">В корзину</span>
+									</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
