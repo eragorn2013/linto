@@ -9,6 +9,9 @@ body{
 	margin: 0 0;
 	padding: 16px 0 0;
 }
+input, select, textarea, button{
+	outline: none;
+}
 h1{
 	margin: 0;
 	padding: 0;
@@ -355,6 +358,40 @@ a{
 }
 .modal-profile-item-span{
 
+}
+
+.modal-search{
+	padding: 64px 50px;
+	width: 420px;
+	box-sizing: border-box;
+	left: -163px;
+}
+.modal-search-form{
+	position: relative;
+}
+.modal-search-input{
+	display: block;
+	width: 100%;
+	padding: 12px 16px;
+	box-sizing: border-box;
+	font-size: 14px;
+	border: 0;
+	border-bottom: 1px solid #000000;
+}
+.modal-search-submit{
+	position: absolute;
+	top: 35%;
+	right: 0;
+	width: 18px;
+	height: 12px;
+	background-image: url("../img/sprite.png");
+	background-repeat: no-repeat;
+	background-position: -179px -49px;
+    background-size: 236px;
+	border:0;
+	background-color:rgba(255,255,255,0);
+	padding: 0;
+	cursor: pointer;
 }
 
 /*end modal*/

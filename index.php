@@ -90,9 +90,18 @@
 							</div>
 						</div>
 						<div class="header-center-right-item">
-							<a class="header-center-right-link" href="#">
+							<a class="header-center-right-link search" href="#">
 								<i class="header-center-right-link-icon search"></i>
 							</a>
+							<div class="modal-search header-modal">
+								<i class="modal-close"></i>
+								<div class="modal-search-wrap">
+									<form class="modal-search-form" action="#" method="post">
+										<input class="modal-search-input" type="text" name="search" placeholder="Я ищу...">
+										<button class="modal-search-submit"></button>
+									</form>
+								</div>
+							</div>
 						</div>
 						<div class="header-center-right-item">
 							<a class="header-center-right-link profile" href="#">

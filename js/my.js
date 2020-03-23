@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	/*Клик по ссылке О нас открываем модалку и добавляет к ссылке класс active*/
-	$(".header-center-left-link.about-us, .header-center-right-link.geo, .header-center-right-link.basket, .header-center-right-link.profile").on("click", function(){
+	$(".header-center-left-link.about-us, .header-center-right-link.geo, .header-center-right-link.basket, .header-center-right-link.profile, .header-center-right-link.search").on("click", function(){
 		var element=$(this);
 		if(element.hasClass("active")) {
 			element.removeClass("active");
@@ -29,5 +29,12 @@ $(document).ready(function(){
 		var parent=$(this).parent(".header-modal");
 		if(parent.prev("a").hasClass("active")) parent.prev("a").removeClass("active");
 		if(parent.is(":visible")) parent.fadeOut(200);
+	});
+
+	/*удаление товара из корзины*/
+	$(".modal-basket").on("click", ".modal-basket-item-desc-top-delete", function(){
+		var element=$(this).parents(".modal-basket-item");
+		element.remove();
+		$(".modal-basket-goods").jScrollPane();
 	});
 });
