@@ -96,9 +96,9 @@
 							<div class="modal-search header-modal">
 								<i class="modal-close"></i>
 								<div class="modal-search-wrap">
-									<form class="modal-search-form" action="#" method="post">
-										<input class="modal-search-input" type="text" name="search" placeholder="Я ищу...">
-										<button class="modal-search-submit"></button>
+									<form class="form-field" action="#" method="post">
+										<input class="form-field-input" type="text" name="search" placeholder="Я ищу...">
+										<button class="form-field-submit"></button>
 									</form>
 								</div>
 							</div>
@@ -259,10 +259,10 @@
 								</div>
 								<div class="modal-basket-buttons">
 									<a class="button-link white black-border full margin-right16" href="#">
-										<span class="button-link-span">Оформить заказ</span>
+										<span class="button-link-span"><span class="button-link-span-text">Оформить заказ</span></span>
 									</a>
 									<a class="button-link black full" href="#">
-										<span class="button-link-span">В корзину</span>
+										<span class="button-link-span"><span class="button-link-span-text">В корзину</span></span>
 									</a>
 								</div>
 							</div>
@@ -289,8 +289,300 @@
 				<span class="main-page-shade-text">Коллекция оттенков</span>
 				<h1 class="main-page-shade-head">With love for Belarus</h1>
 				<a class="button-link white" href="#">
-					<span class="button-link-span">подробнее</span>
+					<span class="button-link-span"><span class="button-link-span-text">подробнее</span></span>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section id="main-page-shade-2" class="main-page-shade">
+		<div class="container">
+			<div class="content main-page-shade-content">				
+				<span class="main-page-shade-text">Коллекция оттенков</span>
+				<h2 class="main-page-shade-head">Arctic winter 2020</h2>
+				<a class="button-link white" href="#">
+					<span class="button-link-span"><span class="button-link-span-text">одробнее</span></span>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section id="main-page-shade-3" class="main-page-shade">
+		<div class="container">
+			<div class="content main-page-shade-content">				
+				<span class="main-page-shade-text">Коллекция оттенков</span>
+				<h2 class="main-page-shade-head">rich autmn 2019</h2>
+				<a class="button-link white" href="#">
+					<span class="button-link-span"><span class="button-link-span-text">подробнее</span></span>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section id="main-page-goods">
+		<div class="container">
+			<div class="content main-page-goods-content">
+				<div class="main-page-goods-wrap first">
+					<div class="main-page-goods-list">
+						<a class="main-page-goods-item" href="#">
+							<span class="main-page-goods-item-pic">
+								<img class="main-page-goods-item-pic-img" src="../img/goods/1.png" alt="товар">
+							</span>
+							<span class="main-page-goods-item-name">
+								<span class="main-page-goods-item-name-link">Gel Polish greenery</span>
+							</span>
+							<span class="main-page-goods-item-price">
+								<span class="main-page-goods-item-price-volume">10 мл</span>
+								<span class="main-page-goods-item-price-sum">520 rub</span>
+							</span>
+							<span class="main-page-goods-item-details">
+								<span class="main-page-goods-item-details-link">
+									<span class="main-page-goods-item-details-link-span">Посмотреть детали</span>
+									<i class="main-page-goods-item-details-link-icon"></i>
+								</span>
+							</span>
+						</a>
+
+						<a class="main-page-goods-item" href="#">
+							<span class="main-page-goods-item-pic">
+								<img class="main-page-goods-item-pic-img" src="../img/goods/2.png" alt="товар">
+							</span>
+							<span class="main-page-goods-item-name">
+								<span class="main-page-goods-item-name-link">Gel Polish rose quartz</span>
+							</span>
+							<span class="main-page-goods-item-price">
+								<span class="main-page-goods-item-price-volume">10 мл</span>
+								<span class="main-page-goods-item-price-sum">520 rub</span>
+							</span>
+							<span class="main-page-goods-item-details">
+								<span class="main-page-goods-item-details-link">
+									<span class="main-page-goods-item-details-link-span">Посмотреть детали</span>
+									<i class="main-page-goods-item-details-link-icon"></i>
+								</span>
+							</span>
+						</a>
+
+						<a class="main-page-goods-item" href="#">
+							<span class="main-page-goods-item-pic">
+								<img class="main-page-goods-item-pic-img" src="../img/goods/3.png" alt="товар">
+							</span>
+							<span class="main-page-goods-item-name">
+								<span class="main-page-goods-item-name-link">Gel Polish living coral Gel Polish living coral</span>
+							</span>
+							<span class="main-page-goods-item-price">
+								<span class="main-page-goods-item-price-volume">10 мл</span>
+								<span class="main-page-goods-item-price-sum">520 rub</span>
+							</span>
+							<span class="main-page-goods-item-details">
+								<span class="main-page-goods-item-details-link">
+									<span class="main-page-goods-item-details-link-span">Посмотреть детали</span>
+									<i class="main-page-goods-item-details-link-icon"></i>
+								</span>
+							</span>
+						</a>
+
+						<a class="main-page-goods-item" href="#">
+							<span class="main-page-goods-item-pic">
+								<img class="main-page-goods-item-pic-img" src="../img/goods/4.png" alt="товар">
+							</span>
+							<span class="main-page-goods-item-name">
+								<span class="main-page-goods-item-name-link">Gel Polish serenity</span>
+							</span>
+							<span class="main-page-goods-item-price">
+								<span class="main-page-goods-item-price-volume">10 мл</span>
+								<span class="main-page-goods-item-price-sum">520 rub</span>
+							</span>
+							<span class="main-page-goods-item-details">
+								<span class="main-page-goods-item-details-link">
+									<span class="main-page-goods-item-details-link-span">Посмотреть детали</span>
+									<i class="main-page-goods-item-details-link-icon"></i>
+								</span>
+							</span>
+						</a>
+
+						<a class="main-page-goods-item" href="#">
+							<span class="main-page-goods-item-pic">
+								<img class="main-page-goods-item-pic-img" src="../img/goods/5.png" alt="товар">
+							</span>
+							<span class="main-page-goods-item-name">
+								<span class="main-page-goods-item-name-link">Gel Polish classic blue</span>
+							</span>
+							<span class="main-page-goods-item-price">
+								<span class="main-page-goods-item-price-volume">10 мл</span>
+								<span class="main-page-goods-item-price-sum">520 rub</span>
+							</span>
+							<span class="main-page-goods-item-details">
+								<span class="main-page-goods-item-details-link">
+									<span class="main-page-goods-item-details-link-span">Посмотреть детали</span>
+									<i class="main-page-goods-item-details-link-icon"></i>
+								</span>
+							</span>
+						</a>
+
+						<a class="main-page-goods-item" href="#">
+							<span class="main-page-goods-item-pic">
+								<img class="main-page-goods-item-pic-img" src="../img/goods/5.png" alt="товар">
+							</span>
+							<span class="main-page-goods-item-name">
+								<span class="main-page-goods-item-name-link">Gel Polish ultra violet</span>
+							</span>
+							<span class="main-page-goods-item-price">
+								<span class="main-page-goods-item-price-volume">10 мл</span>
+								<span class="main-page-goods-item-price-sum">520 rub</span>
+							</span>
+							<span class="main-page-goods-item-details">
+								<span class="main-page-goods-item-details-link">
+									<span class="main-page-goods-item-details-link-span">Посмотреть детали</span>
+									<i class="main-page-goods-item-details-link-icon"></i>
+								</span>
+							</span>
+						</a>
+
+					</div>
+				</div>
+				<div class="main-page-goods-wrap last">
+					<div class='main-page-goods-shade'>
+						<span class="main-page-shade-text">Коллекция оттенков</span>
+						<h2 class="main-page-shade-head">the Pantone collection</h2>
+						<a class="button-link white" href="#">
+							<span class="button-link-span"><span class="button-link-span-text">перейти к коллекции</span></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="main-page-shade-4" class="main-page-shade">
+		<div class="container">
+			<div class="content main-page-shade-content">				
+				<span class="main-page-shade-text">Коллекция оттенков</span>
+				<h2 class="main-page-shade-head">summer garden 2019</h2>
+				<a class="button-link white" href="#">
+					<span class="button-link-span"><span class="button-link-span-text">подробнее</span></span>
 				</a>								
+			</div>
+		</div>
+	</section>
+
+	<section id="main-page-events">
+		<div class="container">
+			<div class="content main-page-events-content">
+				<h2 class="main-page-events-head">События</h2>
+				<img class="main-page-events-img" src="../img/bg/6.jpg" alt="События">
+				<p class="main-page-events-p">Впервые в Воронеже! Nail-конференция для мастеров и руководителей студий</p>
+				<span class="main-page-events-date">21 марта 2020</span>
+				<span class="main-page-events-info">Лучшие эксперты страны о самых актуальных темах и трендах. Место встречи и общения с коллегами, новые знакомства. Уникальная возможность сделать селфи с VIP-спикерами.</span>
+				<div class="main-page-events-buttons">
+					<a class="button-link black margin-right19" href="#">
+						<span class="button-link-span">
+							<i class="button-icon watsapp-white"></i>
+							<span class="button-link-span-text">watsapp запись</span>
+						</span>
+					</a>
+					<a class="button-link white grey-border" href="#">
+						<span class="button-link-span">
+							<span class="button-link-span-text">подробнее</span>
+						</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="main-page-news">
+		<div class="container">
+			<div class="content">
+				<h2 class="main-page-news-head">Новости</h2>
+				<a class="main-page-news-all-link" href="#">Перейти ко всем новостям</a>
+				<div class="main-page-news-list">
+					<a class="main-page-news-item" href="#">
+						<span class="main-page-news-pic">
+							<img class="main-page-new-pic-img" src="../img/news/1.jpg" alt="новости"> 
+						</span>
+						<span class="main-page-news-text">
+							<span class="main-page-news-text-link">Когда клиенту нужно отказать, и как сделать это правильно?</span>
+							<span class="main-page-news-text-date line">10 февраля 2020</span>							
+						</span>
+					</a>
+					<a class="main-page-news-item" href="#">
+						<span class="main-page-news-pic">
+							<img class="main-page-new-pic-img" src="../img/news/2.jpg" alt="новости"> 
+						</span>
+						<span class="main-page-news-text">
+							<span class="main-page-news-text-link">Хронофаги в работе нейл-мастера: что крадет время Хронофаги в работе нейл-мастера:</span>
+							<span class="main-page-news-text-date">5 февраля 2020</span>							
+						</span>
+					</a>
+					<a class="main-page-news-item" href="#">
+						<span class="main-page-news-pic">
+							<img class="main-page-new-pic-img" src="../img/news/3.jpg" alt="новости"> 
+						</span>
+						<span class="main-page-news-text">
+							<span class="main-page-news-text-link">Почему покрытие отслаивается и как этого не допустить?</span>
+							<span class="main-page-news-text-date">1 февраля 2020</span>							
+						</span>
+					</a>
+					<a class="main-page-news-item" href="#">
+						<span class="main-page-news-pic">
+							<img class="main-page-new-pic-img" src="../img/news/4.jpg" alt="новости"> 
+						</span>
+						<span class="main-page-news-text">
+							<span class="main-page-news-text-link">Почему покрытие отслаивается и как этого не допустить? Почему покрытие отслаивается и как этого не допустить?</span>
+							<span class="main-page-news-text-date">29 января 2020</span>							
+						</span>
+					</a>
+					<a class="main-page-news-item" href="#">
+						<span class="main-page-news-pic">
+							<img class="main-page-new-pic-img" src="../img/news/5.jpg" alt="новости"> 
+						</span>
+						<span class="main-page-news-text">
+							<span class="main-page-news-text-link">Хронофаги в работе нейл-мастера: что крадет время</span>
+							<span class="main-page-news-text-date">23 января 2020</span>							
+						</span>
+					</a>
+					<a class="main-page-news-item" href="#">
+						<span class="main-page-news-pic">
+							<img class="main-page-new-pic-img" src="../img/news/6.jpg" alt="новости"> 
+						</span>
+						<span class="main-page-news-text">
+							<span class="main-page-news-text-link">Хронофаги в работе нейл-мастера: что крадет время</span>
+							<span class="main-page-news-text-date">18 января 2020</span>							
+						</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="main-page-social">
+		<div class="container">
+			<div class="content main-page-social-content">
+				<h2 class="main-page-social-head">instagram</h2>
+				<span class="main-page-social-span">25 тыс. подписчиков</span>
+				<a class="button-link black" href="#">
+					<span class="button-link-span">
+						<i class="button-icon insta-white"></i>
+						<span class="button-link-span-text">Подписаться</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section id="main-page-subscription">
+		<div class="container">
+			<div class="content main-page-subscription-content">
+				<div class="main-page-subscription-text">
+					<h4 class="main-page-subscription-text-head">Получите скидку 10% за подписку</h4>
+					<p class="main-page-subscription-text-p">Подписываясь на рассылку вы соглашаетесь с <a class="main-page-subscription-text-p-link" href="#">Правилами обработки персональных данных</a> и даете свое согласие на получение уведомлений и рекламных акций на электронную почту.</p>
+				</div>
+				<div class="main-page-subscription-form">
+					<form class="form-field" action="#" method="post">
+						<input class="form-field-input" type="text" name="search" placeholder="Ваш E-mail">
+						<button class="form-field-submit"></button>
+					</form>
+				</div>
 			</div>
 		</div>
 	</section>
