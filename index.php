@@ -98,8 +98,24 @@
 									<i class="modal-close"></i>
 									<div class="modal-search-wrap">
 										<form class="form-field" action="#" method="post">
-											<input class="form-field-input" type="text" name="search" placeholder="Я ищу...">
-											<button class="form-field-submit"></button>
+											<input class="form-field-input search" type="text" name="search" placeholder="Я ищу...">
+											<button class="form-field-submit arrow-right"></button>
+											<div class="modal-search-list">
+												<span class="modal-search-item">Гель-лак GEL POLISH, #001</span>
+												<span class="modal-search-item">Гель-лак GEL POLISH, #002</span>
+												<span class="modal-search-item">Гель-лак GEL POLISH, #003</span>
+												<span class="modal-search-item">Гель-лак BASE RUBBER</span>
+												<span class="modal-search-item">Гель-лак BASE LEGEND</span>
+												<span class="modal-search-item">Гель-лак PODO LINE суперцена/акция/это длинная строка</span>
+												<span class="modal-search-item">Гель-лак SET BASE + TOP</span>
+												<span class="modal-search-item">Гель-лак GEL POLISH, #001</span>
+												<span class="modal-search-item">Гель-лак GEL POLISH, #002</span>
+												<span class="modal-search-item">Гель-лак GEL POLISH, #003</span>
+												<span class="modal-search-item">Гель-лак BASE RUBBER</span>
+												<span class="modal-search-item">Гель-лак BASE LEGEND</span>
+												<span class="modal-search-item">Гель-лак PODO LINE</span>
+												<span class="modal-search-item">Гель-лак SET BASE + TOP</span>
+											</div>
 										</form>
 									</div>
 								</div>
@@ -581,7 +597,7 @@
 					<div class="main-page-subscription-form">
 						<form class="form-field" action="#" method="post">
 							<input class="form-field-input" type="text" name="search" placeholder="Ваш E-mail">
-							<button class="form-field-submit"></button>
+							<button class="form-field-submit arrow-right"></button>
 						</form>
 					</div>
 				</div>
@@ -686,7 +702,7 @@
 
 						<div class="modal-geo-all-item">
 							<a class="modal-geo-all-item-link" href="#">
-								<span class="modal-geo-all-item-link-name">Мультибрендовый магазин NAILBRAND</span>
+								<span class="modal-geo-all-item-link-name">Мультибрендовый магазин NAILB RANDМультибре ндовый магазин NAILBRAND Мульти брендовый маг азин NAILB-RAND</span>
 								<span class="modal-geo-all-item-link-address">м. Проспект Вернадского, пр-кт. Вернадского, д. 39</span>
 								<span class="modal-geo-all-item-link-phone">+7 (964) 586-88-48</span>
 							</a>
@@ -744,6 +760,46 @@
 							</div>
 						</div>
 
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="modal-change-city">
+			<div class="container modal-change-city-container">
+				<div class="content modal-change-city-content">
+					<i class="modal-change-city-close"></i>
+					<h3 class="modal-change-city-head">Введите название города</h3>
+					<div class="modal-change-city-search">
+						<form class="form-field" action="#" method="post">
+							<input class="form-field-input" type="text" name="search" placeholder="Ваш E-mail">
+							<i class="form-field-submit arrow-down"></i>
+						</form>
+					</div>
+					<div class="modal-change-city-list">
+						<span class="modal-change-city-item" title="Волгоград">Волгоград</span>
+						<span class="modal-change-city-item bold" title="Москва">Москва</span>
+						<span class="modal-change-city-item" title="Ростов-на-Дон">Ростов-на-Дону</span>
+						<span class="modal-change-city-item" title="Тула">Тула</span>
+						<span class="modal-change-city-item" title="Петропаловск-Камчатский">Петропаловск-Камчатский</span>
+						<span class="modal-change-city-item" title="Нижний Новгород">Нижний Новгород</span>
+						<span class="modal-change-city-item" title="Самара">Самара</span>
+						<span class="modal-change-city-item" title="Уфа">Уфа</span>
+						<span class="modal-change-city-item" title="Екатерингбург">Екатерингбург</span>
+						<span class="modal-change-city-item" title="Новосибирск">Новосибирск</span>
+						<span class="modal-change-city-item" title="Санкт-Петербург">Санкт-Петербург</span>
+						<span class="modal-change-city-item" title="Челябинск">Челябинск</span>
+						<span class="modal-change-city-item" title="Казань">Казань</span>
+						<span class="modal-change-city-item" title="Очень-очень длинное название города которое может не вместиться в ширину столбц">Очень-очень длинное название города которое может не вместиться в ширину столбца</span>
+						<span class="modal-change-city-item" title="Омск">Омск</span>
+						<span class="modal-change-city-item" title="Саратов">Саратов</span>
+						<span class="modal-change-city-item" title="Калининград">Калининград</span>
+						<span class="modal-change-city-item" title="Краснодар">Краснодар</span>
+						<span class="modal-change-city-item" title="Пенза">Пенза</span>
+						<span class="modal-change-city-item" title="Ставрополь">Ставрополь</span>
+						<span class="modal-change-city-item" title="Красноярск">Красноярск</span>
+						<span class="modal-change-city-item" title="Пермь">Пермь</span>
+						<span class="modal-change-city-item" title="Тольятти">Тольятти</span>
 					</div>
 				</div>
 			</div>

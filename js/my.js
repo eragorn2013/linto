@@ -15,9 +15,9 @@ $(document).ready(function(){
 		return false;
 	});
 	$(document).mouseup(function (e){
-		if(!$(".header-modal").is(e.target) && $(".header-modal").has(e.target).length === 0) {
-			if($(".header-modal").is(":visible")) {
-				$(".header-modal").fadeOut(0, function(){
+		if(!$(".header-modal, .modal-search-list").is(e.target) && $(".header-modal, .modal-search-list").has(e.target).length === 0) {
+			if($(".header-modal, .modal-search-list").is(":visible")) {
+				$(".header-modal, .modal-search-list").fadeOut(0, function(){
 					$(".modal-basket-goods").jScrollPane();
 				});
 			}
@@ -37,20 +37,55 @@ $(document).ready(function(){
 		element.remove();
 		$(".modal-basket-goods").jScrollPane();
 	});
+
+	/*Модальное окно Все представители в Москве*/
+	$(".modal-geo-all-close, #modal-geo-all").on("click", function(){
+		$("#modal-geo-all").fadeOut(200);
+	});
+	$(".modal-geo-all-content").on("click", function(e){
+		e.stopPropagation();
+	});
+	$(".modal-geo-more").on("click", function(){
+		var element=$("#modal-geo-all");
+		if(element.is(":hidden")) {
+			element.fadeIn(200);
+			$(".modal-geo").fadeOut(200);
+			$(".modal-geo-all-list").jScrollPane();
+		}
+	});
+
+	/*Модальное окно Введите название города*/
+	$(".modal-change-city-close, #modal-change-city").on("click", function(){
+		$("#modal-change-city").fadeOut(200);
+	});
+	$(".modal-change-city-content").on("click", function(e){
+		e.stopPropagation();
+	});
+	$(".modal-geo-change-city").on("click", function(){
+		var element=$("#modal-change-city");
+		if(element.is(":hidden")) {
+			element.fadeIn(200);
+			$(".modal-geo").fadeOut(200);			
+		}
+	});
+
+	/*Всплытие окна при вводе в input при поиске товаров*/
+	$('.form-field-input.search').on("input", function(){
+		var text=$(this).val();
+		if(text.length >= 3){
+			$(".modal-search-list").fadeIn(200);
+			$(".modal-search-list").jScrollPane();
+		}
+		else{
+			$(".modal-search-list").fadeOut(200);
+		}
+	});
+	$(".form-field").on("click", ".modal-search-item", function(){
+		var text=$(this).text();
+		var parent=$(this).parents(".form-field");
+		$(".form-field-input.search").val(text);
+		$(".modal-search-list", parent).fadeOut(200);
+	});
 });
 
-/*Модальное окно Все представители в Москве*/
-$(".modal-geo-all-close, #modal-geo-all").on("click", function(){
-	$("#modal-geo-all").fadeOut(200);
-});
-$(".modal-geo-all-content").on("click", function(e){
-	e.stopPropagation();
-});
-$(".modal-geo-more").on("click", function(){
-	var element=$("#modal-geo-all");
-	if(element.is(":hidden")) {
-		element.fadeIn(200);
-		$(".modal-geo").fadeOut(200);
-		$(".modal-geo-all-list").jScrollPane();
-	}
-});
+
