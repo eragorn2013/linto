@@ -38,3 +38,19 @@ $(document).ready(function(){
 		$(".modal-basket-goods").jScrollPane();
 	});
 });
+
+/*Модальное окно Все представители в Москве*/
+$(".modal-geo-all-close, #modal-geo-all").on("click", function(){
+	$("#modal-geo-all").fadeOut(200);
+});
+$(".modal-geo-all-content").on("click", function(e){
+	e.stopPropagation();
+});
+$(".modal-geo-more").on("click", function(){
+	var element=$("#modal-geo-all");
+	if(element.is(":hidden")) {
+		element.fadeIn(200);
+		$(".modal-geo").fadeOut(200);
+		$(".modal-geo-all-list").jScrollPane();
+	}
+});
