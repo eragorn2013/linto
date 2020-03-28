@@ -86,6 +86,32 @@ $(document).ready(function(){
 		$(".form-field-input.search").val(text);
 		$(".modal-search-list", parent).fadeOut(200);
 	});
+
+	/*Всплытие окна для смены города*/
+	$('.form-field-input.change-city').on("input", function(){
+		var text=$(this).val();
+		if(text.length >= 3){
+			$(".modal-city-list").fadeIn(200);
+			$(".modal-city-list").jScrollPane();
+		}
+		else{
+			$(".modal-city-list").fadeOut(200);
+		}
+	});
+	$(".form-field").on("click", ".modal-city-item", function(){
+		var text=$(this).text();
+		var parent=$(this).parents(".form-field");		
+		$(".modal-city-list", parent).fadeOut(200);
+		$("#modal-change-city").fadeOut(200);
+		$(".header-center-right-link-span.city").text(text);
+		return false;
+	});
+	$(".modal-change-city-item").on("click", function(){
+		var text=$(this).text();
+		$("#modal-change-city").fadeOut(200);
+		$(".header-center-right-link-span.city").text(text);
+		return false;
+	});
 });
 
 

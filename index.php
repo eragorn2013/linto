@@ -71,7 +71,7 @@
 							<div class="header-center-right-item">
 								<a class="header-center-right-link geo" href="#">
 									<i class="header-center-right-link-icon geo"></i>
-									<span class="header-center-right-link-span">Москва</span>
+									<span class="header-center-right-link-span city">Москва</span>
 								</a>
 								<div class="modal-geo header-modal">
 									<i class="modal-close"></i>
@@ -772,8 +772,22 @@
 					<h3 class="modal-change-city-head">Введите название города</h3>
 					<div class="modal-change-city-search">
 						<form class="form-field" action="#" method="post">
-							<input class="form-field-input" type="text" name="search" placeholder="Ваш E-mail">
+							<input class="form-field-input change-city" type="text" name="search" placeholder="Введите название города">
 							<i class="form-field-submit arrow-down"></i>
+							<div class="modal-city-list">
+								<a class="modal-city-item" href="#">г. Москва</a>
+								<a class="modal-city-item" href="#">г. Москва, поселение Московский, г. Московский</a>
+								<a class="modal-city-item" href="#">Калужская обл, г. Мосальск</a>
+								<a class="modal-city-item" href="#">с/п Москакасинское</a>
+								<a class="modal-city-item" href="#">с/с Московский</a>
+								<a class="modal-city-item" href="#">Вологодская обл, Тотемский р-н, с/п Мосеевское</a>
+								<a class="modal-city-item" href="#">г. Москва</a>
+								<a class="modal-city-item" href="#">г. Москва, поселение Московский, г. Московский</a>
+								<a class="modal-city-item" href="#">Калужская обл, г. Мосальск</a>
+								<a class="modal-city-item" href="#">с/п Москакасинское</a>
+								<a class="modal-city-item" href="#">с/с Московский</a>
+								<a class="modal-city-item" href="#">Вологодская обл, Тотемский р-н, с/п Мосеевское</a>
+							</div>
 						</form>
 					</div>
 					<div class="modal-change-city-list">
