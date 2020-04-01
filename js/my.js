@@ -40,7 +40,9 @@ $(document).ready(function(){
 
 	/*Модальное окно Все представители в Москве*/
 	$(".modal-geo-all-close, #modal-geo-all").on("click", function(){
-		$("#modal-geo-all").fadeOut(200);
+		$("#modal-geo-all").fadeOut(200, function(){
+			$("body").removeClass("fixed");
+		});
 	});
 	$(".modal-geo-all-content").on("click", function(e){
 		e.stopPropagation();
@@ -51,12 +53,15 @@ $(document).ready(function(){
 			element.fadeIn(200);
 			$(".modal-geo").fadeOut(200);
 			$(".modal-geo-all-list").jScrollPane();
+			$("body").addClass("fixed");
 		}
 	});
 
 	/*Модальное окно Введите название города*/
 	$(".modal-change-city-close, #modal-change-city").on("click", function(){
-		$("#modal-change-city").fadeOut(200);
+		$("#modal-change-city").fadeOut(200, function(){
+			$("body").removeClass("fixed");
+		});
 	});
 	$(".modal-change-city-content").on("click", function(e){
 		e.stopPropagation();
@@ -65,7 +70,8 @@ $(document).ready(function(){
 		var element=$("#modal-change-city");
 		if(element.is(":hidden")) {
 			element.fadeIn(200);
-			$(".modal-geo").fadeOut(200);			
+			$(".modal-geo").fadeOut(200);
+			$("body").addClass("fixed");			
 		}
 	});
 
@@ -111,6 +117,23 @@ $(document).ready(function(){
 		$("#modal-change-city").fadeOut(200);
 		$(".header-center-right-link-span.city").text(text);
 		return false;
+	});
+
+	/*работа футера в мобильной версии*/
+	$(".footer-item-head").on("click", function(){		
+		var flag=false;
+		if($(window).width() <= 960) flag=true;		
+		if(flag==true){
+			var element=$(this);
+			var list=element.next(".footer-item-wrap");
+			var arrow=$(".footer-item-head-arrow", element);
+			$(".footer-item-wrap").slideUp(200);
+			if(list.is(":hidden")) list.slideDown(200, function(){
+				if(!arrow.hasClass("active")) arrow.addClass("active");
+			});
+			$(".footer-item-head-arrow").removeClass("active");
+			
+		}
 	});
 });
 

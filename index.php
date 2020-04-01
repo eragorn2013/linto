@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
 	<title>linto</title>
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<div class="wrap">
@@ -65,7 +69,7 @@
 							</div>
 						</div>
 						<div class="header-center-logo">
-							<a class="header-center-logo-link" href="#"><img class="header-center-logo-img" src="../img/logo/logo.png" alt="Логотип"></a>
+							<a class="header-center-logo-link" href="#"><img class="header-center-logo-img" src="img/logo/logo.png" alt="Логотип"></a>
 						</div>
 						<div class="header-center-right">
 							<div class="header-center-right-item">
@@ -157,7 +161,7 @@
 
 										<div class="modal-basket-item">
 											<div class="modal-basket-item-photo">
-												<img class="modal-basket-item-photo-img" src="../img/goods/1.png" alt="картинка товара">
+												<img class="modal-basket-item-photo-img" src="img/goods/1.png" alt="картинка товара">
 											</div>
 											<div class="modal-basket-item-desc">
 												<div class="modal-basket-item-desc-top">
@@ -176,7 +180,7 @@
 
 										<div class="modal-basket-item">
 											<div class="modal-basket-item-photo">
-												<img class="modal-basket-item-photo-img" src="../img/goods/9.png" alt="картинка товара">
+												<img class="modal-basket-item-photo-img" src="img/goods/9.png" alt="картинка товара">
 											</div>
 											<div class="modal-basket-item-desc">
 												<div class="modal-basket-item-desc-top">
@@ -195,7 +199,7 @@
 
 										<div class="modal-basket-item">
 											<div class="modal-basket-item-photo">
-												<img class="modal-basket-item-photo-img" src="../img/goods/1.png" alt="картинка товара">
+												<img class="modal-basket-item-photo-img" src="img/goods/1.png" alt="картинка товара">
 											</div>
 											<div class="modal-basket-item-desc">
 												<div class="modal-basket-item-desc-top">
@@ -214,7 +218,7 @@
 
 										<div class="modal-basket-item">
 											<div class="modal-basket-item-photo">
-												<img class="modal-basket-item-photo-img" src="../img/goods/9.png" alt="картинка товара">
+												<img class="modal-basket-item-photo-img" src="img/goods/9.png" alt="картинка товара">
 											</div>
 											<div class="modal-basket-item-desc">
 												<div class="modal-basket-item-desc-top">
@@ -233,7 +237,7 @@
 
 										<div class="modal-basket-item">
 											<div class="modal-basket-item-photo">
-												<img class="modal-basket-item-photo-img" src="../img/goods/1.png" alt="картинка товара">
+												<img class="modal-basket-item-photo-img" src="img/goods/1.png" alt="картинка товара">
 											</div>
 											<div class="modal-basket-item-desc">
 												<div class="modal-basket-item-desc-top">
@@ -252,7 +256,7 @@
 
 										<div class="modal-basket-item">
 											<div class="modal-basket-item-photo">
-												<img class="modal-basket-item-photo-img" src="../img/goods/9.png" alt="картинка товара">
+												<img class="modal-basket-item-photo-img" src="img/goods/9.png" alt="картинка товара">
 											</div>
 											<div class="modal-basket-item-desc">
 												<div class="modal-basket-item-desc-top">
@@ -284,6 +288,19 @@
 									</div>
 								</div>
 							</div>
+						</div>
+					</div>
+					<div class="header-center-mob">
+						<div class="header-center-mob-left">
+							<i class="header-center-mob-icon menu"></i>
+							<i class="header-center-mob-icon search"></i>
+						</div>
+						<div class="header-center-mob-logo">
+							<a class="header-center-mob-logo-link" href="#"><img class="header-center-mob-logo-img" src="img/logo/logo.png" alt="Логотип"></a>
+						</div>
+						<div class="header-center-mob-right">
+							<a class="header-center-mob-icon profile" href="#"></a>
+							<a class="header-center-mob-icon bascket" href="#"></a>
 						</div>
 					</div>
 					<nav>
@@ -318,7 +335,7 @@
 					<span class="main-page-shade-text">Коллекция оттенков</span>
 					<h2 class="main-page-shade-head">Arctic winter 2020</h2>
 					<a class="button-link white" href="#">
-						<span class="button-link-span"><span class="button-link-span-text">одробнее</span></span>
+						<span class="button-link-span"><span class="button-link-span-text">подробнее</span></span>
 					</a>
 				</div>
 			</div>
@@ -343,7 +360,7 @@
 						<div class="main-page-goods-list">
 							<a class="main-page-goods-item" href="#">
 								<span class="main-page-goods-item-pic">
-									<img class="main-page-goods-item-pic-img" src="../img/goods/1.png" alt="товар">
+									<img class="main-page-goods-item-pic-img" src="img/goods/1.png" alt="товар">
 								</span>
 								<span class="main-page-goods-item-name">
 									<span class="main-page-goods-item-name-link">Gel Polish greenery</span>
@@ -362,7 +379,7 @@
 
 							<a class="main-page-goods-item" href="#">
 								<span class="main-page-goods-item-pic">
-									<img class="main-page-goods-item-pic-img" src="../img/goods/2.png" alt="товар">
+									<img class="main-page-goods-item-pic-img" src="img/goods/2.png" alt="товар">
 								</span>
 								<span class="main-page-goods-item-name">
 									<span class="main-page-goods-item-name-link">Gel Polish rose quartz</span>
@@ -381,7 +398,7 @@
 
 							<a class="main-page-goods-item" href="#">
 								<span class="main-page-goods-item-pic">
-									<img class="main-page-goods-item-pic-img" src="../img/goods/3.png" alt="товар">
+									<img class="main-page-goods-item-pic-img" src="img/goods/3.png" alt="товар">
 								</span>
 								<span class="main-page-goods-item-name">
 									<span class="main-page-goods-item-name-link">Gel Polish living coral Gel Polish living coral</span>
@@ -400,7 +417,7 @@
 
 							<a class="main-page-goods-item" href="#">
 								<span class="main-page-goods-item-pic">
-									<img class="main-page-goods-item-pic-img" src="../img/goods/4.png" alt="товар">
+									<img class="main-page-goods-item-pic-img" src="img/goods/4.png" alt="товар">
 								</span>
 								<span class="main-page-goods-item-name">
 									<span class="main-page-goods-item-name-link">Gel Polish serenity</span>
@@ -419,7 +436,7 @@
 
 							<a class="main-page-goods-item" href="#">
 								<span class="main-page-goods-item-pic">
-									<img class="main-page-goods-item-pic-img" src="../img/goods/5.png" alt="товар">
+									<img class="main-page-goods-item-pic-img" src="img/goods/5.png" alt="товар">
 								</span>
 								<span class="main-page-goods-item-name">
 									<span class="main-page-goods-item-name-link">Gel Polish classic blue</span>
@@ -438,7 +455,7 @@
 
 							<a class="main-page-goods-item" href="#">
 								<span class="main-page-goods-item-pic">
-									<img class="main-page-goods-item-pic-img" src="../img/goods/5.png" alt="товар">
+									<img class="main-page-goods-item-pic-img" src="img/goods/5.png" alt="товар">
 								</span>
 								<span class="main-page-goods-item-name">
 									<span class="main-page-goods-item-name-link">Gel Polish ultra violet</span>
@@ -456,12 +473,17 @@
 							</a>
 
 						</div>
+						<div class="main-page-goods-list-button">
+							<a class="button-link white grey-border" href="#">
+								<span class="button-link-span"><span class="button-link-span-text">Подробнее</span></span>
+							</a>
+						</div>						
 					</div>
 					<div class="main-page-goods-wrap last">
 						<div class='main-page-goods-shade'>
-							<span class="main-page-shade-text">Коллекция оттенков</span>
-							<h2 class="main-page-shade-head">the Pantone collection</h2>
-							<a class="button-link white" href="#">
+							<span class="main-page-shade-text goods-shade">Коллекция оттенков</span>
+							<h2 class="main-page-shade-head goods-shade">the Pantone collection</h2>
+							<a class="button-link white mob-hidden" href="#">
 								<span class="button-link-span"><span class="button-link-span-text">перейти к коллекции</span></span>
 							</a>
 						</div>
@@ -469,7 +491,7 @@
 				</div>
 			</div>
 		</section>
-
+		
 		<section id="main-page-shade-4" class="main-page-shade">
 			<div class="container">
 				<div class="content main-page-shade-content">				
@@ -486,18 +508,18 @@
 			<div class="container">
 				<div class="content main-page-events-content">
 					<h2 class="main-page-events-head">События</h2>
-					<img class="main-page-events-img" src="../img/bg/6.jpg" alt="События">
+					<img class="main-page-events-img" src="img/bg/6.jpg" alt="События">
 					<p class="main-page-events-p">Впервые в Воронеже! Nail-конференция для мастеров и руководителей студий</p>
 					<span class="main-page-events-date">21 марта 2020</span>
 					<span class="main-page-events-info">Лучшие эксперты страны о самых актуальных темах и трендах. Место встречи и общения с коллегами, новые знакомства. Уникальная возможность сделать селфи с VIP-спикерами.</span>
 					<div class="main-page-events-buttons">
-						<a class="button-link black margin-right19" href="#">
+						<a class="button-link black margin-right19 full-mob" href="#">
 							<span class="button-link-span">
 								<i class="button-icon watsapp-white"></i>
 								<span class="button-link-span-text">watsapp запись</span>
 							</span>
 						</a>
-						<a class="button-link white grey-border" href="#">
+						<a class="button-link white grey-border full-mob" href="#">
 							<span class="button-link-span">
 								<span class="button-link-span-text">подробнее</span>
 							</span>
@@ -515,7 +537,7 @@
 					<div class="main-page-news-list">
 						<a class="main-page-news-item" href="#">
 							<span class="main-page-news-pic">
-								<img class="main-page-new-pic-img" src="../img/news/1.jpg" alt="новости"> 
+								<img class="main-page-new-pic-img" src="img/news/1.jpg" alt="новости"> 
 							</span>
 							<span class="main-page-news-text">
 								<span class="main-page-news-text-link">Когда клиенту нужно отказать, и как сделать это правильно?</span>
@@ -524,48 +546,53 @@
 						</a>
 						<a class="main-page-news-item" href="#">
 							<span class="main-page-news-pic">
-								<img class="main-page-new-pic-img" src="../img/news/2.jpg" alt="новости"> 
+								<img class="main-page-new-pic-img" src="img/news/2.jpg" alt="новости"> 
 							</span>
 							<span class="main-page-news-text">
 								<span class="main-page-news-text-link">Хронофаги в работе нейл-мастера: что крадет время Хронофаги в работе нейл-мастера:</span>
-								<span class="main-page-news-text-date">5 февраля 2020</span>							
+								<span class="main-page-news-text-date line">5 февраля 2020</span>							
 							</span>
 						</a>
 						<a class="main-page-news-item" href="#">
 							<span class="main-page-news-pic">
-								<img class="main-page-new-pic-img" src="../img/news/3.jpg" alt="новости"> 
+								<img class="main-page-new-pic-img" src="img/news/3.jpg" alt="новости"> 
 							</span>
 							<span class="main-page-news-text">
 								<span class="main-page-news-text-link">Почему покрытие отслаивается и как этого не допустить?</span>
-								<span class="main-page-news-text-date">1 февраля 2020</span>							
+								<span class="main-page-news-text-date line">1 февраля 2020</span>							
 							</span>
 						</a>
 						<a class="main-page-news-item" href="#">
 							<span class="main-page-news-pic">
-								<img class="main-page-new-pic-img" src="../img/news/4.jpg" alt="новости"> 
+								<img class="main-page-new-pic-img" src="img/news/4.jpg" alt="новости"> 
 							</span>
 							<span class="main-page-news-text">
 								<span class="main-page-news-text-link">Почему покрытие отслаивается и как этого не допустить? Почему покрытие отслаивается и как этого не допустить?</span>
-								<span class="main-page-news-text-date">29 января 2020</span>							
+								<span class="main-page-news-text-date line">29 января 2020</span>							
 							</span>
 						</a>
 						<a class="main-page-news-item" href="#">
 							<span class="main-page-news-pic">
-								<img class="main-page-new-pic-img" src="../img/news/5.jpg" alt="новости"> 
+								<img class="main-page-new-pic-img" src="img/news/5.jpg" alt="новости"> 
 							</span>
 							<span class="main-page-news-text">
 								<span class="main-page-news-text-link">Хронофаги в работе нейл-мастера: что крадет время</span>
-								<span class="main-page-news-text-date">23 января 2020</span>							
+								<span class="main-page-news-text-date line">23 января 2020</span>							
 							</span>
 						</a>
 						<a class="main-page-news-item" href="#">
 							<span class="main-page-news-pic">
-								<img class="main-page-new-pic-img" src="../img/news/6.jpg" alt="новости"> 
+								<img class="main-page-new-pic-img" src="img/news/6.jpg" alt="новости"> 
 							</span>
 							<span class="main-page-news-text">
 								<span class="main-page-news-text-link">Хронофаги в работе нейл-мастера: что крадет время</span>
-								<span class="main-page-news-text-date">18 января 2020</span>							
+								<span class="main-page-news-text-date line">18 января 2020</span>							
 							</span>
+						</a>
+					</div>
+					<div class="main-page-news-button">
+						<a class="button-link black dark-grey-border" href="#">
+							<span class="button-link-span"><span class="button-link-span-text">все новости</span></span>
 						</a>
 					</div>
 				</div>
@@ -608,11 +635,22 @@
 			<div class="container">
 				<div class="content">
 					<div class="footer-logo">
-						<img class="footer-logo-img" src="../img/logo/logo-min.png" alt="Логотип">
+						<img class="footer-logo-img" src="img/logo/logo-min.png" alt="Логотип">
+					</div>
+					<div class="footer-button">
+						<a class="button-link black white-border full" href="#">							
+							<span class="button-link-span">
+								<i class="button-icon phone-white"></i>
+								<span class="button-link-span-text">8 (499) 499 19 90</span>
+							</span>
+						</a>
 					</div>
 					<div class="footer-list">
 						<div class="footer-item">
-							<h5 class="footer-item-head">Каталог</h5>
+							<h5 class="footer-item-head">
+								Каталог
+								<i class="footer-item-head-arrow"></i>
+							</h5>
 							<div class="footer-item-wrap">
 								<div class="footer-item-col">
 									<a class="footer-link" href="#">Gel Polish</a>
@@ -634,7 +672,10 @@
 						</div>
 
 						<div class="footer-item">
-							<h5 class="footer-item-head">Коллекции</h5>
+							<h5 class="footer-item-head">
+								Коллекции
+								<i class="footer-item-head-arrow"></i>
+							</h5>
 							<div class="footer-item-wrap">
 								<div class="footer-item-col full">
 									<a class="footer-link" href="#">The Pantone Collection</a>
@@ -647,7 +688,10 @@
 						</div>
 
 						<div class="footer-item">
-							<h5 class="footer-item-head">Компания</h5>
+							<h5 class="footer-item-head">
+								Компания
+								<i class="footer-item-head-arrow"></i>
+							</h5>
 							<div class="footer-item-wrap">
 								<div class="footer-item-col full">
 									<a class="footer-link" href="#">Контакты</a>
@@ -659,7 +703,10 @@
 						</div>
 
 						<div class="footer-item">
-							<h5 class="footer-item-head">Для бизнеса</h5>
+							<h5 class="footer-item-head">
+								Для бизнеса
+								<i class="footer-item-head-arrow"></i>
+							</h5>
 							<div class="footer-item-wrap">
 								<div class="footer-item-col full">
 									<a class="footer-link" href="#">Представители</a>
@@ -671,7 +718,7 @@
 					</div>
 
 					<div class="footer-socials">
-						<div class="footer-socials-text">Ⓒ 2020 LiNTO by <a class="footer-socials-text-link" href="#">Prism</a></div>
+						<div class="footer-socials-text">Ⓒ 2020 LiNTO</div>
 						<div class="footer-socials-links">
 							<a class="footer-socials-link vk" href="#"></a>
 							<a class="footer-socials-link fb" href="#"></a>
@@ -819,10 +866,10 @@
 			</div>
 		</section>
 	</div>	
-	<link rel="stylesheet" type="text/css" href="../js/scroll/jquery.jscrollpane.css">
-	<script src="../js/jquery/jquery.js"></script>
-	<script src="../js/scroll/jquery.mousewheel.js"></script>
-	<script src="../js/scroll/jquery.jscrollpane.min.js"></script>
-	<script src="../js/my.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/scroll/jquery.jscrollpane.css">
+	<script src="js/jquery/jquery.js"></script>
+	<script src="js/scroll/jquery.mousewheel.js"></script>
+	<script src="js/scroll/jquery.jscrollpane.min.js"></script>
+	<script src="js/my.js"></script>
 </body>
 </html>
