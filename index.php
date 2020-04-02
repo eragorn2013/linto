@@ -338,9 +338,9 @@
 												<div class="header-center-mob-menu-item">
 													<span class="header-center-mob-menu-item-name">
 														Каталог
-														<i class="header-center-mob-menu-item-name-arrow"></i>
+														<i class="header-center-mob-menu-item-name-arrow active"></i>
 													</span>
-													<div class="header-center-mob-menu-item-list">
+													<div class="header-center-mob-menu-item-list visible">
 														<div class="header-center-mob-menu-item-list-wrap">
 															<span class="header-center-mob-menu-item-link sub">
 																<span class="header-center-mob-menu-item-link-span">Gel Polish
@@ -447,6 +447,108 @@
 							</div>
 							<div class="header-center-mob-wrap">
 								<i class="header-center-mob-icon search"></i>
+								<div class="header-center-mob-search">
+									<div class="header-center-mob-search-wrap">
+										<div class="header-center-mob-search-content">
+											<div class="header-center-mob-search-name">
+												<span class="header-center-mob-search-span">Поиск</span>
+												<i class="header-center-mob-search-close"></i>
+											</div>
+											<div class="header-center-mob-search-input">
+												<form class="form-field" action="#" method="post">
+													<input class="form-field-input search" type="text" name="search" placeholder="Я ищу...">
+													<button class="form-field-submit arrow-right"></button>
+													<div class="modal-search-list">
+														<span class="modal-search-item">Гель-лак GEL POLISH, #001</span>
+														<span class="modal-search-item">Гель-лак GEL POLISH, #002</span>
+														<span class="modal-search-item">Гель-лак GEL POLISH, #003</span>
+														<span class="modal-search-item">Гель-лак BASE RUBBER</span>
+														<span class="modal-search-item">Гель-лак BASE LEGEND</span>
+														<span class="modal-search-item">Гель-лак PODO LINE суперцена/акция/это длинная строка</span>
+														<span class="modal-search-item">Гель-лак SET BASE + TOP</span>
+														<span class="modal-search-item">Гель-лак GEL POLISH, #001</span>
+														<span class="modal-search-item">Гель-лак GEL POLISH, #002</span>
+														<span class="modal-search-item">Гель-лак GEL POLISH, #003</span>
+														<span class="modal-search-item">Гель-лак BASE RUBBER</span>
+														<span class="modal-search-item">Гель-лак BASE LEGEND</span>
+														<span class="modal-search-item">Гель-лак PODO LINE</span>
+														<span class="modal-search-item">Гель-лак SET BASE + TOP</span>
+													</div>													
+												</form>
+											</div>
+											<div class="header-center-mob-search-goods">
+												<span class="header-center-mob-search-goods-span">Недавно просмотренные товары:</span>
+												<div class="header-center-mob-search-goods-wrap">
+													<div class="header-center-mob-good">
+														<a class="header-center-mob-good-name" href="#">
+															<span class="header-center-mob-good-name-avatar">
+																<img class="header-center-mob-good-name-avatar-img" src="img/goods/1.png" alt="#">
+															</span>
+															<span class="header-center-mob-good-name-wrap">
+																<span class="header-center-mob-good-name-text">Gel Polish spring long name greenery</span>
+																<span class="header-center-mob-good-name-volume">10 мл</span>
+															</span>
+														</a>
+														<div class="header-center-mob-good-price">104 250 RUB</div>														
+													</div>
+
+													<div class="header-center-mob-good">
+														<a class="header-center-mob-good-name" href="#">
+															<span class="header-center-mob-good-name-avatar">
+																<img class="header-center-mob-good-name-avatar-img" src="img/goods/2.png" alt="#">
+															</span>
+															<span class="header-center-mob-good-name-wrap">
+																<span class="header-center-mob-good-name-text">Antibacterial</span>
+																<span class="header-center-mob-good-name-volume">10 мл</span>
+															</span>
+														</a>
+														<div class="header-center-mob-good-price">250 RUB</div>														
+													</div>
+
+													<div class="header-center-mob-good">
+														<a class="header-center-mob-good-name" href="#">
+															<span class="header-center-mob-good-name-avatar">
+																<img class="header-center-mob-good-name-avatar-img" src="img/goods/3.png" alt="#">
+															</span>
+															<span class="header-center-mob-good-name-wrap">
+																<span class="header-center-mob-good-name-text">Gel Polish greenery</span>
+																<span class="header-center-mob-good-name-volume">10 мл</span>
+															</span>
+														</a>
+														<div class="header-center-mob-good-price">250 RUB</div>														
+													</div>
+
+													<div class="header-center-mob-good">
+														<a class="header-center-mob-good-name" href="#">
+															<span class="header-center-mob-good-name-avatar">
+																<img class="header-center-mob-good-name-avatar-img" src="img/goods/4.png" alt="#">
+															</span>
+															<span class="header-center-mob-good-name-wrap">
+																<span class="header-center-mob-good-name-text">Gel Polish serenity</span>
+																<span class="header-center-mob-good-name-volume">10 мл</span>
+															</span>
+														</a>
+														<div class="header-center-mob-good-price">250 RUB</div>														
+													</div>
+
+													<div class="header-center-mob-good">
+														<a class="header-center-mob-good-name" href="#">
+															<span class="header-center-mob-good-name-avatar">
+																<img class="header-center-mob-good-name-avatar-img" src="img/goods/5.png" alt="#">
+															</span>
+															<span class="header-center-mob-good-name-wrap">
+																<span class="header-center-mob-good-name-text">Gel Polish spring long name greenery</span>
+																<span class="header-center-mob-good-name-volume">10 мл</span>
+															</span>
+														</a>
+														<div class="header-center-mob-good-price">250 RUB</div>														
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 						<div class="header-center-mob-logo">
@@ -1028,6 +1130,8 @@
 	<script src="js/jquery/jquery.js"></script>
 	<script src="js/scroll/jquery.mousewheel.js"></script>
 	<script src="js/scroll/jquery.jscrollpane.min.js"></script>	
+	<script src="js/swipe/jquery.swipe.js"></script>
+	<script src="js/swipe/jquery.touch.js"></script>
 	<script src="js/my.js"></script>
 </body>
 </html>

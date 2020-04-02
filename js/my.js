@@ -63,6 +63,13 @@ $(document).ready(function(){
 			$("body").removeClass("fixed");
 		});
 	});
+
+	$("#modal-change-city").swipe(function(e){
+		if(e=="right" || e=="left"){
+			$("#modal-change-city").fadeOut(300);
+		}
+	}, {preventDefault: false});
+
 	$(".modal-change-city-content").on("click", function(e){
 		e.stopPropagation();
 	});
@@ -181,6 +188,26 @@ $(document).ready(function(){
 		}
 	});
 	$(".header-center-mob-menu-wrap").on("click", function(e){e.stopPropagation()});
+
+	$(".header-center-mob-menu-geo").on("click", function(){
+		var modal=$("#modal-change-city");
+		if(modal.is(":hidden")) modal.fadeIn();
+	});
+
+	/*Открытие модального окна поиска в мобильной версии*/
+	$(".header-center-mob-icon.search").on("click", function(){		
+		var modal=$(".header-center-mob-search");
+		if(modal.is(":hidden")) modal.fadeIn(300);
+	});
+	$(".header-center-mob-search-close").on("click", function(){
+		var modal=$(".header-center-mob-search");
+		if(modal.is(":visible")) modal.fadeOut(300);
+	});
+	$(".header-center-mob-search").swipe(function(e){
+		if(e=="right" || e=="left"){
+			$(".header-center-mob-search").fadeOut(300);
+		}
+	}, {preventDefault: false});
 	
 });
 
