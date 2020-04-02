@@ -10,6 +10,7 @@
 </head>
 <body>
 	<div class="wrap">
+		<div class="swipe-open-menu"></div>		
 		<header>		
 			<div class="container">
 				<div class="content header-content">
@@ -292,15 +293,172 @@
 					</div>
 					<div class="header-center-mob">
 						<div class="header-center-mob-left">
-							<i class="header-center-mob-icon menu"></i>
-							<i class="header-center-mob-icon search"></i>
+							<div class="header-center-mob-wrap">
+								<i class="header-center-mob-icon menu"></i>
+								<div class="header-center-mob-menu">									
+									<div class="header-center-mob-menu-wrap">
+										<div class="header-center-mob-menu-content">
+											<div class="header-center-mob-menu-top">
+												<span class="header-center-mob-menu-top-name">Меню</span>
+												<i class="header-center-mob-menu-top-close"></i>
+											</div>
+											<a class="header-center-mob-menu-geo" href="#">
+												<i class="header-center-mob-menu-geo-icon"></i>
+												<span class="header-center-mob-menu-geo-span">Где купить: 
+													<span class="header-center-mob-menu-geo-span-name">Москва</span>
+												</span>
+											</a>
+											<div class="header-center-mob-menu-points">
+												<a class="header-center-mob-menu-point" href="#">
+													<i class="header-center-mob-menu-point-icon profile"></i>
+													<span class="header-center-mob-menu-point-name">Вход</span>
+												</a>
+												<a class="header-center-mob-menu-point" href="#">												
+													<span class="header-center-mob-menu-point-name">Регистрация</span>
+												</a>
+												<a class="header-center-mob-menu-point" href="#">
+													<i class="header-center-mob-menu-point-icon profile"></i>											
+													<span class="header-center-mob-menu-point-name">Мой профиль</span>
+												</a>
+												<a class="header-center-mob-menu-point" href="#">
+													<i class="header-center-mob-menu-point-icon orders"></i>											
+													<span class="header-center-mob-menu-point-name">Мой заказы</span>
+												</a>
+												<a class="header-center-mob-menu-point" href="#">
+													<i class="header-center-mob-menu-point-icon pass"></i>											
+													<span class="header-center-mob-menu-point-name">Сменить пароль</span>
+												</a>
+												<a class="header-center-mob-menu-point" href="#">
+													<i class="header-center-mob-menu-point-icon exit"></i>											
+													<span class="header-center-mob-menu-point-name">Выход</span>
+												</a>
+											</div>
+
+											<div class="header-center-mob-menu-items">
+												<div class="header-center-mob-menu-item">
+													<span class="header-center-mob-menu-item-name">
+														Каталог
+														<i class="header-center-mob-menu-item-name-arrow"></i>
+													</span>
+													<div class="header-center-mob-menu-item-list">
+														<div class="header-center-mob-menu-item-list-wrap">
+															<span class="header-center-mob-menu-item-link sub">
+																<span class="header-center-mob-menu-item-link-span">Gel Polish
+																	<span class="header-center-mob-menu-item-link-span-icon">+</span>
+																</span>
+																<div class="header-center-mob-menu-item-list-sub">
+																	<a class="header-center-mob-menu-item-link" href="#">
+																		<span class="header-center-mob-menu-item-link-span">Подкатегория 1</span>
+																	</a>
+																	<a class="header-center-mob-menu-item-link" href="#">
+																		<span class="header-center-mob-menu-item-link-span">Подкатегория 2</span>
+																	</a>
+																	<a class="header-center-mob-menu-item-link" href="#">
+																		<span class="header-center-mob-menu-item-link-span">Подкатегория 3</span>
+																	</a>
+																</div>
+															</span>
+															<span class="header-center-mob-menu-item-link sub">
+																<span class="header-center-mob-menu-item-link-span">French Collection
+																	<span class="header-center-mob-menu-item-link-span-icon">+</span>
+																</span>
+																<div class="header-center-mob-menu-item-list-sub">
+																	<a class="header-center-mob-menu-item-link" href="#">
+																		<span class="header-center-mob-menu-item-link-span">Подкатегория 1</span>
+																	</a>
+																	<a class="header-center-mob-menu-item-link" href="#">
+																		<span class="header-center-mob-menu-item-link-span">Подкатегория 2</span>
+																	</a>
+																	<a class="header-center-mob-menu-item-link" href="#">
+																		<span class="header-center-mob-menu-item-link-span">Подкатегория 3</span>
+																	</a>
+																</div>
+															</span>
+															<a class="header-center-mob-menu-item-link" href="#">
+																<span class="header-center-mob-menu-item-link-span">White Collection</span>
+															</a>
+															<a class="header-center-mob-menu-item-link" href="#">
+																<span class="header-center-mob-menu-item-link-span">Podo Line</span>
+															</a>
+															<a class="header-center-mob-menu-item-link" href="#">
+																<span class="header-center-mob-menu-item-link-span">Base</span>
+															</a>
+															<a class="header-center-mob-menu-item-link" href="#">
+																<span class="header-center-mob-menu-item-link-span">Base Camouflage</span>
+															</a>
+															<a class="header-center-mob-menu-item-link" href="#">
+																<span class="header-center-mob-menu-item-link-span">Top</span>
+															</a>
+															<a class="header-center-mob-menu-item-link" href="#">
+																<span class="header-center-mob-menu-item-link-span">Gel Glitz</span>
+															</a>
+														</div>
+													</div>
+												</div>
+
+												<div class="header-center-mob-menu-item">
+													<span class="header-center-mob-menu-item-name">
+														О нас
+														<i class="header-center-mob-menu-item-name-arrow"></i>
+													</span>
+													<div class="header-center-mob-menu-item-list">
+														<div class="header-center-mob-menu-item-list-wrap">
+															<span class="header-center-mob-menu-item-span">Компания</span>
+															<a class="header-center-mob-menu-item-link" href="#">
+																<span class="header-center-mob-menu-item-link-span">Контакты</span>
+															</a>
+															<a class="header-center-mob-menu-item-link" href="#">
+																<span class="header-center-mob-menu-item-link-span">Сертификаты</span>
+															</a>
+															<a class="header-center-mob-menu-item-link" href="#">
+																<span class="header-center-mob-menu-item-link-span">Представители</span>
+															</a>
+															<a class="header-center-mob-menu-item-link" href="#">
+																<span class="header-center-mob-menu-item-link-span">Технологи</span>
+															</a>
+														</div>
+														<div class="header-center-mob-menu-item-list-wrap">
+															<span class="header-center-mob-menu-item-span">Для бизнеса</span>
+															<a class="header-center-mob-menu-item-link" href="#">
+																<span class="header-center-mob-menu-item-link-span">Для Nail-студий</span>
+															</a>
+															<a class="header-center-mob-menu-item-link" href="#">
+																<span class="header-center-mob-menu-item-link-span">Для школ</span>
+															</a>
+															<a class="header-center-mob-menu-item-link" href="#">
+																<span class="header-center-mob-menu-item-link-span">Партнёры</span>
+															</a>
+															<a class="header-center-mob-menu-item-link" href="#">
+																<span class="header-center-mob-menu-item-link-span">Как стать дестрибьютором</span>
+															</a>
+														</div>
+													</div>
+												</div>
+												<div class="header-center-mob-menu-item">
+													<a class="header-center-mob-menu-item-a" href="#">События</a>
+												</div>
+											</div>
+											<div class="header-center-mob-menu-order">
+												<a class="header-center-mob-menu-order-link" href="#">Оформить быстрый заказ</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="header-center-mob-wrap">
+								<i class="header-center-mob-icon search"></i>
+							</div>
 						</div>
 						<div class="header-center-mob-logo">
 							<a class="header-center-mob-logo-link" href="#"><img class="header-center-mob-logo-img" src="img/logo/logo.png" alt="Логотип"></a>
 						</div>
 						<div class="header-center-mob-right">
-							<a class="header-center-mob-icon profile" href="#"></a>
-							<a class="header-center-mob-icon bascket" href="#"></a>
+							<div class="header-center-mob-wrap">
+								<a class="header-center-mob-icon profile" href="#"></a>
+							</div>
+							<div class="header-center-mob-wrap">
+								<a class="header-center-mob-icon bascket" href="#"></a>
+							</div>
 						</div>
 					</div>
 					<nav>
@@ -869,7 +1027,7 @@
 	<link rel="stylesheet" type="text/css" href="js/scroll/jquery.jscrollpane.css">
 	<script src="js/jquery/jquery.js"></script>
 	<script src="js/scroll/jquery.mousewheel.js"></script>
-	<script src="js/scroll/jquery.jscrollpane.min.js"></script>
+	<script src="js/scroll/jquery.jscrollpane.min.js"></script>	
 	<script src="js/my.js"></script>
 </body>
 </html>
