@@ -82,14 +82,14 @@
 									<i class="modal-close"></i>
 									<span class="modal-geo-head">Представители в Москве</span>
 									<div class="modal-geo-list">
-										<a class="modal-geo-item" href="#">
-											<span class="modal-geo-item-name">Мультибрендовый магазин NAILBRAND</span>
-											<span class="modal-geo-item-address">м. Петровско-Разумовская, ул. Локомотивный проезд д. 4, ТЦ Парус, 2 этаж</span>
-										</a>
-										<a class="modal-geo-item" href="#">
-											<span class="modal-geo-item-name">Мультибрендовый магазин NAILBRAND</span>
-											<span class="modal-geo-item-address">м. Проспект Вернадского, пр-кт. Вернадского, д. 39</span>
-										</a>
+										<div class="modal-geo-item">
+											<a class="modal-geo-item-name" href="#">Мультибрендовый магазин NAILBRAND</a>
+											<a class="modal-geo-item-address" href="#">м. Петровско-Разумовская, ул. Локомотивный проезд д. 4, ТЦ Парус, 2 этаж</a>
+										</div>
+										<div class="modal-geo-item">
+											<a class="modal-geo-item-name" href="#">Мультибрендовый магазин NAILBRAND</a>
+											<a class="modal-geo-item-address" href="#">м. Проспект Вернадского, пр-кт. Вернадского, д. 39</a>
+										</div>
 									</div>
 									<a class="modal-geo-more" href="#">Показать еще +4</a>
 									<a class="modal-geo-change-city" href="#">Изменить город</a>
@@ -343,36 +343,24 @@
 													<div class="header-center-mob-menu-item-list visible">
 														<div class="header-center-mob-menu-item-list-wrap">
 															<span class="header-center-mob-menu-item-link sub">
-																<span class="header-center-mob-menu-item-link-span">Gel Polish
-																	<span class="header-center-mob-menu-item-link-span-icon">+</span>
-																</span>
-																<div class="header-center-mob-menu-item-list-sub">
+																<span class="header-center-mob-menu-item-link-span">Gel Polish</span>																
+																<div class="header-center-mob-menu-item-list-sub visible">
 																	<a class="header-center-mob-menu-item-link" href="#">
-																		<span class="header-center-mob-menu-item-link-span">Подкатегория 1</span>
+																		<span class="header-center-mob-menu-item-link-span">Basic Collection</span>
 																	</a>
 																	<a class="header-center-mob-menu-item-link" href="#">
-																		<span class="header-center-mob-menu-item-link-span">Подкатегория 2</span>
+																		<span class="header-center-mob-menu-item-link-span">The Pantone Collection</span>
 																	</a>
 																	<a class="header-center-mob-menu-item-link" href="#">
-																		<span class="header-center-mob-menu-item-link-span">Подкатегория 3</span>
+																		<span class="header-center-mob-menu-item-link-span">Amur_Nails & Linto</span>
+																	</a>
+																	<a class="header-center-mob-menu-item-link" href="#">
+																		<span class="header-center-mob-menu-item-link-span">Level_Up_Nails</span>
 																	</a>
 																</div>
 															</span>
 															<span class="header-center-mob-menu-item-link sub">
-																<span class="header-center-mob-menu-item-link-span">French Collection
-																	<span class="header-center-mob-menu-item-link-span-icon">+</span>
-																</span>
-																<div class="header-center-mob-menu-item-list-sub">
-																	<a class="header-center-mob-menu-item-link" href="#">
-																		<span class="header-center-mob-menu-item-link-span">Подкатегория 1</span>
-																	</a>
-																	<a class="header-center-mob-menu-item-link" href="#">
-																		<span class="header-center-mob-menu-item-link-span">Подкатегория 2</span>
-																	</a>
-																	<a class="header-center-mob-menu-item-link" href="#">
-																		<span class="header-center-mob-menu-item-link-span">Подкатегория 3</span>
-																	</a>
-																</div>
+																<span class="header-center-mob-menu-item-link-span">French Collection</span>
 															</span>
 															<a class="header-center-mob-menu-item-link" href="#">
 																<span class="header-center-mob-menu-item-link-span">White Collection</span>
@@ -538,6 +526,45 @@
 															</span>
 															<span class="header-center-mob-good-name-wrap">
 																<span class="header-center-mob-good-name-text">Gel Polish spring long name greenery</span>
+																<span class="header-center-mob-good-name-volume">10 мл</span>
+															</span>
+														</a>
+														<div class="header-center-mob-good-price">250 RUB</div>														
+													</div>
+
+													<div class="header-center-mob-good">
+														<a class="header-center-mob-good-name" href="#">
+															<span class="header-center-mob-good-name-avatar">
+																<img class="header-center-mob-good-name-avatar-img" src="img/goods/1.png" alt="#">
+															</span>
+															<span class="header-center-mob-good-name-wrap">
+																<span class="header-center-mob-good-name-text">Gel Polish spring long name greenery</span>
+																<span class="header-center-mob-good-name-volume">10 мл</span>
+															</span>
+														</a>
+														<div class="header-center-mob-good-price">104 250 RUB</div>														
+													</div>
+
+													<div class="header-center-mob-good">
+														<a class="header-center-mob-good-name" href="#">
+															<span class="header-center-mob-good-name-avatar">
+																<img class="header-center-mob-good-name-avatar-img" src="img/goods/2.png" alt="#">
+															</span>
+															<span class="header-center-mob-good-name-wrap">
+																<span class="header-center-mob-good-name-text">Antibacterial</span>
+																<span class="header-center-mob-good-name-volume">10 мл</span>
+															</span>
+														</a>
+														<div class="header-center-mob-good-price">250 RUB</div>														
+													</div>
+
+													<div class="header-center-mob-good">
+														<a class="header-center-mob-good-name" href="#">
+															<span class="header-center-mob-good-name-avatar">
+																<img class="header-center-mob-good-name-avatar-img" src="img/goods/3.png" alt="#">
+															</span>
+															<span class="header-center-mob-good-name-wrap">
+																<span class="header-center-mob-good-name-text">Gel Polish greenery</span>
 																<span class="header-center-mob-good-name-volume">10 мл</span>
 															</span>
 														</a>
@@ -765,10 +792,10 @@
 		</section>
 
 		<section id="main-page-events">
-			<div class="container">
+			<div class="container main-page-events-container">
 				<div class="content main-page-events-content">
 					<h2 class="main-page-events-head">События</h2>
-					<img class="main-page-events-img" src="img/bg/6.jpg" alt="События">
+					<img class="main-page-events-img" src="#" alt="События" data-desctop="img/events/1.jpg" data-mobile="img/events/1-min.jpg">
 					<p class="main-page-events-p">Впервые в Воронеже! Nail-конференция для мастеров и руководителей студий</p>
 					<span class="main-page-events-date">21 марта 2020</span>
 					<span class="main-page-events-info">Лучшие эксперты страны о самых актуальных темах и трендах. Место встречи и общения с коллегами, новые знакомства. Уникальная возможность сделать селфи с VIP-спикерами.</span>
@@ -996,11 +1023,11 @@
 					<h3 class="modal-geo-all-head">Все представители в Москве</h3>
 					<div class="modal-geo-all-list">
 						<div class="modal-geo-all-item">
-							<a class="modal-geo-all-item-link" href="#">
-								<span class="modal-geo-all-item-link-name">Мультибрендовый магазин NAILBRAND</span>
-								<span class="modal-geo-all-item-link-address">м. Петровско-Разумовская, ул. Локомотивный проезд д. 4, ТЦ Парус, 2 этаж</span>
+							<div class="modal-geo-all-item-link">
+								<a class="modal-geo-all-item-link-name" href="#">Мультибрендовый магазин NAILBRAND</a>
+								<a class="modal-geo-all-item-link-address" href="#">м. Петровско-Разумовская, ул. Локомотивный проезд д. 4, ТЦ Парус, 2 этаж</a>
 								<span class="modal-geo-all-item-link-phone">+7 (964) 586-88-48</span>
-							</a>
+							</div>
 							<div class="modal-geo-all-item-links">
 								<a class="modal-geo-all-item-links-link inst" href="#"></a>
 								<a class="modal-geo-all-item-links-link local" href="#"></a>
@@ -1008,11 +1035,11 @@
 						</div>
 
 						<div class="modal-geo-all-item">
-							<a class="modal-geo-all-item-link" href="#">
-								<span class="modal-geo-all-item-link-name">Мультибрендовый магазин NAILB RANDМультибре ндовый магазин NAILBRAND Мульти брендовый маг азин NAILB-RAND</span>
-								<span class="modal-geo-all-item-link-address">м. Проспект Вернадского, пр-кт. Вернадского, д. 39</span>
+							<div class="modal-geo-all-item-link">
+								<a class="modal-geo-all-item-link-name" href="#">Мультибрендовый магазин NAILB RANDМультибре ндовый магазин NAILBRAND Мульти брендовый маг азин NAILB-RAND</a>
+								<a class="modal-geo-all-item-link-address" href="#">м. Проспект Вернадского, пр-кт. Вернадского, д. 39</a>
 								<span class="modal-geo-all-item-link-phone">+7 (964) 586-88-48</span>
-							</a>
+							</div>
 							<div class="modal-geo-all-item-links">
 								<a class="modal-geo-all-item-links-link inst" href="#"></a>
 								<a class="modal-geo-all-item-links-link local" href="#"></a>
@@ -1020,11 +1047,11 @@
 						</div>
 
 						<div class="modal-geo-all-item">
-							<a class="modal-geo-all-item-link" href="#">
-								<span class="modal-geo-all-item-link-name">Мультибрендовый магазин NAILBRAND</span>
-								<span class="modal-geo-all-item-link-address">м. Проспект Вернадского, пр-кт. Вернадского, д. 39</span>
+							<div class="modal-geo-all-item-link">
+								<a class="modal-geo-all-item-link-name" href="#">Мультибрендовый магазин NAILBRAND</a>
+								<a class="modal-geo-all-item-link-address" href="#">м. Проспект Вернадского, пр-кт. Вернадского, д. 39</a>
 								<span class="modal-geo-all-item-link-phone">+7 (964) 586-88-48</span>
-							</a>
+							</div>
 							<div class="modal-geo-all-item-links">
 								<a class="modal-geo-all-item-links-link inst" href="#"></a>
 								<a class="modal-geo-all-item-links-link local" href="#"></a>
@@ -1032,11 +1059,11 @@
 						</div>
 
 						<div class="modal-geo-all-item">
-							<a class="modal-geo-all-item-link" href="#">
-								<span class="modal-geo-all-item-link-name">Мультибрендовый магазин NAILBRAND</span>
-								<span class="modal-geo-all-item-link-address">м. Проспект Вернадского, пр-кт. Вернадского, д. 39</span>
+							<div class="modal-geo-all-item-link">
+								<a class="modal-geo-all-item-link-name" href="#">Мультибрендовый магазин NAILBRAND</a>
+								<a class="modal-geo-all-item-link-address" href="#">м. Проспект Вернадского, пр-кт. Вернадского, д. 39</a>
 								<span class="modal-geo-all-item-link-phone">+7 (964) 586-88-48</span>
-							</a>
+							</div>
 							<div class="modal-geo-all-item-links">
 								<a class="modal-geo-all-item-links-link inst" href="#"></a>
 								<a class="modal-geo-all-item-links-link local" href="#"></a>
@@ -1044,11 +1071,11 @@
 						</div>
 
 						<div class="modal-geo-all-item">
-							<a class="modal-geo-all-item-link" href="#">
-								<span class="modal-geo-all-item-link-name">Мультибрендовый магазин NAILBRAND</span>
-								<span class="modal-geo-all-item-link-address">м. Петровско-Разумовская, ул. Локомотивный проезд д. 4, ТЦ Парус, 2 этаж</span>
+							<div class="modal-geo-all-item-link">
+								<a class="modal-geo-all-item-link-name" href="#">Мультибрендовый магазин NAILBRAND</a>
+								<a class="modal-geo-all-item-link-address" href="#">м. Петровско-Разумовская, ул. Локомотивный проезд д. 4, ТЦ Парус, 2 этаж</a>
 								<span class="modal-geo-all-item-link-phone">+7 (964) 586-88-48</span>
-							</a>
+							</div>
 							<div class="modal-geo-all-item-links">
 								<a class="modal-geo-all-item-links-link inst" href="#"></a>
 								<a class="modal-geo-all-item-links-link local" href="#"></a>
@@ -1056,11 +1083,11 @@
 						</div>
 
 						<div class="modal-geo-all-item">
-							<a class="modal-geo-all-item-link" href="#">
-								<span class="modal-geo-all-item-link-name">Мультибрендовый магазин NAILBRAND</span>
-								<span class="modal-geo-all-item-link-address">м. Проспект Вернадского, пр-кт. Вернадского, д. 39</span>
+							<div class="modal-geo-all-item-link">
+								<a class="modal-geo-all-item-link-name" href="#">Мультибрендовый магазин NAILBRAND</a>
+								<a class="modal-geo-all-item-link-address" href="#">м. Проспект Вернадского, пр-кт. Вернадского, д. 39</a>
 								<span class="modal-geo-all-item-link-phone">+7 (964) 586-88-48</span>
-							</a>
+							</div>
 							<div class="modal-geo-all-item-links">
 								<a class="modal-geo-all-item-links-link inst" href="#"></a>
 								<a class="modal-geo-all-item-links-link local" href="#"></a>

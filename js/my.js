@@ -5,12 +5,17 @@ $(document).ready(function(){
 		if(element.hasClass("active")) {
 			element.removeClass("active");
 			if(element.next(".header-modal").is(":visible")) element.next(".header-modal").fadeOut(200);
+			if(element.hasClass("basket")){
+				$("body").removeClass("fixed");
+			}
 		}
 		else {
 			element.addClass("active");
 			if(element.next(".header-modal").is(":hidden")) element.next(".header-modal").fadeIn(200);
-			if(element.hasClass("basket"))
+			if(element.hasClass("basket")){
+				$("body").addClass("fixed");
 				$(".modal-basket-goods").jScrollPane();
+			}
 		}
 		return false;
 	});
@@ -18,6 +23,7 @@ $(document).ready(function(){
 		if(!$(".header-modal, .modal-search-list").is(e.target) && $(".header-modal, .modal-search-list").has(e.target).length === 0) {
 			if($(".header-modal, .modal-search-list").is(":visible")) {
 				$(".header-modal, .modal-search-list").fadeOut(0, function(){
+					$("body").removeClass("fixed");
 					$(".modal-basket-goods").jScrollPane();
 				});
 			}
@@ -60,7 +66,10 @@ $(document).ready(function(){
 	/*Модальное окно Введите название города*/
 	$(".modal-change-city-close, #modal-change-city").on("click", function(){
 		$("#modal-change-city").fadeOut(200, function(){
-			$("body").removeClass("fixed");
+			if($(".header-center-mob-menu").is(":hidden")){
+				$("body").removeClass("fixed");
+			}
+			
 		});
 	});
 
@@ -117,12 +126,14 @@ $(document).ready(function(){
 		$(".modal-city-list", parent).fadeOut(200);
 		$("#modal-change-city").fadeOut(200);
 		$(".header-center-right-link-span.city").text(text);
+		$("body").removeClass("fixed");
 		return false;
 	});
 	$(".modal-change-city-item").on("click", function(){
 		var text=$(this).text();
 		$("#modal-change-city").fadeOut(200);
 		$(".header-center-right-link-span.city").text(text);
+		$("body").removeClass("fixed");
 		return false;
 	});
 
@@ -159,16 +170,9 @@ $(document).ready(function(){
 
 	$(".header-center-mob-menu-item-link.sub").on("click", function(){
 		var parent=$(this);
-		var icon=$(".header-center-mob-menu-item-link-span-icon", parent);
 		var submenu=$(".header-center-mob-menu-item-list-sub", parent);
-		if(submenu.is(":hidden")){
-			submenu.slideDown(300);
-			icon.text("-");
-		}
-		else{
-			submenu.slideUp(300);
-			icon.text("+");
-		}
+		if(submenu.is(":hidden")) submenu.slideDown(300);			
+		else submenu.slideUp(300);		
 	});
 
 	$(".header-center-mob-icon.menu").on("click", function(){
@@ -177,6 +181,7 @@ $(document).ready(function(){
 		if(container.is(":hidden")){
 			container.fadeIn(300);
 			menu.animate({"left":"0"},300);
+			$("body").addClass("fixed");
 		}
 	});
 	$(".header-center-mob-menu-top-close, .header-center-mob-menu").on("click", function(){
@@ -185,13 +190,24 @@ $(document).ready(function(){
 		if(container.is(":visible")){
 			container.fadeOut(300);
 			menu.animate({"left":"-100%"},300);
+			$("body").removeClass("fixed");
 		}
 	});
+
+	$(".header-center-mob-menu-top, .header-center-mob-menu-geo, .header-center-mob-menu-items, .header-center-mob-menu-order").swipe(function(e){
+		if(e=="left"){
+			console.log(e);
+			$(".header-center-mob-menu-wrap").animate({"left": "-100%"},300);
+			$(".header-center-mob-menu").fadeOut(300);
+		}
+	}, {preventDefault: false});
+
 	$(".header-center-mob-menu-wrap").on("click", function(e){e.stopPropagation()});
 
 	$(".header-center-mob-menu-geo").on("click", function(){
 		var modal=$("#modal-change-city");
 		if(modal.is(":hidden")) modal.fadeIn();
+		$("body").addClass("fixed");
 	});
 
 	/*Открытие модального окна поиска в мобильной версии*/
@@ -208,6 +224,19 @@ $(document).ready(function(){
 			$(".header-center-mob-search").fadeOut(300);
 		}
 	}, {preventDefault: false});
+
+	/*Замена фото в событиях*/
+	function changeImgEvent(width, element){
+		if(width <= 530)var img=element.attr("data-mobile");
+		else if(width > 530)var img=element.attr("data-desctop");		
+		element.attr("src", img);
+	}
+	$(window).on("resize", function(){
+		var width=$(this).width();
+		var element=$('.main-page-events-img');
+		changeImgEvent(width, element);
+	});
+	changeImgEvent($(window).width(), $('.main-page-events-img'));
 	
 });
 
