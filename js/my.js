@@ -76,6 +76,7 @@ $(document).ready(function(){
 	$("#modal-change-city").swipe(function(e){
 		if(e=="right" || e=="left"){
 			$("#modal-change-city").fadeOut(300);
+			if($(".header-center-mob-menu").is(":hidden")) $('body').removeClass("fixed");			
 		}
 	}, {preventDefault: false});
 
@@ -126,14 +127,14 @@ $(document).ready(function(){
 		$(".modal-city-list", parent).fadeOut(200);
 		$("#modal-change-city").fadeOut(200);
 		$(".header-center-right-link-span.city").text(text);
-		$("body").removeClass("fixed");
+		if($(".header-center-mob-menu").is(":hidden")) $('body').removeClass("fixed");	
 		return false;
 	});
 	$(".modal-change-city-item").on("click", function(){
 		var text=$(this).text();
 		$("#modal-change-city").fadeOut(200);
 		$(".header-center-right-link-span.city").text(text);
-		$("body").removeClass("fixed");
+		if($(".header-center-mob-menu").is(":hidden")) $('body').removeClass("fixed");	
 		return false;
 	});
 
@@ -196,9 +197,9 @@ $(document).ready(function(){
 
 	$(".header-center-mob-menu-top, .header-center-mob-menu-geo, .header-center-mob-menu-items, .header-center-mob-menu-order").swipe(function(e){
 		if(e=="left"){
-			console.log(e);
 			$(".header-center-mob-menu-wrap").animate({"left": "-100%"},300);
 			$(".header-center-mob-menu").fadeOut(300);
+			$('body').removeClass("fixed");
 		}
 	}, {preventDefault: false});
 
@@ -213,15 +214,22 @@ $(document).ready(function(){
 	/*Открытие модального окна поиска в мобильной версии*/
 	$(".header-center-mob-icon.search").on("click", function(){		
 		var modal=$(".header-center-mob-search");
-		if(modal.is(":hidden")) modal.fadeIn(300);
+		if(modal.is(":hidden")) {
+			modal.fadeIn(300);
+			$("body").addClass("fixed");
+		}
 	});
 	$(".header-center-mob-search-close").on("click", function(){
 		var modal=$(".header-center-mob-search");
-		if(modal.is(":visible")) modal.fadeOut(300);
+		if(modal.is(":visible")) {
+			modal.fadeOut(300);
+			$("body").removeClass("fixed");
+		}
 	});
 	$(".header-center-mob-search").swipe(function(e){
 		if(e=="right" || e=="left"){
 			$(".header-center-mob-search").fadeOut(300);
+			$('body').removeClass("fixed");
 		}
 	}, {preventDefault: false});
 
