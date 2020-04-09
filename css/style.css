@@ -37,6 +37,61 @@ a{
 
 /*elements*/
 
+.socials{
+	
+}
+.socials-wrap{
+	display: flex;
+	justify-content: center;
+}
+.socials-head{
+	font-size: 14px;
+	line-height: 18px;
+	font-family: "HelveticaNeueCyr-Bold";
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+}
+.socials-item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 48px;
+	height: 48px;
+	border: 1px solid #e2e2e2;
+	border-radius: 50%;
+	margin-right: 24px;
+}
+.socials-item:hover{
+	border: 1px solid #000;
+}
+.socials-item:last-child{
+	margin-right: 0;
+}
+.socials-item-icon{
+	width: 18px;
+	height: 18px;
+	background-image: url("/img/sprite.png");
+	background-size: 247px;
+	background-repeat: no-repeat;
+}
+.socials-item-icon.vk{
+	background-position: -112px -30px;
+}
+.socials-item-icon.fb{
+	background-position: -142px -31px;
+}
+.socials-item-icon.tw{
+	background-position: -18px -51px;
+}
+.socials-item-icon.tg{
+	background-position: -39px -51px;
+}
+.socials-item-icon.hz{
+	background-position: -91px -51px;
+}	
+
 .bread-crumbs{
 	padding: 32px 0;
 	cursor: default;
@@ -1442,13 +1497,154 @@ nav{
 }
 
 
+#news-full{
+	background: #fff;
+	padding: 52px 0;
+}
+.news-full-content-container{
+	width: 850px;
+}
+.news-full-content{
+
+}
+.news-full-date{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 12px;
+}
+.news-full-date-wrap{
+	opacity: .7;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	margin-right: 12px;
+}
+.news-full-date-wrap:last-child{
+	margin-right: 0px;
+}
+.news-full-date-icon{
+	width: 14px;
+	height: 14px;
+	margin-right: 9px;
+	background-image: url("/img/sprite.png");
+	background-position: 0 -46px;
+    background-size: 216px;
+	background-repeat: no-repeat;
+}
+.news-full-head{
+	font-size: 32px;
+	line-height: 46px;
+	text-transform: uppercase;
+	font-family: "HelveticaNeueCyr-Bold";
+	text-align: center;
+	letter-spacing: 0.06em;
+	margin-bottom: 32px;
+}
+.news-full-preview-pic{
+	margin-top: 32px;
+}
+.news-full-wrap{
+	margin: 0 auto;
+	width: 74.6%;
+	padding: 64px 0 84px;
+}
+.news-full-preview-img{
+	display: block;
+	width: 100%;
+}
+.news-full-preview-text{
+	margin-bottom: 64px;
+}
+.news-full-preview-text-p{
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.03em;
+}
+
+.news-full-block{
+	margin-bottom: 64px;
+}
+.news-full-block-h2{
+	font-size: 24px;
+	line-height: 32px;	
+	font-family: "HelveticaNeueCyr-Bold";
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	margin-bottom: 24px;
+}
+
+.news-full-block-h3{
+	font-size: 16px;
+	line-height: 22px;
+	font-family: "HelveticaNeueCyr-Bold";	
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	margin-bottom: 18px;
+	padding-top: 8px;
+}
+.news-full-quote{
+	position: relative;
+	background: rgba(246,246,246,0.5);
+	box-sizing: border-box;
+	padding: 42px 25px 42px 72px;
+	margin-bottom: 24px;
+}
+.news-full-quote-icon{
+	width: 25px;
+    height: 21px;
+    background-image: url(/img/sprite.png);
+    background-repeat: no-repeat;
+    background-position: 0px -73px;
+    background-repeat: no-repeat;
+    background-size: 260px;
+    position: absolute;
+   	top: 28px;
+    left: 35px;
+}
+.news-full-quote .news-full-block-p{
+	margin-bottom: 0px;
+	font-style: italic;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+}
+.news-full-block-p{
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.03em;
+	margin-bottom: 24px;
+}
+.news-full-block-images{
+	margin-bottom: 24px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.news-full-block-images.full{
+
+}
+.news-full-block-images.full .news-full-block-images-item{
+	width: 100%;
+	display: block;
+}
+.news-full-block-images-item{
+	width: 49%;
+	display: block;
+	margin-bottom: 13px;
+}
+
+
+
+
+
+
 #news.news-white{
 	background: #000;
 	padding: 96px 0 78px;
 }
 #news.news-black{
 	background: #fff;
-	padding: 10px 0 120px;
+	padding: 10px 0 50px;
 }
 .news-head{
 	font-size: 32px;
@@ -1984,6 +2180,9 @@ footer{
 	.news-head{
 		font-size: 24px;
 		line-height: 32px;
+	}
+	.news-white .news-head{
+		margin-bottom: 42px;
 	}
 	.news-black .news-head{
 		margin-bottom: 32px;

@@ -14,7 +14,7 @@
 		<div class="content">
 			<h1 class="news-head">Новости</h1>
 			<div class="news-list">
-				<a class="news-item" href="#">
+				<a class="news-item" href="/news-full.php">
 					<span class="news-pic">
 						<img class="news-pic-img" src="img/news/1.jpg" alt="новости"> 
 					</span>
@@ -23,7 +23,7 @@
 						<span class="news-text-date line">10 февраля 2020</span>							
 					</span>
 				</a>
-				<a class="news-item" href="#">
+				<a class="news-item" href="/news-full.php">
 					<span class="news-pic">
 						<img class="news-pic-img" src="img/news/2.jpg" alt="новости"> 
 					</span>
@@ -32,7 +32,7 @@
 						<span class="news-text-date line">5 февраля 2020</span>							
 					</span>
 				</a>
-				<a class="news-item" href="#">
+				<a class="news-item" href="/news-full.php">
 					<span class="news-pic">
 						<img class="news-pic-img" src="img/news/3.jpg" alt="новости"> 
 					</span>
@@ -41,7 +41,7 @@
 						<span class="news-text-date line">1 февраля 2020</span>							
 					</span>
 				</a>
-				<a class="news-item" href="#">
+				<a class="news-item" href="/news-full.php">
 					<span class="news-pic">
 						<img class="news-pic-img" src="img/news/4.jpg" alt="новости"> 
 					</span>
@@ -50,7 +50,7 @@
 						<span class="news-text-date line">29 января 2020</span>							
 					</span>
 				</a>
-				<a class="news-item" href="#">
+				<a class="news-item" href="/news-full.php">
 					<span class="news-pic">
 						<img class="news-pic-img" src="img/news/5.jpg" alt="новости"> 
 					</span>
@@ -59,7 +59,7 @@
 						<span class="news-text-date line">23 января 2020</span>							
 					</span>
 				</a>
-				<a class="news-item" href="#">
+				<a class="news-item" href="/news-full.php">
 					<span class="news-pic">
 						<img class="news-pic-img" src="img/news/6.jpg" alt="новости"> 
 					</span>
