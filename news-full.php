@@ -85,6 +85,29 @@
 	</div>
 </section>
 
+<div class="news-next-prev">
+	<div class="container">
+		<div class="content news-next-prev-content">
+			<div class="news-next-prev-wrap">
+				<a class="news-next-prev-link" href="#">
+					<i class="news-next-prev-link-arrow prev"></i>
+					<span class="news-next-prev-link-wrap first">
+						<span class="news-next-prev-link-span">Предыдущая статья</span>
+						<span class="news-next-prev-link-name">Хронофаги в работе нейл-мастера: что крадет время </span>
+					</span>
+				</a>
+				<a class="news-next-prev-link" href="#">
+					<span class="news-next-prev-link-wrap last">
+						<span class="news-next-prev-link-span">Следующая статья статья</span>
+						<span class="news-next-prev-link-name">6 новых мастеров маникюра</span>
+					</span>
+					<i class="news-next-prev-link-arrow next"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
 <section id="news" class="news-black">
 	<div class="container">
 		<div class="content">
