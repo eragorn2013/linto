@@ -72,7 +72,7 @@ a{
 .socials-item-icon{
 	width: 18px;
 	height: 18px;
-	background-image: url("/img/sprite.png");
+	background-image: url("../img/sprite.png");
 	background-size: 247px;
 	background-repeat: no-repeat;
 }
@@ -1526,7 +1526,7 @@ nav{
 	width: 14px;
 	height: 14px;
 	margin-right: 9px;
-	background-image: url("/img/sprite.png");
+	background-image: url("../img/sprite.png");
 	background-position: 0 -46px;
     background-size: 216px;
 	background-repeat: no-repeat;
@@ -1595,7 +1595,7 @@ nav{
 .news-full-quote-icon{
 	width: 25px;
     height: 21px;
-    background-image: url(/img/sprite.png);
+    background-image: url(../img/sprite.png);
     background-repeat: no-repeat;
     background-position: 0px -73px;
     background-repeat: no-repeat;
@@ -1625,6 +1625,7 @@ nav{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	align-items: flex-start;
 }
 .news-full-block-images.full{
 
@@ -1671,7 +1672,7 @@ nav{
 
 }
 .news-next-prev-link-arrow{
-	background-image: url("/img/sprite.png");
+	background-image: url("../img/sprite.png");
 	position: absolute;
 	background-repeat: no-repeat;
 	background-size: 244px;

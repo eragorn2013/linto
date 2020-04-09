@@ -31,7 +31,7 @@
 				</div>				
 			</div>
 			<div class="news-full-preview-pic">
-				<img class="news-full-preview-img" src="/img/news/full/1.png" alt="">
+				<img class="news-full-preview-img" src="img/news/full/1.png" alt="">
 			</div>
 			<div class="news-full-wrap">
 				<div class="news-full-preview-text">
@@ -43,8 +43,7 @@
 					<h3 class="news-full-block-h3">Причина №1. Заболевания ногтей и кожи рук</h3>
 					<p class="news-full-block-p">При некоторых заболеваниях ногтей маникюр может помочь: например, для укрепления тонкой ногтевой пластиныили маскировки косметических дефектов. В других случаях механическая обработка и искусственное покрытие лишь усугубят проблему.Это касается и болезней кожи рук. Поэтому клиентам с кожными заболеваниями и грибком ногтей лучше отказать в приеме – для их же безопасности.</p>
 					<div class="news-full-block-images full">
-						<img class="news-full-block-images-item" src="/img/news/full/2.png" alt="">
-						<img class="news-full-block-images-item" src="/img/news/full/2.png" alt="">
+						<img class="news-full-block-images-item" src="img/news/full/2.png" alt="">
 					</div>
 					<h3 class="news-full-block-h3">Причина №2. Болезни, передающиеся через кровь</h3>
 					<p class="news-full-block-p">Речь об опасных заболеваниях – ВИЧ, СПИД и гепатит. Большинство зараженных предусмотрительно не посещают нейл-мастера. Однако клиент может не осознавать всей опасности. Если вдруг всплыла информация о заболевании, следует рассказать клиенту о рисках для жизни и здоровья мастера, а также других клиентов.</p>
@@ -62,10 +61,10 @@
 					<p class="news-full-block-p">Согласитесь, если мы придем в шиномонтаж и попросим украсить авто объемным рисунком, нам откажут. Не из вредности, а потому, что шиномонтажники не владеют навыками аэрографии, и у них нет нужных материалов и оборудования.</p>
 					<p class="news-full-block-p">Самым безопасным видом маникюра считается так называемый «европейский», или пилочный. Его главная фишка – все используемые инструменты одноразовые (при тебе мастер открывает пакет с новыми «приборами»).</p>
 					<div class="news-full-block-images">
-						<img class="news-full-block-images-item" src="/img/news/full/3.png" alt="">
-						<img class="news-full-block-images-item" src="/img/news/full/4.png" alt="">
-						<img class="news-full-block-images-item" src="/img/news/full/3.png" alt="">
-						<img class="news-full-block-images-item" src="/img/news/full/4.png" alt="">
+						<img class="news-full-block-images-item" src="img/news/full/3.png" alt="">
+						<img class="news-full-block-images-item" src="img/news/full/4.png" alt="">
+						<img class="news-full-block-images-item" src="img/news/full/6.png" alt="">
+						<img class="news-full-block-images-item" src="img/news/full/1.png" alt="">
 					</div>
 					<p class="news-full-block-p">Проводится он без воды, и вся обработка ногтей проходит быстро и безболезненно: кутикула не обрезается, ее аккуратно отодвигают и подпиливают, боковые валики тоже «обтачивают» и смягчают пилочкой, а после обязательно увлажняют кожу маслом.</p>
 				</div>
@@ -98,7 +97,7 @@
 				</a>
 				<a class="news-next-prev-link last" href="#">
 					<span class="news-next-prev-link-wrap last">
-						<span class="news-next-prev-link-span">Следующая статья статья</span>
+						<span class="news-next-prev-link-span">Следующая статья</span>
 						<span class="news-next-prev-link-name">6 новых мастеров маникюра</span>
 					</span>
 					<i class="news-next-prev-link-arrow next"></i>
