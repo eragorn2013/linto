@@ -102,8 +102,12 @@
 							<i class="modal-close"></i>
 							<div class="modal-search-wrap">
 								<form class="form-field" action="#" method="post">
-									<input class="form-field-input search" type="text" name="search" placeholder="Я ищу...">
-									<button class="form-field-submit arrow-right"></button>
+									<label class="form-field-label">
+										<div class="form-field-wrap last">
+											<input class="form-field-input search" type="text" name="search" placeholder="Я ищу...">
+											<button class="form-field-submit arrow-right"></button>
+										</div>
+									</label>
 									<div class="modal-search-list">
 										<span class="modal-search-item">Гель-лак GEL POLISH, #001</span>
 										<span class="modal-search-item">Гель-лак GEL POLISH, #002</span>
@@ -443,8 +447,12 @@
 									</div>
 									<div class="header-center-mob-search-input">
 										<form class="form-field" action="#" method="post">
-											<input class="form-field-input search" type="text" name="search" placeholder="Я ищу...">
-											<button class="form-field-submit arrow-right"></button>
+											<label class="form-field-label">
+												<div class="form-field-wrap last">
+													<input class="form-field-input search" type="text" name="search" placeholder="Я ищу...">
+													<button class="form-field-submit arrow-right"></button>
+												</div>
+											</label>
 											<div class="modal-search-list">
 												<span class="modal-search-item">Гель-лак GEL POLISH, #001</span>
 												<span class="modal-search-item">Гель-лак GEL POLISH, #002</span>
@@ -692,8 +700,11 @@
 			<h3 class="modal-change-city-head">Введите название города</h3>
 			<div class="modal-change-city-search">
 				<form class="form-field" action="#" method="post">
-					<input class="form-field-input change-city" type="text" name="search" placeholder="Введите название города">
-					<i class="form-field-submit arrow-down"></i>
+					<label class="form-field-label">
+						<div class="form-field-wrap last">
+							<input class="form-field-input change-city" type="text" name="search" placeholder="Введите название города">
+						</div>
+					</label>					
 					<div class="modal-city-list">
 						<a class="modal-city-item" href="#">г. Москва</a>
 						<a class="modal-city-item" href="#">г. Москва, поселение Московский, г. Московский</a>

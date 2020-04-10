@@ -76,7 +76,7 @@ $(document).ready(function(){
 	$("#modal-change-city").swipe(function(e){
 		if(e=="right" || e=="left"){
 			$("#modal-change-city").fadeOut(300);
-			if($(".header-center-mob-menu").is(":hidden")) $('body').removeClass("fixed");			
+			if($(".header-center-mob-menu").is(":hidden")) $('body').removeClass("fixed");
 		}
 	}, {preventDefault: false});
 
@@ -88,7 +88,7 @@ $(document).ready(function(){
 		if(element.is(":hidden")) {
 			element.fadeIn(200);
 			$(".modal-geo").fadeOut(200);
-			$("body").addClass("fixed");			
+			$("body").addClass("fixed");
 		}
 	});
 
@@ -127,21 +127,21 @@ $(document).ready(function(){
 		$(".modal-city-list", parent).fadeOut(200);
 		$("#modal-change-city").fadeOut(200);
 		$(".header-center-right-link-span.city").text(text);
-		if($(".header-center-mob-menu").is(":hidden")) $('body').removeClass("fixed");	
+		if($(".header-center-mob-menu").is(":hidden")) $('body').removeClass("fixed");
 		return false;
 	});
 	$(".modal-change-city-item").on("click", function(){
 		var text=$(this).text();
 		$("#modal-change-city").fadeOut(200);
 		$(".header-center-right-link-span.city").text(text);
-		if($(".header-center-mob-menu").is(":hidden")) $('body').removeClass("fixed");	
+		if($(".header-center-mob-menu").is(":hidden")) $('body').removeClass("fixed");
 		return false;
 	});
 
 	/*работа футера в мобильной версии*/
-	$(".footer-item-head").on("click", function(){		
+	$(".footer-item-head").on("click", function(){
 		var flag=false;
-		if($(window).width() <= 960) flag=true;		
+		if($(window).width() <= 960) flag=true;
 		if(flag==true){
 			var element=$(this);
 			var list=element.next(".footer-item-wrap");
@@ -172,8 +172,8 @@ $(document).ready(function(){
 	$(".header-center-mob-menu-item-link.sub").on("click", function(){
 		var parent=$(this);
 		var submenu=$(".header-center-mob-menu-item-list-sub", parent);
-		if(submenu.is(":hidden")) submenu.slideDown(300);			
-		else submenu.slideUp(300);		
+		if(submenu.is(":hidden")) submenu.slideDown(300);
+		else submenu.slideUp(300);
 	});
 
 	$(".header-center-mob-icon.menu").on("click", function(){
@@ -212,7 +212,7 @@ $(document).ready(function(){
 	});
 
 	/*Открытие модального окна поиска в мобильной версии*/
-	$(".header-center-mob-icon.search").on("click", function(){		
+	$(".header-center-mob-icon.search").on("click", function(){
 		var modal=$(".header-center-mob-search");
 		if(modal.is(":hidden")) {
 			modal.fadeIn(300);
@@ -236,7 +236,7 @@ $(document).ready(function(){
 	/*Замена фото в событиях*/
 	function changeImgEvent(width, element){
 		if(width <= 530)var img=element.attr("data-mobile");
-		else if(width > 530)var img=element.attr("data-desctop");		
+		else if(width > 530)var img=element.attr("data-desctop");
 		element.attr("src", img);
 	}
 	$(window).on("resize", function(){
@@ -245,6 +245,70 @@ $(document).ready(function(){
 		changeImgEvent(width, element);
 	});
 	changeImgEvent($(window).width(), $('.main-page-events-img'));
+
+	/*Страница ВХОД*/
+	$('#auth .form-field-input.login').on('input', function(){
+		var text=$(this).val();
+		if(text.length >= 1) {
+			$(this).addClass("border").removeClass("error");
+			$(this).next(".form-field-error").hide();
+		}
+		else {
+			$(this).removeClass("border").addClass("error");
+			$(this).next(".form-field-error").show();
+		}
+	});
+	$('#auth .form-field-input.pass').on("input", function(){
+		var text=$(this).val();
+		var parent=$(this).parents(".form-field-wrap");
+		if(text.length >= 1){
+			$(this).removeClass("error");
+			$(this).next(".form-field-error").hide();
+			$(".form-field-visible-pass", parent).fadeIn(200);
+		}
+		else {
+			$(this).addClass("error");
+			$(this).next(".form-field-error").show();
+			$(".form-field-visible-pass", parent).fadeOut(200);
+		}
+	});
+
+	$(".form-field-visible-pass-icon").on("click", function(){
+		var elementClick=$(this);
+		var parent=elementClick.parents(".form-field-wrap");
+		var input=$(".form-field-input", parent);
+		var hint=elementClick.next(".form-field-visible-pass-hint");
+		if(elementClick.hasClass("hide")){
+			input.attr("type", "text");
+			elementClick.removeClass("hide").addClass("visible");
+			hint.text("Скрыть пароль");
+		}
+		else if(elementClick.hasClass("visible")){
+			input.attr("type", "password");
+			elementClick.removeClass("visible").addClass("hide");
+			hint.text("Показать пароль");
+		}
+	});
+
+	$("#auth .form-field").on("submit", function(){
+		var parent=$(this);
+		var login=$(".form-field-input.login", parent);
+		var pass=$(".form-field-input.pass", parent);
+		var errorLogin=login.next(".form-field-error");
+		var errorPass=pass.next(".form-field-error");
+		var flagError=false;
+		if(login.val()==""){
+			login.addClass("error");
+			errorLogin.show();
+			flagError=true;
+		}
+		if(pass.val()==""){
+			pass.addClass("error");
+			errorPass.show();
+			flagError=true;
+		}
+		if(flagError==true) return false;
+	});
 	
 });
 
