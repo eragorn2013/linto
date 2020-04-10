@@ -203,11 +203,12 @@ a{
 .form-field-wrap{
 	display: flex;	
 	align-items: center;
-	flex-wrap: wrap;
+	
 }
 .form-field-wrap.first{
 	margin-bottom: 8px;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .form-field-wrap.last{
 	position: relative;
@@ -266,12 +267,12 @@ a{
 .form-field-checkbox:checked + .form-field-icon-check{
 	background-image: url("../img/sprite.png");
 	background-repeat: no-repeat;
-	background-position: -28px -69px;
-    background-size: 247px;
+	background-position: -26px -65px;
+    background-size: 232px;
 }
 .form-field-icon-check{
-	width: 20px;
-	height: 20px;
+	width: 18px;
+    height: 18px;
 	border: 1px solid #000;
 	cursor: pointer;
 	margin-right: 12px;
@@ -1992,11 +1993,13 @@ nav{
 	width: 32.7%;
 }
 
-#auth{
+#auth,
+#registration{
 	background: #fff;
 	padding: 94px 0 118px;
 }
-.auth-head{
+.auth-head,
+.registration-head{
 	font-size: 32px;
 	line-height: 36px;
 	font-family: "HelveticaNeueCyr-Bold";
@@ -2005,25 +2008,30 @@ nav{
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 }
-.auth-wrap{
+.auth-wrap,
+.registration-wrap{
 	width: 32.7%;
 	margin: 0 auto;
 }
-#auth .form-field-label{
+#auth .form-field-label,
+#registration .form-field-label{
 	margin-bottom: 42px;
 	display: block;
 }
-#auth .form-field-buttons{
+#auth .form-field-buttons,
+#registration .form-field-buttons{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
-#auth .button-link{
+#auth .button-link,
+#registration .button-link{
 	width: 74.3%;
 	box-sizing: border-box;
 	margin-bottom: 20px;
 }
-#auth .button-link:last-child{
+#auth .button-link:last-child,
+#registration .button-link:last-child{
 	margin-bottom: 0px;
 }
 
@@ -2127,7 +2135,7 @@ footer{
 }
 
 @media (max-width:1300px){	
-	.auth-wrap{
+	.auth-wrap, .registration-wrap{
 		width: 44.6%;
 	}
 	.modal-search{
@@ -2241,21 +2249,21 @@ footer{
 	}	
 }
 @media (max-width:960px){
-	#auth{
+	#auth, #registration{
 		padding: 52px 0 71px;
 	}
-	.auth-wrap{
+	.auth-wrap, .registration-wrap{
 		width: 100%;
 	}
-	.auth-head{
+	.auth-head, .registration-head{
 		font-size: 16px;
 		line-height: 16px;
 		margin-bottom: 52px;
 	}
-	#auth .form-field-label{
+	#auth .form-field-label, #registration .form-field-label{
 		margin-bottom: 32px;
 	}
-	#auth .button-link{
+	#auth .button-link, #registration .button-link{
 		box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
 	}
 	.form-field-submit.arrow-right{

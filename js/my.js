@@ -246,33 +246,33 @@ $(document).ready(function(){
 	});
 	changeImgEvent($(window).width(), $('.main-page-events-img'));
 
-	/*Страница ВХОД*/
-	$('#auth .form-field-input.login').on('input', function(){
-		var text=$(this).val();
-		if(text.length >= 1) {
-			$(this).addClass("border").removeClass("error");
-			$(this).next(".form-field-error").hide();
-		}
-		else {
-			$(this).removeClass("border").addClass("error");
-			$(this).next(".form-field-error").show();
-		}
-	});
-	$('#auth .form-field-input.pass').on("input", function(){
-		var text=$(this).val();
-		var parent=$(this).parents(".form-field-wrap");
-		if(text.length >= 1){
-			$(this).removeClass("error");
-			$(this).next(".form-field-error").hide();
-			$(".form-field-visible-pass", parent).fadeIn(200);
-		}
-		else {
-			$(this).addClass("error");
-			$(this).next(".form-field-error").show();
-			$(".form-field-visible-pass", parent).fadeOut(200);
-		}
-	});
+	
+	/*Страница ВХОД, РЕГИСТРАЦИЯ, ВОССТАНОВЛЕНИЕ ПАРОЛЯ*/
 
+	var required=['login', 'pass', 'name', 'surname', 'email'];
+	for(var i=0; i<required.length; i++){
+		if($(".form-field-input."+required[i]).length > 0){
+			var element=$(".form-field-input."+required[i]);
+			element.on("input", function(){
+				if($(this).val().length >= 1){
+					$(this).removeClass("error");
+					$(this).next(".form-field-error").hide();
+					if($(this).hasClass("pass")){
+						var parent=$(this).parents(".form-field-wrap");
+						$(".form-field-visible-pass", parent).fadeIn(200);
+					}
+				}
+				else{
+					$(this).addClass("error");
+					$(this).next(".form-field-error").show();
+					if($(this).hasClass("pass")){
+						var parent=$(this).parents(".form-field-wrap");
+						$(".form-field-visible-pass", parent).fadeOut(200);
+					}
+				}
+			});			
+		}
+	}
 	$(".form-field-visible-pass-icon").on("click", function(){
 		var elementClick=$(this);
 		var parent=elementClick.parents(".form-field-wrap");
@@ -289,23 +289,18 @@ $(document).ready(function(){
 			hint.text("Показать пароль");
 		}
 	});
-
-	$("#auth .form-field").on("submit", function(){
+	$(".form-field").on("submit", function(){
 		var parent=$(this);
-		var login=$(".form-field-input.login", parent);
-		var pass=$(".form-field-input.pass", parent);
-		var errorLogin=login.next(".form-field-error");
-		var errorPass=pass.next(".form-field-error");
 		var flagError=false;
-		if(login.val()==""){
-			login.addClass("error");
-			errorLogin.show();
-			flagError=true;
-		}
-		if(pass.val()==""){
-			pass.addClass("error");
-			errorPass.show();
-			flagError=true;
+		for(var i=0; i<required.length; i++){
+			if($(".form-field-input."+required[i], parent).length > 0){
+				var element=$(".form-field-input."+required[i], parent);
+				if(element.val()==""){
+					element.addClass("error");
+					element.next(".form-field-error").show();
+					flagError=true;
+				}
+			}
 		}
 		if(flagError==true) return false;
 	});
