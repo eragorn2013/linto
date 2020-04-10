@@ -1994,12 +1994,14 @@ nav{
 }
 
 #auth,
-#registration{
+#registration,
+#recovery-pass{
 	background: #fff;
 	padding: 94px 0 118px;
 }
 .auth-head,
-.registration-head{
+.registration-head,
+.recovery-pass-head{
 	font-size: 32px;
 	line-height: 36px;
 	font-family: "HelveticaNeueCyr-Bold";
@@ -2008,30 +2010,52 @@ nav{
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 }
+.recovery-pass-head{
+	margin-bottom: 32px;
+}
+.recovery-pass-info{
+	width: 49.3%;
+	text-align: center;
+	margin: 0 auto 70px;
+	font-size: 14px;
+	line-height: 20px;
+}
+.recovery-pass-buttons{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 32.7%;
+	margin: 0 auto;
+}
 .auth-wrap,
-.registration-wrap{
+.registration-wrap,
+.recovery-pass-wrap{
 	width: 32.7%;
 	margin: 0 auto;
 }
 #auth .form-field-label,
-#registration .form-field-label{
+#registration .form-field-label,
+#recovery-pass .form-field-label{
 	margin-bottom: 42px;
 	display: block;
 }
 #auth .form-field-buttons,
-#registration .form-field-buttons{
+#registration .form-field-buttons,
+#recovery-pass .form-field-buttons{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
 #auth .button-link,
-#registration .button-link{
+#registration .button-link,
+#recovery-pass .button-link{
 	width: 74.3%;
 	box-sizing: border-box;
 	margin-bottom: 20px;
 }
 #auth .button-link:last-child,
-#registration .button-link:last-child{
+#registration .button-link:last-child,
+#recovery-pass .button-link:last-child{
 	margin-bottom: 0px;
 }
 
@@ -2135,7 +2159,11 @@ footer{
 }
 
 @media (max-width:1300px){	
-	.auth-wrap, .registration-wrap{
+	.recovery-pass-buttons{
+		width: 44.7%;
+	}
+	.auth-wrap, .registration-wrap,
+	.recovery-pass-wrap{
 		width: 44.6%;
 	}
 	.modal-search{
@@ -2249,22 +2277,42 @@ footer{
 	}	
 }
 @media (max-width:960px){
-	#auth, #registration{
+	.recovery-pass-buttons{
+		width: 96.7%;
+	}
+	#auth, #registration,
+	#recovery-pass{
 		padding: 52px 0 71px;
 	}
-	.auth-wrap, .registration-wrap{
+	.auth-wrap, .registration-wrap,
+	.recovery-pass-wrap{
 		width: 100%;
 	}
-	.auth-head, .registration-head{
+	.auth-head, .registration-head,
+	.recovery-pass-head{
 		font-size: 16px;
 		line-height: 16px;
 		margin-bottom: 52px;
 	}
-	#auth .form-field-label, #registration .form-field-label{
+	.recovery-pass-head{
 		margin-bottom: 32px;
 	}
-	#auth .button-link, #registration .button-link{
+	.recovery-pass-info{
+		width: 100%;
+		margin-bottom: 28px;
+		font-size: 12px;
+		line-height: 22px;
+		text-align: left;
+		letter-spacing: 0.02em;
+	}
+	#auth .form-field-label, #registration .form-field-label,
+	#recovery-pass .form-field-label{
+		margin-bottom: 32px;
+	}
+	#auth .button-link, #registration .button-link,
+	#recovery-pass .button-link{
 		box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+		width: 75.3%;
 	}
 	.form-field-submit.arrow-right{
 		top: 33%;
