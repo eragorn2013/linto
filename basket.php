@@ -33,7 +33,7 @@
 						</div>
 						<div class="bascket-item-wrap">
 							<div class="bascket-item-name">
-								<a class="bascket-item-name-text" href="#">GEL POLISH 025</a>
+								<a class="bascket-item-name-text" href="#">Gel Polish spring long name greenery</a>
 								<a class="bascket-item-name-category" href="#">Gel Polish / Arctic Winter</a>
 								<span class="bascket-item-name-amount">10 мл</span>
 							</div>
