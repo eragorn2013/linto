@@ -245,12 +245,11 @@ $(document).ready(function(){
 		changeImgEvent(width, element);
 	});
 	changeImgEvent($(window).width(), $('.main-page-events-img'));
-
 	
-	/*Страница ВХОД, РЕГИСТРАЦИЯ, ВОССТАНОВЛЕНИЕ ПАРОЛЯ*/
+	/*Страница ВХОД, РЕГИСТРАЦИЯ, ВОССТАНОВЛЕНИЕ ПАРОЛЯ и валидация полей*/
 	var regEmail = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 
-	var required=['login', 'pass', 'name', 'surname', 'email'];//валидация на пустые поля
+	var required=['login', 'pass', 'name', 'surname', 'email', 'promo'];//валидация на пустые поля
 	var email=['email'];//валидация на корректность email
 
 	for(var i=0; i<required.length; i++){
@@ -318,6 +317,10 @@ $(document).ready(function(){
 		
 		if(flagError==true) return false;
 	});
+
+	/*Корзина*/
+
+
 	
 });
 

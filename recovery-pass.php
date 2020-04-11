@@ -1,4 +1,4 @@
-<?php include './header.php'; ?>
+<?php include './elements/header.php'; ?>
 <section id="recovery-pass">
 	<div class="container">
 		<div class="content">
@@ -28,4 +28,4 @@
 		</div>
 	</div>
 </section>
-<?php include './footer.php'; ?>
+<?php include './elements/footer.php'; ?>
