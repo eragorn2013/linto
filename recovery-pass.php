@@ -12,7 +12,7 @@
 						</div>
 						<div class="form-field-wrap last">
 							<input class="form-field-input email" type="text" name="email">
-							<span class="form-field-error">Это поле является обязательным</span>
+							<span class="form-field-error"></span>
 						</div>
 					</label>					
 

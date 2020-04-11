@@ -248,8 +248,11 @@ $(document).ready(function(){
 
 	
 	/*Страница ВХОД, РЕГИСТРАЦИЯ, ВОССТАНОВЛЕНИЕ ПАРОЛЯ*/
+	var regEmail = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 
-	var required=['login', 'pass', 'name', 'surname', 'email'];
+	var required=['login', 'pass', 'name', 'surname', 'email'];//валидация на пустые поля
+	var email=['email'];//валидация на корректность email
+
 	for(var i=0; i<required.length; i++){
 		if($(".form-field-input."+required[i]).length > 0){
 			var element=$(".form-field-input."+required[i]);
@@ -264,7 +267,7 @@ $(document).ready(function(){
 				}
 				else{
 					$(this).addClass("error");
-					$(this).next(".form-field-error").show();
+					$(this).next(".form-field-error").text("Это поле является обязательным").show();
 					if($(this).hasClass("pass")){
 						var parent=$(this).parents(".form-field-wrap");
 						$(".form-field-visible-pass", parent).fadeOut(200);
@@ -292,16 +295,27 @@ $(document).ready(function(){
 	$(".form-field").on("submit", function(){
 		var parent=$(this);
 		var flagError=false;
+		for(var i=0; i<email.length; i++){
+			if($(".form-field-input."+email[i], parent).length > 0){
+				var element=$(".form-field-input."+email[i], parent);
+				if(regEmail.test(element.val()) == false){
+					element.next(".form-field-error").text("Введите корректный email").show();
+					element.addClass("error");
+					flagError=true;
+				}
+			}
+		}
 		for(var i=0; i<required.length; i++){
 			if($(".form-field-input."+required[i], parent).length > 0){
 				var element=$(".form-field-input."+required[i], parent);
 				if(element.val()==""){
 					element.addClass("error");
-					element.next(".form-field-error").show();
+					element.next(".form-field-error").text("Это поле является обязательным").show();
 					flagError=true;
 				}
 			}
 		}
+		
 		if(flagError==true) return false;
 	});
 	

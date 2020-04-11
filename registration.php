@@ -11,7 +11,7 @@
 						</div>
 						<div class="form-field-wrap last">
 							<input class="form-field-input name" type="text" name="name">
-							<span class="form-field-error">Это поле является обязательным</span>
+							<span class="form-field-error"></span>
 						</div>
 					</label>
 
@@ -21,7 +21,7 @@
 						</div>
 						<div class="form-field-wrap last">
 							<input class="form-field-input surname" type="text" name="surname">
-							<span class="form-field-error">Это поле является обязательным</span>
+							<span class="form-field-error"></span>
 						</div>
 					</label>
 
@@ -31,7 +31,7 @@
 						</div>
 						<div class="form-field-wrap last">
 							<input class="form-field-input login" type="text" name="login">
-							<span class="form-field-error">Это поле является обязательным</span>
+							<span class="form-field-error"></span>
 						</div>
 					</label>
 
@@ -41,7 +41,7 @@
 						</div>
 						<div class="form-field-wrap last">
 							<input class="form-field-input email" type="text" name="email">
-							<span class="form-field-error">Это поле является обязательным</span>
+							<span class="form-field-error"></span>
 						</div>
 					</label>
 
@@ -51,7 +51,7 @@
 						</div>
 						<div class="form-field-wrap last">
 							<input class="form-field-input pass" type="password" name="pass">
-							<span class="form-field-error">Это поле является обязательным</span>
+							<span class="form-field-error"></span>
 							<div class="form-field-visible-pass">
 								<i class="form-field-visible-pass-icon hide"></i>
 								<span class="form-field-visible-pass-hint">Показать пароль</span>
