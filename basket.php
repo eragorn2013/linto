@@ -9,7 +9,7 @@
 </div>
 
 <section id="bascket">
-	<div class="container">
+	<div class="container bascket-container">
 		<div class="content">
 			<h1 class="bascket-head">Корзина</h1>
 			<span class="bascket-count">Всего <span id="bascket-count-num">6</span> товаров</span>
@@ -26,35 +26,41 @@
 
 					<div class="bascket-item">
 						<div class="bascket-item-pic">
-							<i class="bascket-item-pic-new">new</i>
+							<div class="bascket-item-pic-icons">
+								<i class="bascket-item-pic-new">new</i>
+							</div>
 							<img class="bascket-item-pic-img" src="img/goods/1.png" alt="товар">
 						</div>
-						<div class="bascket-item-name">
-							<a class="bascket-item-name-text" href="#">GEL POLISH 025</a>
-							<a class="bascket-item-name-category" href="#">Gel Polish / Arctic Winter</a>
-							<span class="bascket-item-name-amount">10 мл</span>
-						</div>
-						<div class="bascket-item-price">
-							<span class="bascket-item-price-sum">520</span>
-							<span class="bascket-item-price-valute">rub</span>
-						</div>
-						<div class="bascket-item-count">
-							<div class="bascket-item-count-block">
-								<i class="bascket-item-count-icon min">-</i>
-								<div class="bascket-item-count-wrap">
-									<span class="bascket-item-count-num">5</span>
-									<span class="bascket-item-count-span">шт</span>
-								</div>
-								<i class="bascket-item-count-icon max">+</i>
+						<div class="bascket-item-wrap">
+							<div class="bascket-item-name">
+								<a class="bascket-item-name-text" href="#">GEL POLISH 025</a>
+								<a class="bascket-item-name-category" href="#">Gel Polish / Arctic Winter</a>
+								<span class="bascket-item-name-amount">10 мл</span>
 							</div>
-						</div>
-						<div class="bascket-item-sum">
-							<span class="bascket-item-sum-num">2600</span>
-							<span class="bascket-item-sum-valute">rub</span>
-						</div>
-						<div class="bascket-item-drop">
-							<i class="bascket-item-drop-icon like"></i>
-							<i class="bascket-item-drop-icon drop"></i>
+							<div class="bascket-item-price">
+								<div class="bascket-item-price-wrap actual">
+									<span class="bascket-item-price-sum">520</span>
+									<span class="bascket-item-price-valute">rub</span>
+								</div>
+							</div>
+							<div class="bascket-item-count">
+								<div class="bascket-item-count-block">
+									<i class="bascket-item-count-icon min">-</i>
+									<span class="bascket-item-count-wrap">
+										<span class="bascket-item-count-num">5</span>
+										<span class="bascket-item-count-span">шт</span>
+									</span>
+									<i class="bascket-item-count-icon max">+</i>
+								</div>
+							</div>
+							<div class="bascket-item-sum">
+								<span class="bascket-item-sum-num">2600</span>
+								<span class="bascket-item-sum-valute">rub</span>
+							</div>
+							<div class="bascket-item-drop">
+								<i class="bascket-item-drop-icon like"></i>
+								<i class="bascket-item-drop-icon drop"></i>
+							</div>
 						</div>
 					</div>
 
@@ -62,73 +68,81 @@
 						<div class="bascket-item-pic">
 							<img class="bascket-item-pic-img" src="img/goods/9.png" alt="товар">
 						</div>
-						<div class="bascket-item-name">
-							<a class="bascket-item-name-text" href="#">Antibacterial</a>
-							<a class="bascket-item-name-category" href="#">French Collection</a>
-							<span class="bascket-item-name-amount">250 мл</span>
-						</div>
-						<div class="bascket-item-price">
-							<span class="bascket-item-price-sum">520</span>
-							<span class="bascket-item-price-valute">rub</span>
-						</div>
-						<div class="bascket-item-count">
-							<div class="bascket-item-count-block">
-								<i class="bascket-item-count-icon min">-</i>
-								<div class="bascket-item-count-wrap">
-									<span class="bascket-item-count-num">1</span>
-									<span class="bascket-item-count-span">шт</span>
-								</div>
-								<i class="bascket-item-count-icon max">+</i>
+						<div class="bascket-item-wrap">
+							<div class="bascket-item-name">
+								<a class="bascket-item-name-text" href="#">Antibacterial</a>
+								<a class="bascket-item-name-category" href="#">French Collection</a>
+								<span class="bascket-item-name-amount">250 мл</span>
 							</div>
-						</div>
-						<div class="bascket-item-sum">
-							<span class="bascket-item-sum-num">520</span>
-							<span class="bascket-item-sum-valute">rub</span>
-						</div>
-						<div class="bascket-item-drop">
-							<i class="bascket-item-drop-icon like"></i>
-							<i class="bascket-item-drop-icon drop"></i>
+							<div class="bascket-item-price">
+								<div class="bascket-item-price-wrap actual">
+									<span class="bascket-item-price-sum">520</span>
+									<span class="bascket-item-price-valute">rub</span>
+								</div>
+							</div>
+							<div class="bascket-item-count">
+								<div class="bascket-item-count-block">
+									<i class="bascket-item-count-icon min">-</i>
+									<span class="bascket-item-count-wrap">
+										<span class="bascket-item-count-num">1</span>
+										<span class="bascket-item-count-span">шт</span>
+									</span>
+									<i class="bascket-item-count-icon max">+</i>
+								</div>
+							</div>
+							<div class="bascket-item-sum">
+								<span class="bascket-item-sum-num">520</span>
+								<span class="bascket-item-sum-valute">rub</span>
+							</div>
+							<div class="bascket-item-drop">
+								<i class="bascket-item-drop-icon like"></i>
+								<i class="bascket-item-drop-icon drop"></i>
+							</div>
 						</div>
 					</div>
 
 					<div class="bascket-item">
 						<div class="bascket-item-pic">
-							<i class="bascket-item-pic-discount">-30%</i>
-							<i class="bascket-item-pic-new">new</i>
+							<div class="bascket-item-pic-icons">
+								<i class="bascket-item-pic-discount">-30%</i>
+								<i class="bascket-item-pic-new">new</i>
+							</div>
 							<img class="bascket-item-pic-img" src="img/goods/1.png" alt="товар">
 						</div>
-						<div class="bascket-item-name">
-							<a class="bascket-item-name-text" href="#">GEL POLISH 025</a>
-							<a class="bascket-item-name-category" href="#">Gel Polish / Arctic Winter</a>
-							<span class="bascket-item-name-amount">10 мл</span>
-						</div>
-						<div class="bascket-item-price">
-							<div class="bascket-item-price-wrap actual">
-								<span class="bascket-item-price-sum">520</span>
-								<span class="bascket-item-price-valute">rub</span>
+						<div class="bascket-item-wrap">
+							<div class="bascket-item-name">
+								<a class="bascket-item-name-text" href="#">GEL POLISH 025</a>
+								<a class="bascket-item-name-category" href="#">Gel Polish / Arctic Winter</a>
+								<span class="bascket-item-name-amount">10 мл</span>
 							</div>
-							<div class="bascket-item-price-wrap old">
-								<span class="bascket-item-price-sum">720</span>
-								<span class="bascket-item-price-valute">rub</span>
-							</div>
-						</div>
-						<div class="bascket-item-count">
-							<div class="bascket-item-count-block">
-								<i class="bascket-item-count-icon min">-</i>
-								<div class="bascket-item-count-wrap">
-									<span class="bascket-item-count-num">5</span>
-									<span class="bascket-item-count-span">шт</span>
+							<div class="bascket-item-price">
+								<div class="bascket-item-price-wrap actual red">
+									<span class="bascket-item-price-sum">520</span>
+									<span class="bascket-item-price-valute">rub</span>
 								</div>
-								<i class="bascket-item-count-icon max">+</i>
+								<div class="bascket-item-price-wrap old">
+									<span class="bascket-item-price-sum">720</span>
+									<span class="bascket-item-price-valute">rub</span>
+								</div>
 							</div>
-						</div>
-						<div class="bascket-item-sum">
-							<span class="bascket-item-sum-num">2600</span>
-							<span class="bascket-item-sum-valute">rub</span>
-						</div>
-						<div class="bascket-item-drop">
-							<i class="bascket-item-drop-icon like"></i>
-							<i class="bascket-item-drop-icon drop"></i>
+							<div class="bascket-item-count">
+								<div class="bascket-item-count-block">
+									<i class="bascket-item-count-icon min">-</i>
+									<span class="bascket-item-count-wrap">
+										<span class="bascket-item-count-num">5</span>
+										<span class="bascket-item-count-span">шт</span>
+									</span>
+									<i class="bascket-item-count-icon max">+</i>
+								</div>
+							</div>
+							<div class="bascket-item-sum">
+								<span class="bascket-item-sum-num">2600</span>
+								<span class="bascket-item-sum-valute">rub</span>
+							</div>
+							<div class="bascket-item-drop">
+								<i class="bascket-item-drop-icon like"></i>
+								<i class="bascket-item-drop-icon drop"></i>
+							</div>
 						</div>
 					</div>
 
@@ -136,32 +150,36 @@
 						<div class="bascket-item-pic">
 							<img class="bascket-item-pic-img" src="img/goods/9.png" alt="товар">
 						</div>
-						<div class="bascket-item-name">
-							<a class="bascket-item-name-text" href="#">Antibacterial</a>
-							<a class="bascket-item-name-category" href="#">French Collection</a>
-							<span class="bascket-item-name-amount">250 мл</span>
-						</div>
-						<div class="bascket-item-price">
-							<span class="bascket-item-price-sum">520</span>
-							<span class="bascket-item-price-valute">rub</span>
-						</div>
-						<div class="bascket-item-count">
-							<div class="bascket-item-count-block">
-								<i class="bascket-item-count-icon min">-</i>
-								<div class="bascket-item-count-wrap">
-									<span class="bascket-item-count-num">1</span>
-									<span class="bascket-item-count-span">шт</span>
-								</div>
-								<i class="bascket-item-count-icon max">+</i>
+						<div class="bascket-item-wrap">
+							<div class="bascket-item-name">
+								<a class="bascket-item-name-text" href="#">Antibacterial</a>
+								<a class="bascket-item-name-category" href="#">French Collection</a>
+								<span class="bascket-item-name-amount">250 мл</span>
 							</div>
-						</div>
-						<div class="bascket-item-sum">
-							<span class="bascket-item-sum-num">520</span>
-							<span class="bascket-item-sum-valute">rub</span>
-						</div>
-						<div class="bascket-item-drop">
-							<i class="bascket-item-drop-icon like"></i>
-							<i class="bascket-item-drop-icon drop"></i>
+							<div class="bascket-item-price">
+								<div class="bascket-item-price-wrap actual">
+									<span class="bascket-item-price-sum">520</span>
+									<span class="bascket-item-price-valute">rub</span>
+								</div>
+							</div>
+							<div class="bascket-item-count">
+								<div class="bascket-item-count-block">
+									<i class="bascket-item-count-icon min">-</i>
+									<span class="bascket-item-count-wrap">
+										<span class="bascket-item-count-num">1</span>
+										<span class="bascket-item-count-span">шт</span>
+									</span>
+									<i class="bascket-item-count-icon max">+</i>
+								</div>
+							</div>
+							<div class="bascket-item-sum">
+								<span class="bascket-item-sum-num">520</span>
+								<span class="bascket-item-sum-valute">rub</span>
+							</div>
+							<div class="bascket-item-drop">
+								<i class="bascket-item-drop-icon like"></i>
+								<i class="bascket-item-drop-icon drop"></i>
+							</div>
 						</div>
 					</div>
 
@@ -182,6 +200,15 @@
 							</div>
 						</label>										
 					</form>
+					<div class="bascket-result-promo">
+						<span class="bascket-result-promo-span">Промокод</span>
+						<span class="bascket-result-promo-name">Sale30</span>
+						<span class="bascket-result-promo-span">применен</span>
+						<a class="bascket-result-promo-link" href="#">
+							<i class="bascket-result-promo-link-cancel"></i>
+							<span class="bascket-result-promo-link-text">Отменить</span>
+						</a>
+					</div>
 				</div>
 				<div class="bascket-result-wrap order">
 
@@ -189,6 +216,14 @@
 						<span class="bascket-result-item-name">Стоимость товаров:</span>
 						<div class="bascket-result-item-wrap">
 							<span class="bascket-result-item-sum">5470</span>
+							<span class="bascket-result-item-valute">rub</span>
+						</div>
+					</div>
+
+					<div class="bascket-result-item">
+						<span class="bascket-result-item-name">Скидка:</span>
+						<div class="bascket-result-item-wrap red">
+							<span class="bascket-result-item-sum">-200</span>
 							<span class="bascket-result-item-valute">rub</span>
 						</div>
 					</div>
