@@ -7,13 +7,13 @@
 			<div class="recovery-pass-wrap">
 				<form class="form-field" action="#" method="post">
 					<label class="form-field-label">
-						<div class="form-field-wrap first">
+						<span class="form-field-wrap first">
 							<span class="form-field-name">E-mail</span>
-						</div>
-						<div class="form-field-wrap last">
+						</span>
+						<span class="form-field-wrap last">
 							<input class="form-field-input email" type="text" name="email">
 							<span class="form-field-error"></span>
-						</div>
+						</span>
 					</label>					
 
 					<div class="form-field-buttons">

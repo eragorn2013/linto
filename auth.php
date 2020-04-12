@@ -6,36 +6,36 @@
 			<div class="auth-wrap">
 				<form class="form-field" action="#" method="post">
 					<label class="form-field-label">
-						<div class="form-field-wrap first">
+						<span class="form-field-wrap first">
 							<span class="form-field-name">Логин</span>
-						</div>
-						<div class="form-field-wrap last">
+						</span>
+						<span class="form-field-wrap last">
 							<input class="form-field-input login" type="text" name="login">
 							<span class="form-field-error"></span>
-						</div>
+						</span>
 					</label>
 
 					<label class="form-field-label">
-						<div class="form-field-wrap first">
+						<span class="form-field-wrap first">
 							<span class="form-field-name">Пароль</span>
 							<a class="form-field-link" href="#">Забыли пароль?</a>
-						</div>
-						<div class="form-field-wrap last">
+						</span>
+						<span class="form-field-wrap last">
 							<input class="form-field-input pass" type="password" name="pass">
 							<span class="form-field-error"></span>
-							<div class="form-field-visible-pass">
+							<span class="form-field-visible-pass">
 								<i class="form-field-visible-pass-icon hide"></i>
 								<span class="form-field-visible-pass-hint">Показать пароль</span>
-							</div>
-						</div>
+							</span>
+						</span>
 					</label>
 
 					<label class="form-field-label">
-						<div class="form-field-wrap">
+						<span class="form-field-wrap">
 							<input class="form-field-checkbox" type="checkbox" name="name">
 							<i class="form-field-icon-check"></i>						
 							<span class="form-field-text">Запомнить меня</span>
-						</div>
+						</span>
 					</label>
 
 					<div class="form-field-buttons">

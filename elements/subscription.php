@@ -8,14 +8,14 @@
 			<div class="subscription-form">
 				<form class="form-field" action="#" method="post">
 					<label class="form-field-label">
-						<div class="form-field-wrap first">
+						<span class="form-field-wrap first">
 							<span class="form-field-name">Ваш E-mail</span>
-						</div>
-						<div class="form-field-wrap last">
+						</span>
+						<span class="form-field-wrap last">
 							<input class="form-field-input email" type="text" name="search">
 							<span class="form-field-error">Это поле является обязательным</span>
 							<button class="form-field-submit arrow-right"></button>
-						</div>
+						</span>
 					</label>					
 				</form>
 			</div>

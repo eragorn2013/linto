@@ -190,14 +190,14 @@
 				<div class="bascket-result-wrap promo">
 					<form class="form-field" action="#" method="post">
 						<label class="form-field-label">
-							<div class="form-field-wrap first">
+							<span class="form-field-wrap first">
 								<span class="form-field-name">Применить промокод</span>
-							</div>
-							<div class="form-field-wrap last">
+							</span>
+							<span class="form-field-wrap last">
 								<input class="form-field-input promo" type="text" name="promo">
 								<span class="form-field-error"></span>
 								<button class="form-field-submit arrow-right"></button>
-							</div>
+							</span>
 						</label>										
 					</form>
 					<div class="bascket-result-promo">

@@ -318,10 +318,45 @@ $(document).ready(function(){
 		if(flagError==true) return false;
 	});
 
-	/*Корзина*/
 
+	/*Пользовательский селект (ввод номера телефона)*/
 
-	
+	$(".form-field-phone-select").on("click", function(){
+		var parent=$(this).parents(".form-field-phone");
+		var arrow=$(".form-field-phone-select-arrow", parent);
+		var modal=$(".form-field-phone-select-modal", parent);
+		if(!arrow.hasClass("active")) arrow.addClass("active");
+		else arrow.removeClass("active");
+		if(modal.is(":hidden")) modal.fadeIn(200);
+		else modal.hide();
+	});
+	$(".form-field-phone-select-modal-item").on("click", function(e){
+		var parent=$(this).parents(".form-field-phone");
+		var regionInput=$(".form-field-phone-input-region", parent);
+		var regionSpan=$(".form-field-phone-select-span", parent);
+		var arrow=$(".form-field-phone-select-arrow", parent);
+		var modal=$(".form-field-phone-select-modal", parent);
+		var value=$(this).attr("data-region");
+		if(!arrow.hasClass("active")) arrow.addClass("active");
+		else arrow.removeClass("active");
+		if(modal.is(":hidden")) modal.fadeIn(200);
+		else modal.hide();
+		regionInput.val(value);
+		regionSpan.text(value);
+		$(".form-field-input.phone", parent).focus();
+		e.stopPropagation();
+	});
+	$(document).mouseup(function (e){
+		if(!$(".form-field-phone-select-modal").is(e.target) && $(".form-field-phone-select-modal").has(e.target).length === 0) {
+			if($(".form-field-phone-select-modal").is(":visible")) {
+				$(".form-field-phone-select-modal").hide();
+				$(".form-field-phone-select-arrow").removeClass("active");
+			}			
+		}
+	});
+	$(".form-field-input.phone").mask("(000) 000-00-00", {	    
+	    clearIfNotMatch: true
+	});
 });
 
 
