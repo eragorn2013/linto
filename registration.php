@@ -65,7 +65,7 @@
 							<i class="form-field-icon-check"></i>						
 							<span class="form-field-text">Я принимаю условия <a class="form-field-text-link" href="#">пользовательского соглашения</a></span>
 						</span>
-					</label>					
+					</label>
 
 					<div class="form-field-buttons">
 						<button class="button-link black">

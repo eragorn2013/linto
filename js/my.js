@@ -249,8 +249,33 @@ $(document).ready(function(){
 	/*Страница ВХОД, РЕГИСТРАЦИЯ, ВОССТАНОВЛЕНИЕ ПАРОЛЯ и валидация полей*/
 	var regEmail = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 
-	var required=['login', 'pass', 'name', 'surname', 'email', 'promo'];//валидация на пустые поля
+	var required=['login', 'pass', 'name', 'surname', 'email', 'promo', 'phone', 'city'];//валидация на пустые поля
 	var email=['email'];//валидация на корректность email
+
+	function validate(parent){
+		var flagError=false;
+		for(var i=0; i<email.length; i++){
+			if($(".form-field-input."+email[i], parent).length > 0){
+				var element=$(".form-field-input."+email[i], parent);
+				if(regEmail.test(element.val()) == false){
+					element.next(".form-field-error").text("Введите корректный email").show();
+					element.addClass("error");
+					flagError=true;
+				}
+			}
+		}
+		for(var i=0; i<required.length; i++){
+			if($(".form-field-input."+required[i], parent).length > 0){
+				var element=$(".form-field-input."+required[i], parent);
+				if(element.val()==""){
+					element.addClass("error");
+					element.next(".form-field-error").text("Это поле является обязательным").show();
+					flagError=true;
+				}
+			}
+		}
+		return flagError;
+	}
 
 	for(var i=0; i<required.length; i++){
 		if($(".form-field-input."+required[i]).length > 0){
@@ -292,30 +317,8 @@ $(document).ready(function(){
 		}
 	});
 	$(".form-field").on("submit", function(){
-		var parent=$(this);
-		var flagError=false;
-		for(var i=0; i<email.length; i++){
-			if($(".form-field-input."+email[i], parent).length > 0){
-				var element=$(".form-field-input."+email[i], parent);
-				if(regEmail.test(element.val()) == false){
-					element.next(".form-field-error").text("Введите корректный email").show();
-					element.addClass("error");
-					flagError=true;
-				}
-			}
-		}
-		for(var i=0; i<required.length; i++){
-			if($(".form-field-input."+required[i], parent).length > 0){
-				var element=$(".form-field-input."+required[i], parent);
-				if(element.val()==""){
-					element.addClass("error");
-					element.next(".form-field-error").text("Это поле является обязательным").show();
-					flagError=true;
-				}
-			}
-		}
-		
-		if(flagError==true) return false;
+		var parent=$(this);		
+		if(validate(parent)==true) return false;
 	});
 
 
@@ -356,6 +359,60 @@ $(document).ready(function(){
 	});
 	$(".form-field-input.phone").mask("(000) 000-00-00", {	    
 	    clearIfNotMatch: true
+	});
+
+	/*Оформление заказа*/
+
+	$(".order-steps-step-completion-comment").on("click", function(){
+		$(this).next(".form-field-label").show().focus();
+		$(this).hide();
+	});
+
+	$(".button-link.step-1").on("click", function(){
+		var parent=$(this).parents(".order-steps-step-1");
+		if(validate(parent) == false){
+			var name=$(".form-field-input.name", parent).val();
+			var email=$(".form-field-input.email", parent).val();
+			var region=$(".form-field-phone-input-region", parent).val();
+			var phone=$(".form-field-input.phone", parent).val();
+			var nextStep=$(".order-steps-step-2");
+
+			$(".order-steps-step.form", parent).hide();
+			parent.prev(".order-steps-form-head-wrap").hide();
+			$(".order-steps-step-head-name-span", parent).text(name);
+			$(".order-steps-step-info-span.phone", parent).text(region + phone);
+			$(".order-steps-step-info-span.email", parent).text(email);
+			$(".order-steps-step.data", parent).show();
+
+			$(".order-steps-step.form", nextStep).show();
+			nextStep.prev(".order-steps-form-head-wrap").addClass("active");
+		}
+		return false;
+	});
+	$(".button-link.step-2").on("click", function(){
+		var parent=$(this).parents(".order-steps-step-2");
+		if(validate(parent) == false){
+			var city=$(".form-field-input.city", parent).val();
+			var delivery=$(".form-field-radio:checked", parent).attr("data-name");
+			var street=$(".form-field-input.street", parent).val();
+			var house=$(".form-field-input.house").val();
+			var room=$(".form-field-input.room").val();
+			var nextStep=$(".order-steps-step-3");
+
+			$(".order-steps-step.form", parent).hide();
+			parent.prev(".order-steps-form-head-wrap").hide();
+			$(".order-steps-step-head-name-span", parent).text(delivery);
+			var address=city;
+			if(street) address+=", "+street;
+			if(house) address+=", "+house;
+			if(room) address+=", "+room;
+			$(".order-steps-step-info-span.address").text(address);
+			$(".order-steps-step.data", parent).show();
+
+			$(".order-steps-step.form", nextStep).show();
+			nextStep.prev(".order-steps-form-head-wrap").addClass("active");
+		}
+		return false;
 	});
 });
 
