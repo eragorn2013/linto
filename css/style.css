@@ -11,6 +11,8 @@ body{
 }
 input, select, textarea, button{
 	outline: none;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
 }
 body.fixed{
 	overflow: hidden;
@@ -3025,7 +3027,7 @@ footer{
 		padding: 52px 0;
 	}
 	.form-field-phone-select{
-		padding: 10px 33px 10px 24px;
+		padding: 12px 33px 10px 24px;
 	}
 	#order-steps .form-field-label, #order-steps .form-field-phone-select {
 	    margin-bottom: 28px;
@@ -3121,9 +3123,12 @@ footer{
 		width: auto;
 	}
 	.bascket-item-drop-icon.drop{
-		width: 10px;
-		height: 10px;
-		background-position: -138px -68px;
+		width: 20px;
+    	height: 20px;
+    	background-position: -134px -62px;
+	}
+	.bascket-item-drop-icon{
+		background-size: 230px;
 	}
 	.bascket-item-price-wrap {
 	    font-size: 12px;
@@ -3139,8 +3144,12 @@ footer{
 	    line-height: 16px;
 	    margin-bottom: 4px;
 	}
+	.bascket-item-count-icon{
+		font-size: 18px;
+		margin-bottom: 4px;
+	}
 	.bascket-item-count-icon.min{
-		margin-right: 14px;
+		margin-right: 14px;		
 	}
 	.bascket-list-head{
 		display: none;

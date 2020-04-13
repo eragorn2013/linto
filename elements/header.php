@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<title>linto</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css?0404201525">
+	<link rel="stylesheet" type="text/css" href="css/style.css?0404201539">
 </head>
 <body>
 <div class="wrap">

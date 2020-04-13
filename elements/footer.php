@@ -103,6 +103,6 @@
 	<script src="js/swipe/jquery.swipe.js"></script>
 	<script src="js/swipe/jquery.touch.js"></script>
 	<script src="js/mask/jquery.mask.min.js"></script>
-	<script src="js/my.js?0404201446"></script>
+	<script src="js/my.js?1304201505"></script>
 </body>
 </html>

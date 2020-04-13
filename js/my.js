@@ -386,6 +386,10 @@ $(document).ready(function(){
 
 			$(".order-steps-step.form", nextStep).show();
 			nextStep.prev(".order-steps-form-head-wrap").addClass("active");
+
+			$('html, body').animate({
+		      scrollTop: $('.order-steps-step-1').offset().top
+		    }, 500);
 		}
 		return false;
 	});
@@ -411,6 +415,10 @@ $(document).ready(function(){
 
 			$(".order-steps-step.form", nextStep).show();
 			nextStep.prev(".order-steps-form-head-wrap").addClass("active");
+
+			$('html, body').animate({
+		      scrollTop: $('.order-steps-step-2').offset().top
+		    }, 500);
 		}
 		return false;
 	});
