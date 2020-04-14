@@ -305,37 +305,104 @@
 						<h3 class="order-steps-basket-head-span">В корзине 6 товаров</h3>
 						<a class="order-steps-basket-head-edit" href="#">Редактировать</a>
 					</div>
-					<div class="order-steps-basket-list">
-						<div class="order-steps-basket-item">
-							<div class="order-steps-basket-item-pic">
-								<img class="order-steps-basket-item-pic-img" src="img/goods/1.png" alt="">
-							</div>
-							<div class="order-steps-basket-item-info">
-								<a class="order-steps-basket-item-info-name" href="#">Gel Polish spring long name greenery</a>
-								<div class="order-steps-basket-item-info-wrap">
-									<div class="order-steps-basket-item-info-count">
-										<span class="order-steps-basket-item-info-count-span">10 мл</span>
-										<span class="order-steps-basket-item-info-count-span bold">5 шт</span>
+					<div class="order-steps-basket-list-wrap">
+						<div class="order-steps-basket-list">
+							<div class="order-steps-basket-item">
+								<div class="order-steps-basket-item-pic">
+									<img class="order-steps-basket-item-pic-img" src="img/goods/1.png" alt="">
+								</div>
+								<div class="order-steps-basket-item-info">
+									<a class="order-steps-basket-item-info-name" href="#">Gel Polish spring long name greenery</a>
+									<div class="order-steps-basket-item-info-wrap">
+										<div class="order-steps-basket-item-info-count">
+											<span class="order-steps-basket-item-info-count-span">10 мл</span>
+											<span class="order-steps-basket-item-info-count-span bold">5 шт</span>
+										</div>
+										<div class="order-steps-basket-item-info-price">520 rub</div>
 									</div>
-									<div class="order-steps-basket-item-info-price">520 rub</div>
 								</div>
 							</div>
-						</div>
 
-						<div class="order-steps-basket-item">
-							<div class="order-steps-basket-item-pic">
-								<img class="order-steps-basket-item-pic-img" src="img/goods/9.png" alt="">
-							</div>
-							<div class="order-steps-basket-item-info">
-								<a class="order-steps-basket-item-info-name" href="#">Antibacterial</a>
-								<div class="order-steps-basket-item-info-wrap">
-									<div class="order-steps-basket-item-info-count">
-										<span class="order-steps-basket-item-info-count-span">250 мл</span>
-										<span class="order-steps-basket-item-info-count-span bold">1 шт</span>
+							<div class="order-steps-basket-item">
+								<div class="order-steps-basket-item-pic">
+									<img class="order-steps-basket-item-pic-img" src="img/goods/9.png" alt="">
+								</div>
+								<div class="order-steps-basket-item-info">
+									<a class="order-steps-basket-item-info-name" href="#">Antibacterial</a>
+									<div class="order-steps-basket-item-info-wrap">
+										<div class="order-steps-basket-item-info-count">
+											<span class="order-steps-basket-item-info-count-span">250 мл</span>
+											<span class="order-steps-basket-item-info-count-span bold">1 шт</span>
+										</div>
+										<div class="order-steps-basket-item-info-price">520 rub</div>
 									</div>
-									<div class="order-steps-basket-item-info-price">520 rub</div>
 								</div>
 							</div>
+
+							<div class="order-steps-basket-item">
+								<div class="order-steps-basket-item-pic">
+									<img class="order-steps-basket-item-pic-img" src="img/goods/1.png" alt="">
+								</div>
+								<div class="order-steps-basket-item-info">
+									<a class="order-steps-basket-item-info-name" href="#">Gel Polish spring long name greenery</a>
+									<div class="order-steps-basket-item-info-wrap">
+										<div class="order-steps-basket-item-info-count">
+											<span class="order-steps-basket-item-info-count-span">10 мл</span>
+											<span class="order-steps-basket-item-info-count-span bold">5 шт</span>
+										</div>
+										<div class="order-steps-basket-item-info-price">520 rub</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="order-steps-basket-item">
+								<div class="order-steps-basket-item-pic">
+									<img class="order-steps-basket-item-pic-img" src="img/goods/9.png" alt="">
+								</div>
+								<div class="order-steps-basket-item-info">
+									<a class="order-steps-basket-item-info-name" href="#">Antibacterial</a>
+									<div class="order-steps-basket-item-info-wrap">
+										<div class="order-steps-basket-item-info-count">
+											<span class="order-steps-basket-item-info-count-span">250 мл</span>
+											<span class="order-steps-basket-item-info-count-span bold">1 шт</span>
+										</div>
+										<div class="order-steps-basket-item-info-price">520 rub</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="order-steps-basket-item">
+								<div class="order-steps-basket-item-pic">
+									<img class="order-steps-basket-item-pic-img" src="img/goods/1.png" alt="">
+								</div>
+								<div class="order-steps-basket-item-info">
+									<a class="order-steps-basket-item-info-name" href="#">Gel Polish spring long name greenery</a>
+									<div class="order-steps-basket-item-info-wrap">
+										<div class="order-steps-basket-item-info-count">
+											<span class="order-steps-basket-item-info-count-span">10 мл</span>
+											<span class="order-steps-basket-item-info-count-span bold">5 шт</span>
+										</div>
+										<div class="order-steps-basket-item-info-price">520 rub</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="order-steps-basket-item">
+								<div class="order-steps-basket-item-pic">
+									<img class="order-steps-basket-item-pic-img" src="img/goods/9.png" alt="">
+								</div>
+								<div class="order-steps-basket-item-info">
+									<a class="order-steps-basket-item-info-name" href="#">Antibacterial</a>
+									<div class="order-steps-basket-item-info-wrap">
+										<div class="order-steps-basket-item-info-count">
+											<span class="order-steps-basket-item-info-count-span">250 мл</span>
+											<span class="order-steps-basket-item-info-count-span bold">1 шт</span>
+										</div>
+										<div class="order-steps-basket-item-info-price">520 rub</div>
+									</div>
+								</div>
+							</div>
+
 						</div>
 					</div>
 					<div class="bascket-result-wrap order">

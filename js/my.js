@@ -363,6 +363,8 @@ $(document).ready(function(){
 
 	/*Оформление заказа*/
 
+	$(".order-steps-basket-list-wrap").jScrollPane();
+
 	$(".order-steps-step-completion-comment").on("click", function(){
 		$(this).next(".form-field-label").show().focus();
 		$(this).hide();
