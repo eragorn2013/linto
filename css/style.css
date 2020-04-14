@@ -2789,10 +2789,19 @@ nav{
 	line-height: 16px;
 	display: flex;
 	justify-content: space-between;	
+	position: relative;
+}
+.order-ok-item:before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 16px;
+	top: 0;
+	left: 0;
+	border-bottom: 1px dotted rgba(0,0,0,0.15);
 }
 .order-ok-item-name{
 	width: 100%;
-	border-bottom: 1px dotted rgba(0,0,0,0.15);
 	align-self: flex-start;
 	margin-right: 16px;
 	font-family: "HelveticaNeueCyr-Bold";
@@ -2804,6 +2813,7 @@ nav{
 }
 .order-ok-item-span{
 	width: 100%;
+	background: #fff;
 	position: relative;
     bottom: -3px;
 }
@@ -3112,6 +3122,80 @@ footer{
 	}	
 }
 @media (max-width:960px){
+	#bascket.order-ok .bascket-container{
+		width: 510px;
+	}
+	#bascket.order-ok .bascket-item-name{
+		width: 100%;
+	}
+	#bascket.order-ok .bascket-item-pic{
+		width: 88px;
+		height: 88px;
+	}
+	#bascket.order-ok .bascket-result-wrap.order{
+		width: 100%;
+	}
+	#bascket.order-ok .bascket-item-price-wrap, 
+	#bascket.order-ok .bascket-item-count-wrap, 
+	#bascket.order-ok .bascket-item-sum{
+		font-weight: 600;
+	}
+	#bascket.order-ok .bascket-item-price{
+		margin-right: 0px;
+	}
+	#bascket.order-ok .bascket-item-count{
+		margin-right: 10px;
+	}
+	.order-ok-item{
+		font-size: 12px;
+	}
+	.order-ok-item-span{
+		text-align: right;
+		background: none;
+		position: static;
+	}
+	.order-ok-item-span-wrap{
+		position: relative;
+		bottom: -3px;
+		background: #fff;
+	}
+	#bascket.order-ok .bascket-head{
+		margin-bottom: 32px;
+	}
+	#order-ok{
+		padding: 41px 0 84px;
+	}
+	.order-ok-info-p{
+		margin-bottom: 14px;
+	}
+	.order-ok-info{
+		width: 100%;
+		font-size: 12px;
+		line-height: 22px;
+		margin-bottom: 47px;
+	}
+	.order-ok-button .button-link{
+		box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+	}
+	.order-ok-button{
+		margin-bottom: 64px;
+	}
+	.order-ok-list{
+		padding: 0;
+		border: 0;
+	}
+	.order-ok-liss-wrap{
+		width: 100%;
+	}
+	.order-ok-item-name{
+		margin-right: 0;
+	}
+	.order-ok-head{
+		font-size: 16px;
+		line-height: 24px;
+		margin: 0 auto 32px;
+		width: 100%;
+	}
 	.order-steps-basket{
 		display: none;
 	}
@@ -3789,6 +3873,9 @@ footer{
 }
 
 @media (max-width:530px){
+	#bascket.order-ok .bascket-container{
+		width: 92%;
+	}
 	.form-field-flexbox{
 		flex-wrap: wrap;
 	}

@@ -28,34 +28,34 @@
 				<div class="order-ok-liss-wrap">
 					<div class="order-ok-item">
 						<span class="order-ok-item-name"><span class="order-ok-item-name-span">Контактное лицо:</span></span>
-						<span class="order-ok-item-span">Виктория Иванова</span>
+						<span class="order-ok-item-span"><span class="order-ok-item-span-wrap">Виктория Иванова</span></span>
 					</div>
 					<div class="order-ok-item">
 						<span class="order-ok-item-name"><span class="order-ok-item-name-span">Контактный номер:</span></span>
-						<span class="order-ok-item-span">+7 (812) 336-42-42</span>
+						<span class="order-ok-item-span"><span class="order-ok-item-span-wrap">+7 (812) 336-42-42</span></span>
 					</div>
 					<div class="order-ok-item">
 						<span class="order-ok-item-name"><span class="order-ok-item-name-span">E-mail:</span></span>
-						<span class="order-ok-item-span">viktoria97@gmail.com</span>
+						<span class="order-ok-item-span"><span class="order-ok-item-span-wrap">viktoria97@gmail.com</span></span>
 					</div>
 					<div class="order-ok-item">
 						<span class="order-ok-item-name"><span class="order-ok-item-name-span">Доставка:</span></span>
-						<span class="order-ok-item-span">СДЕК - склад</span>
+						<span class="order-ok-item-span"><span class="order-ok-item-span-wrap">СДЕК - склад</span></span>
 					</div>
 				</div>
 
 				<div class="order-ok-liss-wrap">
 					<div class="order-ok-item">
 						<span class="order-ok-item-name"><span class="order-ok-item-name-span">Адрес доставки:</span></span>
-						<span class="order-ok-item-span">г. Москва, ул. Кирова,  дом № 6, кв. 2</span>
+						<span class="order-ok-item-span"><span class="order-ok-item-span-wrap">г. Москва, ул. Кирова,  дом № 6, кв. 2</span></span>
 					</div>
 					<div class="order-ok-item">
 						<span class="order-ok-item-name"><span class="order-ok-item-name-span">Имя получателя:</span></span>
-						<span class="order-ok-item-span">Виктория Иванова</span>
+						<span class="order-ok-item-span"><span class="order-ok-item-span-wrap">Виктория Иванова</span></span>
 					</div>
 					<div class="order-ok-item">
 						<span class="order-ok-item-name"><span class="order-ok-item-name-span">Способ оплаты:</span></span>
-						<span class="order-ok-item-span">Наличными</span>
+						<span class="order-ok-item-span"><span class="order-ok-item-span-wrap">Наличными</span></span>
 					</div>
 				</div>
 			</div>
