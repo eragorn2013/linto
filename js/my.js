@@ -324,36 +324,37 @@ $(document).ready(function(){
 
 	/*Пользовательский селект (ввод номера телефона)*/
 
-	$(".form-field-phone-select").on("click", function(){
-		var parent=$(this).parents(".form-field-phone");
-		var arrow=$(".form-field-phone-select-arrow", parent);
-		var modal=$(".form-field-phone-select-modal", parent);
+	$(".form-field-select-wrap").on("click", function(){
+		var parent=$(this).parents(".form-field-select");
+		var arrow=$(".form-field-select-arrow", parent);
+		var modal=$(".form-field-select-modal", parent);
 		if(!arrow.hasClass("active")) arrow.addClass("active");
 		else arrow.removeClass("active");
 		if(modal.is(":hidden")) modal.fadeIn(200);
 		else modal.hide();
 	});
-	$(".form-field-phone-select-modal-item").on("click", function(e){
-		var parent=$(this).parents(".form-field-phone");
-		var regionInput=$(".form-field-phone-input-region", parent);
-		var regionSpan=$(".form-field-phone-select-span", parent);
-		var arrow=$(".form-field-phone-select-arrow", parent);
-		var modal=$(".form-field-phone-select-modal", parent);
+	$(".form-field-select-modal-item").on("click", function(e){
+		var parent=$(this).parents(".form-field-select");
+		var regionInput=$(".form-field-select-input", parent);
+		var regionSpan=$(".form-field-select-span", parent);
+		var arrow=$(".form-field-select-arrow", parent);
+		var modal=$(".form-field-select-modal", parent);
 		var value=$(this).attr("data-region");
+		var text=$(this).text();
 		if(!arrow.hasClass("active")) arrow.addClass("active");
 		else arrow.removeClass("active");
 		if(modal.is(":hidden")) modal.fadeIn(200);
 		else modal.hide();
 		regionInput.val(value);
-		regionSpan.text(value);
+		regionSpan.text(text);
 		$(".form-field-input.phone", parent).focus();
 		e.stopPropagation();
 	});
 	$(document).mouseup(function (e){
-		if(!$(".form-field-phone-select-modal").is(e.target) && $(".form-field-phone-select-modal").has(e.target).length === 0) {
-			if($(".form-field-phone-select-modal").is(":visible")) {
-				$(".form-field-phone-select-modal").hide();
-				$(".form-field-phone-select-arrow").removeClass("active");
+		if(!$(".form-field-select-modal").is(e.target) && $(".form-field-select-modal").has(e.target).length === 0) {
+			if($(".form-field-select-modal").is(":visible")) {
+				$(".form-field-select-modal").hide();
+				$(".form-field-select-arrow").removeClass("active");
 			}			
 		}
 	});
@@ -423,6 +424,43 @@ $(document).ready(function(){
 		    }, 500);
 		}
 		return false;
+	});
+
+	/*Открытие/закрытие элементов фильтра в каталоге*/
+	$(".catalog-menu-item-head").on("click", function(){
+		var parent=$(this).parents(".catalog-menu-item");
+		var list=$(".catalog-menu-item-list", parent);
+		var arrow=$(".catalog-menu-item-head-arrow", parent);
+		if(list.is(":hidden")) list.slideDown(300);
+		else list.slideUp(300);
+		if(arrow.hasClass("active")) arrow.removeClass("active");
+		else arrow.addClass("active");
+	});
+
+
+
+	var owl=$(".owl-carousel").owlCarousel({
+		responsive:{
+	        0: {
+	              items:1
+	           },
+	        1300:{
+	               items:4
+	            }
+	        },
+	        margin: 12,
+			dots: false,
+			nav: false
+	});	
+	owl.on('changed.owl.carousel', function(e) {
+		$(".catalog-recently-count-slides-current").text(++e.item.index);
+		$(".catalog-recently-count-slides-all").text(e.page.size);
+	});
+	$('.catalog-recently-list-arrow.prev').click(function() {	    
+	    owl.trigger('prev.owl.carousel');
+	});
+	$('.catalog-recently-list-arrow.next').click(function() {
+	    owl.trigger('next.owl.carousel');
 	});
 });
 
