@@ -13,7 +13,7 @@
 		<div class="content">
 			<div class="catalog-blocks">
 				<div class="catalog-head">
-					<h1 class="catalog-head-h1">Gel Polish</h1>
+					<h1 class="catalog-head-h1">GEL POLISH</h1>
 					<div class="catalog-head-filter-mobile">
 						<div class="catalog-head-filter-mobile-button first">
 							<div class="catalog-head-filter-mobile-button-wrap">
@@ -21,15 +21,15 @@
 								<span class="catalog-head-filter-mobile-button-count">3</span>
 								<i class="catalog-head-filter-mobile-button-icon filter"></i>
 							</div>
-						</div>						
+						</div>
 						
 					</div>
 					<div class="catalog-head-filter">
-						<div class="catalog-head-filter-item button active">Хиты</div>
-						<div class="catalog-head-filter-item button">Новинки</div>
+						<div class="catalog-head-filter-item button active">ХИТЫ</div>
+						<div class="catalog-head-filter-item button">НОВИНКИ</div>
 					</div>
 				</div>
-				<div class="catalog-menu">					
+				<div class="catalog-menu">
 					<div class="catalog-menu-wrap">
 						<div class="catalog-menu-head-mobile">
 							<span class="catalog-menu-head-mobile-name">ФИЛЬТРЫ</span>
@@ -37,7 +37,7 @@
 						</div>
 						<div class="catalog-menu-item">
 							<h2 class="catalog-menu-item-head">
-								<span class="catalog-menu-item-head-name">Категории</span>
+								<span class="catalog-menu-item-head-name">КАТЕГОРИИ</span>
 								<i class="catalog-menu-item-head-arrow active"></i> 
 							</h2>
 							<div class="catalog-menu-item-list">
@@ -49,7 +49,7 @@
 											<span class="catalog-menu-item-list-point-sub-name">ARCTIC WINTER 2020</span>
 											<span class="catalog-menu-item-list-point-count">(28)</span>
 										</a>
-										<a class="catalog-menu-item-list-point" href="#">
+										<a class="catalog-menu-item-list-point active" href="#">
 											<span class="catalog-menu-item-list-point-sub-name">LEVEL_UP_NAILS</span>
 											<span class="catalog-menu-item-list-point-count">(28)</span>
 										</a>
@@ -132,7 +132,7 @@
 
 						<!--<div class="catalog-menu-item">
 							<h2 class="catalog-menu-item-head">
-								<span class="catalog-menu-item-head-name">Коллекции</span>
+								<span class="catalog-menu-item-head-name">КОЛЛЕКЦИИ</span>
 								<i class="catalog-menu-item-head-arrow active"></i> 
 							</h2>
 							<div class="catalog-menu-item-list">
@@ -186,7 +186,7 @@
 
 						<div class="catalog-menu-item">
 							<h2 class="catalog-menu-item-head">
-								<span class="catalog-menu-item-head-name">Оттенки</span>
+								<span class="catalog-menu-item-head-name">ОТТЕНКИ</span>
 								<i class="catalog-menu-item-head-arrow active"></i> 
 							</h2>
 							<div class="catalog-menu-item-list colors">
@@ -241,13 +241,13 @@
 						<div class="good-item">
 							<a class="good-item-link" href="#">
 								<span class="good-item-pic">
-									<span class="good-item-pic-icon green">new</span>
+									<span class="good-item-pic-icon green">NEW</span>
 									<img class="good-item-pic-img" src="img/goods/1.png" alt="Товар">
 								</span>
-								<span class="good-item-name">Gel Polish greenery</span>
+								<span class="good-item-name">GEL POLISH GREENERY</span>
 								<span class="good-item-price">
-									<span class="good-item-price-amount">10 мл</span>
-									<span class="good-item-price-sum">520 rub</span>
+									<span class="good-item-price-amount">10 МЛ</span>
+									<span class="good-item-price-sum">520 RUB</span>
 								</span>
 								<span class="good-item-details">
 									<span class="good-item-details-name">Посмотреть детали</span>
@@ -256,7 +256,7 @@
 								<a class="button-link black" href="#">
 									<span class="button-link-span">
 										<span class="button-link-span-text">
-											<span class="button-link-span-text-hidden">добавить</span> в корзину
+											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 										</span>
 									</span>
 								</a>
@@ -266,13 +266,13 @@
 						<div class="good-item">
 							<a class="good-item-link" href="#">
 								<span class="good-item-pic">
-									<span class="good-item-pic-icon red">hit</span>
+									<span class="good-item-pic-icon red">HIT</span>
 									<img class="good-item-pic-img" src="img/goods/2.png" alt="Товар">
 								</span>
-								<span class="good-item-name">Gel Polish 027</span>
+								<span class="good-item-name">GEL POLISH 027</span>
 								<span class="good-item-price">
-									<span class="good-item-price-amount">10 мл</span>
-									<span class="good-item-price-sum">520 rub</span>
+									<span class="good-item-price-amount">10 МЛ</span>
+									<span class="good-item-price-sum">520 RUB</span>
 								</span>
 								<span class="good-item-details">
 									<span class="good-item-details-name">Посмотреть детали</span>
@@ -281,7 +281,7 @@
 								<a class="button-link black" href="#">
 									<span class="button-link-span">
 										<span class="button-link-span-text">
-											<span class="button-link-span-text-hidden">добавить</span> в корзину
+											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 										</span>
 									</span>
 								</a>
@@ -293,10 +293,10 @@
 								<span class="good-item-pic">
 									<img class="good-item-pic-img" src="img/goods/3.png" alt="Товар">
 								</span>
-								<span class="good-item-name">Gel Polish 028</span>
+								<span class="good-item-name">GEL POLISH 028</span>
 								<span class="good-item-price">
-									<span class="good-item-price-amount">10 мл</span>
-									<span class="good-item-price-sum">520 rub</span>
+									<span class="good-item-price-amount">10 МЛ</span>
+									<span class="good-item-price-sum">520 RUB</span>
 								</span>
 								<span class="good-item-details">
 									<span class="good-item-details-name">Посмотреть детали</span>
@@ -305,31 +305,7 @@
 								<a class="button-link black" href="#">
 									<span class="button-link-span">
 										<span class="button-link-span-text">
-											<span class="button-link-span-text-hidden">добавить</span> в корзину
-										</span>
-									</span>
-								</a>
-							</a>
-						</div>
-
-						<div class="good-item">
-							<a class="good-item-link" href="#">
-								<span class="good-item-pic">									
-									<img class="good-item-pic-img" src="img/goods/4.png" alt="Товар">
-								</span>
-								<span class="good-item-name">Gel Polish 030</span>
-								<span class="good-item-price">
-									<span class="good-item-price-amount">10 мл</span>
-									<span class="good-item-price-sum">520 rub</span>
-								</span>
-								<span class="good-item-details">
-									<span class="good-item-details-name">Посмотреть детали</span>
-									<i class="good-item-details-arrow"></i>
-								</span>
-								<a class="button-link black" href="#">
-									<span class="button-link-span">
-										<span class="button-link-span-text">
-											<span class="button-link-span-text-hidden">добавить</span> в корзину
+											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 										</span>
 									</span>
 								</a>
@@ -339,13 +315,12 @@
 						<div class="good-item">
 							<a class="good-item-link" href="#">
 								<span class="good-item-pic">
-									<span class="good-item-pic-icon green">new</span>									
-									<img class="good-item-pic-img" src="img/goods/5.png" alt="Товар">
+									<img class="good-item-pic-img" src="img/goods/4.png" alt="Товар">
 								</span>
-								<span class="good-item-name">Gel Polish ultra violet</span>
+								<span class="good-item-name">GEL POLISH 030</span>
 								<span class="good-item-price">
-									<span class="good-item-price-amount">10 мл</span>
-									<span class="good-item-price-sum">520 rub</span>
+									<span class="good-item-price-amount">10 МЛ</span>
+									<span class="good-item-price-sum">520 RUB</span>
 								</span>
 								<span class="good-item-details">
 									<span class="good-item-details-name">Посмотреть детали</span>
@@ -354,7 +329,32 @@
 								<a class="button-link black" href="#">
 									<span class="button-link-span">
 										<span class="button-link-span-text">
-											<span class="button-link-span-text-hidden">добавить</span> в корзину
+											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+										</span>
+									</span>
+								</a>
+							</a>
+						</div>
+
+						<div class="good-item">
+							<a class="good-item-link" href="#">
+								<span class="good-item-pic">
+									<span class="good-item-pic-icon green">NEW</span>
+									<img class="good-item-pic-img" src="img/goods/5.png" alt="Товар">
+								</span>
+								<span class="good-item-name">GEL POLISH ULTRA VIOLET</span>
+								<span class="good-item-price">
+									<span class="good-item-price-amount">10 МЛ</span>
+									<span class="good-item-price-sum">520 RUB</span>
+								</span>
+								<span class="good-item-details">
+									<span class="good-item-details-name">Посмотреть детали</span>
+									<i class="good-item-details-arrow"></i>
+								</span>
+								<a class="button-link black" href="#">
+									<span class="button-link-span">
+										<span class="button-link-span-text">
+											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 										</span>
 									</span>
 								</a>
@@ -366,10 +366,10 @@
 								<span class="good-item-pic">
 									<img class="good-item-pic-img" src="img/goods/6.png" alt="Товар">
 								</span>
-								<span class="good-item-name">Gel Polish 032</span>
+								<span class="good-item-name">GEL POLISH 032</span>
 								<span class="good-item-price">
-									<span class="good-item-price-amount">10 мл</span>
-									<span class="good-item-price-sum">520 rub</span>
+									<span class="good-item-price-amount">10 МЛ</span>
+									<span class="good-item-price-sum">520 RUB</span>
 								</span>
 								<span class="good-item-details">
 									<span class="good-item-details-name">Посмотреть детали</span>
@@ -378,7 +378,7 @@
 								<a class="button-link black" href="#">
 									<span class="button-link-span">
 										<span class="button-link-span-text">
-											<span class="button-link-span-text-hidden">добавить</span> в корзину
+											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 										</span>
 									</span>
 								</a>
@@ -390,10 +390,10 @@
 								<span class="good-item-pic">
 									<img class="good-item-pic-img" src="img/goods/9.png" alt="Товар">
 								</span>
-								<span class="good-item-name">Antibacterial</span>
+								<span class="good-item-name">ANTIBACTERIAL</span>
 								<span class="good-item-price">
-									<span class="good-item-price-amount">100 мл</span>
-									<span class="good-item-price-sum">350 rub</span>
+									<span class="good-item-price-amount">100 МЛ</span>
+									<span class="good-item-price-sum">350 RUB</span>
 								</span>
 								<span class="good-item-details">
 									<span class="good-item-details-name">Посмотреть детали</span>
@@ -402,7 +402,7 @@
 								<a class="button-link black" href="#">
 									<span class="button-link-span">
 										<span class="button-link-span-text">
-											<span class="button-link-span-text-hidden">добавить</span> в корзину
+											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 										</span>
 									</span>
 								</a>
@@ -414,10 +414,10 @@
 								<span class="good-item-pic">
 									<img class="good-item-pic-img" src="img/goods/10.png" alt="Товар">
 								</span>
-								<span class="good-item-name">base podo liquid</span>
+								<span class="good-item-name">BASE PODO LIQUID</span>
 								<span class="good-item-price">
-									<span class="good-item-price-amount">150 мл</span>
-									<span class="good-item-price-sum">520 rub</span>
+									<span class="good-item-price-amount">150 МЛ</span>
+									<span class="good-item-price-sum">520 RUB</span>
 								</span>
 								<span class="good-item-details">
 									<span class="good-item-details-name">Посмотреть детали</span>
@@ -426,7 +426,7 @@
 								<a class="button-link black" href="#">
 									<span class="button-link-span">
 										<span class="button-link-span-text">
-											<span class="button-link-span-text-hidden">добавить</span> в корзину
+											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 										</span>
 									</span>
 								</a>
@@ -438,10 +438,10 @@
 								<span class="good-item-pic">
 									<img class="good-item-pic-img" src="img/goods/11.png" alt="Товар">
 								</span>
-								<span class="good-item-name">Gel Polish ultra violet</span>
+								<span class="good-item-name">GEL POLISH ULTRA VIOLET</span>
 								<span class="good-item-price">
-									<span class="good-item-price-amount">100 мл</span>
-									<span class="good-item-price-sum">350 rub</span>
+									<span class="good-item-price-amount">100 МЛ</span>
+									<span class="good-item-price-sum">350 RUB</span>
 								</span>
 								<span class="good-item-details">
 									<span class="good-item-details-name">Посмотреть детали</span>
@@ -450,7 +450,7 @@
 								<a class="button-link black" href="#">
 									<span class="button-link-span">
 										<span class="button-link-span-text">
-											<span class="button-link-span-text-hidden">добавить</span> в корзину
+											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 										</span>
 									</span>
 								</a>
@@ -462,9 +462,9 @@
 								<span class="good-item-pic">
 									<img class="good-item-pic-img" src="img/goods/12.png" alt="Товар">
 								</span>
-								<span class="good-item-name">base podo liquid</span>
+								<span class="good-item-name">BASE PODO LIQUID</span>
 								<span class="good-item-price">
-									<span class="good-item-price-sum">нет в наличии</span>
+									<span class="good-item-price-sum">НЕТ В НАЛИЧИИ</span>
 								</span>
 								<span class="good-item-details">
 									<span class="good-item-details-name">Посмотреть детали</span>
@@ -478,9 +478,9 @@
 								<span class="good-item-pic">
 									<img class="good-item-pic-img" src="img/goods/5.png" alt="Товар">
 								</span>
-								<span class="good-item-name">Gel Polish 030</span>
+								<span class="good-item-name">GEL POLISH 030</span>
 								<span class="good-item-price">
-									<span class="good-item-price-sum">нет в наличии</span>
+									<span class="good-item-price-sum">НЕТ В НАЛИЧИИ</span>
 								</span>
 								<span class="good-item-details">
 									<span class="good-item-details-name">Посмотреть детали</span>
@@ -494,9 +494,9 @@
 								<span class="good-item-pic">
 									<img class="good-item-pic-img" src="img/goods/9.png" alt="Товар">
 								</span>
-								<span class="good-item-name">Antibacterial</span>
+								<span class="good-item-name">ANTIBACTERIAL</span>
 								<span class="good-item-price">
-									<span class="good-item-price-sum">нет в наличии</span>
+									<span class="good-item-price-sum">НЕТ В НАЛИЧИИ</span>
 								</span>
 								<span class="good-item-details">
 									<span class="good-item-details-name">Посмотреть детали</span>
@@ -508,28 +508,28 @@
 							<a class="button-link white grey-border" href="#">
 								<span class="button-link-span">
 									<span class="button-link-span-text">
-										показать еще
+										ПОКАЗАТЬ ЕЩЕ
 									</span>
 								</span>
 							</a>
 						</div>
-					</div>					
+					</div>
 				</div>
 				<div class="catalog-recently">
-					<h2 class="catalog-recently-head">вы недавно просматривали</h2>
+					<h2 class="catalog-recently-head">ВЫ НЕДАВНО ПРОСМАТРИВАЛИ</h2>
 					<div class="catalog-recently-list-wrap">
 						<i class="catalog-recently-list-arrow prev"></i>
-						<div class="catalog-recently-list owl-carousel">						
+						<div class="catalog-recently-list owl-carousel owl-theme">
 							<div class="good-item not-shadow">
 								<a class="good-item-link" href="#">
 									<span class="good-item-pic">
-										<span class="good-item-pic-icon green">new</span>
+										<span class="good-item-pic-icon green">NEW</span>
 										<img class="good-item-pic-img" src="img/goods/1.png" alt="Товар">
 									</span>
-									<span class="good-item-name">Gel Polish greenery</span>
+									<span class="good-item-name">GEL POLISH GREENERY</span>
 									<span class="good-item-price">
-										<span class="good-item-price-amount">10 мл</span>
-										<span class="good-item-price-sum">520 rub</span>
+										<span class="good-item-price-amount">10 МЛ</span>
+										<span class="good-item-price-sum">520 RUB</span>
 									</span>
 									<span class="good-item-details">
 										<span class="good-item-details-name">Посмотреть детали</span>
@@ -538,7 +538,7 @@
 									<a class="button-link black" href="#">
 										<span class="button-link-span">
 											<span class="button-link-span-text">
-												<span class="button-link-span-text-hidden">добавить</span> в корзину
+												<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 											</span>
 										</span>
 									</a>
@@ -548,13 +548,13 @@
 							<div class="good-item not-shadow">
 								<a class="good-item-link" href="#">
 									<span class="good-item-pic">
-										<span class="good-item-pic-icon red">hit</span>
+										<span class="good-item-pic-icon red">HIT</span>
 										<img class="good-item-pic-img" src="img/goods/2.png" alt="Товар">
 									</span>
-									<span class="good-item-name">Gel Polish 027</span>
+									<span class="good-item-name">GEL POLISH 027</span>
 									<span class="good-item-price">
-										<span class="good-item-price-amount">10 мл</span>
-										<span class="good-item-price-sum">520 rub</span>
+										<span class="good-item-price-amount">10 МЛ</span>
+										<span class="good-item-price-sum">520 RUB</span>
 									</span>
 									<span class="good-item-details">
 										<span class="good-item-details-name">Посмотреть детали</span>
@@ -563,7 +563,7 @@
 									<a class="button-link black" href="#">
 										<span class="button-link-span">
 											<span class="button-link-span-text">
-												<span class="button-link-span-text-hidden">добавить</span> в корзину
+												<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 											</span>
 										</span>
 									</a>
@@ -575,10 +575,10 @@
 									<span class="good-item-pic">
 										<img class="good-item-pic-img" src="img/goods/3.png" alt="Товар">
 									</span>
-									<span class="good-item-name">Gel Polish 028</span>
+									<span class="good-item-name">GEL POLISH 028</span>
 									<span class="good-item-price">
-										<span class="good-item-price-amount">10 мл</span>
-										<span class="good-item-price-sum">520 rub</span>
+										<span class="good-item-price-amount">10 МЛ</span>
+										<span class="good-item-price-sum">520 RUB</span>
 									</span>
 									<span class="good-item-details">
 										<span class="good-item-details-name">Посмотреть детали</span>
@@ -587,31 +587,7 @@
 									<a class="button-link black" href="#">
 										<span class="button-link-span">
 											<span class="button-link-span-text">
-												<span class="button-link-span-text-hidden">добавить</span> в корзину
-											</span>
-										</span>
-									</a>
-								</a>
-							</div>
-
-							<div class="good-item not-shadow">
-								<a class="good-item-link" href="#">
-									<span class="good-item-pic">									
-										<img class="good-item-pic-img" src="img/goods/4.png" alt="Товар">
-									</span>
-									<span class="good-item-name">Gel Polish 030</span>
-									<span class="good-item-price">
-										<span class="good-item-price-amount">10 мл</span>
-										<span class="good-item-price-sum">520 rub</span>
-									</span>
-									<span class="good-item-details">
-										<span class="good-item-details-name">Посмотреть детали</span>
-										<i class="good-item-details-arrow"></i>
-									</span>
-									<a class="button-link black" href="#">
-										<span class="button-link-span">
-											<span class="button-link-span-text">
-												<span class="button-link-span-text-hidden">добавить</span> в корзину
+												<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 											</span>
 										</span>
 									</a>
@@ -621,13 +597,12 @@
 							<div class="good-item not-shadow">
 								<a class="good-item-link" href="#">
 									<span class="good-item-pic">
-										<span class="good-item-pic-icon green">new</span>									
-										<img class="good-item-pic-img" src="img/goods/5.png" alt="Товар">
+										<img class="good-item-pic-img" src="img/goods/4.png" alt="Товар">
 									</span>
-									<span class="good-item-name">Gel Polish ultra violet</span>
+									<span class="good-item-name">GEL POLISH 030</span>
 									<span class="good-item-price">
-										<span class="good-item-price-amount">10 мл</span>
-										<span class="good-item-price-sum">520 rub</span>
+										<span class="good-item-price-amount">10 МЛ</span>
+										<span class="good-item-price-sum">520 RUB</span>
 									</span>
 									<span class="good-item-details">
 										<span class="good-item-details-name">Посмотреть детали</span>
@@ -636,7 +611,32 @@
 									<a class="button-link black" href="#">
 										<span class="button-link-span">
 											<span class="button-link-span-text">
-												<span class="button-link-span-text-hidden">добавить</span> в корзину
+												<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+											</span>
+										</span>
+									</a>
+								</a>
+							</div>
+
+							<div class="good-item not-shadow">
+								<a class="good-item-link" href="#">
+									<span class="good-item-pic">
+										<span class="good-item-pic-icon green">NEW</span>
+										<img class="good-item-pic-img" src="img/goods/5.png" alt="Товар">
+									</span>
+									<span class="good-item-name">GEL POLISH ULTRA CIOLET</span>
+									<span class="good-item-price">
+										<span class="good-item-price-amount">10 МЛ</span>
+										<span class="good-item-price-sum">520 RUB</span>
+									</span>
+									<span class="good-item-details">
+										<span class="good-item-details-name">Посмотреть детали</span>
+										<i class="good-item-details-arrow"></i>
+									</span>
+									<a class="button-link black" href="#">
+										<span class="button-link-span">
+											<span class="button-link-span-text">
+												<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 											</span>
 										</span>
 									</a>
@@ -648,10 +648,10 @@
 									<span class="good-item-pic">
 										<img class="good-item-pic-img" src="img/goods/6.png" alt="Товар">
 									</span>
-									<span class="good-item-name">Gel Polish 032</span>
+									<span class="good-item-name">GEL POLISH 032</span>
 									<span class="good-item-price">
-										<span class="good-item-price-amount">10 мл</span>
-										<span class="good-item-price-sum">520 rub</span>
+										<span class="good-item-price-amount">10 МЛ</span>
+										<span class="good-item-price-sum">520 RUB</span>
 									</span>
 									<span class="good-item-details">
 										<span class="good-item-details-name">Посмотреть детали</span>
@@ -660,7 +660,7 @@
 									<a class="button-link black" href="#">
 										<span class="button-link-span">
 											<span class="button-link-span-text">
-												<span class="button-link-span-text-hidden">добавить</span> в корзину
+												<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 											</span>
 										</span>
 									</a>
@@ -672,10 +672,10 @@
 									<span class="good-item-pic">
 										<img class="good-item-pic-img" src="img/goods/9.png" alt="Товар">
 									</span>
-									<span class="good-item-name">Antibacterial</span>
+									<span class="good-item-name">ANTIBACTERIAL</span>
 									<span class="good-item-price">
-										<span class="good-item-price-amount">100 мл</span>
-										<span class="good-item-price-sum">350 rub</span>
+										<span class="good-item-price-amount">100 МЛ</span>
+										<span class="good-item-price-sum">350 RUB</span>
 									</span>
 									<span class="good-item-details">
 										<span class="good-item-details-name">Посмотреть детали</span>
@@ -684,7 +684,7 @@
 									<a class="button-link black" href="#">
 										<span class="button-link-span">
 											<span class="button-link-span-text">
-												<span class="button-link-span-text-hidden">добавить</span> в корзину
+												<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 											</span>
 										</span>
 									</a>
@@ -692,11 +692,7 @@
 							</div>
 						</div>
 						<i class="catalog-recently-list-arrow next"></i>
-					</div>
-					<div class="catalog-recently-count-slides">
-						<span class="catalog-recently-count-slides-current">1</span> /
-						<span class="catalog-recently-count-slides-all">4</span>
-					</div>
+					</div>					
 				</div>
 			</div>
 		</div>

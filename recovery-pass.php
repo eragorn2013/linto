@@ -2,7 +2,7 @@
 <section id="recovery-pass">
 	<div class="container">
 		<div class="content">
-			<h1 class="recovery-pass-head">Восстановление пароля</h1>
+			<h1 class="recovery-pass-head">ВОССТАНОВЛЕНИЕ ПАРОЛЯ</h1>
 			<p class="recovery-pass-info">Введите в поле адрес электронной почты. Мы отправим вам сообщение по электронной почте с инструкциями по созданию нового пароля.</p>
 			<div class="recovery-pass-wrap">
 				<form class="form-field" action="#" method="post">
@@ -19,7 +19,7 @@
 					<div class="form-field-buttons">
 						<button class="button-link black">
 							<span class="button-link-span">
-								<span class="button-link-span-text">Восстановить пароль</span>
+								<span class="button-link-span-text">ВОССТАНОВИТЬ ПАРОЛЬ</span>
 							</span>
 						</button>						
 					</div>					

@@ -15,7 +15,7 @@
 			<div class="footer-list">
 				<div class="footer-item">
 					<h5 class="footer-item-head">
-						Каталог
+						КАТАЛОГ
 						<i class="footer-item-head-arrow"></i>
 					</h5>
 					<div class="footer-item-wrap">
@@ -40,7 +40,7 @@
 
 				<div class="footer-item">
 					<h5 class="footer-item-head">
-						Коллекции
+						КОЛЛЕКЦИИ
 						<i class="footer-item-head-arrow"></i>
 					</h5>
 					<div class="footer-item-wrap">
@@ -56,7 +56,7 @@
 
 				<div class="footer-item">
 					<h5 class="footer-item-head">
-						Компания
+						КОМПАНИЯ
 						<i class="footer-item-head-arrow"></i>
 					</h5>
 					<div class="footer-item-wrap">
@@ -71,7 +71,7 @@
 
 				<div class="footer-item">
 					<h5 class="footer-item-head">
-						Для бизнеса
+						ДЛЯ БИЗНЕСА
 						<i class="footer-item-head-arrow"></i>
 					</h5>
 					<div class="footer-item-wrap">
@@ -99,6 +99,7 @@
 	<link rel="stylesheet" type="text/css" href="js/scroll/jquery.jscrollpane.css">
 	<link rel="stylesheet" href="js/owl/owl.carousel.css">
 	<link rel="stylesheet" href="js/owl/owl.theme.default.css">
+	<link rel="stylesheet" href="js/owl/owl.theme.green.css">
 	<script src="js/jquery/jquery.js"></script>
 	<script src="js/scroll/jquery.mousewheel.js"></script>
 	<script src="js/scroll/jquery.jscrollpane.min.js"></script>	

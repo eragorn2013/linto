@@ -10,11 +10,11 @@
 <section id="order-steps">
 	<div class="container order-steps-container">
 		<div class="content">
-			<h1 class="order-steps-head">Оформление заказа</h1>
+			<h1 class="order-steps-head">ОФОРМЛЕНИЕ ЗАКАЗА</h1>
 			<div class="order-steps-wrap">
 				<form class="form-field order-steps-form" action="#" method="post">
 					<div class="order-steps-form-head-wrap active">
-						<h2 class="order-steps-form-head">1. Личные данные</h2>
+						<h2 class="order-steps-form-head">1. ЛИЧНЫЕ ДАННЫЕ</h2>
 					</div>
 					<div class="order-steps-step-1">
 						<div class="order-steps-step form">
@@ -22,14 +22,14 @@
 								<label class="form-field-label">
 									<span class="form-field-wrap">
 										<input class="form-field-radio" checked type="radio" name="face" value="1">
-										<i class="form-field-icon-select"></i>						
+										<i class="form-field-icon-select"></i>
 										<span class="form-field-text-radio">Физическое лицо</span>
 									</span>
 								</label>
 								<label class="form-field-label">
 									<span class="form-field-wrap">
 										<input class="form-field-radio" type="radio" name="face" value="2">
-										<i class="form-field-icon-select"></i>						
+										<i class="form-field-icon-select"></i>
 										<span class="form-field-text-radio">Юридическое лицо</span>
 									</span>
 								</label>
@@ -55,7 +55,7 @@
 							<div class="form-field-phone">
 								<div class="form-field-select phone">
 									<span class="form-field-select-name">Телефон</span>
-									<input class="form-field-select-input" type="hidden" name="region" value="+7">								
+									<input class="form-field-select-input" type="hidden" name="region" value="+7">
 									<div class="form-field-select-wrap">
 										<span class="form-field-select-span">+7</span>
 										<i class="form-field-select-arrow"></i>
@@ -67,9 +67,9 @@
 											<span class="form-field-select-modal-item" data-region="+7">+7</span>
 										</div>
 									</div>
-								</div>								
+								</div>
 								<div class="form-field-phone-wrap last">
-									<label class="form-field-label">									
+									<label class="form-field-label">
 										<span class="form-field-wrap last">
 											<input class="form-field-input phone" type="text" name="phone">
 											<span class="form-field-error"></span>
@@ -80,14 +80,14 @@
 							<div class="order-steps-link">
 								<a class="button-link white grey-border step-1" href="#">
 									<span class="button-link-span">
-										<span class="button-link-span-text">Далее</span>
+										<span class="button-link-span-text">ДАЛЕЕ</span>
 									</span>
 								</a>
 							</div>
 						</div>
 						<div class="order-steps-step data">
 							<div class="order-steps-step-head">
-								<h3 class="order-steps-step-head-name">1. <span class="order-steps-step-head-name-span">Виктория Иванова</span></h3>
+								<h3 class="order-steps-step-head-name">1. <span class="order-steps-step-head-name-span">ВИКТОРИЯ ИВАНОВА</span></h3>
 								<span class="order-steps-step-head-span">Изменить</span>
 							</div>
 							<div class="order-steps-step-info">
@@ -97,7 +97,7 @@
 						</div>
 					</div>
 					<div class="order-steps-form-head-wrap">
-						<h2 class="order-steps-form-head">2. Способ доставки</h2>
+						<h2 class="order-steps-form-head">2. СПОСОБ ДОСТАВКИ</h2>
 					</div>
 					<div class="order-steps-step-2">
 						<div class="order-steps-step form">
@@ -113,7 +113,7 @@
 							<label class="form-field-label">
 								<span class="form-field-wrap">
 									<input class="form-field-radio" checked type="radio" name="delivery" data-name="СДЕК - склад" value="1">
-									<i class="form-field-icon-select"></i>						
+									<i class="form-field-icon-select"></i>
 									<span class="form-field-text-radio">СДЕК - склад 
 										<span class="form-field-text-radio-bold">/  225 RUB  /  1 день</span>
 									</span>
@@ -122,7 +122,7 @@
 							<label class="form-field-label">
 								<span class="form-field-wrap">
 									<input class="form-field-radio" type="radio" name="delivery" data-name="СДЕК - курьер" value="2">
-									<i class="form-field-icon-select"></i>						
+									<i class="form-field-icon-select"></i>
 									<span class="form-field-text-radio">СДЕК - курьер
 										<span class="form-field-text-radio-bold">/  450 RUB  /  2 дня</span>
 									</span>
@@ -131,7 +131,7 @@
 							<label class="form-field-label">
 								<span class="form-field-wrap">
 									<input class="form-field-radio" type="radio" name="delivery" data-name="Самовывоз" value="3">
-									<i class="form-field-icon-select"></i>						
+									<i class="form-field-icon-select"></i>
 									<span class="form-field-text-radio">Самовывоз
 										<span class="form-field-text-radio-bold">/  0 RUB  / сегодня</span>
 									</span>
@@ -140,7 +140,7 @@
 							<label class="form-field-label">
 								<span class="form-field-wrap">
 									<input class="form-field-radio" type="radio" name="delivery" data-name="Boxberry - курьер" value="4">
-									<i class="form-field-icon-select"></i>						
+									<i class="form-field-icon-select"></i>
 									<span class="form-field-text-radio">Boxberry - курьер
 										<span class="form-field-text-radio-bold">/  310 RUB  /  1 день</span>
 									</span>
@@ -149,7 +149,7 @@
 							<label class="form-field-label">
 								<span class="form-field-wrap">
 									<input class="form-field-radio" type="radio" name="delivery" data-name="Boxberry - склад" value="5">
-									<i class="form-field-icon-select"></i>						
+									<i class="form-field-icon-select"></i>
 									<span class="form-field-text-radio">Boxberry - склад
 										<span class="form-field-text-radio-bold">/  160 RUB  /  3 дня</span>
 									</span>
@@ -187,14 +187,14 @@
 							<div class="order-steps-link">
 								<a class="button-link white grey-border step-2" href="#">
 									<span class="button-link-span">
-										<span class="button-link-span-text">Далее</span>
+										<span class="button-link-span-text">ДАЛЕЕ</span>
 									</span>
 								</a>
 							</div>
 						</div>
 						<div class="order-steps-step data">
 							<div class="order-steps-step-head">
-								<h3 class="order-steps-step-head-name">2. <span class="order-steps-step-head-name-span">СДЕК - курьер</span></h3>
+								<h3 class="order-steps-step-head-name">2. <span class="order-steps-step-head-name-span">СДЕК - КУРЬЕР</span></h3>
 								<span class="order-steps-step-head-span">Изменить</span>
 							</div>
 							<div class="order-steps-step-info">
@@ -203,7 +203,7 @@
 						</div>
 					</div>
 					<div class="order-steps-form-head-wrap last">
-						<h2 class="order-steps-form-head">3. Способ оплаты</h2>
+						<h2 class="order-steps-form-head">3. СПОСОБ ОПЛАТЫ</h2>
 					</div>
 					<div class="order-steps-step-3">
 						<div class="order-steps-step form">
@@ -238,7 +238,7 @@
 									<label class="form-field-label">
 										<span class="form-field-wrap">
 											<input class="form-field-checkbox" type="checkbox" name="name">
-											<i class="form-field-icon-check"></i>						
+											<i class="form-field-icon-check"></i>
 											<span class="form-field-text">Не перезванивайте мне, я уверен в заказе</span>
 										</span>
 									</label>
@@ -289,7 +289,7 @@
 								<div class="order-steps-step-completion-button">
 									<button class="button-link black">
 										<span class="button-link-span">
-											<span class="button-link-span-text">Оформить заказ</span>
+											<span class="button-link-span-text">ОФОРМИТЬ ЗАКАЗ</span>
 										</span>
 									</button>
 								</div>
@@ -302,7 +302,7 @@
 				</form>
 				<div class="order-steps-basket">
 					<div class="order-steps-basket-head-wrap">
-						<h3 class="order-steps-basket-head-span">В корзине 6 товаров</h3>
+						<h3 class="order-steps-basket-head-span">В КОРЗИНЕ 6 ТОВАРОВ</h3>
 						<a class="order-steps-basket-head-edit" href="#">Редактировать</a>
 					</div>
 					<div class="order-steps-basket-list-wrap">
@@ -312,13 +312,13 @@
 									<img class="order-steps-basket-item-pic-img" src="img/goods/1.png" alt="">
 								</div>
 								<div class="order-steps-basket-item-info">
-									<a class="order-steps-basket-item-info-name" href="#">Gel Polish spring long name greenery</a>
+									<a class="order-steps-basket-item-info-name" href="#">GEL POLISH SPRING LONG NAME GREENERY</a>
 									<div class="order-steps-basket-item-info-wrap">
 										<div class="order-steps-basket-item-info-count">
-											<span class="order-steps-basket-item-info-count-span">10 мл</span>
-											<span class="order-steps-basket-item-info-count-span bold">5 шт</span>
+											<span class="order-steps-basket-item-info-count-span">10 МЛ</span>
+											<span class="order-steps-basket-item-info-count-span bold">5 ШТ</span>
 										</div>
-										<div class="order-steps-basket-item-info-price">520 rub</div>
+										<div class="order-steps-basket-item-info-price">520 RUB</div>
 									</div>
 								</div>
 							</div>
@@ -328,13 +328,13 @@
 									<img class="order-steps-basket-item-pic-img" src="img/goods/9.png" alt="">
 								</div>
 								<div class="order-steps-basket-item-info">
-									<a class="order-steps-basket-item-info-name" href="#">Antibacterial</a>
+									<a class="order-steps-basket-item-info-name" href="#">ANTIBACTERIAL</a>
 									<div class="order-steps-basket-item-info-wrap">
 										<div class="order-steps-basket-item-info-count">
-											<span class="order-steps-basket-item-info-count-span">250 мл</span>
-											<span class="order-steps-basket-item-info-count-span bold">1 шт</span>
+											<span class="order-steps-basket-item-info-count-span">250 МЛ</span>
+											<span class="order-steps-basket-item-info-count-span bold">1 ШТ</span>
 										</div>
-										<div class="order-steps-basket-item-info-price">520 rub</div>
+										<div class="order-steps-basket-item-info-price">520 RUB</div>
 									</div>
 								</div>
 							</div>
@@ -344,13 +344,13 @@
 									<img class="order-steps-basket-item-pic-img" src="img/goods/1.png" alt="">
 								</div>
 								<div class="order-steps-basket-item-info">
-									<a class="order-steps-basket-item-info-name" href="#">Gel Polish spring long name greenery</a>
+									<a class="order-steps-basket-item-info-name" href="#">GEL POLISH SPRING LONG NAME GREENERY</a>
 									<div class="order-steps-basket-item-info-wrap">
 										<div class="order-steps-basket-item-info-count">
-											<span class="order-steps-basket-item-info-count-span">10 мл</span>
-											<span class="order-steps-basket-item-info-count-span bold">5 шт</span>
+											<span class="order-steps-basket-item-info-count-span">10 МЛ</span>
+											<span class="order-steps-basket-item-info-count-span bold">5 ШТ</span>
 										</div>
-										<div class="order-steps-basket-item-info-price">520 rub</div>
+										<div class="order-steps-basket-item-info-price">520 RUB</div>
 									</div>
 								</div>
 							</div>
@@ -360,13 +360,13 @@
 									<img class="order-steps-basket-item-pic-img" src="img/goods/9.png" alt="">
 								</div>
 								<div class="order-steps-basket-item-info">
-									<a class="order-steps-basket-item-info-name" href="#">Antibacterial</a>
+									<a class="order-steps-basket-item-info-name" href="#">ANTIBACTERIAL</a>
 									<div class="order-steps-basket-item-info-wrap">
 										<div class="order-steps-basket-item-info-count">
-											<span class="order-steps-basket-item-info-count-span">250 мл</span>
-											<span class="order-steps-basket-item-info-count-span bold">1 шт</span>
+											<span class="order-steps-basket-item-info-count-span">250 МЛ</span>
+											<span class="order-steps-basket-item-info-count-span bold">1 ШТ</span>
 										</div>
-										<div class="order-steps-basket-item-info-price">520 rub</div>
+										<div class="order-steps-basket-item-info-price">520 RUB</div>
 									</div>
 								</div>
 							</div>
@@ -376,13 +376,13 @@
 									<img class="order-steps-basket-item-pic-img" src="img/goods/1.png" alt="">
 								</div>
 								<div class="order-steps-basket-item-info">
-									<a class="order-steps-basket-item-info-name" href="#">Gel Polish spring long name greenery</a>
+									<a class="order-steps-basket-item-info-name" href="#">GEL POLISH SPRING LONG NAME GREENERY</a>
 									<div class="order-steps-basket-item-info-wrap">
 										<div class="order-steps-basket-item-info-count">
-											<span class="order-steps-basket-item-info-count-span">10 мл</span>
-											<span class="order-steps-basket-item-info-count-span bold">5 шт</span>
+											<span class="order-steps-basket-item-info-count-span">10 МЛ</span>
+											<span class="order-steps-basket-item-info-count-span bold">5 ШТ</span>
 										</div>
-										<div class="order-steps-basket-item-info-price">520 rub</div>
+										<div class="order-steps-basket-item-info-price">520 RUB</div>
 									</div>
 								</div>
 							</div>
@@ -392,13 +392,13 @@
 									<img class="order-steps-basket-item-pic-img" src="img/goods/9.png" alt="">
 								</div>
 								<div class="order-steps-basket-item-info">
-									<a class="order-steps-basket-item-info-name" href="#">Antibacterial</a>
+									<a class="order-steps-basket-item-info-name" href="#">ANTIBACTERIAL</a>
 									<div class="order-steps-basket-item-info-wrap">
 										<div class="order-steps-basket-item-info-count">
-											<span class="order-steps-basket-item-info-count-span">250 мл</span>
-											<span class="order-steps-basket-item-info-count-span bold">1 шт</span>
+											<span class="order-steps-basket-item-info-count-span">250 МЛ</span>
+											<span class="order-steps-basket-item-info-count-span bold">1 ШТ</span>
 										</div>
-										<div class="order-steps-basket-item-info-price">520 rub</div>
+										<div class="order-steps-basket-item-info-price">520 RUB</div>
 									</div>
 								</div>
 							</div>

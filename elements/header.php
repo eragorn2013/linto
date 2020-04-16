@@ -79,7 +79,7 @@
 						</a>
 						<div class="modal-geo header-modal">
 							<i class="modal-close"></i>
-							<span class="modal-geo-head">Представители в Москве</span>
+							<span class="modal-geo-head">ПРЕДСТАВИТЕЛИ В МОСКВЕ</span>
 							<div class="modal-geo-list">
 								<div class="modal-geo-item">
 									<a class="modal-geo-item-name" href="#">Мультибрендовый магазин NAILBRAND</a>
@@ -91,7 +91,7 @@
 								</div>
 							</div>
 							<a class="modal-geo-more" href="#">Показать еще +4</a>
-							<a class="modal-geo-change-city" href="#">Изменить город</a>
+							<a class="modal-geo-change-city" href="#">ИЗМЕНИТЬ ГОРОД</a>
 						</div>
 					</div>
 					<div class="header-center-right-item">
@@ -159,7 +159,7 @@
 							<span class="header-center-right-link-span bold">108</span>
 						</a>
 						<div class="modal-basket header-modal">
-							<span class="modal-basket-head">Корзина</span>
+							<span class="modal-basket-head">КОРЗИНА</span>
 							<span class="modal-basket-count">Всего 108 товаров</span>
 							<div class="modal-basket-goods">
 
@@ -169,7 +169,7 @@
 									</div>
 									<div class="modal-basket-item-desc">
 										<div class="modal-basket-item-desc-top">
-											<span class="modal-basket-item-desc-top-name">Gel Polish spring long name greenery</span>
+											<span class="modal-basket-item-desc-top-name">GEL POLISH SPRING LONG NAME GREENERY</span>
 											<i class="modal-basket-item-desc-top-delete"></i>
 										</div>
 										<div class="modal-basket-item-desc-bottom">
@@ -188,7 +188,7 @@
 									</div>
 									<div class="modal-basket-item-desc">
 										<div class="modal-basket-item-desc-top">
-											<span class="modal-basket-item-desc-top-name">Antibacterial</span>
+											<span class="modal-basket-item-desc-top-name">ANTIBACTERIAL</span>
 											<i class="modal-basket-item-desc-top-delete"></i>
 										</div>
 										<div class="modal-basket-item-desc-bottom">
@@ -207,7 +207,7 @@
 									</div>
 									<div class="modal-basket-item-desc">
 										<div class="modal-basket-item-desc-top">
-											<span class="modal-basket-item-desc-top-name">Gel Polish spring long name greenery</span>
+											<span class="modal-basket-item-desc-top-name">GEL POLISH SPRING LONG NAME GREENERY</span>
 											<i class="modal-basket-item-desc-top-delete"></i>
 										</div>
 										<div class="modal-basket-item-desc-bottom">
@@ -226,7 +226,7 @@
 									</div>
 									<div class="modal-basket-item-desc">
 										<div class="modal-basket-item-desc-top">
-											<span class="modal-basket-item-desc-top-name">Antibacterial</span>
+											<span class="modal-basket-item-desc-top-name">ANTIBACTERIAL</span>
 											<i class="modal-basket-item-desc-top-delete"></i>
 										</div>
 										<div class="modal-basket-item-desc-bottom">
@@ -245,7 +245,7 @@
 									</div>
 									<div class="modal-basket-item-desc">
 										<div class="modal-basket-item-desc-top">
-											<span class="modal-basket-item-desc-top-name">Gel Polish spring long name greenery</span>
+											<span class="modal-basket-item-desc-top-name">GEL POLISH SPRING LONG NAME GREENERY</span>
 											<i class="modal-basket-item-desc-top-delete"></i>
 										</div>
 										<div class="modal-basket-item-desc-bottom">
@@ -264,7 +264,7 @@
 									</div>
 									<div class="modal-basket-item-desc">
 										<div class="modal-basket-item-desc-top">
-											<span class="modal-basket-item-desc-top-name">Antibacterial</span>
+											<span class="modal-basket-item-desc-top-name">ANTIBACTERIAL</span>
 											<i class="modal-basket-item-desc-top-delete"></i>
 										</div>
 										<div class="modal-basket-item-desc-bottom">
@@ -279,15 +279,15 @@
 
 							</div>
 							<div class="modal-basket-amount">
-								<span class="modal-basket-amount-text">Итого:</span>
+								<span class="modal-basket-amount-text">ИТОГО:</span>
 								<span class="modal-basket-amount-sum">5470 RUB</span>
 							</div>
 							<div class="modal-basket-buttons">
 								<a class="button-link white black-border full margin-right16" href="#">
-									<span class="button-link-span"><span class="button-link-span-text">Оформить заказ</span></span>
+									<span class="button-link-span"><span class="button-link-span-text">ОФОРМИТЬ ЗАКАЗ</span></span>
 								</a>
 								<a class="button-link black full" href="#">
-									<span class="button-link-span"><span class="button-link-span-text">В корзину</span></span>
+									<span class="button-link-span"><span class="button-link-span-text">В КОРЗИНУ</span></span>
 								</a>
 							</div>
 						</div>
@@ -302,7 +302,7 @@
 							<div class="header-center-mob-menu-wrap">
 								<div class="header-center-mob-menu-content">
 									<div class="header-center-mob-menu-top">
-										<span class="header-center-mob-menu-top-name">Меню</span>
+										<span class="header-center-mob-menu-top-name">МЕНЮ</span>
 										<i class="header-center-mob-menu-top-close"></i>
 									</div>
 									<a class="header-center-mob-menu-geo" href="#">
@@ -314,33 +314,33 @@
 									<div class="header-center-mob-menu-points">
 										<a class="header-center-mob-menu-point" href="#">
 											<i class="header-center-mob-menu-point-icon profile"></i>
-											<span class="header-center-mob-menu-point-name">Вход</span>
+											<span class="header-center-mob-menu-point-name">ВХОД</span>
 										</a>
 										<a class="header-center-mob-menu-point" href="#">												
-											<span class="header-center-mob-menu-point-name">Регистрация</span>
+											<span class="header-center-mob-menu-point-name">РЕГИСТРАЦИЯ</span>
 										</a>
 										<a class="header-center-mob-menu-point" href="#">
 											<i class="header-center-mob-menu-point-icon profile"></i>											
-											<span class="header-center-mob-menu-point-name">Мой профиль</span>
+											<span class="header-center-mob-menu-point-name">МОЙ ПРОФИЛЬ</span>
 										</a>
 										<a class="header-center-mob-menu-point" href="#">
 											<i class="header-center-mob-menu-point-icon orders"></i>											
-											<span class="header-center-mob-menu-point-name">Мой заказы</span>
+											<span class="header-center-mob-menu-point-name">МОЙ ЗАКАЗЫ</span>
 										</a>
 										<a class="header-center-mob-menu-point" href="#">
 											<i class="header-center-mob-menu-point-icon pass"></i>											
-											<span class="header-center-mob-menu-point-name">Сменить пароль</span>
+											<span class="header-center-mob-menu-point-name">СМЕНИТЬ ПАРОЛЬ</span>
 										</a>
 										<a class="header-center-mob-menu-point" href="#">
 											<i class="header-center-mob-menu-point-icon exit"></i>											
-											<span class="header-center-mob-menu-point-name">Выход</span>
+											<span class="header-center-mob-menu-point-name">ВЫХОД</span>
 										</a>
 									</div>
 
 									<div class="header-center-mob-menu-items">
 										<div class="header-center-mob-menu-item">
 											<span class="header-center-mob-menu-item-name">
-												Каталог
+												КАТАЛОГ
 												<i class="header-center-mob-menu-item-name-arrow active"></i>
 											</span>
 											<div class="header-center-mob-menu-item-list visible">
@@ -389,7 +389,7 @@
 
 										<div class="header-center-mob-menu-item">
 											<span class="header-center-mob-menu-item-name">
-												О нас
+												О НАС
 												<i class="header-center-mob-menu-item-name-arrow"></i>
 											</span>
 											<div class="header-center-mob-menu-item-list">
@@ -426,11 +426,11 @@
 											</div>
 										</div>
 										<div class="header-center-mob-menu-item">
-											<a class="header-center-mob-menu-item-a" href="#">События</a>
+											<a class="header-center-mob-menu-item-a" href="#">СОБЫТИЯ</a>
 										</div>
 									</div>
 									<div class="header-center-mob-menu-order">
-										<a class="header-center-mob-menu-order-link" href="#">Оформить быстрый заказ</a>
+										<a class="header-center-mob-menu-order-link" href="#">ОФОРМИТЬ БЫСТРЫЙ ЗАКАЗ</a>
 									</div>
 								</div>
 							</div>
@@ -442,7 +442,7 @@
 							<div class="header-center-mob-search-wrap">
 								<div class="header-center-mob-search-content">
 									<div class="header-center-mob-search-name">
-										<span class="header-center-mob-search-span">Поиск</span>
+										<span class="header-center-mob-search-span">ПОИСК</span>
 										<i class="header-center-mob-search-close"></i>
 									</div>
 									<div class="header-center-mob-search-input">
@@ -472,7 +472,7 @@
 										</form>
 									</div>
 									<div class="header-center-mob-search-goods">
-										<span class="header-center-mob-search-goods-span">Недавно просмотренные товары:</span>
+										<span class="header-center-mob-search-goods-span">НЕДАВНО ПРОСМОТРЕННЫЕ ТОВАРЫ:</span>
 										<div class="header-center-mob-search-goods-wrap">
 											<div class="header-center-mob-good">
 												<a class="header-center-mob-good-name" href="#">
@@ -480,8 +480,8 @@
 														<img class="header-center-mob-good-name-avatar-img" src="img/goods/1.png" alt="#">
 													</span>
 													<span class="header-center-mob-good-name-wrap">
-														<span class="header-center-mob-good-name-text">Gel Polish spring long name greenery</span>
-														<span class="header-center-mob-good-name-volume">10 мл</span>
+														<span class="header-center-mob-good-name-text">GEL POLISH SPRING LONG NAME GREENERY</span>
+														<span class="header-center-mob-good-name-volume">10 МЛ</span>
 													</span>
 												</a>
 												<div class="header-center-mob-good-price">104 250 RUB</div>														
@@ -493,8 +493,8 @@
 														<img class="header-center-mob-good-name-avatar-img" src="img/goods/2.png" alt="#">
 													</span>
 													<span class="header-center-mob-good-name-wrap">
-														<span class="header-center-mob-good-name-text">Antibacterial</span>
-														<span class="header-center-mob-good-name-volume">10 мл</span>
+														<span class="header-center-mob-good-name-text">ANTIBACTERIAL</span>
+														<span class="header-center-mob-good-name-volume">10 МЛ</span>
 													</span>
 												</a>
 												<div class="header-center-mob-good-price">250 RUB</div>														
@@ -506,8 +506,8 @@
 														<img class="header-center-mob-good-name-avatar-img" src="img/goods/3.png" alt="#">
 													</span>
 													<span class="header-center-mob-good-name-wrap">
-														<span class="header-center-mob-good-name-text">Gel Polish greenery</span>
-														<span class="header-center-mob-good-name-volume">10 мл</span>
+														<span class="header-center-mob-good-name-text">GEL POLISH GREENERY</span>
+														<span class="header-center-mob-good-name-volume">10 МЛ</span>
 													</span>
 												</a>
 												<div class="header-center-mob-good-price">250 RUB</div>														
@@ -519,8 +519,8 @@
 														<img class="header-center-mob-good-name-avatar-img" src="img/goods/4.png" alt="#">
 													</span>
 													<span class="header-center-mob-good-name-wrap">
-														<span class="header-center-mob-good-name-text">Gel Polish serenity</span>
-														<span class="header-center-mob-good-name-volume">10 мл</span>
+														<span class="header-center-mob-good-name-text">GEL POLISH SERENITY</span>
+														<span class="header-center-mob-good-name-volume">10 МЛ</span>
 													</span>
 												</a>
 												<div class="header-center-mob-good-price">250 RUB</div>														
@@ -532,8 +532,8 @@
 														<img class="header-center-mob-good-name-avatar-img" src="img/goods/5.png" alt="#">
 													</span>
 													<span class="header-center-mob-good-name-wrap">
-														<span class="header-center-mob-good-name-text">Gel Polish spring long name greenery</span>
-														<span class="header-center-mob-good-name-volume">10 мл</span>
+														<span class="header-center-mob-good-name-text">GEL POLISH SPRING LONG NAME GREENERY</span>
+														<span class="header-center-mob-good-name-volume">10 МЛ</span>
 													</span>
 												</a>
 												<div class="header-center-mob-good-price">250 RUB</div>														
@@ -545,8 +545,8 @@
 														<img class="header-center-mob-good-name-avatar-img" src="img/goods/1.png" alt="#">
 													</span>
 													<span class="header-center-mob-good-name-wrap">
-														<span class="header-center-mob-good-name-text">Gel Polish spring long name greenery</span>
-														<span class="header-center-mob-good-name-volume">10 мл</span>
+														<span class="header-center-mob-good-name-text">GEL POLISH SPRING LONG NAME GREENERY</span>
+														<span class="header-center-mob-good-name-volume">10 МЛ</span>
 													</span>
 												</a>
 												<div class="header-center-mob-good-price">104 250 RUB</div>														
@@ -558,8 +558,8 @@
 														<img class="header-center-mob-good-name-avatar-img" src="img/goods/2.png" alt="#">
 													</span>
 													<span class="header-center-mob-good-name-wrap">
-														<span class="header-center-mob-good-name-text">Antibacterial</span>
-														<span class="header-center-mob-good-name-volume">10 мл</span>
+														<span class="header-center-mob-good-name-text">ANTIBACTERIAL</span>
+														<span class="header-center-mob-good-name-volume">10 МЛ</span>
 													</span>
 												</a>
 												<div class="header-center-mob-good-price">250 RUB</div>														
@@ -571,8 +571,8 @@
 														<img class="header-center-mob-good-name-avatar-img" src="img/goods/3.png" alt="#">
 													</span>
 													<span class="header-center-mob-good-name-wrap">
-														<span class="header-center-mob-good-name-text">Gel Polish greenery</span>
-														<span class="header-center-mob-good-name-volume">10 мл</span>
+														<span class="header-center-mob-good-name-text">GEL POLISH GREENERY</span>
+														<span class="header-center-mob-good-name-volume">10 МЛ</span>
 													</span>
 												</a>
 												<div class="header-center-mob-good-price">250 RUB</div>														
@@ -598,14 +598,14 @@
 				</div>
 			</div>
 			<nav>
-				<a class="header-nav-link active" href="#">gel polish</a>
-				<a class="header-nav-link" href="#">french collection</a>
-				<a class="header-nav-link" href="#">white collection</a>
-				<a class="header-nav-link" href="#">podo line</a>
-				<a class="header-nav-link" href="#">base</a>
-				<a class="header-nav-link" href="#">base camouflage</a>
-				<a class="header-nav-link" href="#">top</a>
-				<a class="header-nav-link" href="#">gel glitz</a>
+				<a class="header-nav-link active" href="#">GEL POLISH</a>
+				<a class="header-nav-link" href="#">FRENCH COLLECTION</a>
+				<a class="header-nav-link" href="#">WHITE COLLECTION</a>
+				<a class="header-nav-link" href="#">PODO LINE</a>
+				<a class="header-nav-link" href="#">BASE</a>
+				<a class="header-nav-link" href="#">BASE CAMOUFLAGE</a>
+				<a class="header-nav-link" href="#">TOP</a>
+				<a class="header-nav-link" href="#">GEL GLITZ</a>
 			</nav>
 		</div>
 	</div>
@@ -614,7 +614,7 @@
 	<div class="container modal-geo-all-container">
 		<div class="content modal-geo-all-content">
 			<i class="modal-geo-all-close"></i>
-			<h3 class="modal-geo-all-head">Все представители в Москве</h3>
+			<h3 class="modal-geo-all-head">ВСЕ ПРЕДСТАВИТЕЛИ В МОСКВЕ</h3>
 			<div class="modal-geo-all-list">
 				<div class="modal-geo-all-item">
 					<div class="modal-geo-all-item-link">
@@ -697,7 +697,7 @@
 	<div class="container modal-change-city-container">
 		<div class="content modal-change-city-content">
 			<i class="modal-change-city-close"></i>
-			<h3 class="modal-change-city-head">Введите название города</h3>
+			<h3 class="modal-change-city-head">ВВЕДИТЕ НАЗВАНИЕ ГОРОДА</h3>
 			<div class="modal-change-city-search">
 				<form class="form-field" action="#" method="post">
 					<label class="form-field-label">

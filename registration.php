@@ -2,7 +2,7 @@
 <section id="registration">
 	<div class="container">
 		<div class="content">
-			<h1 class="registration-head">Регистрация</h1>
+			<h1 class="registration-head">РЕГИСТРАЦИЯ</h1>
 			<div class="registration-wrap">
 				<form class="form-field" action="#" method="post">
 					<label class="form-field-label">
@@ -70,12 +70,12 @@
 					<div class="form-field-buttons">
 						<button class="button-link black">
 							<span class="button-link-span">
-								<span class="button-link-span-text">Войти</span>
+								<span class="button-link-span-text">ВОЙТИ</span>
 							</span>
 						</button>
 						<a class="button-link white grey-border" href="#">
 							<span class="button-link-span">
-								<span class="button-link-span-text">Зарегистрироваться</span>
+								<span class="button-link-span-text">ЗАРЕГИСТРИРОВАТЬСЯ</span>
 							</span>
 						</a>
 					</div>					
