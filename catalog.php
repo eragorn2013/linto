@@ -14,171 +14,195 @@
 			<div class="catalog-blocks">
 				<div class="catalog-head">
 					<h1 class="catalog-head-h1">Gel Polish</h1>
+					<div class="catalog-head-filter-mobile">
+						<div class="catalog-head-filter-mobile-button first">
+							<div class="catalog-head-filter-mobile-button-wrap">
+								<span class="catalog-head-filter-mobile-button-name">ФИЛЬТРЫ</span>
+								<span class="catalog-head-filter-mobile-button-count">3</span>
+								<i class="catalog-head-filter-mobile-button-icon filter"></i>
+							</div>
+						</div>						
+						
+					</div>
 					<div class="catalog-head-filter">
 						<div class="catalog-head-filter-item button active">Хиты</div>
 						<div class="catalog-head-filter-item button">Новинки</div>
-						<div class="catalog-head-filter-item select">
-							<div class="form-field-select">
-								<input class="form-field-select-input" type="hidden" name="region" value="0">								
-								<div class="form-field-select-wrap">
-									<span class="form-field-select-span">Сортировка</span>
-									<i class="form-field-select-arrow"></i>
-									<div class="form-field-select-modal">
-										<span class="form-field-select-modal-item" data-region="1">по популярности</span>
-										<span class="form-field-select-modal-item" data-region="2">от дешевых к дорогим</span>
-										<span class="form-field-select-modal-item" data-region="3">от дорогих к дешевым</span>
-									</div>
-								</div>
-							</div>
-						</div>
 					</div>
 				</div>
-				<div class="catalog-menu">
-					<div class="catalog-menu-item">
-						<h2 class="catalog-menu-item-head">
-							<span class="catalog-menu-item-head-name">Категории</span>
-							<i class="catalog-menu-item-head-arrow active"></i> 
-						</h2>
-						<div class="catalog-menu-item-list">
-							<div class="catalog-menu-item-list-point active">
-								<span class="catalog-menu-item-list-point-name">GEL POLISH</span>
-								<span class="catalog-menu-item-list-point-count">(58)</span>
-							</div>
-							<div class="catalog-menu-item-list-point">
-								<span class="catalog-menu-item-list-point-name">FRENCH COLLECTION</span>
-								<span class="catalog-menu-item-list-point-count">(28)</span>
-							</div>
-							<div class="catalog-menu-item-list-point">
-								<span class="catalog-menu-item-list-point-name">WHITE COLLECTION</span>
-								<span class="catalog-menu-item-list-point-count">(12)</span>
-							</div>
-							<div class="catalog-menu-item-list-point">
-								<span class="catalog-menu-item-list-point-name">PODO LINE</span>
-								<span class="catalog-menu-item-list-point-count">(5)</span>
-							</div>
-							<div class="catalog-menu-item-list-point">
-								<span class="catalog-menu-item-list-point-name">BASE</span>
-								<span class="catalog-menu-item-list-point-count">(10)</span>
-							</div>
-							<div class="catalog-menu-item-list-point">
-								<span class="catalog-menu-item-list-point-name">BASE CAMOUFLAGE</span>
-								<span class="catalog-menu-item-list-point-count">(21)</span>
-							</div>
-							<div class="catalog-menu-item-list-point">
-								<span class="catalog-menu-item-list-point-name">TOP</span>
-								<span class="catalog-menu-item-list-point-count">(1)</span>
-							</div>
-							<div class="catalog-menu-item-list-point">
-								<span class="catalog-menu-item-list-point-name">GEL GLITZ</span>
-								<span class="catalog-menu-item-list-point-count">(3)</span>
-							</div>
-							<div class="catalog-menu-item-list-point">
-								<span class="catalog-menu-item-list-point-name">GEL PAINT</span>
-								<span class="catalog-menu-item-list-point-count">(1)</span>
-							</div>
-							<div class="catalog-menu-item-list-point">
-								<span class="catalog-menu-item-list-point-name">DEHYDRATOR</span>
-								<span class="catalog-menu-item-list-point-count">(5)</span>
-							</div>
-							<div class="catalog-menu-item-list-point">
-								<span class="catalog-menu-item-list-point-name">NON-ACID PRIMER</span>
-								<span class="catalog-menu-item-list-point-count">(8)</span>
-							</div>
-							<div class="catalog-menu-item-list-point">
-								<span class="catalog-menu-item-list-point-name">ANTIBACTERIAL</span>
-								<span class="catalog-menu-item-list-point-count">(1)</span>
-							</div>
-							<div class="catalog-menu-item-list-point">
-								<span class="catalog-menu-item-list-point-name">Уход за кутиколой</span>
-								<span class="catalog-menu-item-list-point-count">(11)</span>
-							</div>
-							<div class="catalog-menu-item-list-point">
-								<span class="catalog-menu-item-list-point-name">Уход за руками</span>
-								<span class="catalog-menu-item-list-point-count">(3)</span>
-							</div>
-							<div class="catalog-menu-item-list-point">
-								<span class="catalog-menu-item-list-point-name">Рекламная продукция</span>
-								<span class="catalog-menu-item-list-point-count">(25)</span>
-							</div>
-							<div class="catalog-menu-item-list-point">
-								<span class="catalog-menu-item-list-point-name">Подарочный набор</span>
-								<span class="catalog-menu-item-list-point-count">(12)</span>
+				<div class="catalog-menu">					
+					<div class="catalog-menu-wrap">
+						<div class="catalog-menu-head-mobile">
+							<span class="catalog-menu-head-mobile-name">ФИЛЬТРЫ</span>
+							<i class="catalog-menu-head-mobile-close"></i>
+						</div>
+						<div class="catalog-menu-item">
+							<h2 class="catalog-menu-item-head">
+								<span class="catalog-menu-item-head-name">Категории</span>
+								<i class="catalog-menu-item-head-arrow active"></i> 
+							</h2>
+							<div class="catalog-menu-item-list">
+								<span class="catalog-menu-item-list-point active">
+									<span class="catalog-menu-item-list-point-name">GEL POLISH</span>
+									<span class="catalog-menu-item-list-point-count">(58)</span>
+									<span class="catalog-menu-item-list-point-sub">
+										<a class="catalog-menu-item-list-point" href="#">
+											<span class="catalog-menu-item-list-point-sub-name">ARCTIC WINTER 2020</span>
+											<span class="catalog-menu-item-list-point-count">(28)</span>
+										</a>
+										<a class="catalog-menu-item-list-point" href="#">
+											<span class="catalog-menu-item-list-point-sub-name">LEVEL_UP_NAILS</span>
+											<span class="catalog-menu-item-list-point-count">(28)</span>
+										</a>
+										<a class="catalog-menu-item-list-point" href="#">
+											<span class="catalog-menu-item-list-point-sub-name">AMUR_NAILS & LINTO</span>
+											<span class="catalog-menu-item-list-point-count">(28)</span>
+										</a>
+										<a class="catalog-menu-item-list-point" href="#">
+											<span class="catalog-menu-item-list-point-sub-name">BASIC COLLECTION</span>
+											<span class="catalog-menu-item-list-point-count">(28)</span>
+										</a>
+										<a class="catalog-menu-item-list-point" href="#">
+											<span class="catalog-menu-item-list-point-sub-name">THE PANTONE COLLECTION</span>
+											<span class="catalog-menu-item-list-point-count">(28)</span>
+										</a>
+									</span>
+								</span>
+								<a class="catalog-menu-item-list-point" href="#">
+									<span class="catalog-menu-item-list-point-name">FRENCH COLLECTION</span>
+									<span class="catalog-menu-item-list-point-count">(28)</span>
+								</a>
+								<a class="catalog-menu-item-list-point" href="#">
+									<span class="catalog-menu-item-list-point-name">WHITE COLLECTION</span>
+									<span class="catalog-menu-item-list-point-count">(12)</span>
+								</a>
+								<a class="catalog-menu-item-list-point" href="#">
+									<span class="catalog-menu-item-list-point-name">PODO LINE</span>
+									<span class="catalog-menu-item-list-point-count">(5)</span>
+								</a>
+								<a class="catalog-menu-item-list-point" href="#">
+									<span class="catalog-menu-item-list-point-name">BASE</span>
+									<span class="catalog-menu-item-list-point-count">(10)</span>
+								</a>
+								<a class="catalog-menu-item-list-point" href="#">
+									<span class="catalog-menu-item-list-point-name">BASE CAMOUFLAGE</span>
+									<span class="catalog-menu-item-list-point-count">(21)</span>
+								</a>
+								<a class="catalog-menu-item-list-point" href="#">
+									<span class="catalog-menu-item-list-point-name">TOP</span>
+									<span class="catalog-menu-item-list-point-count">(1)</span>
+								</a>
+								<a class="catalog-menu-item-list-point" href="#">
+									<span class="catalog-menu-item-list-point-name">GEL GLITZ</span>
+									<span class="catalog-menu-item-list-point-count">(3)</span>
+								</a>
+								<a class="catalog-menu-item-list-point" href="#">
+									<span class="catalog-menu-item-list-point-name">GEL PAINT</span>
+									<span class="catalog-menu-item-list-point-count">(1)</span>
+								</a>
+								<a class="catalog-menu-item-list-point" href="#">
+									<span class="catalog-menu-item-list-point-name">DEHYDRATOR</span>
+									<span class="catalog-menu-item-list-point-count">(5)</span>
+								</a>
+								<a class="catalog-menu-item-list-point" href="#">
+									<span class="catalog-menu-item-list-point-name">NON-ACID PRIMER</span>
+									<span class="catalog-menu-item-list-point-count">(8)</span>
+								</a>
+								<a class="catalog-menu-item-list-point" href="#">
+									<span class="catalog-menu-item-list-point-name">ANTIBACTERIAL</span>
+									<span class="catalog-menu-item-list-point-count">(1)</span>
+								</a>
+								<a class="catalog-menu-item-list-point" href="#">
+									<span class="catalog-menu-item-list-point-name">Уход за кутиколой</span>
+									<span class="catalog-menu-item-list-point-count">(11)</span>
+								</a>
+								<a class="catalog-menu-item-list-point" href="#">
+									<span class="catalog-menu-item-list-point-name">Уход за руками</span>
+									<span class="catalog-menu-item-list-point-count">(3)</span>
+								</a>
+								<a class="catalog-menu-item-list-point" href="#">
+									<span class="catalog-menu-item-list-point-name">Рекламная продукция</span>
+									<span class="catalog-menu-item-list-point-count">(25)</span>
+								</a>
+								<a class="catalog-menu-item-list-point" href="#">
+									<span class="catalog-menu-item-list-point-name">Подарочный набор</span>
+									<span class="catalog-menu-item-list-point-count">(12)</span>
+								</a>
 							</div>
 						</div>
-					</div>
 
-					<div class="catalog-menu-item">
-						<h2 class="catalog-menu-item-head">
-							<span class="catalog-menu-item-head-name">Коллекции</span>
-							<i class="catalog-menu-item-head-arrow active"></i> 
-						</h2>
-						<div class="catalog-menu-item-list">
-							<div class="catalog-menu-item-list-point">
-								<label class="form-field-label">
-									<span class="form-field-wrap">
-										<input class="form-field-checkbox" type="checkbox" checked name="filter_collection[]" value="1">
-										<i class="form-field-icon-check"></i>						
-										<span class="form-field-text">ARCTIC WINTER 2020 <span class="form-field-text-grey">(20)</span></span>
-									</span>
-								</label>
-							</div>
-							<div class="catalog-menu-item-list-point">
-								<label class="form-field-label">
-									<span class="form-field-wrap">
-										<input class="form-field-checkbox" type="checkbox" checked name="filter_collection[]" value="2">
-										<i class="form-field-icon-check"></i>						
-										<span class="form-field-text">LEVEL_UP_NAILS <span class="form-field-text-grey">(12)</span></span>
-									</span>
-								</label>
-							</div>
-							<div class="catalog-menu-item-list-point">
-								<label class="form-field-label">
-									<span class="form-field-wrap">
-										<input class="form-field-checkbox" type="checkbox" name="filter_collection[]" value="3">
-										<i class="form-field-icon-check"></i>						
-										<span class="form-field-text">AMUR_NAILS & LiNTO <span class="form-field-text-grey">(18)</span></span>
-									</span>
-								</label>
-							</div>
-							<div class="catalog-menu-item-list-point">
-								<label class="form-field-label">
-									<span class="form-field-wrap">
-										<input class="form-field-checkbox" type="checkbox" name="filter_collection[]" value="4">
-										<i class="form-field-icon-check"></i>						
-										<span class="form-field-text">BASIC COLLECTION <span class="form-field-text-grey">(25)</span></span>
-									</span>
-								</label>
-							</div>
-							<div class="catalog-menu-item-list-point">
-								<label class="form-field-label">
-									<span class="form-field-wrap">
-										<input class="form-field-checkbox" type="checkbox" name="filter_collection[]" value="5">
-										<i class="form-field-icon-check"></i>						
-										<span class="form-field-text">THE PANTONE COLLECTION <span class="form-field-text-grey">(11)</span></span>
-									</span>
-								</label>
-							</div>
-						</div>						
-					</div>
+						<!--<div class="catalog-menu-item">
+							<h2 class="catalog-menu-item-head">
+								<span class="catalog-menu-item-head-name">Коллекции</span>
+								<i class="catalog-menu-item-head-arrow active"></i> 
+							</h2>
+							<div class="catalog-menu-item-list">
+								<div class="catalog-menu-item-list-point">
+									<label class="form-field-label">
+										<span class="form-field-wrap">
+											<input class="form-field-checkbox" type="checkbox" checked name="filter_collection[]" value="1">
+											<i class="form-field-icon-check"></i>						
+											<span class="form-field-text">ARCTIC WINTER 2020 <span class="form-field-text-grey">(20)</span></span>
+										</span>
+									</label>
+								</div>
+								<div class="catalog-menu-item-list-point">
+									<label class="form-field-label">
+										<span class="form-field-wrap">
+											<input class="form-field-checkbox" type="checkbox" checked name="filter_collection[]" value="2">
+											<i class="form-field-icon-check"></i>						
+											<span class="form-field-text">LEVEL_UP_NAILS <span class="form-field-text-grey">(12)</span></span>
+										</span>
+									</label>
+								</div>
+								<div class="catalog-menu-item-list-point">
+									<label class="form-field-label">
+										<span class="form-field-wrap">
+											<input class="form-field-checkbox" type="checkbox" name="filter_collection[]" value="3">
+											<i class="form-field-icon-check"></i>						
+											<span class="form-field-text">AMUR_NAILS & LiNTO <span class="form-field-text-grey">(18)</span></span>
+										</span>
+									</label>
+								</div>
+								<div class="catalog-menu-item-list-point">
+									<label class="form-field-label">
+										<span class="form-field-wrap">
+											<input class="form-field-checkbox" type="checkbox" name="filter_collection[]" value="4">
+											<i class="form-field-icon-check"></i>						
+											<span class="form-field-text">BASIC COLLECTION <span class="form-field-text-grey">(25)</span></span>
+										</span>
+									</label>
+								</div>
+								<div class="catalog-menu-item-list-point">
+									<label class="form-field-label">
+										<span class="form-field-wrap">
+											<input class="form-field-checkbox" type="checkbox" name="filter_collection[]" value="5">
+											<i class="form-field-icon-check"></i>						
+											<span class="form-field-text">THE PANTONE COLLECTION <span class="form-field-text-grey">(11)</span></span>
+										</span>
+									</label>
+								</div>
+							</div>						
+						</div>-->
 
-					<div class="catalog-menu-item">
-						<h2 class="catalog-menu-item-head">
-							<span class="catalog-menu-item-head-name">Коллекции</span>
-							<i class="catalog-menu-item-head-arrow active"></i> 
-						</h2>
-						<div class="catalog-menu-item-list colors">
-							<span class="catalog-menu-item-list-color white"></span>
-							<span class="catalog-menu-item-list-color yellow"></span>
-							<span class="catalog-menu-item-list-color green active"></span>
-							<span class="catalog-menu-item-list-color brown"></span>
-							<span class="catalog-menu-item-list-color red"></span>
-							<span class="catalog-menu-item-list-color beige active"></span>
-							<span class="catalog-menu-item-list-color orange"></span>
-							<span class="catalog-menu-item-list-color pink"></span>
-							<span class="catalog-menu-item-list-color grey"></span>
-							<span class="catalog-menu-item-list-color blue"></span>
-							<span class="catalog-menu-item-list-color purple"></span>
-							<span class="catalog-menu-item-list-color black"></span>
+						<div class="catalog-menu-item">
+							<h2 class="catalog-menu-item-head">
+								<span class="catalog-menu-item-head-name">Оттенки</span>
+								<i class="catalog-menu-item-head-arrow active"></i> 
+							</h2>
+							<div class="catalog-menu-item-list colors">
+								<span class="catalog-menu-item-list-color white"></span>
+								<span class="catalog-menu-item-list-color yellow"></span>
+								<span class="catalog-menu-item-list-color green active"></span>
+								<span class="catalog-menu-item-list-color brown"></span>
+								<span class="catalog-menu-item-list-color red"></span>
+								<span class="catalog-menu-item-list-color beige active"></span>
+								<span class="catalog-menu-item-list-color orange"></span>
+								<span class="catalog-menu-item-list-color pink"></span>
+								<span class="catalog-menu-item-list-color grey"></span>
+								<span class="catalog-menu-item-list-color blue"></span>
+								<span class="catalog-menu-item-list-color purple"></span>
+								<span class="catalog-menu-item-list-color black"></span>
+							</div>
 						</div>
 					</div>
 				</div>

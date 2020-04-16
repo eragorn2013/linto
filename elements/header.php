@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<!--[if IE]><html class="ie">< ![endif]-->
 <head>
 	<meta name="viewport" content="initial-scale=1">
 	<meta charset="UTF-8">
