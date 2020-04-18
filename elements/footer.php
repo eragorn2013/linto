@@ -97,16 +97,14 @@
 </footer>
 </div>	
 	<link rel="stylesheet" type="text/css" href="js/scroll/jquery.jscrollpane.css">
-	<link rel="stylesheet" href="js/owl/owl.carousel.css">
-	<link rel="stylesheet" href="js/owl/owl.theme.default.css">
-	<link rel="stylesheet" href="js/owl/owl.theme.green.css">
+	<link rel="stylesheet" href="js/swiper/package/css/swiper.css">
 	<script src="js/jquery/jquery.js"></script>
 	<script src="js/scroll/jquery.mousewheel.js"></script>
 	<script src="js/scroll/jquery.jscrollpane.min.js"></script>	
 	<script src="js/swipe/jquery.swipe.js"></script>
 	<script src="js/swipe/jquery.touch.js"></script>
-	<script src="js/mask/jquery.mask.min.js"></script>
-	<script src="js/owl/owl.carousel.min.js"></script>
+	<script src="js/mask/jquery.mask.min.js"></script>	
+	<script src="js/swiper/package/js/swiper.min.js"></script>
 	<script src="js/my.js?1304201505"></script>
 </body>
 </html>

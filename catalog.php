@@ -517,10 +517,9 @@
 				</div>
 				<div class="catalog-recently">
 					<h2 class="catalog-recently-head">ВЫ НЕДАВНО ПРОСМАТРИВАЛИ</h2>
-					<div class="catalog-recently-list-wrap">
-						<i class="catalog-recently-list-arrow prev"></i>
-						<div class="catalog-recently-list owl-carousel owl-theme">
-							<div class="good-item not-shadow">
+					<div class="catalog-recently-list-wrap swiper-container">						
+						<div class="catalog-recently-list swiper-wrapper">
+							<div class="good-item not-shadow swiper-slide">
 								<a class="good-item-link" href="#">
 									<span class="good-item-pic">
 										<span class="good-item-pic-icon green">NEW</span>
@@ -545,7 +544,7 @@
 								</a>
 							</div>
 
-							<div class="good-item not-shadow">
+							<div class="good-item not-shadow swiper-slide">
 								<a class="good-item-link" href="#">
 									<span class="good-item-pic">
 										<span class="good-item-pic-icon red">HIT</span>
@@ -570,7 +569,7 @@
 								</a>
 							</div>
 
-							<div class="good-item not-shadow">
+							<div class="good-item not-shadow swiper-slide">
 								<a class="good-item-link" href="#">
 									<span class="good-item-pic">
 										<img class="good-item-pic-img" src="img/goods/3.png" alt="Товар">
@@ -594,7 +593,7 @@
 								</a>
 							</div>
 
-							<div class="good-item not-shadow">
+							<div class="good-item not-shadow swiper-slide">
 								<a class="good-item-link" href="#">
 									<span class="good-item-pic">
 										<img class="good-item-pic-img" src="img/goods/4.png" alt="Товар">
@@ -618,7 +617,7 @@
 								</a>
 							</div>
 
-							<div class="good-item not-shadow">
+							<div class="good-item not-shadow swiper-slide">
 								<a class="good-item-link" href="#">
 									<span class="good-item-pic">
 										<span class="good-item-pic-icon green">NEW</span>
@@ -643,7 +642,7 @@
 								</a>
 							</div>
 
-							<div class="good-item not-shadow">
+							<div class="good-item not-shadow swiper-slide">
 								<a class="good-item-link" href="#">
 									<span class="good-item-pic">
 										<img class="good-item-pic-img" src="img/goods/6.png" alt="Товар">
@@ -667,7 +666,7 @@
 								</a>
 							</div>
 
-							<div class="good-item not-shadow">
+							<div class="good-item not-shadow swiper-slide">
 								<a class="good-item-link" href="#">
 									<span class="good-item-pic">
 										<img class="good-item-pic-img" src="img/goods/9.png" alt="Товар">
@@ -691,7 +690,9 @@
 								</a>
 							</div>
 						</div>
-						<i class="catalog-recently-list-arrow next"></i>
+						<i class="swiper-button-prev"></i>
+						<i class="swiper-button-next"></i>
+						<div class="swiper-pagination"></div>
 					</div>					
 				</div>
 			</div>

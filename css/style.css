@@ -116,6 +116,9 @@ a{
 	font-family: "HelveticaNeueCyr-Bold";
 	text-align: center;
 }
+.button-link.height{
+	padding: 14px 32px 6px 32px;
+}
 .button-link.full{
 	width: 99%;
 	box-sizing: border-box;
@@ -183,6 +186,9 @@ a{
 }
 .button-icon.watsapp-white{
 	background-position: -1px -27px;
+}
+.button-icon.watsapp-black{
+	background-position: -22px -27px;
 }
 .button-icon.insta-white{
 	background-position: -43px -28px;
@@ -3247,6 +3253,248 @@ nav{
 	display: block;
 	max-width: 100%;
 	max-height: 100%;
+}
+
+
+#card{
+	background: #fff;
+	padding: 78px 0 106px;
+}
+.card-content{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.card-images{
+	width: 49.5%;
+	display: flex;
+}
+.card-images-wrap.gallery-top{
+	width: 528px;
+	height: 528px;
+	position: relative;
+}
+.slide-img-wrap{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+.slide-img-wrap.min{
+	width: 94px;
+	height: 94px;
+	border: 1px solid rgba(0,0,0,0.15);
+	cursor: pointer;
+}
+.card-images-wrap.gallery-thumbs{
+	margin-right: 12px;
+}
+.slide-img-wrap.min.swiper-slide-thumb-active{
+	border: 1px solid rgba(0,0,0,0.4);
+}
+.slide-img{
+	display: block;
+	max-width: 90%;
+	max-height: 90%;
+}
+.card-images-wrap{
+	overflow: hidden;
+}
+
+.card-info{
+	width: 32.7%;
+	margin-right: 107px;
+}
+.card-info .bread-crumbs{
+	padding-top: 0;
+	padding-bottom: 35px;
+}
+.card-info-head{
+	font-size: 32px;
+	line-height: 44px;
+	font-family: "HelveticaNeueCyr-Bold";
+	border-bottom: 3px solid #000;
+	margin-bottom: 12px;
+}
+.card-info-category{
+	color: rgba(0,0,0,0.4);
+	display: block;
+	margin-bottom: 20px;
+}
+.card-info-price{
+	font-family: "HelveticaNeueCyr-Bold";
+	margin-bottom: 33px;
+}
+.card-info-price-sum{
+	font-size: 20px;
+	line-height: 24px;
+}
+.card-info-price-amount{
+
+}
+.card-info-in-basket{
+	display: flex;
+	padding-bottom: 32px;
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+	margin-bottom: 24px;
+}
+.card-info-in-basket .button-link{
+	align-self: flex-end;
+	width: 100%;
+}
+.card-info-in-basket-count{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 24px;
+	border-bottom: 1px solid #000;
+	margin-right: 16px;
+	width: 80%;
+	box-sizing: border-box;
+}
+.card-info-in-basket-count-icon{
+	font-size: 20px;
+	cursor: pointer;
+	margin-bottom: 4px;
+}
+.card-info-in-basket-count-icon.min{
+	margin-right: 24px;
+}
+.card-info-in-basket-count-icon.max{
+
+}
+.card-info-in-basket-count-num{
+	margin-right: 24px;
+	font-family: "HelveticaNeueCyr-Bold";
+}
+.card-info-colors-list{
+	padding-bottom: 13px;
+	margin-bottom: 24px;
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+.card-info-colors-head{
+	font-size: 12px;
+	line-height: 18px;
+	font-family: "HelveticaNeueCyr-Bold";
+	margin-bottom: 16px;
+}
+.card-info-colors-head-name{
+
+}
+.card-info-colors-head-count{
+	color: #bcbcbc;
+}
+.card-info-colors-list-wrap{
+	display: flex;
+	flex-wrap: wrap;	
+}
+.card-info-color{
+	width: 42px;
+	text-align: center;
+	margin-bottom: 11px;
+	margin-right: 11px;
+	cursor: pointer;
+}
+.card-info-color.active .card-info-color-square{
+	box-sizing: border-box;
+	border: 9px solid #fff;
+}
+.card-info-color.active .card-info-color-name{
+	font-family: "HelveticaNeueCyr-Bold";
+}
+.card-info-color:nth-child(8n){
+	margin-right: 0px;
+}
+.card-info-color-square{
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+}
+.card-info-color.color-F4E3AF .card-info-color-square{
+	background: #F4E3AF;
+}
+.card-info-color.color-C5BAA7 .card-info-color-square{
+	background: #C5BAA7;	
+}
+.card-info-color.color-9B977C .card-info-color-square{
+	background: #9B977C;
+}
+.card-info-color.color-C09ABF .card-info-color-square{
+	background: #C09ABF;	
+}
+.card-info-color.color-B58CB8 .card-info-color-square{
+	background: #B58CB8;
+}
+.card-info-color.color-D8C1D7 .card-info-color-square{
+	background: #D8C1D7;
+}
+.card-info-color.color-E4D5DD .card-info-color-square{
+	background: #E4D5DD;
+}
+.card-info-color.color-F4C4C0 .card-info-color-square{
+	background: #F4C4C0;	
+}
+.card-info-color.color-F9C0C9 .card-info-color-square{
+	background: #F9C0C9;
+}
+.card-info-color.color-EBA0B6 .card-info-color-square{
+	background: #EBA0B6;
+}
+.card-info-color.color-FCC9DC .card-info-color-square{
+	background: #FCC9DC;
+}
+.card-info-color.color-F19ABD .card-info-color-square{
+	background: #F19ABD;	
+}
+.card-info-desc{
+	padding-bottom: 24px;
+	margin-bottom: 24px;
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+.card-info-desc-head{
+	font-size: 12px;
+	line-height: 18px;
+	font-family: "HelveticaNeueCyr-Bold";
+	margin-bottom: 16px;
+}
+.card-info-desc-wrap{
+
+}
+.card-info-desc-p{
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 12px;
+}
+.card-info-desc-p:last-child{
+	margin-bottom: 0px;
+}
+.card-info-test{
+	margin-bottom: 48px;
+}
+.card-info-test-head{
+	font-size: 12px;
+	line-height: 18px;
+	font-family: "HelveticaNeueCyr-Bold";
+	margin-bottom: 16px;
+}
+.card-info-test-wrap{
+
+}
+.card-info-test-p{
+	margin-bottom: 12px;
+}
+.card-info-test-p:last-child{
+	margin-bottom: 0px;
+}
+.card-info-buttons{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.card-info-buttons .button-link{
+	padding: 17px 23px 8px 23px;
+}
+.card-info-buttons .button-link.height{
+	padding: 14px 23px 6px 23px;
 }
 
 footer{
