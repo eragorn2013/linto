@@ -134,6 +134,62 @@
 				</div>
 			</div>
 		</div>
+		<div class="content details-content">
+			<div class="details-tabs">
+				<span class="details-tabs-span active first">ДЕТАЛИ</span>
+				<span class="details-tabs-span last">СПОСОБ ПРИМЕНЕНИЯ</span>
+			</div>
+			<div class="details-block-first">				
+				<div class="details-wrap">
+					<h3 class="details-head">РЕКОМЕНДАЦИИ ТЕХНОЛОГА</h3>
+					<div class="details-item">						
+						<div class="details-avatar">
+							<img class="details-avatar-img" src="img/avatar.png" alt="">
+						</div>
+						<div class="details-info">
+							<a class="details-info-social" href="#">
+								<i class="details-info-social-icon inst"></i>
+								<span class="details-info-social-span">olga_z_linto</span>
+							</a>
+							<span class="details-info-name">Заворотынская Ольга</span>
+						</div>
+					</div>
+					<div class="details-item">
+						<p class="details-item-p">“Финальный штрих при создании образа, такой же незаменимый для совершенного стиля аксессуар...”</p>
+					</div>
+				</div>
+
+				<div class="details-wrap">
+					<h3 class="details-head">ГИПОАЛЛЕРГЕННЫЙ ПРОДУКТ</h3>
+					<p class="details-p">11-FREE (Не содержит: FORMALDEHYDE, TOLUENE, DBP, FORMALDEHYDE RESIN, CAMPHOR, XYLENE, ETHYL TOSYLAMIDE, PARABENS, ACETONE, HEXYLAMINE ALDEHYDE, BUTANONE)</p>
+					<div class="details-sertificate">
+						<i class="details-sertificate-icon"></i>
+						<span class="details-sertificate-name">СЕРТИФИКАТ КАЧЕСТВА</span>
+					</div>
+				</div>
+
+				<div class="details-wrap">
+					<h3 class="details-head">СОСТАВ</h3>
+					<p class="details-p">DI-HEMA TRIMETHYLHEXYL DICARBAMATE, HYDROXYETHYL METHACRYLATE, TRIMETHYLBENZOYL DIPHENYLPHOSPHINE OXIDE, SILICA</p>
+				</div>
+
+				<div class="details-wrap">
+					<h3 class="details-head">ДОСТАВКА</h3>
+					<p class="details-p">Информация о доставке товара.</p>
+				</div>
+			</div>
+			<div class="details-block-last">
+				<div class="details-wrap">
+					<ol class="details-list">
+						<li class="details-list-item">Наносим первый тонкий слой гель-лака, запечатывая торцы ногтя, чтобы избежать отслоек.</li>
+						<li class="details-list-item">Сушим в UV-лампе – 90 сек., в LED-лампе – 60 сек.</li>
+						<li class="details-list-item">Наносим второй слой для высокой насыщенности цвета. </li>
+						<li class="details-list-item">Сушим в UV-лампе – 90 сек., в LED-лампе – 60 сек.</li>
+					</ol>
+					<iframe class="details-video" src="https://www.youtube.com/embed/QdmOTo3vUIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
 <?php include './elements/footer.php'; ?>

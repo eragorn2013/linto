@@ -511,4 +511,16 @@ $(document).ready(function(){
 	$(window).on("resize", function(){
 		if($(this).width() > 960) $(".catalog-menu").removeAttr("style");
 	});
+
+	/*Вкладки в карточке товара*/
+	$(".details-tabs-span").on("click", function(){
+		var element=$(this);
+		var current=null;
+		if(element.hasClass("first")) {
+			current="first";
+		}
+		else if(element.hasClass("last")) current="last";
+
+
+	});
 });
