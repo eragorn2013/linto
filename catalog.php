@@ -253,13 +253,13 @@
 									<span class="good-item-details-name">Посмотреть детали</span>
 									<i class="good-item-details-arrow"></i>
 								</span>
-								<a class="button-link black" href="#">
-									<span class="button-link-span">
-										<span class="button-link-span-text">
-											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
-										</span>
+							</a>
+							<a class="button-link black" href="#">
+								<span class="button-link-span">
+									<span class="button-link-span-text">
+										<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 									</span>
-								</a>
+								</span>
 							</a>
 						</div>
 
@@ -278,13 +278,13 @@
 									<span class="good-item-details-name">Посмотреть детали</span>
 									<i class="good-item-details-arrow"></i>
 								</span>
-								<a class="button-link black" href="#">
-									<span class="button-link-span">
-										<span class="button-link-span-text">
-											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
-										</span>
+							</a>
+							<a class="button-link black" href="#">
+								<span class="button-link-span">
+									<span class="button-link-span-text">
+										<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 									</span>
-								</a>
+								</span>
 							</a>
 						</div>
 
@@ -302,13 +302,13 @@
 									<span class="good-item-details-name">Посмотреть детали</span>
 									<i class="good-item-details-arrow"></i>
 								</span>
-								<a class="button-link black" href="#">
-									<span class="button-link-span">
-										<span class="button-link-span-text">
-											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
-										</span>
+							</a>
+							<a class="button-link black" href="#">
+								<span class="button-link-span">
+									<span class="button-link-span-text">
+										<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 									</span>
-								</a>
+								</span>
 							</a>
 						</div>
 
@@ -326,13 +326,13 @@
 									<span class="good-item-details-name">Посмотреть детали</span>
 									<i class="good-item-details-arrow"></i>
 								</span>
-								<a class="button-link black" href="#">
-									<span class="button-link-span">
-										<span class="button-link-span-text">
-											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
-										</span>
+							</a>
+							<a class="button-link black" href="#">
+								<span class="button-link-span">
+									<span class="button-link-span-text">
+										<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 									</span>
-								</a>
+								</span>
 							</a>
 						</div>
 
@@ -351,13 +351,13 @@
 									<span class="good-item-details-name">Посмотреть детали</span>
 									<i class="good-item-details-arrow"></i>
 								</span>
-								<a class="button-link black" href="#">
-									<span class="button-link-span">
-										<span class="button-link-span-text">
-											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
-										</span>
+							</a>
+							<a class="button-link black" href="#">
+								<span class="button-link-span">
+									<span class="button-link-span-text">
+										<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 									</span>
-								</a>
+								</span>
 							</a>
 						</div>
 
@@ -375,13 +375,13 @@
 									<span class="good-item-details-name">Посмотреть детали</span>
 									<i class="good-item-details-arrow"></i>
 								</span>
-								<a class="button-link black" href="#">
-									<span class="button-link-span">
-										<span class="button-link-span-text">
-											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
-										</span>
+							</a>
+							<a class="button-link black" href="#">
+								<span class="button-link-span">
+									<span class="button-link-span-text">
+										<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 									</span>
-								</a>
+								</span>
 							</a>
 						</div>
 
@@ -399,13 +399,13 @@
 									<span class="good-item-details-name">Посмотреть детали</span>
 									<i class="good-item-details-arrow"></i>
 								</span>
-								<a class="button-link black" href="#">
-									<span class="button-link-span">
-										<span class="button-link-span-text">
-											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
-										</span>
+							</a>
+							<a class="button-link black" href="#">
+								<span class="button-link-span">
+									<span class="button-link-span-text">
+										<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 									</span>
-								</a>
+								</span>
 							</a>
 						</div>
 
@@ -423,13 +423,13 @@
 									<span class="good-item-details-name">Посмотреть детали</span>
 									<i class="good-item-details-arrow"></i>
 								</span>
-								<a class="button-link black" href="#">
-									<span class="button-link-span">
-										<span class="button-link-span-text">
-											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
-										</span>
+							</a>
+							<a class="button-link black" href="#">
+								<span class="button-link-span">
+									<span class="button-link-span-text">
+										<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 									</span>
-								</a>
+								</span>
 							</a>
 						</div>
 
@@ -447,13 +447,13 @@
 									<span class="good-item-details-name">Посмотреть детали</span>
 									<i class="good-item-details-arrow"></i>
 								</span>
-								<a class="button-link black" href="#">
-									<span class="button-link-span">
-										<span class="button-link-span-text">
-											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
-										</span>
+							</a>
+							<a class="button-link black" href="#">
+								<span class="button-link-span">
+									<span class="button-link-span-text">
+										<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 									</span>
-								</a>
+								</span>
 							</a>
 						</div>
 
@@ -534,13 +534,13 @@
 										<span class="good-item-details-name">Посмотреть детали</span>
 										<i class="good-item-details-arrow"></i>
 									</span>
-									<a class="button-link black" href="#">
-										<span class="button-link-span">
-											<span class="button-link-span-text">
-												<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
-											</span>
+								</a>
+								<a class="button-link black" href="#">
+									<span class="button-link-span">
+										<span class="button-link-span-text">
+											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 										</span>
-									</a>
+									</span>
 								</a>
 							</div>
 
@@ -558,14 +558,14 @@
 									<span class="good-item-details">
 										<span class="good-item-details-name">Посмотреть детали</span>
 										<i class="good-item-details-arrow"></i>
-									</span>
-									<a class="button-link black" href="#">
-										<span class="button-link-span">
-											<span class="button-link-span-text">
-												<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
-											</span>
+									</span>									
+								</a>
+								<a class="button-link black" href="#">
+									<span class="button-link-span">
+										<span class="button-link-span-text">
+											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 										</span>
-									</a>
+									</span>
 								</a>
 							</div>
 
@@ -583,13 +583,13 @@
 										<span class="good-item-details-name">Посмотреть детали</span>
 										<i class="good-item-details-arrow"></i>
 									</span>
-									<a class="button-link black" href="#">
-										<span class="button-link-span">
-											<span class="button-link-span-text">
-												<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
-											</span>
+								</a>
+								<a class="button-link black" href="#">
+									<span class="button-link-span">
+										<span class="button-link-span-text">
+											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 										</span>
-									</a>
+									</span>
 								</a>
 							</div>
 
@@ -607,13 +607,13 @@
 										<span class="good-item-details-name">Посмотреть детали</span>
 										<i class="good-item-details-arrow"></i>
 									</span>
-									<a class="button-link black" href="#">
-										<span class="button-link-span">
-											<span class="button-link-span-text">
-												<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
-											</span>
+								</a>
+								<a class="button-link black" href="#">
+									<span class="button-link-span">
+										<span class="button-link-span-text">
+											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 										</span>
-									</a>
+									</span>
 								</a>
 							</div>
 
@@ -632,13 +632,13 @@
 										<span class="good-item-details-name">Посмотреть детали</span>
 										<i class="good-item-details-arrow"></i>
 									</span>
-									<a class="button-link black" href="#">
-										<span class="button-link-span">
-											<span class="button-link-span-text">
-												<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
-											</span>
+								</a>
+								<a class="button-link black" href="#">
+									<span class="button-link-span">
+										<span class="button-link-span-text">
+											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 										</span>
-									</a>
+									</span>
 								</a>
 							</div>
 
@@ -656,13 +656,13 @@
 										<span class="good-item-details-name">Посмотреть детали</span>
 										<i class="good-item-details-arrow"></i>
 									</span>
-									<a class="button-link black" href="#">
-										<span class="button-link-span">
-											<span class="button-link-span-text">
-												<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
-											</span>
+								</a>
+								<a class="button-link black" href="#">
+									<span class="button-link-span">
+										<span class="button-link-span-text">
+											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 										</span>
-									</a>
+									</span>
 								</a>
 							</div>
 
@@ -680,13 +680,13 @@
 										<span class="good-item-details-name">Посмотреть детали</span>
 										<i class="good-item-details-arrow"></i>
 									</span>
-									<a class="button-link black" href="#">
-										<span class="button-link-span">
-											<span class="button-link-span-text">
-												<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
-											</span>
+								</a>
+								<a class="button-link black" href="#">
+									<span class="button-link-span">
+										<span class="button-link-span-text">
+											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
 										</span>
-									</a>
+									</span>
 								</a>
 							</div>
 						</div>

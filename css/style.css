@@ -38,6 +38,7 @@ a{
 	position: relative;
 	z-index: 1;
 	margin-bottom: 660px;
+	overflow: hidden;
 }
 .container{
 	width: 1284px;
@@ -115,9 +116,39 @@ a{
 	padding: 17px 32px 8px 32px;
 	font-family: "HelveticaNeueCyr-Bold";
 	text-align: center;
+	position: relative;
+}
+
+.card-button-basket{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	border-left: 1px solid #C7C7C7;
+	padding: 0 12px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	background-color: #fff;
+}
+.card-button-basket-icon{
+	width: 16px;
+	height: 16px;
+	background-image: url("../img/sprite.png");
+	background-repeat: no-repeat;
+	background-size: 150px;
+    background-position: -49px 0;
+    margin-right: 7px;
+}
+.card-button-basket-count{
+
 }
 .button-link.height{
 	padding: 14px 32px 6px 32px;
+}
+.button-link.padding-right{
+	padding-right: 64px;
+	padding-left: 0px;
 }
 .button-link.full{
 	width: 99%;
@@ -196,6 +227,11 @@ a{
 .button-icon.phone-white{
 	background-position: -160px -1px;
 }
+.button-icon.plus-black{
+	 background-position: -219px -66px;
+	 background-size: 240px;
+}
+
 .form-field{
 	position: relative;
 }
@@ -459,6 +495,57 @@ a{
 /*end elements*/
 
 /*modal*/
+
+#modal-report{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	background: rgba(0,0,0,0.4);
+	display: none;
+}
+.modal-report-container{
+	position: relative;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.modal-report-content{
+	background: #fff;
+	padding: 40px 78px 50px 78px;
+	width: 44.8%;
+	box-sizing: border-box;
+	border-top: 2px solid #000;
+	position: relative;
+}
+.modal-report-close{
+	background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+	position: absolute;
+	width: 18px;
+    height: 18px;
+    background-position: -124px -58px;
+    background-size: 213px;
+    top: 14px;
+    right: 14px;
+}
+.modal-report-head{
+	font-size: 18px;
+	line-height: 24px;	
+	text-align: center;
+	margin-bottom: 14px;
+	font-family: "HelveticaNeueCyr-Bold";
+}
+.modal-report-text{
+	margin-bottom: 24px;
+	line-height: 22px;
+	color: rgba(0,0,0,0.7);
+	text-align: center;
+}
 
 .modal-search-list{
 	position: absolute;
@@ -3337,6 +3424,17 @@ nav{
 	padding-bottom: 32px;
 	border-bottom: 1px solid rgba(0,0,0,0.15);
 	margin-bottom: 24px;
+	position: relative;
+}
+.card-info-in-basket.disabled:before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.8);
+	top: 0;
+	left: 0;
+	z-index: 100;
 }
 .card-info-in-basket .button-link{
 	align-self: flex-end;
@@ -3499,7 +3597,7 @@ nav{
 }
 
 .details-content{
-
+	margin-bottom: 142px;
 }
 .details-tabs{
 	display: flex;
@@ -3616,6 +3714,9 @@ nav{
 .details-sertificate-name{
 	font-weight: 600;
 }
+.details-sertificate-name:hover{
+	text-decoration: underline;
+}
 .details-block-last{
 	width: 49.1%;
 	margin: 0 auto;
@@ -3636,6 +3737,104 @@ nav{
 .details-video{
 	width: 100%;
 	height: 360px;
+}
+
+.other-head,
+.often-head{
+	font-size: 32px;
+	line-height: 36px;
+	text-align: center;
+	margin-bottom: 56px;
+	font-family: "HelveticaNeueCyr-Bold";
+}
+.other-content{
+	margin-bottom: 83px;
+}
+.often-content{
+	margin-bottom: 120px;
+}
+.other-wrap{
+	position: relative;	
+	margin: 0 163px;
+	overflow: hidden;
+}
+.often-wrap{
+	position: relative;
+	overflow: hidden;
+}
+
+.card-info-not-available{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.card-info-not-available-text{
+	margin-bottom: 20px;
+	color: rgba(0,0,0,0.4);
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.fixed-content{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+	background: #fff;
+	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);	
+	box-sizing: border-box;
+	display: none;
+}
+.card-fixed-list{
+	width: 1284px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.card-fixed-wrap{
+	display: flex;
+	align-items: center;
+}
+.card-fixed-pic{
+	width: 72px;
+	height: 72px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	margin-right: 12px;
+}
+.card-fixed-img{
+	display: block;
+	max-width: 80%;
+	max-height: 80%;
+}
+.card-fixed-name-span{
+	font-size: 16px;
+	line-height: 20px;
+	font-family: "HelveticaNeueCyr-Bold";
+	display: block;
+}
+.card-fixed-name-category{
+	color: rgba(0,0,0,0.4);
+}
+.card-fixed-name-category:hover{
+	text-decoration: underline;
+}
+.card-fixed-price{
+	font-family: "HelveticaNeueCyr-Bold";
+	margin-right: 50px;
+}
+.card-fixed-price-sum{
+	font-size: 16px;
+	line-height: 20px;
+}
+.card-fixed-price-amount{
+
+}
+.card-fixed-in-basket{
+
 }
 
 footer{
@@ -4662,7 +4861,7 @@ footer{
 	}
 	.button-icon.insta-white{
 		background-position: -33px -20px;
-	}
+	}	
 	.container{
 		width: 510px;
 	}

@@ -1,6 +1,34 @@
 <?php include './elements/header.php'; ?>
 <section id="card">
 	<div class="container">
+		<div class="content fixed-content">
+			<div class="card-fixed-list">
+				<div class="card-fixed-wrap">
+					<div class="card-fixed-pic">
+						<img class="card-fixed-img" src="img/goods/1.png" alt="">
+					</div>
+					<div class="card-fixed-name">
+						<span class="card-fixed-name-span">GEL POLISH 025</span>
+						<a class="card-fixed-name-category" href="#">BASIC COLLECTION</a>
+					</div>
+				</div>
+				<div class="card-fixed-wrap">
+					<div class="card-fixed-price">
+						<span class="card-fixed-price-sum">520 RUB</span> /
+						<span class="card-fixed-price-amount">10 МЛ</span>
+					</div>
+					<div class="card-fixed-in-basket">
+						<a class="button-link black" href="#">
+							<span class="button-link-span">
+								<span class="button-link-span-text">
+									<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+								</span>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="content card-content">
 			<div class="card-images">
 				<div class="card-images-wrap gallery-thumbs">
@@ -49,6 +77,35 @@
 							</span>
 						</span>
 					</a>
+				</div>
+				<div class="card-info-in-basket">
+					<div class="card-info-in-basket-count">
+						<i class="card-info-in-basket-count-icon min">-</i>
+						<span class="card-info-in-basket-count-num">5 ШТ</span>
+						<i class="card-info-in-basket-count-icon max">+</i>
+					</div>
+					<a class="button-link white grey-border height padding-right" href="#">
+						<span class="button-link-span">
+							<i class="button-icon plus-black"></i>
+							<span class="button-link-span-text">ДОБАВИТЬ ЕЩЕ</span>							
+						</span>
+						<span class="card-button-basket">
+							<i class="card-button-basket-icon"></i>
+							<span class="card-button-basket-count">4</span>
+						</span>
+					</a>
+				</div>
+				<div class="card-info-in-basket disabled">
+					<div class="card-info-in-basket-count">
+						<i class="card-info-in-basket-count-icon min">-</i>
+						<span class="card-info-in-basket-count-num">5 ШТ</span>
+						<i class="card-info-in-basket-count-icon max">+</i>
+					</div>
+					<span class="button-link white grey-border">
+						<span class="button-link-span">
+							<span class="button-link-span-text">НЕТ В НАЛИЧИИ</span>
+						</span>
+					</span>
 				</div>
 				<div class="card-info-colors-list">
 					<h2 class="card-info-colors-head">
@@ -105,7 +162,23 @@
 							<span class="card-info-color-name">#036</span>
 						</div>
 					</div>
+					<div class="card-info-not-available">
+						<p class="card-info-not-available-text">Выбранного оттенка сейчас нет в наличии. Подпишитесь на уведомления и мы сообщим вам, когда он появится.</p>
+						<form class="form-field" action="#" method="post">
+							<label class="form-field-label">
+								<span class="form-field-wrap first">
+									<span class="form-field-name">Ваш E-mail</span>
+								</span>
+								<span class="form-field-wrap last">
+									<input class="form-field-input email" type="text" name="search">
+									<span class="form-field-error">Это поле является обязательным</span>
+									<button class="form-field-submit arrow-right"></button>
+								</span>
+							</label>					
+						</form>
+					</div>
 				</div>
+
 				<div class="card-info-desc">
 					<h2 class="card-info-desc-head">ОПИСАНИЕ</h2>
 					<div class="card-info-desc-wrap">
@@ -164,7 +237,7 @@
 					<p class="details-p">11-FREE (Не содержит: FORMALDEHYDE, TOLUENE, DBP, FORMALDEHYDE RESIN, CAMPHOR, XYLENE, ETHYL TOSYLAMIDE, PARABENS, ACETONE, HEXYLAMINE ALDEHYDE, BUTANONE)</p>
 					<div class="details-sertificate">
 						<i class="details-sertificate-icon"></i>
-						<span class="details-sertificate-name">СЕРТИФИКАТ КАЧЕСТВА</span>
+						<a class="details-sertificate-name" href="#">СЕРТИФИКАТ КАЧЕСТВА</a>
 					</div>
 				</div>
 
@@ -190,6 +263,341 @@
 				</div>
 			</div>
 		</div>
+		<div class="content other-content">
+			<div class="other-wrap">
+				<h2 class="other-head">ДРУГИЕ ТОВАРЫ ЭТОЙ СЕРИИ</h2>
+				<div class="other-list swiper-wrapper">
+					<div class="good-item not-shadow swiper-slide">
+						<a class="good-item-link" href="#">
+							<span class="good-item-pic">
+								<span class="good-item-pic-icon green">NEW</span>
+								<img class="good-item-pic-img" src="img/goods/1.png" alt="Товар">
+							</span>
+							<span class="good-item-name">GEL POLISH GREENERY</span>
+							<span class="good-item-price">
+								<span class="good-item-price-amount">10 МЛ</span>
+								<span class="good-item-price-sum">520 RUB</span>
+							</span>
+							<span class="good-item-details">
+								<span class="good-item-details-name">Посмотреть детали</span>
+								<i class="good-item-details-arrow"></i>
+							</span>
+						</a>
+						<a class="button-link white grey-border modal" href="#">
+							<span class="button-link-span">
+								<span class="button-link-span-text">СООБЩИТЬ О ПОЯВЛЕНИИ</span>									
+							</span>
+						</a>
+					</div>
+
+					<div class="good-item not-shadow swiper-slide">
+						<a class="good-item-link" href="#">
+							<span class="good-item-pic">
+								<span class="good-item-pic-icon red">HIT</span>
+								<img class="good-item-pic-img" src="img/goods/2.png" alt="Товар">
+							</span>
+							<span class="good-item-name">GEL POLISH 027</span>
+							<span class="good-item-price">
+								<span class="good-item-price-amount">10 МЛ</span>
+								<span class="good-item-price-sum">520 RUB</span>
+							</span>
+							<span class="good-item-details">
+								<span class="good-item-details-name">Посмотреть детали</span>
+								<i class="good-item-details-arrow"></i>
+							</span>
+						</a>
+						<a class="button-link black" href="#">
+							<span class="button-link-span">
+								<span class="button-link-span-text">
+									<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+								</span>
+							</span>
+						</a>
+					</div>
+
+					<div class="good-item not-shadow swiper-slide">
+						<a class="good-item-link" href="#">
+							<span class="good-item-pic">
+								<img class="good-item-pic-img" src="img/goods/3.png" alt="Товар">
+							</span>
+							<span class="good-item-name">GEL POLISH 028</span>
+							<span class="good-item-price">
+								<span class="good-item-price-amount">10 МЛ</span>
+								<span class="good-item-price-sum">520 RUB</span>
+							</span>
+							<span class="good-item-details">
+								<span class="good-item-details-name">Посмотреть детали</span>
+								<i class="good-item-details-arrow"></i>
+							</span>
+						</a>
+						<a class="button-link black" href="#">
+							<span class="button-link-span">
+								<span class="button-link-span-text">
+									<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+								</span>
+							</span>
+						</a>
+					</div>
+
+					<div class="good-item not-shadow swiper-slide">
+						<a class="good-item-link" href="#">
+							<span class="good-item-pic">
+								<img class="good-item-pic-img" src="img/goods/4.png" alt="Товар">
+							</span>
+							<span class="good-item-name">GEL POLISH 030</span>
+							<span class="good-item-price">
+								<span class="good-item-price-amount">10 МЛ</span>
+								<span class="good-item-price-sum">520 RUB</span>
+							</span>
+							<span class="good-item-details">
+								<span class="good-item-details-name">Посмотреть детали</span>
+								<i class="good-item-details-arrow"></i>
+							</span>							
+						</a>
+						<a class="button-link black" href="#">
+							<span class="button-link-span">
+								<span class="button-link-span-text">
+									<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+								</span>
+							</span>
+						</a>
+					</div>
+
+					<div class="good-item not-shadow swiper-slide">
+						<a class="good-item-link" href="#">
+							<span class="good-item-pic">
+								<span class="good-item-pic-icon green">NEW</span>
+								<img class="good-item-pic-img" src="img/goods/5.png" alt="Товар">
+							</span>
+							<span class="good-item-name">GEL POLISH ULTRA CIOLET</span>
+							<span class="good-item-price">
+								<span class="good-item-price-amount">10 МЛ</span>
+								<span class="good-item-price-sum">520 RUB</span>
+							</span>
+							<span class="good-item-details">
+								<span class="good-item-details-name">Посмотреть детали</span>
+								<i class="good-item-details-arrow"></i>
+							</span>
+						</a>
+						<a class="button-link black" href="#">
+							<span class="button-link-span">
+								<span class="button-link-span-text">
+									<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+								</span>
+							</span>
+						</a>
+					</div>
+
+					<div class="good-item not-shadow swiper-slide">
+						<a class="good-item-link" href="#">
+							<span class="good-item-pic">
+								<img class="good-item-pic-img" src="img/goods/6.png" alt="Товар">
+							</span>
+							<span class="good-item-name">GEL POLISH 032</span>
+							<span class="good-item-price">
+								<span class="good-item-price-amount">10 МЛ</span>
+								<span class="good-item-price-sum">520 RUB</span>
+							</span>
+							<span class="good-item-details">
+								<span class="good-item-details-name">Посмотреть детали</span>
+								<i class="good-item-details-arrow"></i>
+							</span>							
+						</a>
+						<a class="button-link black" href="#">
+							<span class="button-link-span">
+								<span class="button-link-span-text">
+									<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+								</span>
+							</span>
+						</a>
+					</div>
+				</div>
+				<i class="swiper-button-prev"></i>
+				<i class="swiper-button-next"></i>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+		<div class="content often-content">
+			<div class="often-wrap">
+				<h2 class="often-head">C ЭТИМ ЧАСТО ПОКУПАЮТ</h2>
+				<div class="often-list swiper-wrapper">
+					<div class="good-item not-shadow swiper-slide">
+						<a class="good-item-link" href="#">
+							<span class="good-item-pic">
+								<span class="good-item-pic-icon green">NEW</span>
+								<img class="good-item-pic-img" src="img/goods/1.png" alt="Товар">
+							</span>
+							<span class="good-item-name">GEL POLISH GREENERY</span>
+							<span class="good-item-price">
+								<span class="good-item-price-amount">10 МЛ</span>
+								<span class="good-item-price-sum">520 RUB</span>
+							</span>
+							<span class="good-item-details">
+								<span class="good-item-details-name">Посмотреть детали</span>
+								<i class="good-item-details-arrow"></i>
+							</span>							
+						</a>
+						<a class="button-link white grey-border height padding-right" href="#">
+							<span class="button-link-span">
+								<i class="button-icon plus-black"></i>
+								<span class="button-link-span-text">ДОБАВИТЬ ЕЩЕ</span>							
+							</span>
+							<span class="card-button-basket">
+								<i class="card-button-basket-icon"></i>
+								<span class="card-button-basket-count">4</span>
+							</span>
+						</a>
+					</div>
+
+					<div class="good-item not-shadow swiper-slide">
+						<a class="good-item-link" href="#">
+							<span class="good-item-pic">
+								<span class="good-item-pic-icon red">HIT</span>
+								<img class="good-item-pic-img" src="img/goods/2.png" alt="Товар">
+							</span>
+							<span class="good-item-name">GEL POLISH 027</span>
+							<span class="good-item-price">
+								<span class="good-item-price-amount">10 МЛ</span>
+								<span class="good-item-price-sum">520 RUB</span>
+							</span>
+							<span class="good-item-details">
+								<span class="good-item-details-name">Посмотреть детали</span>
+								<i class="good-item-details-arrow"></i>
+							</span>							
+						</a>
+						<a class="button-link black" href="#">
+							<span class="button-link-span">
+								<span class="button-link-span-text">
+									<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+								</span>
+							</span>
+						</a>
+					</div>
+
+					<div class="good-item not-shadow swiper-slide">
+						<a class="good-item-link" href="#">
+							<span class="good-item-pic">
+								<img class="good-item-pic-img" src="img/goods/3.png" alt="Товар">
+							</span>
+							<span class="good-item-name">GEL POLISH 028</span>
+							<span class="good-item-price">
+								<span class="good-item-price-amount">10 МЛ</span>
+								<span class="good-item-price-sum">520 RUB</span>
+							</span>
+							<span class="good-item-details">
+								<span class="good-item-details-name">Посмотреть детали</span>
+								<i class="good-item-details-arrow"></i>
+							</span>							
+						</a>
+						<a class="button-link black" href="#">
+							<span class="button-link-span">
+								<span class="button-link-span-text">
+									<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+								</span>
+							</span>
+						</a>
+					</div>
+
+					<div class="good-item not-shadow swiper-slide">
+						<a class="good-item-link" href="#">
+							<span class="good-item-pic">
+								<img class="good-item-pic-img" src="img/goods/4.png" alt="Товар">
+							</span>
+							<span class="good-item-name">GEL POLISH 030</span>
+							<span class="good-item-price">
+								<span class="good-item-price-amount">10 МЛ</span>
+								<span class="good-item-price-sum">520 RUB</span>
+							</span>
+							<span class="good-item-details">
+								<span class="good-item-details-name">Посмотреть детали</span>
+								<i class="good-item-details-arrow"></i>
+							</span>							
+						</a>
+						<a class="button-link black" href="#">
+							<span class="button-link-span">
+								<span class="button-link-span-text">
+									<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+								</span>
+							</span>
+						</a>
+					</div>
+
+					<div class="good-item not-shadow swiper-slide">
+						<a class="good-item-link" href="#">
+							<span class="good-item-pic">
+								<span class="good-item-pic-icon green">NEW</span>
+								<img class="good-item-pic-img" src="img/goods/5.png" alt="Товар">
+							</span>
+							<span class="good-item-name">GEL POLISH ULTRA CIOLET</span>
+							<span class="good-item-price">
+								<span class="good-item-price-amount">10 МЛ</span>
+								<span class="good-item-price-sum">520 RUB</span>
+							</span>
+							<span class="good-item-details">
+								<span class="good-item-details-name">Посмотреть детали</span>
+								<i class="good-item-details-arrow"></i>
+							</span>
+						</a>
+						<a class="button-link black" href="#">
+							<span class="button-link-span">
+								<span class="button-link-span-text">
+									<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+								</span>
+							</span>
+						</a>
+					</div>
+
+					<div class="good-item not-shadow swiper-slide">
+						<a class="good-item-link" href="#">
+							<span class="good-item-pic">
+								<img class="good-item-pic-img" src="img/goods/6.png" alt="Товар">
+							</span>
+							<span class="good-item-name">GEL POLISH 032</span>
+							<span class="good-item-price">
+								<span class="good-item-price-amount">10 МЛ</span>
+								<span class="good-item-price-sum">520 RUB</span>
+							</span>
+							<span class="good-item-details">
+								<span class="good-item-details-name">Посмотреть детали</span>
+								<i class="good-item-details-arrow"></i>
+							</span>							
+						</a>
+						<a class="button-link black" href="#">
+							<span class="button-link-span">
+								<span class="button-link-span-text">
+									<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+								</span>
+							</span>
+						</a>
+					</div>
+				</div>
+				<i class="swiper-button-prev"></i>
+				<i class="swiper-button-next"></i>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
 	</div>
 </section>
+<section id="modal-report">
+	<div class="container modal-report-container">
+		<div class="content modal-report-content">
+			<i class="modal-report-close"></i>
+			<h3 class="modal-report-head">СООБЩИТЬ О ПОЯВЛЕНИИ</h3>
+			<p class="modal-report-text">Выбранного товара сейчас нет в наличии. Подпишитесь на уведомления и мы сообщим вам, когда он появится. </p>
+			<form class="form-field" action="#" method="post">
+				<label class="form-field-label">
+					<span class="form-field-wrap first">
+						<span class="form-field-name">Ваш E-mail</span>
+					</span>
+					<span class="form-field-wrap last">
+						<input class="form-field-input email" type="text" name="search">
+						<span class="form-field-error">Это поле является обязательным</span>
+						<button class="form-field-submit arrow-right"></button>
+					</span>
+				</label>					
+			</form>
+		</div>
+	</div>
+</section>
+<?php include './elements/subscription.php'; ?>
 <?php include './elements/footer.php'; ?>
