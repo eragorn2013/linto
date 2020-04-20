@@ -254,11 +254,14 @@
 									<i class="good-item-details-arrow"></i>
 								</span>
 							</a>
-							<a class="button-link black" href="#">
+							<a class="button-link white grey-border height padding-right" href="#">
 								<span class="button-link-span">
-									<span class="button-link-span-text">
-										<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
-									</span>
+									<i class="button-icon plus-black"></i>
+									<span class="button-link-span-text">ДОБАВИТЬ <span class="button-link-span-text-hidden">ЕЩЕ</span></span>							
+								</span>
+								<span class="card-button-basket">
+									<i class="card-button-basket-icon"></i>
+									<span class="card-button-basket-count">4</span>
 								</span>
 							</a>
 						</div>
@@ -535,11 +538,14 @@
 										<i class="good-item-details-arrow"></i>
 									</span>
 								</a>
-								<a class="button-link black" href="#">
+								<a class="button-link white grey-border height padding-right" href="#">
 									<span class="button-link-span">
-										<span class="button-link-span-text">
-											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
-										</span>
+										<i class="button-icon plus-black"></i>
+										<span class="button-link-span-text">ДОБАВИТЬ <span class="button-link-span-text-hidden">ЕЩЕ</span></span>							
+									</span>
+									<span class="card-button-basket">
+										<i class="card-button-basket-icon"></i>
+										<span class="card-button-basket-count">4</span>
 									</span>
 								</a>
 							</div>

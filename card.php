@@ -1,7 +1,8 @@
 <?php include './elements/header.php'; ?>
 <section id="card">
 	<div class="container">
-		<div class="content fixed-content">
+		<a class="card-back" href="#">Назад</a>
+		<div class="content fixed-content">			
 			<div class="card-fixed-list">
 				<div class="card-fixed-wrap">
 					<div class="card-fixed-pic">
@@ -16,6 +17,7 @@
 					<div class="card-fixed-price">
 						<span class="card-fixed-price-sum">520 RUB</span> /
 						<span class="card-fixed-price-amount">10 МЛ</span>
+						<span class="card-fixed-price-name-span">GEL POLISH 025</span>
 					</div>
 					<div class="card-fixed-in-basket">
 						<a class="button-link black" href="#">
@@ -50,6 +52,7 @@
 				    </div>
 				    <i class="swiper-button-prev"></i>
 					<i class="swiper-button-next"></i>
+					<div class="swiper-pagination"></div>
 				</div>				
 			</div>
 			<div class="card-info">
@@ -87,7 +90,7 @@
 					<a class="button-link white grey-border height padding-right" href="#">
 						<span class="button-link-span">
 							<i class="button-icon plus-black"></i>
-							<span class="button-link-span-text">ДОБАВИТЬ ЕЩЕ</span>							
+							<span class="button-link-span-text">ДОБАВИТЬ <span class="button-link-span-text-hidden">ЕЩЕ</span></span>							
 						</span>
 						<span class="card-button-basket">
 							<i class="card-button-basket-icon"></i>
@@ -267,7 +270,7 @@
 			<div class="other-wrap">
 				<h2 class="other-head">ДРУГИЕ ТОВАРЫ ЭТОЙ СЕРИИ</h2>
 				<div class="other-list swiper-wrapper">
-					<div class="good-item not-shadow swiper-slide">
+					<div class="good-item not-shadow swiper-slide not-available">
 						<a class="good-item-link" href="#">
 							<span class="good-item-pic">
 								<span class="good-item-pic-icon green">NEW</span>
@@ -275,19 +278,13 @@
 							</span>
 							<span class="good-item-name">GEL POLISH GREENERY</span>
 							<span class="good-item-price">
-								<span class="good-item-price-amount">10 МЛ</span>
-								<span class="good-item-price-sum">520 RUB</span>
+								<span class="good-item-price-sum">НЕТ В НАЛИЧИИ</span>
 							</span>
 							<span class="good-item-details">
 								<span class="good-item-details-name">Посмотреть детали</span>
 								<i class="good-item-details-arrow"></i>
 							</span>
-						</a>
-						<a class="button-link white grey-border modal" href="#">
-							<span class="button-link-span">
-								<span class="button-link-span-text">СООБЩИТЬ О ПОЯВЛЕНИИ</span>									
-							</span>
-						</a>
+						</a>						
 					</div>
 
 					<div class="good-item not-shadow swiper-slide">
@@ -440,7 +437,7 @@
 						<a class="button-link white grey-border height padding-right" href="#">
 							<span class="button-link-span">
 								<i class="button-icon plus-black"></i>
-								<span class="button-link-span-text">ДОБАВИТЬ ЕЩЕ</span>							
+								<span class="button-link-span-text">ДОБАВИТЬ <span class="button-link-span-text-hidden">ЕЩЕ</span></span>							
 							</span>
 							<span class="card-button-basket">
 								<i class="card-button-basket-icon"></i>
@@ -449,7 +446,7 @@
 						</a>
 					</div>
 
-					<div class="good-item not-shadow swiper-slide">
+					<div class="good-item not-shadow swiper-slide not-available">
 						<a class="good-item-link" href="#">
 							<span class="good-item-pic">
 								<span class="good-item-pic-icon red">HIT</span>
@@ -457,8 +454,7 @@
 							</span>
 							<span class="good-item-name">GEL POLISH 027</span>
 							<span class="good-item-price">
-								<span class="good-item-price-amount">10 МЛ</span>
-								<span class="good-item-price-sum">520 RUB</span>
+								<span class="good-item-price-sum">НЕТ В НАЛИЧИИ</span>
 							</span>
 							<span class="good-item-details">
 								<span class="good-item-details-name">Посмотреть детали</span>

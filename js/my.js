@@ -448,7 +448,7 @@ $(document).ready(function(){
 	    breakpoints: {
 		    // when window width is >= 320px
 		    0: {
-		      slidesPerView: 2,
+		      slidesPerView: 1,
 		      spaceBetween: 12
 		    },
 		    // when window width is >= 480px
@@ -479,13 +479,14 @@ $(document).ready(function(){
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
+      pagination: {
+	    el: '.swiper-pagination',
+	  },
       thumbs: {
         swiper: galleryThumbs
-      },
-      navigation: {
-	      nextEl: '.swiper-button-next',
-	      prevEl: '.swiper-button-prev',
-	  },
+      },    
+      
+	 
     });
 
     var otherGoods = new Swiper ('.other-wrap', {
@@ -504,7 +505,7 @@ $(document).ready(function(){
 		    },
 		    // when window width is >= 480px
 		    960: {
-		      slidesPerView: 2,
+		      slidesPerView: 3,
 		      spaceBetween: 12
 		    },
 		    // when window width is >= 640px
@@ -530,7 +531,7 @@ $(document).ready(function(){
 		    },
 		    // when window width is >= 480px
 		    960: {
-		      slidesPerView: 2,
+		      slidesPerView: 3,
 		      spaceBetween: 12
 		    },
 		    // when window width is >= 640px
