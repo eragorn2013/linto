@@ -16,18 +16,24 @@
 				<div class="contacts-wrap first">
 					<div class="contacts-points-item">
 						<i class="contacts-points-item-icon email"></i>
-						<span class="contacts-points-item-head">Напишите нам:</span>
-						<span class="contacts-points-item-span">info@linto-nails.ru</span>
+						<div class="contacts-points-item-wrap">
+							<span class="contacts-points-item-head">Напишите нам:</span>
+							<span class="contacts-points-item-span">info@linto-nails.ru</span>
+						</div>
 					</div>
 					<div class="contacts-points-item">
 						<i class="contacts-points-item-icon phone"></i>
-						<span class="contacts-points-item-head">Позвоните нам:</span>
-						<span class="contacts-points-item-span">8 (499) 499-19-90</span>
+						<div class="contacts-points-item-wrap">
+							<span class="contacts-points-item-head">Позвоните нам:</span>
+							<span class="contacts-points-item-span">8 (499) 499-19-90</span>
+						</div>
 					</div>
 					<div class="contacts-points-item">
 						<i class="contacts-points-item-icon clock"></i>
-						<span class="contacts-points-item-head">Часы работы:</span>
-						<span class="contacts-points-item-span">Пн - Пт с 10:00 до 18:00</span>
+						<div class="contacts-points-item-wrap">
+							<span class="contacts-points-item-head">Часы работы:</span>
+							<span class="contacts-points-item-span">Пн - Пт с 10:00 до 18:00</span>
+						</div>
 					</div>
 				</div>
 				<div class="contacts-wrap last">
