@@ -519,10 +519,10 @@
 					</div>
 				</div>
 				<div class="catalog-recently">
-					<h2 class="catalog-recently-head">ВЫ НЕДАВНО ПРОСМАТРИВАЛИ</h2>
-					<div class="catalog-recently-list-wrap swiper-container">						
-						<div class="catalog-recently-list swiper-wrapper">
-							<div class="good-item not-shadow swiper-slide">
+					<div class="goods-list">
+						<h2 class="goods-head">C ЭТИМ ЧАСТО ПОКУПАЮТ</h2>
+						<div class="goods-wrap">
+							<div class="good-item">
 								<a class="good-item-link" href="#">
 									<span class="good-item-pic">
 										<span class="good-item-pic-icon green">NEW</span>
@@ -536,7 +536,7 @@
 									<span class="good-item-details">
 										<span class="good-item-details-name">Посмотреть детали</span>
 										<i class="good-item-details-arrow"></i>
-									</span>
+									</span>							
 								</a>
 								<a class="button-link white grey-border height padding-right" href="#">
 									<span class="button-link-span">
@@ -550,7 +550,7 @@
 								</a>
 							</div>
 
-							<div class="good-item not-shadow swiper-slide">
+							<div class="good-item not-available">
 								<a class="good-item-link" href="#">
 									<span class="good-item-pic">
 										<span class="good-item-pic-icon red">HIT</span>
@@ -558,13 +558,12 @@
 									</span>
 									<span class="good-item-name">GEL POLISH 027</span>
 									<span class="good-item-price">
-										<span class="good-item-price-amount">10 МЛ</span>
-										<span class="good-item-price-sum">520 RUB</span>
+										<span class="good-item-price-sum">НЕТ В НАЛИЧИИ</span>
 									</span>
 									<span class="good-item-details">
 										<span class="good-item-details-name">Посмотреть детали</span>
 										<i class="good-item-details-arrow"></i>
-									</span>									
+									</span>							
 								</a>
 								<a class="button-link black" href="#">
 									<span class="button-link-span">
@@ -575,7 +574,7 @@
 								</a>
 							</div>
 
-							<div class="good-item not-shadow swiper-slide">
+							<div class="good-item">
 								<a class="good-item-link" href="#">
 									<span class="good-item-pic">
 										<img class="good-item-pic-img" src="img/goods/3.png" alt="Товар">
@@ -588,7 +587,7 @@
 									<span class="good-item-details">
 										<span class="good-item-details-name">Посмотреть детали</span>
 										<i class="good-item-details-arrow"></i>
-									</span>
+									</span>							
 								</a>
 								<a class="button-link black" href="#">
 									<span class="button-link-span">
@@ -599,7 +598,7 @@
 								</a>
 							</div>
 
-							<div class="good-item not-shadow swiper-slide">
+							<div class="good-item">
 								<a class="good-item-link" href="#">
 									<span class="good-item-pic">
 										<img class="good-item-pic-img" src="img/goods/4.png" alt="Товар">
@@ -612,7 +611,7 @@
 									<span class="good-item-details">
 										<span class="good-item-details-name">Посмотреть детали</span>
 										<i class="good-item-details-arrow"></i>
-									</span>
+									</span>							
 								</a>
 								<a class="button-link black" href="#">
 									<span class="button-link-span">
@@ -623,7 +622,7 @@
 								</a>
 							</div>
 
-							<div class="good-item not-shadow swiper-slide">
+							<div class="good-item">
 								<a class="good-item-link" href="#">
 									<span class="good-item-pic">
 										<span class="good-item-pic-icon green">NEW</span>
@@ -648,7 +647,7 @@
 								</a>
 							</div>
 
-							<div class="good-item not-shadow swiper-slide">
+							<div class="good-item">
 								<a class="good-item-link" href="#">
 									<span class="good-item-pic">
 										<img class="good-item-pic-img" src="img/goods/6.png" alt="Товар">
@@ -661,7 +660,7 @@
 									<span class="good-item-details">
 										<span class="good-item-details-name">Посмотреть детали</span>
 										<i class="good-item-details-arrow"></i>
-									</span>
+									</span>							
 								</a>
 								<a class="button-link black" href="#">
 									<span class="button-link-span">
@@ -671,34 +670,7 @@
 									</span>
 								</a>
 							</div>
-
-							<div class="good-item not-shadow swiper-slide">
-								<a class="good-item-link" href="#">
-									<span class="good-item-pic">
-										<img class="good-item-pic-img" src="img/goods/9.png" alt="Товар">
-									</span>
-									<span class="good-item-name">ANTIBACTERIAL</span>
-									<span class="good-item-price">
-										<span class="good-item-price-amount">100 МЛ</span>
-										<span class="good-item-price-sum">350 RUB</span>
-									</span>
-									<span class="good-item-details">
-										<span class="good-item-details-name">Посмотреть детали</span>
-										<i class="good-item-details-arrow"></i>
-									</span>
-								</a>
-								<a class="button-link black" href="#">
-									<span class="button-link-span">
-										<span class="button-link-span-text">
-											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
-										</span>
-									</span>
-								</a>
-							</div>
-						</div>
-						<i class="swiper-button-prev"></i>
-						<i class="swiper-button-next"></i>
-						<div class="swiper-pagination"></div>
+						</div>				
 					</div>					
 				</div>
 			</div>

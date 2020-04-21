@@ -55,7 +55,7 @@
 							<div class="form-field-phone">
 								<div class="form-field-select phone">
 									<span class="form-field-select-name">Телефон</span>
-									<input class="form-field-select-input" type="hidden" name="region" value="+7">
+									<input class="form-field-select-input form-field-phone-input-region" type="hidden" name="region" value="+7">
 									<div class="form-field-select-wrap">
 										<span class="form-field-select-span">+7</span>
 										<i class="form-field-select-arrow"></i>

@@ -97,14 +97,16 @@
 </footer>
 </div>	
 	<link rel="stylesheet" type="text/css" href="js/scroll/jquery.jscrollpane.css">
-	<link rel="stylesheet" href="js/swiper/package/css/swiper.css">
+	<link type="text/css" rel="stylesheet" href="js/gallery/src/css/lightgallery.css">
+	<link rel="stylesheet" href="js/swiper/swiper.css">
 	<script src="js/jquery/jquery.js"></script>
 	<script src="js/scroll/jquery.mousewheel.js"></script>
 	<script src="js/scroll/jquery.jscrollpane.min.js"></script>	
 	<script src="js/swipe/jquery.swipe.js"></script>
 	<script src="js/swipe/jquery.touch.js"></script>
 	<script src="js/mask/jquery.mask.min.js"></script>	
-	<script src="js/swiper/package/js/swiper.min.js"></script>
+	<script src="js/swiper/swiper.min.js"></script>
+	<script src="js/gallery/src/js/lightgallery.js"></script>
 	<script src="js/my.js?1304201505"></script>
 </body>
 </html>

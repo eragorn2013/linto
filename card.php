@@ -32,27 +32,32 @@
 			</div>
 		</div>
 		<div class="content card-content">
-			<div class="card-images">
+			<div class="card-images">				
+				<div class="card-images-wrap gallery-top">
+					<div class="swiper-wrapper" id="lightgallery">
+				      	<div class="slide-img-wrap swiper-slide" data-src="img/goods/7-big.jpg"><img class="slide-img" src="img/goods/7-big.jpg" alt=""></div>
+				      	<div class="slide-img-wrap swiper-slide" data-src="img/goods/15-big.jpg"><img class="slide-img" src="img/goods/15.jpg" alt=""></div>
+				      	<div class="slide-img-wrap swiper-slide" data-src="img/goods/10.png"><img class="slide-img" src="img/goods/10.png" alt=""></div>
+				      	<div class="slide-img-wrap swiper-slide" data-src="img/goods/9.png"><img class="slide-img" src="img/goods/9.png" alt=""></div>
+				      	<div class="slide-img-wrap swiper-slide" data-src="img/goods/12.png"><img class="slide-img" src="img/goods/12.png" alt=""></div>
+				      	<div class="slide-img-wrap swiper-slide" data-src="img/goods/5.png"><img class="slide-img" src="img/goods/5.png" alt=""></div>
+				      	<div class="slide-img-wrap swiper-slide" data-src="img/goods/9.png"><img class="slide-img" src="img/goods/9.png" alt=""></div>
+				      	<div class="slide-img-wrap swiper-slide" data-src="img/goods/12.png"><img class="slide-img" src="img/goods/12.png" alt=""></div>
+				    </div>
+				    <i class="swiper-button-prev"></i>
+					<i class="swiper-button-next"></i>
+				</div>
 				<div class="card-images-wrap gallery-thumbs">
 					<div class="swiper-wrapper">
-				      	<div class="slide-img-wrap min swiper-slide"><img class="slide-img" src="img/goods/7.png" alt=""></div>
+				      	<div class="slide-img-wrap min swiper-slide"><img class="slide-img" src="img/goods/7-big.jpg" alt=""></div>
+				      	<div class="slide-img-wrap min swiper-slide"><img class="slide-img" src="img/goods/15.jpg" alt=""></div>
 				      	<div class="slide-img-wrap min swiper-slide"><img class="slide-img" src="img/goods/10.png" alt=""></div>
 				      	<div class="slide-img-wrap min swiper-slide"><img class="slide-img" src="img/goods/9.png" alt=""></div>	
 				      	<div class="slide-img-wrap min swiper-slide"><img class="slide-img" src="img/goods/12.png" alt=""></div>
 				      	<div class="slide-img-wrap min swiper-slide"><img class="slide-img" src="img/goods/5.png" alt=""></div>
+				      	<div class="slide-img-wrap min swiper-slide"><img class="slide-img" src="img/goods/9.png" alt=""></div>	
+				      	<div class="slide-img-wrap min swiper-slide"><img class="slide-img" src="img/goods/12.png" alt=""></div>
 				    </div>
-				</div>
-				<div class="card-images-wrap gallery-top">
-					<div class="swiper-wrapper">
-				      	<div class="slide-img-wrap swiper-slide"><img class="slide-img" src="img/goods/7.png" alt=""></div>
-				      	<div class="slide-img-wrap swiper-slide"><img class="slide-img" src="img/goods/10.png" alt=""></div>
-				      	<div class="slide-img-wrap swiper-slide"><img class="slide-img" src="img/goods/9.png" alt=""></div>
-				      	<div class="slide-img-wrap swiper-slide"><img class="slide-img" src="img/goods/12.png" alt=""></div>
-				      	<div class="slide-img-wrap swiper-slide"><img class="slide-img" src="img/goods/5.png" alt=""></div>		      
-				    </div>
-				    <i class="swiper-button-prev"></i>
-					<i class="swiper-button-next"></i>
-					<div class="swiper-pagination"></div>
 				</div>				
 			</div>
 			<div class="card-info">
@@ -267,10 +272,10 @@
 			</div>
 		</div>
 		<div class="content other-content">
-			<div class="other-wrap">
-				<h2 class="other-head">ДРУГИЕ ТОВАРЫ ЭТОЙ СЕРИИ</h2>
-				<div class="other-list swiper-wrapper">
-					<div class="good-item not-shadow swiper-slide not-available">
+			<div class="goods-list">
+				<h2 class="goods-head">ДРУГИЕ ТОВАРЫ ЭТОЙ СЕРИИ</h2>
+				<div class="goods-wrap">
+					<div class="good-item not-available">
 						<a class="good-item-link" href="#">
 							<span class="good-item-pic">
 								<span class="good-item-pic-icon green">NEW</span>
@@ -284,10 +289,10 @@
 								<span class="good-item-details-name">Посмотреть детали</span>
 								<i class="good-item-details-arrow"></i>
 							</span>
-						</a>						
+						</a>
 					</div>
 
-					<div class="good-item not-shadow swiper-slide">
+					<div class="good-item">
 						<a class="good-item-link" href="#">
 							<span class="good-item-pic">
 								<span class="good-item-pic-icon red">HIT</span>
@@ -312,7 +317,7 @@
 						</a>
 					</div>
 
-					<div class="good-item not-shadow swiper-slide">
+					<div class="good-item">
 						<a class="good-item-link" href="#">
 							<span class="good-item-pic">
 								<img class="good-item-pic-img" src="img/goods/3.png" alt="Товар">
@@ -336,7 +341,7 @@
 						</a>
 					</div>
 
-					<div class="good-item not-shadow swiper-slide">
+					<div class="good-item">
 						<a class="good-item-link" href="#">
 							<span class="good-item-pic">
 								<img class="good-item-pic-img" src="img/goods/4.png" alt="Товар">
@@ -360,7 +365,7 @@
 						</a>
 					</div>
 
-					<div class="good-item not-shadow swiper-slide">
+					<div class="good-item">
 						<a class="good-item-link" href="#">
 							<span class="good-item-pic">
 								<span class="good-item-pic-icon green">NEW</span>
@@ -385,7 +390,7 @@
 						</a>
 					</div>
 
-					<div class="good-item not-shadow swiper-slide">
+					<div class="good-item">
 						<a class="good-item-link" href="#">
 							<span class="good-item-pic">
 								<img class="good-item-pic-img" src="img/goods/6.png" alt="Товар">
@@ -408,17 +413,48 @@
 							</span>
 						</a>
 					</div>
-				</div>
-				<i class="swiper-button-prev"></i>
-				<i class="swiper-button-next"></i>
-				<div class="swiper-pagination"></div>
+
+					<div class="good-item not-available">
+						<a class="good-item-link" href="#">
+							<span class="good-item-pic">
+								<span class="good-item-pic-icon green">NEW</span>
+								<img class="good-item-pic-img" src="img/goods/1.png" alt="Товар">
+							</span>
+							<span class="good-item-name">GEL POLISH GREENERY</span>
+							<span class="good-item-price">
+								<span class="good-item-price-sum">НЕТ В НАЛИЧИИ</span>
+							</span>
+							<span class="good-item-details">
+								<span class="good-item-details-name">Посмотреть детали</span>
+								<i class="good-item-details-arrow"></i>
+							</span>
+						</a>						
+					</div>
+
+					<div class="good-item not-available">
+						<a class="good-item-link" href="#">
+							<span class="good-item-pic">
+								<span class="good-item-pic-icon green">NEW</span>
+								<img class="good-item-pic-img" src="img/goods/1.png" alt="Товар">
+							</span>
+							<span class="good-item-name">GEL POLISH GREENERY</span>
+							<span class="good-item-price">
+								<span class="good-item-price-sum">НЕТ В НАЛИЧИИ</span>
+							</span>
+							<span class="good-item-details">
+								<span class="good-item-details-name">Посмотреть детали</span>
+								<i class="good-item-details-arrow"></i>
+							</span>
+						</a>						
+					</div>
+				</div>				
 			</div>
 		</div>
 		<div class="content often-content">
-			<div class="often-wrap">
-				<h2 class="often-head">C ЭТИМ ЧАСТО ПОКУПАЮТ</h2>
-				<div class="often-list swiper-wrapper">
-					<div class="good-item not-shadow swiper-slide">
+			<div class="goods-list">
+				<h2 class="goods-head">C ЭТИМ ЧАСТО ПОКУПАЮТ</h2>
+				<div class="goods-wrap">
+					<div class="good-item">
 						<a class="good-item-link" href="#">
 							<span class="good-item-pic">
 								<span class="good-item-pic-icon green">NEW</span>
@@ -446,7 +482,7 @@
 						</a>
 					</div>
 
-					<div class="good-item not-shadow swiper-slide not-available">
+					<div class="good-item not-available">
 						<a class="good-item-link" href="#">
 							<span class="good-item-pic">
 								<span class="good-item-pic-icon red">HIT</span>
@@ -470,7 +506,7 @@
 						</a>
 					</div>
 
-					<div class="good-item not-shadow swiper-slide">
+					<div class="good-item">
 						<a class="good-item-link" href="#">
 							<span class="good-item-pic">
 								<img class="good-item-pic-img" src="img/goods/3.png" alt="Товар">
@@ -494,7 +530,7 @@
 						</a>
 					</div>
 
-					<div class="good-item not-shadow swiper-slide">
+					<div class="good-item">
 						<a class="good-item-link" href="#">
 							<span class="good-item-pic">
 								<img class="good-item-pic-img" src="img/goods/4.png" alt="Товар">
@@ -518,7 +554,7 @@
 						</a>
 					</div>
 
-					<div class="good-item not-shadow swiper-slide">
+					<div class="good-item">
 						<a class="good-item-link" href="#">
 							<span class="good-item-pic">
 								<span class="good-item-pic-icon green">NEW</span>
@@ -543,7 +579,7 @@
 						</a>
 					</div>
 
-					<div class="good-item not-shadow swiper-slide">
+					<div class="good-item">
 						<a class="good-item-link" href="#">
 							<span class="good-item-pic">
 								<img class="good-item-pic-img" src="img/goods/6.png" alt="Товар">
@@ -566,10 +602,7 @@
 							</span>
 						</a>
 					</div>
-				</div>
-				<i class="swiper-button-prev"></i>
-				<i class="swiper-button-next"></i>
-				<div class="swiper-pagination"></div>
+				</div>				
 			</div>
 		</div>
 	</div>
