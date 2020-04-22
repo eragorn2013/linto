@@ -4391,6 +4391,12 @@ footer{
 	display: none;
 }
 @media (max-width:1300px){
+	.tech-content{
+		width: 100%;
+	}
+	.tech-avatar{
+		width: 44.9%;
+	}
 	.nail-head-h1{
 		width: 64%;
 	}
@@ -4603,6 +4609,56 @@ footer{
 	}	
 }
 @media (max-width:960px){
+	#tech-list{
+		padding: 47px 0 52px;
+	}
+	.tech-list-head{
+		font-size: 16px;
+		line-height: 24px;
+		margin-bottom: 22px;
+	}
+	.tech-avatar{
+		width: 236px;
+		height: 236px;
+		margin-bottom: 32px;
+	}
+	.tech-info{
+		width: 100%;
+	}
+	.tech-item{
+		padding: 42px 0;
+		justify-content: center;
+	}
+	.tech-info-head{
+		text-align: center;
+	}
+	.tech-info-head-h{
+		font-size: 14px;
+		line-height: 24px;
+		padding-bottom: 8px;
+		border-bottom: 2px solid #000;
+	}
+	.tech-info-head-span{
+		font-size: 13px;
+	}
+	.tech-info-socials{
+		text-align: center;
+		margin-bottom: 24px;
+	}
+	.tech-info-preview{
+		font-size: 13px;
+		margin-bottom: 18px;
+	}
+	#tech-list .quote{
+		margin-bottom: 32px;
+	}
+	.tech-list-more{
+		justify-content: center;
+	}
+	.tech-list-link{
+		padding: 10px 15px;
+		border: 1px solid rgba(0,0,0,0.15);
+	}
 	#nail{
 		padding: 46px 0 52px;
 	}
