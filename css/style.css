@@ -3963,6 +3963,202 @@ nav{
 	font-weight: 600;
 }
 
+#nail{
+	background: #fff;
+	padding: 10px 0 92px;
+}
+#nail-1{
+
+}
+#nail-2{
+	background: #f8f8f8;
+	padding: 54px 0;
+}
+#nail-3{
+	background-image: url("../img/bg/bg.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 54px 0;
+}
+#nail-3 .nail-head-h2{
+	color: #fff;
+	margin-bottom: 16px;
+}
+#nail-3 .nail-info{
+	color: #fff;
+	margin-bottom: 0;
+}
+#nail-4{
+	padding-top: 95px;
+}
+.nail-2-content{
+	width: 71.8%;
+	margin: 0 auto;
+}
+.nail-head-h1{
+	font-size: 32px;
+	line-height: 46px;
+	text-align: center;
+	font-family: "HelveticaNeueCyr-Bold";
+	margin: 0px auto 32px;
+	width: 47%;
+}
+.nail-head-h2{
+	font-size: 24px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.06em;
+	font-family: "HelveticaNeueCyr-Bold";
+	margin-bottom: 32px;
+}
+.nail-head-h3{
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	font-family: "HelveticaNeueCyr-Bold";
+	margin-bottom: 4px;
+}
+.nail-head-h4{
+	font-size: 18px;
+	line-height: 24px;
+	font-family: "HelveticaNeueCyr-Bold";
+	margin-bottom: 24px;
+}
+.nail-info{
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	margin: 0px auto 48px;
+	width: 49%;
+}
+.nail-info-bold{
+	font-family: "HelveticaNeueCyr-Bold";
+}
+.nail-discount-list{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.nail-discount-item{
+	background: #fff;
+	padding: 42px 10px;
+	box-sizing: border-box;
+	margin-right: 16px;
+	margin-bottom: 16px;
+	width: 45.6%;
+}
+.nail-discount-item:nth-child(2n){
+	margin-right: 0px;
+}
+.nail-discount-item-percent{
+	font-size: 64px;
+	line-height: 64px;
+	font-family: "HelveticaNeueCyr-Bold";
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 4px;
+}
+.nail-discount-item-text{
+	font-size: 16px;
+	line-height: 22px;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.nail-discount-item-bold{
+	font-size: 16px;
+	line-height: 22px;
+	font-family: "HelveticaNeueCyr-Bold";
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.nail-discount-item-info{
+	margin-top: 13px;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.nail-discount-info{
+	color: rgba(0,0,0,0.4);
+}
+.nail-points{
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 87px;
+	margin-bottom: 64px;
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+.nail-points-item{
+	padding: 0 27px;
+	box-sizing: border-box;
+	width: 24.3%;
+	border-right: 1px solid rgba(0,0,0,0.15);
+}
+.nail-points-item:last-child{
+	border-right: 0;
+}
+.nail-points-item-icon{
+	display: block;
+	width: 68px;
+	height: 68px;
+	background-image: url("../img/sprite2.png");
+	background-repeat: no-repeat;
+	margin: 0 auto 19px;
+}
+.nail-points-item-icon.gift{
+	background-size: 768px;
+	background-position: -588px -232px;
+}
+.nail-points-item-icon.car{
+	background-position: -596px -202px;
+	background-size: 676px;
+}
+.nail-points-item-icon.sert{
+	background-position: -544px -249px;
+	background-size: 618px;
+}
+.nail-points-item-icon.test{
+	background-position: -622px -336px;
+	background-size: 809px;
+}
+.nail-points-item-p{
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+.nail-items{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.nail-items-wrap{
+	width: 32.7%;
+}
+.nail-items-wrap.first{
+	margin-left: 108px;
+}
+.nail-items-wrap.last{
+	margin-right: 108px;
+}
+.nail-ul{
+	margin-left: 16px;
+}
+.nail-li{
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 0.02em;
+	margin-bottom: 24px;	
+}
+.nail-li:last-child{
+	margin-bottom: 0px;
+}
+
+
 footer{
 	background: #000;
 	padding: 90px 0 34px;
@@ -4347,8 +4543,6 @@ footer{
 	.requisites-item{
 		font-size: 12px;
 	}
-
-
 	.goods-list .good-item{
 		width: 50%;
 	}
