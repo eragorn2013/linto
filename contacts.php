@@ -81,33 +81,17 @@
 								<input class="form-field-input email" type="text" name="email">
 								<span class="form-field-error"></span>
 							</span>
-						</label>					
+						</label>
 
-						<div class="form-field-phone">
-							<div class="form-field-select phone">
-								<span class="form-field-select-name">Телефон</span>
-								<input class="form-field-select-input form-field-phone-input-region" type="hidden" name="region" value="+7">
-								<div class="form-field-select-wrap">
-									<span class="form-field-select-span">+7</span>
-									<i class="form-field-select-arrow"></i>
-									<div class="form-field-select-modal">
-										<span class="form-field-select-modal-item" data-region="+63">+63</span>
-										<span class="form-field-select-modal-item" data-region="+105">+105</span>
-										<span class="form-field-select-modal-item" data-region="+11">+11</span>
-										<span class="form-field-select-modal-item" data-region="+1">+1</span>
-										<span class="form-field-select-modal-item" data-region="+7">+7</span>
-									</div>
-								</div>
-							</div>
-							<div class="form-field-phone-wrap last">
-								<label class="form-field-label">
-									<span class="form-field-wrap last">
-										<input class="form-field-input phone" type="text" name="phone">
-										<span class="form-field-error"></span>
-									</span>
-								</label>
-							</div>
-						</div>
+						<label class="form-field-label">
+							<span class="form-field-wrap first">
+								<span class="form-field-name">Телефон</span>
+							</span>
+							<span class="form-field-wrap last">
+								<input class="form-field-input phone" type="text" name="phone">
+								<span class="form-field-error"></span>
+							</span>
+						</label>
 
 						<label class="form-field-label">
 							<span class="form-field-wrap first">

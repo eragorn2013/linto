@@ -404,13 +404,6 @@ a{
 .form-field-text-radio-bold{
 	font-family: "HelveticaNeueCyr-Bold";
 }
-.form-field-phone{
-	display: flex;
-	align-items: center;
-}
-.form-field-phone-wrap{
-	align-self: flex-end;
-}
 .form-field-select{
 	width: 100%;
 }
@@ -418,9 +411,6 @@ a{
 	margin-right: 12px;
 	align-self: flex-end;
 	width: 95px;
-}
-.form-field-phone-wrap.last{
-	width: 100%;
 }
 .form-field-select-name{
 	font-size: 12px;
@@ -3938,12 +3928,8 @@ nav{
 	line-height: 20px;
 	margin-bottom: 32px;
 }
-.contacts-list .form-field-label,
-.contacts-list .form-field-phone{
+.contacts-list .form-field-label{
 	margin-bottom: 42px;
-}
-.contacts-list .form-field-phone .form-field-label{
-	margin-bottom: 0px;
 }
 .contacts-list .form-field-buttons .button-link{
 	width: 80%;
@@ -4354,10 +4340,7 @@ footer{
 		line-height: 22px;
 		text-align: center;
 		margin-bottom: 22px;
-	}
-	.contacts-list .form-field-label, .contacts-list .form-field-phone{
-		margin-bottom: 24px;
-	}
+	}	
 	.contacts-list-wrap.last{
 		width: 100%;
 	}
@@ -4399,7 +4382,7 @@ footer{
 		line-height: 16px;
 	}
 	.card-fixed-list{
-		padding: 7px 0;
+		padding: 18px 0;
 	}	
 	.card-fixed-list{
 		width: 92%;
@@ -4461,11 +4444,11 @@ footer{
 		padding: 8px 32px 2px 32px;
 	}
 	.button-link.padding-right {
-	    padding-right: 52px;
+	    padding-right: 46px;
 	    padding-left: 0px;
 	}
 	.card-button-basket{
-		padding: 0 9px;
+		padding: 0 5px;
 	}
 	.card-info-in-basket {
 	    padding-bottom: 24px;
@@ -5362,10 +5345,11 @@ footer{
 		margin-top: 88px;
 	}	
 	.button-link{
-		padding: 12px 25px 6px 25px;
+		padding: 12px 20px 6px 20px;
 	}
 	.button-link-span-text{
 		padding: 0 0 4px 0;
+		font-size: 12px;
 	}
 	.button-icon{
 		width: 15px;
@@ -5632,7 +5616,7 @@ footer{
 	}
 	.card-info-in-basket-count{
 		padding: 0 18px;
-		margin-right: 16px;
+		margin-right: 7px;
 		width: 100%;
 	}
 	.catalog-goods-list .good-item{

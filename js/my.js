@@ -334,20 +334,14 @@ $(document).ready(function(){
 		else modal.hide();
 	});
 	$(".form-field-select-modal-item").on("click", function(e){
-		var parent=$(this).parents(".form-field-select");
-		var regionInput=$(".form-field-select-input", parent);
-		var regionSpan=$(".form-field-select-span", parent);
+		var parent=$(this).parents(".form-field-select");		
 		var arrow=$(".form-field-select-arrow", parent);
-		var modal=$(".form-field-select-modal", parent);
-		var value=$(this).attr("data-region");
+		var modal=$(".form-field-select-modal", parent);		
 		var text=$(this).text();
 		if(!arrow.hasClass("active")) arrow.addClass("active");
 		else arrow.removeClass("active");
 		if(modal.is(":hidden")) modal.fadeIn(200);
 		else modal.hide();
-		regionInput.val(value);
-		regionSpan.text(text);
-		$(".form-field-input.phone", parent).focus();
 		e.stopPropagation();
 	});
 	$(document).mouseup(function (e){
@@ -358,7 +352,7 @@ $(document).ready(function(){
 			}
 		}
 	});
-	$(".form-field-input.phone").mask("(000) 000-00-00", {
+	$(".form-field-input.phone").mask("+7(000) 000-00-00", {
 	    clearIfNotMatch: true
 	});
 
@@ -376,14 +370,13 @@ $(document).ready(function(){
 		if(validate(parent) == false){
 			var name=$(".form-field-input.name", parent).val();
 			var email=$(".form-field-input.email", parent).val();
-			var region=$(".form-field-phone-input-region", parent).val();
 			var phone=$(".form-field-input.phone", parent).val();
 			var nextStep=$(".order-steps-step-2");
 
 			$(".order-steps-step.form", parent).hide();
 			parent.prev(".order-steps-form-head-wrap").hide();
 			$(".order-steps-step-head-name-span", parent).text(name);
-			$(".order-steps-step-info-span.phone", parent).text(region + phone);
+			$(".order-steps-step-info-span.phone", parent).text(phone);
 			$(".order-steps-step-info-span.email", parent).text(email);
 			$(".order-steps-step.data", parent).show();
 
@@ -435,34 +428,7 @@ $(document).ready(function(){
 		else list.slideUp(300);
 		if(arrow.hasClass("active")) arrow.removeClass("active");
 		else arrow.addClass("active");
-	});
-	
-	/*var mySwiper = new Swiper ('.swiper-container', {
-		pagination: {
-	      el: '.swiper-pagination',
-	    },
-	    navigation: {
-	      nextEl: '.swiper-button-next',
-	      prevEl: '.swiper-button-prev',
-	    },
-	    breakpoints: {
-		    // when window width is >= 320px
-		    0: {
-		      slidesPerView: 1,
-		      spaceBetween: 12
-		    },
-		    // when window width is >= 480px
-		    960: {
-		      slidesPerView: 3,
-		      spaceBetween: 12
-		    },
-		    // when window width is >= 640px
-		    1300: {
-		      slidesPerView: 4,
-		      spaceBetween: 12
-		    }
-		}	    
-	});*/
+	});	
 
 	var galleryThumbs = new Swiper('.gallery-thumbs', {         
       freeMode: true,      
@@ -493,60 +459,7 @@ $(document).ready(function(){
       }, 
     });
 
-    $("#lightgallery").lightGallery(); 
-
-    /*var otherGoods = new Swiper ('.other-wrap', {
-		pagination: {
-	      el: '.swiper-pagination',
-	    },
-	    navigation: {
-	      nextEl: '.swiper-button-next',
-	      prevEl: '.swiper-button-prev',
-	    },
-	    breakpoints: {
-		    // when window width is >= 320px
-		    0: {
-		      slidesPerView: 1,
-		      spaceBetween: 12
-		    },
-		    // when window width is >= 480px
-		    960: {
-		      slidesPerView: 3,
-		      spaceBetween: 12
-		    },
-		    // when window width is >= 640px
-		    1300: {
-		      slidesPerView: 3,
-		      spaceBetween: 12
-		    }
-		}	    
-	});
-	var oftenGoods = new Swiper ('.often-wrap', {
-		pagination: {
-	      el: '.swiper-pagination',
-	    },
-	    navigation: {
-	      nextEl: '.swiper-button-next',
-	      prevEl: '.swiper-button-prev',
-	    },
-	    breakpoints: {
-		    // when window width is >= 320px
-		    0: {
-		      slidesPerView: 1,
-		      spaceBetween: 12
-		    },
-		    // when window width is >= 480px
-		    960: {
-		      slidesPerView: 3,
-		      spaceBetween: 12
-		    },
-		    // when window width is >= 640px
-		    1300: {
-		      slidesPerView: 4,
-		      spaceBetween: 12
-		    }
-		}	    
-	});*/
+    $("#lightgallery").lightGallery();
 
 	$(".catalog-menu").swipe(function(e){
 		if(e=="right" || e=="left"){
@@ -607,18 +520,20 @@ $(document).ready(function(){
 	});
 	$(".modal-report-content").on("click", function(e){e.stopPropagation()});
 
-	/*fixed-content*/
-
-	var elementTop = $('.details-tabs').offset().top;
+	/*fixed-content*/	
 	$(window).on("scroll", function(){
-		var scrollTop=$(this).scrollTop();
-		if(scrollTop >= elementTop){
-			if($('.fixed-content').is(":hidden"))
-				$('.fixed-content').slideDown(200);						
+		if($('.card-info-in-basket').length > 0){
+			var elementTop = $('.card-info-in-basket').offset().top + $('.card-info-in-basket').height();
+			var scrollTop=$(this).scrollTop();
+			if(scrollTop >= elementTop){
+				if($('.fixed-content').is(":hidden"))
+					$('.fixed-content').slideDown(200);						
+			}
+			else{
+				if($('.fixed-content').is(":visible"))
+					$('.fixed-content').slideUp(200);
+			}
 		}
-		else{
-			if($('.fixed-content').is(":visible"))
-				$('.fixed-content').slideUp(200);
-		}
+		
 	});
 });
