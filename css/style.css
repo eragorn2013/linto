@@ -3727,6 +3727,7 @@ nav{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 5px 0;
 }
 .card-fixed-price-name-span{
 	display: none;
@@ -3734,6 +3735,9 @@ nav{
 .card-fixed-wrap{
 	display: flex;
 	align-items: center;
+}
+.card-fixed-wrap:first-child{
+	width: 60%;
 }
 .card-fixed-pic{
 	width: 72px;
@@ -3753,7 +3757,7 @@ nav{
 	font-size: 16px;
 	line-height: 20px;
 	font-family: "HelveticaNeueCyr-Bold";
-	display: block;
+	display: block;	
 }
 .card-fixed-name-category{
 	color: rgba(0,0,0,0.4);
@@ -4412,6 +4416,77 @@ nav{
 	text-decoration: underline;
 }
 
+.baloon{
+	width: 100%;
+	padding: 24px 32px;
+	box-sizing: border-box;
+	border-top: 2px solid #000;
+}
+.baloon-head{
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 0.06em;
+	font-family: "HelveticaNeueCyr-Bold";
+	margin-bottom: 4px;
+}
+.baloon-address{
+	font-size: 13px;
+	line-height: 18px;
+	margin-bottom: 16px;
+}
+.baloon-wrap{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	font-size: 12px;
+	line-height: 16px;
+}
+.baloon-phones{
+
+}
+.baloon-phone{
+	margin-bottom: 8px;
+	letter-spacing: 0.02em;
+}
+.baloon-sites{
+
+}
+.baloon-site{
+	text-decoration: underline;
+	margin-bottom: 8px;
+	display: block;
+	letter-spacing: 0.02em;
+}
+.baloon-site:last-child,
+.baloon-inst:last-child,
+.baloon-phone:last-child{
+	margin-bottom: 0px;
+}
+.baloon-site:hover{
+	text-decoration: none;	
+}
+.baloon-inst{
+	display: flex;
+	margin-bottom: 8px;
+	letter-spacing: 0.02em;
+}
+.baloon-icon{
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	background-image: url("../img/sprite2.png");
+	background-repeat: no-repeat;
+	margin-right: 9px;
+	margin-top: 2px;
+}
+.baloon-icon.inst{
+	background-size: 161px;
+    background-position: -107px -67px;
+}
+.baloon-inst-links{
+
+}
+
 footer{
 	background: #000;
 	padding: 90px 0 34px;
@@ -4510,6 +4585,9 @@ footer{
 	display: none;
 }
 @media (max-width:1300px){	
+	.card-fixed-wrap:first-child{
+		width: 54%;
+	}
 	.sert-menu-item{
     	width: 31%;
 	}
@@ -5050,6 +5128,7 @@ footer{
 	}
 	.card-fixed-price{
 		margin-right: 0;
+		width: 57%;
 	}
 	.card-fixed-price-sum{
 		font-size: 14px;
