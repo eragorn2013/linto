@@ -459,7 +459,7 @@ $(document).ready(function(){
       }, 
     });
 
-    $("#lightgallery").lightGallery();
+    $("#lightgallery, .sert-list-wrap").lightGallery();
 
 	$(".catalog-menu").swipe(function(e){
 		if(e=="right" || e=="left"){
@@ -533,7 +533,16 @@ $(document).ready(function(){
 				if($('.fixed-content').is(":visible"))
 					$('.fixed-content').slideUp(200);
 			}
-		}
-		
+		}		
+	});
+
+	/*страница с сертификатами*/
+	$(".sert-menu-item").on("click", function(){
+		var element=$(this);
+		var id="#sert-list-"+element.attr("data-page");
+		$(".sert-menu-item").removeClass("active");
+		element.addClass("active");
+		$(".sert-list").hide();
+		$(id).show();
 	});
 });

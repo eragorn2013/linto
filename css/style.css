@@ -732,7 +732,7 @@ a{
 	margin-right: 0;
 }
 .modal-geo-all-item-links-link.inst{
-	background-position: -193px -70px
+	background-position: -153px -96px;
 }
 .modal-geo-all-item-links-link.local{
 	background-position: -186px -1px;
@@ -1524,7 +1524,7 @@ nav{
 }
 .header-nav-link{
 	display: block;
-	font-weight: 600;
+	font-weight: 550;
 	padding: 14px 0;
 	border-bottom: 2px solid rgba(0,0,0,0);
 	transition: all .2s ease-out;
@@ -4292,6 +4292,125 @@ nav{
     background-position: -139px -21px;
 }
 
+#sert{
+	background: #fff;
+	padding: 10px 0 108px;
+}
+.sert-head{
+	font-size: 32px;
+	line-height: 36px;	
+	font-family: "HelveticaNeueCyr-Bold";
+	text-align: center;
+	margin-bottom: 32px;
+}
+.sert-info{
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 0.03em;	
+	margin: 0 auto 84px;
+	width: 66.4%;
+}
+.sert-line{
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+.sert-menu{
+	display: flex;
+	flex-wrap: wrap;
+}
+.sert-menu-item{
+	font-size: 16px;
+	line-height: 18px;
+	font-family: "HelveticaNeueCyr-Bold";
+	letter-spacing: 0.06em;
+	color: rgba(0,0,0,0.3);
+	border-bottom: 3px solid rgba(0,0,0,0);	
+	transition: all .2s ease-out;
+	margin-right: 10px;
+	margin-bottom: 18px;
+	width: 24%;	
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	cursor: pointer;
+}
+.sert-menu-item:hover{
+	text-decoration: underline;
+	transition: all .2s ease-out;
+	color: rgba(0,0,0,1);
+}
+.sert-menu-item:last-child{
+	margin-right: 0px;
+}
+.sert-menu-item.active{
+	color: rgba(0,0,0,1);
+	text-decoration: underline;
+}
+.sert-list{
+	margin-top: 68px;
+	display: none;
+}
+#sert-list-1{
+	display: block;
+}
+.sert-list-wrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+.sert-list-item{
+	background: #fafafa;
+	padding: 32px;
+	box-sizing: border-box;
+	width: 49.5%;
+	margin-right: 12px;
+	margin-bottom: 12px;
+}
+.sert-list-item:nth-child(2n){
+	margin-right: 0;
+}
+.sert-list-item-head{
+	display: flex;	
+	margin-bottom: 18px;
+}
+.sert-list-item-icon{
+	width: 25px;
+    height: 25px;
+    background-image: url(../img/sprite2.png);
+    background-repeat: no-repeat;
+    background-size: 238px;
+    background-position: -165px 0px;
+    margin-right: 12px;
+}
+.sert-list-item-name{
+	font-size: 18px;
+	line-height: 26px;
+	letter-spacing: 0.02em;
+	font-family: "HelveticaNeueCyr-Bold";
+	cursor: default;
+	width: 93%;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.sert-list-item-bottom{
+	display: flex;
+	justify-content: flex-end;
+}
+.sert-list-item-date{
+	font-size: 14px;
+	line-height: 16px;
+	color: #ADADAD;
+	cursor: default;
+}
+.sert-list-item-link{
+	font-weight: 550;
+	font-size: 14px;
+	line-height: 16px;	
+	letter-spacing: 0.06em;
+}
+.sert-list-item-link:hover{
+	text-decoration: underline;
+}
 
 footer{
 	background: #000;
@@ -4390,7 +4509,13 @@ footer{
 .footer-button{
 	display: none;
 }
-@media (max-width:1300px){
+@media (max-width:1300px){	
+	.sert-menu-item{
+    	width: 31%;
+	}
+	.sert-list-item{
+		width: 49%;
+	}
 	.tech-content{
 		width: 100%;
 	}
@@ -4608,7 +4733,58 @@ footer{
 		margin-bottom: 50px;
 	}	
 }
-@media (max-width:960px){
+@media (max-width:960px){	
+	.sert-list-item-link{
+		font-size: 13px;
+	}
+	.sert-list-item{
+		width: 100%;
+		margin-right: 0;
+		padding: 20px 16px;
+		margin-bottom: 10px;
+	}
+	.sert-list-item-name{
+		font-size: 14px;
+		line-height: 18px;
+		width: 92%;
+		margin-top: 4px;
+		white-space: normal;
+	    text-overflow: clip;
+	    overflow: visible;
+	}
+	.sert-list-item-icon{
+		margin-right: 6px;
+	}
+	.sert-menu{
+		overflow: auto;
+		flex-wrap: nowrap;		
+	}
+	.sert-menu-item{		
+    	white-space: nowrap;
+    	margin-right: 24px;
+    	width: auto;
+    	text-overflow: clip;
+    	overflow: visible;
+    	font-size: 13px;
+    	margin-bottom: 10px;
+	}
+	.sert-list{
+		margin-top: 32px;
+	}
+	#sert{
+		padding: 48px 0 42px;
+	}
+	.sert-info{
+		font-size: 13px;
+		line-height: 22px;
+		text-align: left;
+		width: 100%;
+		margin-bottom: 32px;
+	}
+	.sert-head{
+		font-size: 16px;
+		line-height: 24px;
+	}
 	#tech-list{
 		padding: 47px 0 52px;
 	}
@@ -6101,6 +6277,9 @@ footer{
    }   
 }
 @media (max-width:530px){
+	.sert-list-item-name{
+		width: 83%;
+	}
 	#nail-1 .nail-info{
 		text-align: left;
 	}
