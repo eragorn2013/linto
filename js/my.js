@@ -545,4 +545,26 @@ $(document).ready(function(){
 		$(".sert-list").hide();
 		$(id).show();
 	});
+
+	/*Представители на карте*/
+	$(".repres-filter-type-link").on("click", function(){
+		var element=$(this);
+		var elMap=$(".repres-list-wrap.map");
+		var elList=$(".repres-list-wrap.list");
+		if(element.hasClass("map")){
+			if(elMap.is(":hidden")){
+				elMap.show();
+				elList.hide();
+			}
+		}
+		else if(element.hasClass("list")){
+			if(elList.is(":hidden")){
+				elMap.hide();
+				elList.show();
+			}
+		}
+		$(".repres-filter-type-link.active").removeClass("active");
+		element.addClass("active");
+		return false;
+	});
 });
