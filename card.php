@@ -30,7 +30,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div>		
 		<div class="content card-content">
 			<div class="card-images">				
 				<div class="card-images-wrap gallery-top">
@@ -78,30 +78,36 @@
 						<span class="card-info-in-basket-count-num">5 ШТ</span>
 						<i class="card-info-in-basket-count-icon max">+</i>
 					</div>
-					<a class="button-link black" href="#">
-						<span class="button-link-span">
-							<span class="button-link-span-text">
-								<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+					<div class="card-info-in-basket-button">
+						<a class="button-link black" href="#">
+							<span class="button-link-span">
+								<span class="button-link-span-text">
+									<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+								</span>
 							</span>
-						</span>
-					</a>
-				</div>
+						</a>
+					</div>
+				</div>				
 				<div class="card-info-in-basket">
 					<div class="card-info-in-basket-count">
 						<i class="card-info-in-basket-count-icon min">-</i>
 						<span class="card-info-in-basket-count-num">5 ШТ</span>
 						<i class="card-info-in-basket-count-icon max">+</i>
 					</div>
-					<a class="button-link white grey-border height padding-right" href="#">
-						<span class="button-link-span">
-							<i class="button-icon plus-black"></i>
-							<span class="button-link-span-text">ДОБАВИТЬ <span class="button-link-span-text-hidden">ЕЩЕ</span></span>							
-						</span>
-						<span class="card-button-basket">
-							<i class="card-button-basket-icon"></i>
-							<span class="card-button-basket-count">4</span>
-						</span>
-					</a>
+					<div class="card-info-in-basket-button">
+						<a class="add-more" href="#">
+							<span class="add-more-button">
+								<i class="add-more-button-icon"></i>
+								<span class="add-more-button-name">ДОБАВИТЬ 
+									<span class="add-more-button-name-hidden">ЕЩЕ</span>
+								</span>
+							</span>
+							<span class="add-more-basket">
+								<i class="add-more-basket-icon"></i>
+								<span class="add-more-basket-count">5</span>
+							</span>
+						</a>
+					</div>
 				</div>
 				<div class="card-info-in-basket disabled">
 					<div class="card-info-in-basket-count">
@@ -109,11 +115,13 @@
 						<span class="card-info-in-basket-count-num">5 ШТ</span>
 						<i class="card-info-in-basket-count-icon max">+</i>
 					</div>
-					<span class="button-link white grey-border">
-						<span class="button-link-span">
-							<span class="button-link-span-text">НЕТ В НАЛИЧИИ</span>
+					<div class="card-info-in-basket-button">
+						<span class="button-link white grey-border">
+							<span class="button-link-span">
+								<span class="button-link-span-text">НЕТ В НАЛИЧИИ</span>
+							</span>
 						</span>
-					</span>
+					</div>
 				</div>
 				<div class="card-info-colors-list">
 					<h2 class="card-info-colors-head">
@@ -470,14 +478,16 @@
 								<i class="good-item-details-arrow"></i>
 							</span>							
 						</a>
-						<a class="button-link white grey-border height padding-right" href="#">
-							<span class="button-link-span">
-								<i class="button-icon plus-black"></i>
-								<span class="button-link-span-text">ДОБАВИТЬ <span class="button-link-span-text-hidden">ЕЩЕ</span></span>							
+						<a class="add-more" href="#">
+							<span class="add-more-button">
+								<i class="add-more-button-icon"></i>
+								<span class="add-more-button-name">ДОБАВИТЬ 
+									<span class="add-more-button-name-hidden">ЕЩЕ</span>
+								</span>
 							</span>
-							<span class="card-button-basket">
-								<i class="card-button-basket-icon"></i>
-								<span class="card-button-basket-count">4</span>
+							<span class="add-more-basket">
+								<i class="add-more-basket-icon"></i>
+								<span class="add-more-basket-count">5</span>
 							</span>
 						</a>
 					</div>

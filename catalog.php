@@ -254,14 +254,16 @@
 									<i class="good-item-details-arrow"></i>
 								</span>
 							</a>
-							<a class="button-link white grey-border height padding-right" href="#">
-								<span class="button-link-span">
-									<i class="button-icon plus-black"></i>
-									<span class="button-link-span-text">ДОБАВИТЬ <span class="button-link-span-text-hidden">ЕЩЕ</span></span>							
+							<a class="add-more" href="#">
+								<span class="add-more-button">
+									<i class="add-more-button-icon"></i>
+									<span class="add-more-button-name">ДОБАВИТЬ 
+										<span class="add-more-button-name-hidden">ЕЩЕ</span>
+									</span>
 								</span>
-								<span class="card-button-basket">
-									<i class="card-button-basket-icon"></i>
-									<span class="card-button-basket-count">4</span>
+								<span class="add-more-basket">
+									<i class="add-more-basket-icon"></i>
+									<span class="add-more-basket-count">5</span>
 								</span>
 							</a>
 						</div>
@@ -538,14 +540,16 @@
 										<i class="good-item-details-arrow"></i>
 									</span>							
 								</a>
-								<a class="button-link white grey-border height padding-right" href="#">
-									<span class="button-link-span">
-										<i class="button-icon plus-black"></i>
-										<span class="button-link-span-text">ДОБАВИТЬ <span class="button-link-span-text-hidden">ЕЩЕ</span></span>							
+								<a class="add-more" href="#">
+									<span class="add-more-button">
+										<i class="add-more-button-icon"></i>
+										<span class="add-more-button-name">ДОБАВИТЬ 
+											<span class="add-more-button-name-hidden">ЕЩЕ</span>
+										</span>
 									</span>
-									<span class="card-button-basket">
-										<i class="card-button-basket-icon"></i>
-										<span class="card-button-basket-count">4</span>
+									<span class="add-more-basket">
+										<i class="add-more-basket-icon"></i>
+										<span class="add-more-basket-count">5</span>
 									</span>
 								</a>
 							</div>

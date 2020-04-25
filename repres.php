@@ -208,8 +208,7 @@ function init(){
 	    myCollection.add(new ymaps.Placemark(data[i].coords, {},
 	    {balloonContentLayout: MyBalloonContentLayoutClass}));
 	}		
-	myMap.geoObjects.add(myCollection);
-}
+	myMap.geoObjects.add(myCollection);}
 </script>
 <?php include './elements/subscription.php'; ?>
 <?php include './elements/footer.php'; ?>

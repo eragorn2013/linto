@@ -47,7 +47,7 @@
 				<div class="order-ok-liss-wrap">
 					<div class="order-ok-item">
 						<span class="order-ok-item-name"><span class="order-ok-item-name-span">Адрес доставки:</span></span>
-						<span class="order-ok-item-span"><span class="order-ok-item-span-wrap">г. Москва, ул. Кирова,  дом № 6, кв. 2</span></span>
+						<span class="order-ok-item-span"><span class="order-ok-item-span-wrap">г. Москва, ул. Кирова, дом № 6, кв. 2</span></span>
 					</div>
 					<div class="order-ok-item">
 						<span class="order-ok-item-name"><span class="order-ok-item-name-span">Имя получателя:</span></span>
@@ -76,130 +76,130 @@
 				</div>
 				<div class="bascket-list-goods">
 
-					<div class="bascket-item">
-						<div class="bascket-item-pic">							
-							<img class="bascket-item-pic-img" src="img/goods/1.png" alt="товар">
+					<div class="good-line">
+						<div class="good-line-pic">							
+							<img class="good-line-pic-img" src="img/goods/1.png" alt="товар">
 						</div>
-						<div class="bascket-item-wrap">
-							<div class="bascket-item-name">
-								<a class="bascket-item-name-text" href="#">GEL POLISH SPRING LONG NAME GREENERY</a>
-								<a class="bascket-item-name-category" href="#">GEL POLISH / ARCTIC WINTER</a>
-								<span class="bascket-item-name-amount">10 МЛ</span>
+						<div class="good-line-wrap">
+							<div class="good-line-name">
+								<a class="good-line-name-text" href="#">GEL POLISH SPRING LONG NAME GREENERY</a>
+								<a class="good-line-name-category" href="#">GEL POLISH / ARCTIC WINTER</a>
+								<span class="good-line-name-amount">10 МЛ</span>
 							</div>
-							<div class="bascket-item-price">
-								<div class="bascket-item-price-wrap actual">
-									<span class="bascket-item-price-sum">520</span>
-									<span class="bascket-item-price-valute">RUB</span>
+							<div class="good-line-price">
+								<div class="good-line-price-wrap actual">
+									<span class="good-line-price-sum">520</span>
+									<span class="good-line-price-valute">RUB</span>
 								</div>
 							</div>
-							<div class="bascket-item-count">
-								<div class="bascket-item-count-block">
-									<span class="bascket-item-count-wrap">
-										<span class="bascket-item-count-num">5</span>
-										<span class="bascket-item-count-span">ШТ</span>
+							<div class="good-line-count">
+								<div class="good-line-count-block">
+									<span class="good-line-count-wrap">
+										<span class="good-line-count-num">5</span>
+										<span class="good-line-count-span">ШТ</span>
 									</span>
 								</div>
 							</div>
-							<div class="bascket-item-sum">
-								<span class="bascket-item-sum-num">2600</span>
-								<span class="bascket-item-sum-valute">RUB</span>
+							<div class="good-line-sum">
+								<span class="good-line-sum-num">2600</span>
+								<span class="good-line-sum-valute">RUB</span>
 							</div>
 						</div>
 					</div>
 
-					<div class="bascket-item">
-						<div class="bascket-item-pic">
-							<img class="bascket-item-pic-img" src="img/goods/9.png" alt="товар">
+					<div class="good-line">
+						<div class="good-line-pic">
+							<img class="good-line-pic-img" src="img/goods/9.png" alt="товар">
 						</div>
-						<div class="bascket-item-wrap">
-							<div class="bascket-item-name">
-								<a class="bascket-item-name-text" href="#">ANTIBACTERIAL</a>
-								<a class="bascket-item-name-category" href="#">FRENCH COLLECTION</a>
-								<span class="bascket-item-name-amount">250 МЛ</span>
+						<div class="good-line-wrap">
+							<div class="good-line-name">
+								<a class="good-line-name-text" href="#">ANTIBACTERIAL</a>
+								<a class="good-line-name-category" href="#">FRENCH COLLECTION</a>
+								<span class="good-line-name-amount">250 МЛ</span>
 							</div>
-							<div class="bascket-item-price">
-								<div class="bascket-item-price-wrap actual">
-									<span class="bascket-item-price-sum">520</span>
-									<span class="bascket-item-price-valute">RUB</span>
+							<div class="good-line-price">
+								<div class="good-line-price-wrap actual">
+									<span class="good-line-price-sum">520</span>
+									<span class="good-line-price-valute">RUB</span>
 								</div>
 							</div>
-							<div class="bascket-item-count">
-								<div class="bascket-item-count-block">
-									<span class="bascket-item-count-wrap">
-										<span class="bascket-item-count-num">1</span>
-										<span class="bascket-item-count-span">ШТ</span>
+							<div class="good-line-count">
+								<div class="good-line-count-block">
+									<span class="good-line-count-wrap">
+										<span class="good-line-count-num">1</span>
+										<span class="good-line-count-span">ШТ</span>
 									</span>
 								</div>
 							</div>
-							<div class="bascket-item-sum">
-								<span class="bascket-item-sum-num">520</span>
-								<span class="bascket-item-sum-valute">RUB</span>
+							<div class="good-line-sum">
+								<span class="good-line-sum-num">520</span>
+								<span class="good-line-sum-valute">RUB</span>
 							</div>
 						</div>
 					</div>
 
-					<div class="bascket-item">
-						<div class="bascket-item-pic">
-							<img class="bascket-item-pic-img" src="img/goods/1.png" alt="товар">
+					<div class="good-line">
+						<div class="good-line-pic">
+							<img class="good-line-pic-img" src="img/goods/1.png" alt="товар">
 						</div>
-						<div class="bascket-item-wrap">
-							<div class="bascket-item-name">
-								<a class="bascket-item-name-text" href="#">GEL POLISH 025</a>
-								<a class="bascket-item-name-category" href="#">GEL POLISH / ARCTIC WINTER</a>
-								<span class="bascket-item-name-amount">10 МЛ</span>
+						<div class="good-line-wrap">
+							<div class="good-line-name">
+								<a class="good-line-name-text" href="#">GEL POLISH 025</a>
+								<a class="good-line-name-category" href="#">GEL POLISH / ARCTIC WINTER</a>
+								<span class="good-line-name-amount">10 МЛ</span>
 							</div>
-							<div class="bascket-item-price">
-								<div class="bascket-item-price-wrap actual red">
-									<span class="bascket-item-price-sum">520</span>
-									<span class="bascket-item-price-valute">RUB</span>
+							<div class="good-line-price">
+								<div class="good-line-price-wrap actual red">
+									<span class="good-line-price-sum">520</span>
+									<span class="good-line-price-valute">RUB</span>
 								</div>
-								<div class="bascket-item-price-wrap old">
-									<span class="bascket-item-price-sum">720</span>
-									<span class="bascket-item-price-valute">RUB</span>
+								<div class="good-line-price-wrap old">
+									<span class="good-line-price-sum">720</span>
+									<span class="good-line-price-valute">RUB</span>
 								</div>
 							</div>
-							<div class="bascket-item-count">
-								<div class="bascket-item-count-block">
-									<span class="bascket-item-count-wrap">
-										<span class="bascket-item-count-num">5</span>
-										<span class="bascket-item-count-span">ШТ</span>
+							<div class="good-line-count">
+								<div class="good-line-count-block">
+									<span class="good-line-count-wrap">
+										<span class="good-line-count-num">5</span>
+										<span class="good-line-count-span">ШТ</span>
 									</span>
 								</div>
 							</div>
-							<div class="bascket-item-sum">
-								<span class="bascket-item-sum-num">2600</span>
-								<span class="bascket-item-sum-valute">RUB</span>
+							<div class="good-line-sum">
+								<span class="good-line-sum-num">2600</span>
+								<span class="good-line-sum-valute">RUB</span>
 							</div>
 						</div>
 					</div>
 
-					<div class="bascket-item">
-						<div class="bascket-item-pic">
-							<img class="bascket-item-pic-img" src="img/goods/9.png" alt="товар">
+					<div class="good-line">
+						<div class="good-line-pic">
+							<img class="good-line-pic-img" src="img/goods/9.png" alt="товар">
 						</div>
-						<div class="bascket-item-wrap">
-							<div class="bascket-item-name">
-								<a class="bascket-item-name-text" href="#">ANTIBACTERIAL</a>
-								<a class="bascket-item-name-category" href="#">FRENCH COLLECTION</a>
-								<span class="bascket-item-name-amount">250 МЛ</span>
+						<div class="good-line-wrap">
+							<div class="good-line-name">
+								<a class="good-line-name-text" href="#">ANTIBACTERIAL</a>
+								<a class="good-line-name-category" href="#">FRENCH COLLECTION</a>
+								<span class="good-line-name-amount">250 МЛ</span>
 							</div>
-							<div class="bascket-item-price">
-								<div class="bascket-item-price-wrap actual">
-									<span class="bascket-item-price-sum">520</span>
-									<span class="bascket-item-price-valute">RUB</span>
+							<div class="good-line-price">
+								<div class="good-line-price-wrap actual">
+									<span class="good-line-price-sum">520</span>
+									<span class="good-line-price-valute">RUB</span>
 								</div>
 							</div>
-							<div class="bascket-item-count">
-								<div class="bascket-item-count-block">
-									<span class="bascket-item-count-wrap">
-										<span class="bascket-item-count-num">1</span>
-										<span class="bascket-item-count-span">ШТ</span>
+							<div class="good-line-count">
+								<div class="good-line-count-block">
+									<span class="good-line-count-wrap">
+										<span class="good-line-count-num">1</span>
+										<span class="good-line-count-span">ШТ</span>
 									</span>
 								</div>
 							</div>
-							<div class="bascket-item-sum">
-								<span class="bascket-item-sum-num">520</span>
-								<span class="bascket-item-sum-valute">RUB</span>
+							<div class="good-line-sum">
+								<span class="good-line-sum-num">520</span>
+								<span class="good-line-sum-valute">RUB</span>
 							</div>
 						</div>
 					</div>

@@ -322,33 +322,37 @@ $(document).ready(function(){
 	});
 
 
-	/*Пользовательский селект (ввод номера телефона)*/
+	/*Пользовательский селект*/
 
-	$(".form-field-select-wrap").on("click", function(){
-		var parent=$(this).parents(".form-field-select");
-		var arrow=$(".form-field-select-arrow", parent);
-		var modal=$(".form-field-select-modal", parent);
+	$(".select-wrap").on("click", function(){
+		var parent=$(this).parents(".select");
+		var arrow=$(".select-arrow", parent);
+		var modal=$(".select-modal", parent);
 		if(!arrow.hasClass("active")) arrow.addClass("active");
 		else arrow.removeClass("active");
 		if(modal.is(":hidden")) modal.fadeIn(200);
 		else modal.hide();
 	});
-	$(".form-field-select-modal-item").on("click", function(e){
-		var parent=$(this).parents(".form-field-select");		
-		var arrow=$(".form-field-select-arrow", parent);
-		var modal=$(".form-field-select-modal", parent);		
-		var text=$(this).text();
+	$(".select-modal-item, .select-modal-color").on("click", function(e){
+		var parent=$(this).parents(".select");		
+		var arrow=$(".select-arrow", parent);
+		var modal=$(".select-modal", parent);
+		var input=$(".select-name-input", parent);
+		var span=$(".select-span", parent);		
+		var text=$(this).attr("data-text");	
+		input.val(text);
+		span.text(text);	
 		if(!arrow.hasClass("active")) arrow.addClass("active");
 		else arrow.removeClass("active");
 		if(modal.is(":hidden")) modal.fadeIn(200);
-		else modal.hide();
+		else modal.hide();		
 		e.stopPropagation();
 	});
 	$(document).mouseup(function (e){
-		if(!$(".form-field-select-modal").is(e.target) && $(".form-field-select-modal").has(e.target).length === 0) {
-			if($(".form-field-select-modal").is(":visible")) {
-				$(".form-field-select-modal").hide();
-				$(".form-field-select-arrow").removeClass("active");
+		if(!$(".select-modal").is(e.target) && $(".select-modal").has(e.target).length === 0) {
+			if($(".select-modal").is(":visible")) {
+				$(".select-modal").hide();
+				$(".select-arrow").removeClass("active");
 			}
 		}
 	});
@@ -508,7 +512,6 @@ $(document).ready(function(){
 			}
 		}
 	});
-
 
 	$(".button-link.modal").on("click", function(){
 		$("#modal-report").fadeIn(300);
