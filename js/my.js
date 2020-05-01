@@ -356,10 +356,7 @@ $(document).ready(function(){
 			}
 		}
 	});
-	$(".form-field-input.phone").mask("+7(000) 000-00-00", {
-	    clearIfNotMatch: true
-	});
-
+	
 	/*Оформление заказа*/
 
 	$(".order-steps-basket-list-wrap").jScrollPane();
@@ -434,7 +431,8 @@ $(document).ready(function(){
 		else arrow.addClass("active");
 	});	
 
-	var galleryThumbs = new Swiper('.gallery-thumbs', {         
+	var galleryThumbs = new Swiper('.gallery-thumbs', { 
+		/*loop: true,   */     
       freeMode: true,      
       watchSlidesVisibility: true,
       watchSlidesProgress: true,
@@ -452,7 +450,7 @@ $(document).ready(function(){
 		      spaceBetween: 15
 		    }
 		}
-    });
+    });   
     var galleryTop = new Swiper('.gallery-top', {
       navigation: {
         nextEl: '.swiper-button-next',
@@ -461,6 +459,13 @@ $(document).ready(function(){
       thumbs: {
         swiper: galleryThumbs
       }, 
+    });
+
+    galleryTop.on('slideNextTransitionStart',function(){    	
+    	galleryThumbs.slideNext();
+    });
+    galleryTop.on('slidePrevTransitionStart',function(){    	
+    	galleryThumbs.slidePrev();
     });
 
     $("#lightgallery, .sert-list-wrap").lightGallery();
@@ -525,8 +530,8 @@ $(document).ready(function(){
 
 	/*fixed-content*/	
 	$(window).on("scroll", function(){
-		if($('.card-info-in-basket').length > 0){
-			var elementTop = $('.card-info-in-basket').offset().top + $('.card-info-in-basket').height();
+		if($('.in-basket-wrap').length > 0){
+			var elementTop = $('.in-basket-wrap').offset().top + $('.in-basket-wrap').height();
 			var scrollTop=$(this).scrollTop();
 			if(scrollTop >= elementTop){
 				if($('.fixed-content').is(":hidden"))

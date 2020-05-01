@@ -20,7 +20,7 @@
 					5 минут
 				</span>
 			</div>
-			<h1 class="news-full-head">КОГДА КЛИЕНТУ НУЖНО ОТКАЗАТЬ, И КАК СДЕЛАТЬ ЭТО ПРАВИЛЬНО?</h1>
+			<h1 class="news-full-head">КОГДА КЛИЕНТУ НУЖНО ОТКАЗАТЬ, И КАК СДЕЛАТЬ ЭТО ПРАВИЛЬНО?</h1>
 			<div class="socials">
 				<div class="socials-wrap">
 					<a class="socials-item" href="#"><i class="socials-item-icon vk"></i></a>

@@ -15,7 +15,8 @@
 				</div>
 				<div class="card-fixed-wrap">
 					<div class="card-fixed-price">
-						<span class="card-fixed-price-sum">520 RUB</span> /
+						<span class="card-fixed-price-sum">520 RUB</span>
+						<span class="card-fixed-price-slash">/</span>
 						<span class="card-fixed-price-amount">10 МЛ</span>
 						<span class="card-fixed-price-name-span">GEL POLISH 025</span>
 					</div>
@@ -72,55 +73,61 @@
 					<span class="card-info-price-sum">520 RUB</span> /
 					<span class="card-info-price-amount">10 МЛ</span>
 				</div>
-				<div class="card-info-in-basket">
-					<div class="card-info-in-basket-count">
-						<i class="card-info-in-basket-count-icon min">-</i>
-						<span class="card-info-in-basket-count-num">5 ШТ</span>
-						<i class="card-info-in-basket-count-icon max">+</i>
-					</div>
-					<div class="card-info-in-basket-button">
-						<a class="button-link black" href="#">
-							<span class="button-link-span">
-								<span class="button-link-span-text">
-									<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+				<div class="in-basket-wrap">
+					<div class="in-basket">
+						<div class="add-count">
+							<i class="add-count-icon min">-</i>
+							<span class="add-count-num">5 ШТ</span>
+							<i class="add-count-icon max">+</i>
+						</div>
+						<div class="add-more-wrap">
+							<a class="button-link black" href="#">
+								<span class="button-link-span">
+									<span class="button-link-span-text">
+										<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+									</span>
 								</span>
-							</span>
-						</a>
-					</div>
-				</div>				
-				<div class="card-info-in-basket">
-					<div class="card-info-in-basket-count">
-						<i class="card-info-in-basket-count-icon min">-</i>
-						<span class="card-info-in-basket-count-num">5 ШТ</span>
-						<i class="card-info-in-basket-count-icon max">+</i>
-					</div>
-					<div class="card-info-in-basket-button">
-						<a class="add-more" href="#">
-							<span class="add-more-button">
-								<i class="add-more-button-icon"></i>
-								<span class="add-more-button-name">ДОБАВИТЬ 
-									<span class="add-more-button-name-hidden">ЕЩЕ</span>
-								</span>
-							</span>
-							<span class="add-more-basket">
-								<i class="add-more-basket-icon"></i>
-								<span class="add-more-basket-count">5</span>
-							</span>
-						</a>
+							</a>
+						</div>
 					</div>
 				</div>
-				<div class="card-info-in-basket disabled">
-					<div class="card-info-in-basket-count">
-						<i class="card-info-in-basket-count-icon min">-</i>
-						<span class="card-info-in-basket-count-num">5 ШТ</span>
-						<i class="card-info-in-basket-count-icon max">+</i>
+				<div class="in-basket-wrap">
+					<div class="in-basket">
+						<div class="add-count">
+							<i class="add-count-icon min">-</i>
+							<span class="add-count-num">5 ШТ</span>
+							<i class="add-count-icon max">+</i>
+						</div>
+						<div class="add-more-wrap">
+							<a class="add-more" href="#">
+								<span class="add-more-button">
+									<i class="add-more-button-icon"></i>
+									<span class="add-more-button-name">ДОБАВИТЬ 
+										<span class="add-more-button-name-hidden">ЕЩЕ</span>
+									</span>
+								</span>
+								<span class="add-more-basket">
+									<i class="add-more-basket-icon"></i>
+									<span class="add-more-basket-count">5</span>
+								</span>
+							</a>
+						</div>
 					</div>
-					<div class="card-info-in-basket-button">
-						<span class="button-link white grey-border">
-							<span class="button-link-span">
-								<span class="button-link-span-text">НЕТ В НАЛИЧИИ</span>
+				</div>
+				<div class="in-basket-wrap">
+					<div class="in-basket disabled">
+						<div class="add-count">
+							<i class="add-count-icon min">-</i>
+							<span class="add-count-num">5 ШТ</span>
+							<i class="add-count-icon max">+</i>
+						</div>
+						<div class="add-more-wrap">
+							<span class="button-link white grey-border">
+								<span class="button-link-span">
+									<span class="button-link-span-text">НЕТ В НАЛИЧИИ</span>
+								</span>
 							</span>
-						</span>
+						</div>
 					</div>
 				</div>
 				<div class="card-info-colors-list">
@@ -133,50 +140,50 @@
 							<span class="card-info-color-square"></span>
 							<span class="card-info-color-name">#025</span>
 						</div>
-						<div class="card-info-color color-C5BAA7">
+						<a class="card-info-color color-C5BAA7" href="#">
 							<span class="card-info-color-square"></span>
 							<span class="card-info-color-name">#026</span>
-						</div>
-						<div class="card-info-color color-9B977C">
+						</a>
+						<a class="card-info-color color-9B977C" href="#">
 							<span class="card-info-color-square"></span>
 							<span class="card-info-color-name">#027</span>
-						</div>
-						<div class="card-info-color color-C09ABF">
+						</a>
+						<a class="card-info-color color-C09ABF" href="#">
 							<span class="card-info-color-square"></span>
 							<span class="card-info-color-name">#028</span>
-						</div>
-						<div class="card-info-color color-B58CB8">
+						</a>
+						<a class="card-info-color color-B58CB8" href="#">
 							<span class="card-info-color-square"></span>
 							<span class="card-info-color-name">#029</span>
-						</div>
-						<div class="card-info-color color-D8C1D7">
+						</a>
+						<a class="card-info-color color-D8C1D7" href="#">
 							<span class="card-info-color-square"></span>
 							<span class="card-info-color-name">#030</span>
-						</div>
-						<div class="card-info-color color-E4D5DD">
+						</a>
+						<a class="card-info-color color-E4D5DD" href="#">
 							<span class="card-info-color-square"></span>
 							<span class="card-info-color-name">#031</span>
-						</div>
-						<div class="card-info-color color-F4C4C0">
+						</a>
+						<a class="card-info-color color-F4C4C0" href="#">
 							<span class="card-info-color-square"></span>
 							<span class="card-info-color-name">#032</span>
-						</div>
-						<div class="card-info-color color-F9C0C9">
+						</a>
+						<a class="card-info-color color-F9C0C9" href="#">
 							<span class="card-info-color-square"></span>
 							<span class="card-info-color-name">#033</span>
-						</div>
-						<div class="card-info-color color-EBA0B6">
-							<span class="card-info-color-square"></span>
+						</a>
+						<a class="card-info-color color-EBA0B6" href="#">
+							<span class="card-info-color-square" href="#"></span>
 							<span class="card-info-color-name">#034</span>
-						</div>
-						<div class="card-info-color color-FCC9DC">
+						</a>
+						<a class="card-info-color color-FCC9DC" href="#">
 							<span class="card-info-color-square"></span>
 							<span class="card-info-color-name">#035</span>
-						</div>
-						<div class="card-info-color color-F19ABD">
+						</a>
+						<a class="card-info-color color-F19ABD" href="#">
 							<span class="card-info-color-square"></span>
 							<span class="card-info-color-name">#036</span>
-						</div>
+						</a>
 					</div>
 					<div class="card-info-not-available">
 						<p class="card-info-not-available-text">Выбранного оттенка сейчас нет в наличии. Подпишитесь на уведомления и мы сообщим вам, когда он появится.</p>
@@ -209,7 +216,7 @@
 					</div>
 				</div>
 				<div class="card-info-buttons">
-					<a class="button-link white grey-border height" href="#">
+					<a class="button-link white grey-border" href="#">
 						<span class="button-link-span">
 							<i class="button-icon watsapp-black"></i>
 							<span class="button-link-span-text">WATSAPP ЗАПИСЬ</span>							

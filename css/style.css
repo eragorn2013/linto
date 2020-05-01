@@ -112,7 +112,7 @@ a{
 }
 .button-link{
 	display: inline-block;
-	padding: 17px 32px 9px 32px;
+	padding: 17px 32px 17px 32px;
 	font-family: "HelveticaNeueCyr-Bold";
 	text-align: center;
 	position: relative;
@@ -126,6 +126,10 @@ a{
 	display: flex;
 	justify-content: space-between;
 	box-sizing: border-box;
+}
+.add-more:hover .add-more-button-name:before{
+	opacity: 1;
+	transition: all .2s ease-out;
 }
 .add-more-button{
 	display: flex;
@@ -144,6 +148,18 @@ a{
 }
 .add-more-button-name{
 	font-family: "HelveticaNeueCyr-Bold";
+	position: relative;	
+}
+.add-more-button-name:before{
+	content: "";
+	width: 100%;
+	bottom: -7px;
+	left: 0;
+	height: 2px;
+	background: #000;
+	position: absolute;
+	opacity: 0;
+	transition: all .2s ease-out;
 }
 .add-more-basket{
 	display: flex;
@@ -186,9 +202,6 @@ a{
     background-position: -44px 0px;
     margin-right: 7px;
 }
-.button-link.height{
-	padding: 14px 32px 6px 32px;
-}
 .button-link.padding-right{
 	padding-right: 64px;
 	padding-left: 0px;
@@ -229,43 +242,46 @@ a{
 	justify-content: center;
 }
 .button-link-span-text{
-	padding: 0 0 6px 0;
 	display: inline-block;
+	position: relative;
 }
-.button-link.white .button-link-span-text{
-	border-bottom: 2px solid #fff;
+.button-link-span-text:before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	left: 0;
+	bottom: -7px;
+	background: rgba(0,0,0,0);
 	transition: all .2s ease-out;
 }
-.button-link.white:hover > .button-link-span > .button-link-span-text{
-	border-bottom: 2px solid #000;
+.button-link.white:hover .button-link-span-text:before{
+	background: rgba(0,0,0,1);
 	transition: all .2s ease-out;
 }
-.button-link.black .button-link-span-text{
-	border-bottom: 2px solid #000;
-	transition: all .2s ease-out;
-}
-.button-link.black:hover > .button-link-span > .button-link-span-text{
-	border-bottom: 2px solid #fff;
+.button-link.black:hover .button-link-span-text:before{
+	background: rgba(255,255,255,1);
 	transition: all .2s ease-out;
 }
 .button-icon{
-	width: 19px;
-    height: 19px;
+	width: 14px;
+    height: 14px;
     display: inline-block;
     background-image: url(../img/sprite2.png);
     background-repeat: no-repeat;
-    background-size: 230px;
-    margin-bottom: 8px;
+    background-size: 162px;
     margin-right: 13px;
 }
 .button-icon.watsapp-white{
-	background-position: -1px -28px;
+	background-position: -1px -19px;
 }
 .button-icon.watsapp-black{
-	background-position: -25px -28px;
+	background-position: -16px -19px;
+	background-size: 158px;
 }
 .button-icon.insta-white{
-	background-position: -45px -28px;
+	background-position: -37px -24px;
+	background-size: 186px;
 }
 .button-icon.phone-white{
 	background-position: -157px -1px;
@@ -409,7 +425,7 @@ a{
 	cursor: pointer;
 }
 .form-field-submit.arrow-right{
-	top: 35%;
+	top: 38%;
     right: 12px;
     width: 18px;
     height: 12px;
@@ -1292,7 +1308,28 @@ header{
 .header-center-right-link{
 	display: flex;
 	align-items: center;
-	transition: all .2 ease-out;
+	transition: all .2s ease-out;
+	position: relative;
+}
+.header-center-right-link.basket .header-center-right-link-span,
+.header-center-mob-icon.bascket .header-center-mob-link-span{
+	position: absolute;
+	margin-left: 0px;
+	background: #DC2C73;
+	color: #fff;
+	padding: 2px;
+	min-width: 14px;
+	height: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "HelveticaNeueCyr-Roman";
+	font-size: 10px;
+	line-height: 10px;
+	border-radius: 50px;
+	top: -3px;
+    left: 12px;;
+    box-sizing: border-box;
 }
 .header-center-right-link.active{
 	opacity: .5;
@@ -1329,9 +1366,6 @@ header{
 .header-center-right-link-span{
 	margin-left: 10px;
 }
-.header-center-right-link-span.bold{
-	font-family: "HelveticaNeueCyr-Bold";
-}
 .header-center-right-link-span.city{
 	max-width: 180px;
 	white-space: nowrap;
@@ -1353,6 +1387,7 @@ header{
 .header-center-mob-wrap{
 	display: flex;
 	align-items: center;
+	position: relative;
 }
 .header-center-mob-icon{
 	background-image: url("../img/sprite2.png");
@@ -3047,6 +3082,10 @@ nav{
 	font-family: "HelveticaNeueCyr-Bold";
 	text-decoration: underline;
 }
+.catalog-menu-item-list-point-name:hover,
+.catalog-menu-item-list-point-sub-name:hover{
+	text-decoration: underline;
+}
 .catalog-menu-item-list-point-count{
 	color: #ababab;
 }
@@ -3410,6 +3449,9 @@ nav{
 	flex-wrap: wrap;
 	margin-bottom: 106px;
 }
+.swiper-wrapper{
+
+}
 .card-images{
 	width: 41.2%;
 }
@@ -3472,14 +3514,16 @@ nav{
 	font-size: 20px;
 	line-height: 24px;
 }
-.card-info-in-basket{
-	display: flex;
+.in-basket-wrap{
 	padding-bottom: 32px;
 	border-bottom: 1px solid rgba(0,0,0,0.15);
 	margin-bottom: 24px;
+}
+.in-basket{
+	display: flex;
 	position: relative;
 }
-.card-info-in-basket.disabled:before{
+.in-basket.disabled:before{
 	content: "";
 	position: absolute;
 	width: 100%;
@@ -3489,11 +3533,11 @@ nav{
 	left: 0;
 	z-index: 100;
 }
-.card-info-in-basket .button-link{
+.in-basket .button-link{
 	align-self: flex-end;
 	width: 100%;
 }
-.card-info-in-basket-count{
+.add-count{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -3503,21 +3547,21 @@ nav{
 	width: 50%;
 	box-sizing: border-box;
 }
-.card-info-in-basket-count-icon{
+.add-count-icon{
 	font-size: 20px;
 	cursor: pointer;
 	margin-bottom: 4px;
 }
-.card-info-in-basket-count-icon.min{
+.add-count-icon.min{
 	margin-right: 24px;
 }
-.card-info-in-basket-count-icon.max{
+.add-count-icon.max{
 
 }
-.card-info-in-basket-button{
+.add-more-wrap{
 	width: 100%;
 }
-.card-info-in-basket-count-num{
+.add-count-num{
 	margin-right: 24px;
 	font-family: "HelveticaNeueCyr-Bold";
 }
@@ -3627,6 +3671,8 @@ nav{
 }
 .card-info-test-p{
 	margin-bottom: 12px;
+	font-size: 14px;
+	line-height: 20px;
 }
 .card-info-test-p:last-child{
 	margin-bottom: 0px;
@@ -3637,10 +3683,7 @@ nav{
 	align-items: center;
 }
 .card-info-buttons .button-link{
-	padding: 17px 23px 8px 23px;
-}
-.card-info-buttons .button-link.height{
-	padding: 14px 23px 6px 23px;
+	padding: 17px 20px 17px 20px;
 }
 .details-content{
 	margin-bottom: 142px;
@@ -4142,7 +4185,14 @@ nav{
 	text-align: center;
 }
 .nail-discount-info{
-	color: rgba(0,0,0,0.4);
+	color: #000;
+}
+.nail-discount-info-wrap{
+	display: block;
+	margin-bottom: 8px;
+}
+.nail-discount-info-wrap:last-child{
+	margin-bottom: 0px;
 }
 .nail-points{
 	display: flex;
@@ -4173,7 +4223,7 @@ nav{
 	background-position: -588px -232px;
 }
 .nail-points-item-icon.car{
-	background-position: -596px -202px;
+	background-position: -596px -206px;
 	background-size: 676px;
 }
 .nail-points-item-icon.sert{
@@ -4726,7 +4776,7 @@ nav{
 .fast-goods-list .button-link{
 	width: 100%;
 	box-sizing: border-box;
-	padding: 17px 18px 8px 18px;
+	padding: 17px 18px 17px 18px;
 }
 .fast-goods-list .good-line-price{
 	margin-right: 50px;
@@ -4786,7 +4836,7 @@ nav{
 	width: 100%;
 	position: fixed;
 	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
-	padding: 16px 0;
+	padding: 19px 0;
 	z-index: 10000;
 }
 .fast-fixed-bottom-container{
@@ -5183,13 +5233,13 @@ footer{
 		line-height: 13px;
 	}
 	.fast-fixed-bottom .button-link{
-		padding: 13px 10px 7px 10px;
+		padding: 16px 10px 16px 10px;
 	}
 	.select-wrap{
 		padding: 13px 33px 7px 24px;
 	}
 	.select-modal{
-		top: 34px;
+		top: 37px;
 	}
 	.fast-filter-select.first{
 		margin-bottom: 5px;
@@ -5240,17 +5290,14 @@ footer{
 		margin-right: 0px;
 	}
 	.fast-goods-list .button-link{
-		padding: 13px 18px 5px 18px;
+		padding: 15px 18px 15px 18px;
 	}
 	.add-more{
 		font-size: 12px;
 	}
 	.add-more-basket{
-		padding: 10px 16px;
-	}
-	.good-item .add-more-basket{
-		padding: 11px 16px;
-	}
+		padding: 13px 16px;
+	}	
 	.modal-search-item{
 		padding: 13px 25px;
 	}
@@ -5481,14 +5528,7 @@ footer{
 	.nail-discount-item-bold{
 		font-size: 14px;
 		line-height: 20px;
-	}
-	.nail-discount-info-wrap{
-		display: block;
-		margin-bottom: 8px;
-	}
-	.nail-discount-info-wrap:last-child{
-		margin-bottom: 0px;
-	}
+	}	
 	.nail-discount-item-info{
 		margin-top: 8px;
 	}
@@ -5658,6 +5698,9 @@ footer{
 	.card-fixed-price-name-span{
 		display: block;
 		margin-top: 4px;
+		font-family: "HelveticaNeueCyr-Roman";
+		font-size: 10px;
+		line-height: 12px;
 	}
 	.card-fixed-price{
 		margin-right: 0;
@@ -5666,6 +5709,10 @@ footer{
 	.card-fixed-price-sum{
 		font-size: 14px;
 		line-height: 16px;
+	}
+	.card-fixed-price-slash,
+	.card-fixed-price-amount{
+		display: none;
 	}
 	.card-fixed-list{
 		padding: 18px 0;
@@ -5725,10 +5772,7 @@ footer{
 	.button-icon.plus-black{
 		background-position: -182px -61px;
     	background-size: 271px;
-	}
-	.button-link.height{
-		padding: 8px 32px 2px 32px;
-	}
+	}	
 	.button-link.padding-right {
 	    padding-right: 46px;
 	    padding-left: 0px;
@@ -5736,7 +5780,7 @@ footer{
 	.card-button-basket{
 		padding: 0 5px;
 	}
-	.card-info-in-basket {
+	.in-basket-wrap{
 	    padding-bottom: 24px;
 	    margin-bottom: 18px;
 	}
@@ -5778,10 +5822,6 @@ footer{
 		font-size: 13px;
 		margin-bottom: 6px;
 	}
-	.card-info-desc-p{
-		font-size: 13px;
-		line-height: 14px;
-	}
 	.card-info-desc{
 		padding-bottom: 18px;
 		margin-bottom: 18px;
@@ -5793,20 +5833,14 @@ footer{
 	.card-info-test{
 		margin-bottom: 32px;
 	}
-	.button-icon.watsapp-black{
-		background-position: -18px -21px;
-	}
 	.card-info-buttons{
 		flex-wrap: wrap;
 		justify-content: center;
-	}
-	.card-info-buttons .button-link.height{
-		padding: 9px 25px 2px 25px;
-	}
-	.card-info-buttons .button-link{
-		padding: 12px 25px 5px 25px;
-		width: 100%;
+	}	
+	.card-info-buttons .button-link{		
+		width: 70%;
 		margin-bottom: 16px;
+		padding: 14px 20px 14px 20px;
 	}
 	.card-content{
 		margin-bottom: 48px;
@@ -5859,10 +5893,6 @@ footer{
 	.details-sertificate{
 		margin-top: 8px;
 	}
-	.details-list-item{
-		font-size: 13px;
-		line-height: 16px;
-	}
 	.details-list{
 		margin-bottom: 32px;
 	}
@@ -5872,9 +5902,6 @@ footer{
 	.details-content{	
 		margin-bottom: 64px;
 	}	
-	.good-item .button-link.height{
-		padding: 8px 52px 2px 0px;
-	}
 
 	#cats{
 	    padding: 41px 0 103px;
@@ -5932,10 +5959,7 @@ footer{
 	}
 	.more-goods .button-link.white .button-link-span-text{
 		border-bottom: 2px solid #000;
-	}
-	.good-item .button-link.black .button-link-span-text{
-		border-bottom: 2px solid #fff;
-	}
+	}	
 	.good-item .button-link{
 		background: #fff;
 		border: 1px solid #C7C7C7;
@@ -5944,7 +5968,6 @@ footer{
 		width: 81%;
 	    margin: 24px auto 0 auto;
 	    display: block;
-	    padding: 11px 9px 5px 9px;
 	}
 	.good-item .add-more{
 		width: 81%;
@@ -6462,13 +6485,13 @@ footer{
 		width: 77.3%;
 	}
 	.form-field-submit.arrow-right{
-		top: 33%;
+		top: 37%;
 	}
 	.modal-search-list{
-		top: 36px;
+		top: 44px;
 	}
 	.modal-city-list{
-		top: 36px;
+		top: 44px;
 	}
 	.form-field-link{
 		font-size: 12px;
@@ -6626,7 +6649,7 @@ footer{
 	}
 	.form-field-input{
 		font-size: 12px;
-		padding: 10px 50px 10px 15px;
+		padding: 14px 50px 14px 15px;
 	}
 	.header-center-mob-good-price{
 		width: 88px;
@@ -6639,24 +6662,24 @@ footer{
 		margin-top: 88px;
 	}	
 	.button-link{
-		padding: 13px 20px 7px 20px;
+		padding: 15px 20px 15px 20px;
+	}
+	.card-fixed-in-basket .button-link{
+		padding: 17px 20px 17px 20px;
+		width: 100%;
 	}
 	.button-link-span-text{
-		padding: 0 0 4px 0;
 		font-size: 12px;
 	}
 	.button-icon{
-		width: 15px;
-    	height: 15px;
     	background-size: 173px;
-    	margin-bottom: 8px;
     	margin-right: 11px;
 	}
 	.button-icon.watsapp-white{
 		background-position: -1px -21px;
 	}
 	.button-icon.insta-white{
-		background-position: -33px -20px;
+		background-position: -37px -24px;
 	}	
 	.container{
 		width: 510px;
@@ -6897,6 +6920,9 @@ footer{
    }   
 }
 @media (max-width:530px){
+	.card-fixed-in-basket{
+		width: 52%;
+	}	
 	.button-link-span-text{
 		font-size: 11px;
 	}
@@ -6904,7 +6930,7 @@ footer{
 		padding: 0px 0px 0px 8px;
 	}
 	.add-more-basket{
-		padding: 12px 7px;
+		padding: 13px 7px;
 		margin-left: 8px;
 	}
 	.add-more-basket-icon{
@@ -6914,12 +6940,15 @@ footer{
     	background-size: 106px;
     	background-position: -31px 0px;
 	}
-	.add-more-button-name,
-	.add-more-basket-count{
+	.add-more-button-name{
 		font-size: 11px;
+	}
+	.add-more-basket-count{
+		font-size: 13px;
 	}
 	.add-more-button-icon{
 		margin-right: 4px;
+		margin-bottom: 3px;
 		width: 10px;
     	height: 10px;
     	background-position: -138px -47px;
@@ -6973,7 +7002,7 @@ footer{
 	    width: 112%;
 	    position: relative;
 	}
-	.card-info-in-basket-count{
+	.add-count{
 		padding: 0 7px;
 		margin-right: 7px;
 		width: 100%;
@@ -6984,8 +7013,8 @@ footer{
 	.card-button-basket-icon{
 		margin-right: 4px;
 	}
-	.card-info-in-basket-count-icon.min,
-	.card-info-in-basket-count-num{
+	.add-count-icon.min,
+	.add-count-num{
 		margin-right: 13px;
 	}
 	.button-icon.plus-black{
@@ -7054,7 +7083,7 @@ footer{
 	}
 	.main-page-goods-item-name-link{
 		padding-bottom: 0;
-		border-bottom: 0px solid rgba(0,0,0,0);
+		border-bottom: 2px solid rgba(0,0,0,0);
 	}
 	.main-page-goods-item-price-volume{
 		color: #000;
@@ -7093,6 +7122,7 @@ footer{
 		order: 2;
 		margin-bottom: 42px;
 		width: 100%;
+		align-self: flex-start;
 	}
 	.main-page-events-content{
 		display: flex;

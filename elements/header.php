@@ -157,7 +157,7 @@
 					<div class="header-center-right-item">
 						<a class="header-center-right-link basket" href="#">
 							<i class="header-center-right-link-icon basket"></i>
-							<span class="header-center-right-link-span bold">108</span>
+							<span class="header-center-right-link-span">108</span>
 						</a>
 						<div class="modal-basket header-modal">
 							<span class="modal-basket-head">КОРЗИНА</span>
@@ -594,7 +594,9 @@
 						<a class="header-center-mob-icon profile" href="#"></a>
 					</div>
 					<div class="header-center-mob-wrap">
-						<a class="header-center-mob-icon bascket" href="#"></a>
+						<a class="header-center-mob-icon bascket" href="#">
+							<span class="header-center-mob-link-span">108</span>
+						</a>						
 					</div>
 				</div>
 			</div>

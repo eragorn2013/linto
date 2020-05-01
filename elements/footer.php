@@ -104,7 +104,6 @@
 	<script src="js/scroll/jquery.jscrollpane.min.js"></script>	
 	<script src="js/swipe/jquery.swipe.js"></script>
 	<script src="js/swipe/jquery.touch.js"></script>
-	<script src="js/mask/jquery.mask.min.js"></script>	
 	<script src="js/swiper/swiper.min.js"></script>
 	<script src="js/gallery/src/js/lightgallery.js"></script>
 	<script src="js/gallery/modules/lg-zoom.min.js"></script>

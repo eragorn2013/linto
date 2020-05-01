@@ -143,7 +143,11 @@ function init(){
     var myMap = new ymaps.Map("map", {
         center: [55.382433979033515, 36.72783427132507],
         zoom: 14
-    });        
+    });
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+	    //... отключаем перетаскивание карты
+	    myMap.behaviors.disable('drag');
+	}
 	var myCollection = new ymaps.GeoObjectCollection({}, {
 	    preset: 'islands#redIcon',
 	    draggable: false
