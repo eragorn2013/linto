@@ -43,7 +43,6 @@ a{
 	width: 1284px;
 	margin: 0 auto;
 }
-
 /*elements*/
 .socials-wrap{
 	display: flex;
@@ -3449,9 +3448,6 @@ nav{
 	flex-wrap: wrap;
 	margin-bottom: 106px;
 }
-.swiper-wrapper{
-
-}
 .card-images{
 	width: 41.2%;
 }
@@ -3485,7 +3481,6 @@ nav{
 	overflow: hidden;
 	width: 100%;
 }
-
 .card-info{
 	width: 32.7%;
 	margin-right: 107px;
@@ -3554,9 +3549,6 @@ nav{
 }
 .add-count-icon.min{
 	margin-right: 24px;
-}
-.add-count-icon.max{
-
 }
 .add-more-wrap{
 	width: 100%;
@@ -5233,7 +5225,7 @@ footer{
 		line-height: 13px;
 	}
 	.fast-fixed-bottom .button-link{
-		padding: 16px 10px 16px 10px;
+		padding: 20px 25px 20px 25px;
 	}
 	.select-wrap{
 		padding: 13px 33px 7px 24px;
@@ -5901,8 +5893,7 @@ footer{
 	}
 	.details-content{	
 		margin-bottom: 64px;
-	}	
-
+	}
 	#cats{
 	    padding: 41px 0 103px;
 	}
@@ -5947,7 +5938,7 @@ footer{
 	}
 	.good-item:hover{
 	    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-	    border-top: 2px solid rgba(0,0,0,1);
+	    border-top: 2px solid rgba(0,0,0,0);
 	}
 	.more-goods{
 		margin-top: 8px;
@@ -6665,7 +6656,7 @@ footer{
 		padding: 15px 20px 15px 20px;
 	}
 	.card-fixed-in-basket .button-link{
-		padding: 17px 20px 17px 20px;
+		padding: 20px 25px 20px 25px;
 		width: 100%;
 	}
 	.button-link-span-text{
@@ -6920,6 +6911,12 @@ footer{
    }   
 }
 @media (max-width:530px){
+	.button-icon.watsapp-black{
+		background-position: -11px -14px;
+    	background-size: 118px;
+    	width: 12px;
+    	height: 12px;
+	}
 	.card-fixed-in-basket{
 		width: 52%;
 	}	

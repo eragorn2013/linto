@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--[if IE]><html class="ie">< ![endif]-->
 <head>
-	<meta name="viewport" content="initial-scale=1">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.0">
 	<meta charset="UTF-8">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
@@ -157,11 +157,11 @@
 					<div class="header-center-right-item">
 						<a class="header-center-right-link basket" href="#">
 							<i class="header-center-right-link-icon basket"></i>
-							<span class="header-center-right-link-span">108</span>
+							<span class="header-center-right-link-span">10</span>
 						</a>
 						<div class="modal-basket header-modal">
 							<span class="modal-basket-head">КОРЗИНА</span>
-							<span class="modal-basket-count">Всего 108 товаров</span>
+							<span class="modal-basket-count">Всего 10 товаров</span>
 							<div class="modal-basket-goods">
 
 								<div class="modal-basket-item">
@@ -306,6 +306,9 @@
 										<span class="header-center-mob-menu-top-name">МЕНЮ</span>
 										<i class="header-center-mob-menu-top-close"></i>
 									</div>
+									<div class="header-center-mob-menu-order">
+										<a class="header-center-mob-menu-order-link" href="#">ОФОРМИТЬ БЫСТРЫЙ ЗАКАЗ</a>
+									</div>
 									<a class="header-center-mob-menu-geo" href="#">
 										<i class="header-center-mob-menu-geo-icon"></i>
 										<span class="header-center-mob-menu-geo-span">Где купить: 
@@ -429,10 +432,7 @@
 										<div class="header-center-mob-menu-item">
 											<a class="header-center-mob-menu-item-a" href="#">СОБЫТИЯ</a>
 										</div>
-									</div>
-									<div class="header-center-mob-menu-order">
-										<a class="header-center-mob-menu-order-link" href="#">ОФОРМИТЬ БЫСТРЫЙ ЗАКАЗ</a>
-									</div>
+									</div>									
 								</div>
 							</div>
 						</div>
@@ -595,7 +595,7 @@
 					</div>
 					<div class="header-center-mob-wrap">
 						<a class="header-center-mob-icon bascket" href="#">
-							<span class="header-center-mob-link-span">108</span>
+							<span class="header-center-mob-link-span">10</span>
 						</a>						
 					</div>
 				</div>
