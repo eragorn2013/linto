@@ -96,8 +96,9 @@ $(document).ready(function(){
 	$('.form-field-input.search').on("input", function(){
 		var text=$(this).val();
 		if(text.length >= 3){
-			$(".modal-search-list").fadeIn(200);
-			$(".modal-search-list").jScrollPane();
+			$(".modal-search-list").fadeIn(200, function(){
+				$(".modal-search-list").jScrollPane();
+			});			
 		}
 		else{
 			$(".modal-search-list").fadeOut(200);
@@ -574,5 +575,13 @@ $(document).ready(function(){
 		$(".repres-filter-type-link.active").removeClass("active");
 		element.addClass("active");
 		return false;
+	});
+
+	/*Фильтрация городов представителей*/
+
+	$(".repres-filter-city .form-field-input.search").quicksearch(".repres-filter-city .modal-search-item", {
+		"onAfter": function(){
+			$(".modal-search-list").jScrollPane();
+		}
 	});
 });

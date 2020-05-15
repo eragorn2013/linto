@@ -46,7 +46,31 @@
 							<span class="modal-search-item">Казань</span>
 							<span class="modal-search-item">Красноярск</span>
 							<span class="modal-search-item">Сочи</span>
-							<span class="modal-search-item">Краснодар</span>							
+							<span class="modal-search-item">Краснодар</span>
+							<span class="modal-search-item">Наро-фоминск</span>
+							<span class="modal-search-item">Апрелевка</span>
+							<span class="modal-search-item">Красноярск</span>
+							<span class="modal-search-item">Новосибирск</span>
+							<span class="modal-search-item">Самара</span>
+							<span class="modal-search-item">Новокуйбышевск</span>
+							<span class="modal-search-item">Химки</span>
+							<span class="modal-search-item">Красногорск</span>
+							<span class="modal-search-item">Калуга</span>
+							<span class="modal-search-item">Малоярославец</span>
+							<span class="modal-search-item">Обнинск</span>
+							<span class="modal-search-item">Кубинка</span>
+							<span class="modal-search-item">Мытищи</span>
+							<span class="modal-search-item">Можайск</span>
+							<span class="modal-search-item">Руза</span>
+							<span class="modal-search-item">Краснознаменск</span>
+							<span class="modal-search-item">Московский</span>
+							<span class="modal-search-item">Молодежный</span>
+							<span class="modal-search-item">Атепцево</span>
+							<span class="modal-search-item">Новая Ольховка</span>
+							<span class="modal-search-item">Иркутск</span>
+							<span class="modal-search-item">Крандштат</span>
+							<span class="modal-search-item">Красноармейск</span>
+							<span class="modal-search-item">Красногородск</span>
 						</div>
 					</form>
 				</div>

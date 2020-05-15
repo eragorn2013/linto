@@ -157,7 +157,7 @@
 					<div class="header-center-right-item">
 						<a class="header-center-right-link basket" href="#">
 							<i class="header-center-right-link-icon basket"></i>
-							<span class="header-center-right-link-span">10</span>
+							<span class="header-center-right-link-span">1</span>
 						</a>
 						<div class="modal-basket header-modal">
 							<span class="modal-basket-head">КОРЗИНА</span>
@@ -595,7 +595,7 @@
 					</div>
 					<div class="header-center-mob-wrap">
 						<a class="header-center-mob-icon bascket" href="#">
-							<span class="header-center-mob-link-span">10</span>
+							<span class="header-center-mob-link-span">1</span>
 						</a>						
 					</div>
 				</div>
