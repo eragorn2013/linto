@@ -3845,7 +3845,14 @@ nav{
 	align-items: center;
 }
 .card-fixed-wrap:first-child{
+	width: 40%;
+}
+.card-fixed-wrap:last-child{
 	width: 60%;
+	justify-content: flex-end;
+}
+.card-fixed-wrap .card-fixed-in-basket{
+	width: 51%;
 }
 .card-fixed-pic{
 	width: 72px;
@@ -4980,7 +4987,13 @@ footer{
 		width: 26.7%;
 	}
 	.card-fixed-wrap:first-child{
-		width: 54%;
+		width: 40%;
+	}
+	.card-fixed-price{
+		margin-right: 26px;
+	}
+	.card-fixed-wrap .card-fixed-in-basket{
+		width: 70%;
 	}
 	.sert-menu-item{
     	width: 31%;
@@ -5675,6 +5688,25 @@ footer{
 	.card-fixed-wrap:first-child{
 		display: none;
 	}
+	.card-fixed-wrap:last-child{
+		width: 100%;
+		justify-content: space-between;
+	}
+	.card-fixed-in-basket .add-count-icon.min{
+		margin-right: 15px;
+	}
+	.card-fixed-in-basket .add-count-num{
+		margin-right: 15px;
+	}
+	.card-fixed-wrap .card-fixed-in-basket{
+		width: 210px;
+	}
+	.card-fixed-wrap .card-fixed-in-basket .add-count{
+		display: none;
+	}
+	.card-fixed-wrap .add-count{
+		width: 58%;
+	}
 	.card-fixed-wrap{
 		justify-content: space-between;
 		width: 100%;
@@ -5688,7 +5720,7 @@ footer{
 	}
 	.card-fixed-price{
 		margin-right: 0;
-		width: 57%;
+		width: 31%;
 	}
 	.card-fixed-price-sum{
 		font-size: 14px;
@@ -6893,6 +6925,9 @@ footer{
    }   
 }
 @media (max-width:530px){
+	.card-fixed-wrap .card-fixed-in-basket{
+		width: 159px;
+	}
 	.button-icon.watsapp-black{
 		background-position: -11px -14px;
     	background-size: 118px;

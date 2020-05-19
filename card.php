@@ -21,13 +21,57 @@
 						<span class="card-fixed-price-name-span">GEL POLISH 025</span>
 					</div>
 					<div class="card-fixed-in-basket">
-						<a class="button-link black" href="#">
-							<span class="button-link-span">
-								<span class="button-link-span-text">
-									<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+						<!--<div class="in-basket">
+							<div class="add-count">
+								<i class="add-count-icon min">-</i>
+								<span class="add-count-num">5 ШТ</span>
+								<i class="add-count-icon max">+</i>
+							</div>
+							<div class="add-more-wrap">
+								<a class="button-link black" href="#">
+									<span class="button-link-span">
+										<span class="button-link-span-text">
+											<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+										</span>
+									</span>
+								</a>
+							</div>
+						</div>-->
+						<div class="in-basket">
+							<div class="add-count">
+								<i class="add-count-icon min">-</i>
+								<span class="add-count-num">5 ШТ</span>
+								<i class="add-count-icon max">+</i>
+							</div>
+							<div class="add-more-wrap">
+								<a class="add-more" href="#">
+									<span class="add-more-button">
+										<i class="add-more-button-icon"></i>
+										<span class="add-more-button-name">ДОБАВИТЬ 
+											<span class="add-more-button-name-hidden">ЕЩЕ</span>
+										</span>
+									</span>
+									<span class="add-more-basket">
+										<i class="add-more-basket-icon"></i>
+										<span class="add-more-basket-count">5</span>
+									</span>
+								</a>
+							</div>
+						</div>
+						<!--<div class="in-basket disabled">
+							<div class="add-count">
+								<i class="add-count-icon min">-</i>
+								<span class="add-count-num">5 ШТ</span>
+								<i class="add-count-icon max">+</i>
+							</div>
+							<div class="add-more-wrap">
+								<span class="button-link white grey-border">
+									<span class="button-link-span">
+										<span class="button-link-span-text">НЕТ В НАЛИЧИИ</span>
+									</span>
 								</span>
-							</span>
-						</a>
+							</div>
+						</div>-->
 					</div>
 				</div>
 			</div>
