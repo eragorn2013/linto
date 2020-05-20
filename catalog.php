@@ -241,7 +241,10 @@
 						<div class="good-item">
 							<a class="good-item-link" href="#">
 								<span class="good-item-pic">
-									<span class="good-item-pic-icon green">NEW</span>
+									<span class="good-item-pic-icons">
+										<span class="good-item-pic-icon green">NEW</span>
+										<span class="good-item-pic-icon red">HIT</span>
+									</span>									
 									<img class="good-item-pic-img" src="img/goods/1.png" alt="Товар">
 								</span>
 								<span class="good-item-name">GEL POLISH GREENERY</span>
@@ -271,7 +274,9 @@
 						<div class="good-item">
 							<a class="good-item-link" href="#">
 								<span class="good-item-pic">
-									<span class="good-item-pic-icon red">HIT</span>
+									<span class="good-item-pic-icons">
+										<span class="good-item-pic-icon red">HIT</span>
+									</span>
 									<img class="good-item-pic-img" src="img/goods/2.png" alt="Товар">
 								</span>
 								<span class="good-item-name">GEL POLISH 027</span>
@@ -344,7 +349,9 @@
 						<div class="good-item">
 							<a class="good-item-link" href="#">
 								<span class="good-item-pic">
-									<span class="good-item-pic-icon green">NEW</span>
+									<span class="good-item-pic-icons">
+										<span class="good-item-pic-icon green">NEW</span>
+									</span>
 									<img class="good-item-pic-img" src="img/goods/5.png" alt="Товар">
 								</span>
 								<span class="good-item-name">GEL POLISH ULTRA VIOLET</span>
@@ -527,7 +534,9 @@
 							<div class="good-item">
 								<a class="good-item-link" href="#">
 									<span class="good-item-pic">
-										<span class="good-item-pic-icon green">NEW</span>
+										<span class="good-item-pic-icons">
+											<span class="good-item-pic-icon green">NEW</span>
+										</span>
 										<img class="good-item-pic-img" src="img/goods/1.png" alt="Товар">
 									</span>
 									<span class="good-item-name">GEL POLISH GREENERY</span>
@@ -557,7 +566,9 @@
 							<div class="good-item not-available">
 								<a class="good-item-link" href="#">
 									<span class="good-item-pic">
-										<span class="good-item-pic-icon red">HIT</span>
+										<span class="good-item-pic-icons">
+											<span class="good-item-pic-icon red">HIT</span>
+										</span>
 										<img class="good-item-pic-img" src="img/goods/2.png" alt="Товар">
 									</span>
 									<span class="good-item-name">GEL POLISH 027</span>
@@ -629,7 +640,9 @@
 							<div class="good-item">
 								<a class="good-item-link" href="#">
 									<span class="good-item-pic">
-										<span class="good-item-pic-icon green">NEW</span>
+										<span class="good-item-pic-icons">
+											<span class="good-item-pic-icon green">NEW</span>
+										</span>
 										<img class="good-item-pic-img" src="img/goods/5.png" alt="Товар">
 									</span>
 									<span class="good-item-name">GEL POLISH ULTRA CIOLET</span>

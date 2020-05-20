@@ -3145,6 +3145,9 @@ nav{
 	width: 74.8%;
 	margin-bottom: 120px;
 }
+.catalog-recently{
+	width: 100%;
+}
 .filter-selected{
 	margin-bottom: 18px;
 	display: flex;
@@ -3290,13 +3293,20 @@ nav{
 	overflow: hidden;
 	margin-bottom: 35px;
 }
-.good-item-pic-icon{
+.good-item-pic-icons{
 	position: absolute;
 	top: 0;
 	left: 0;
+	display: flex;
+}
+.good-item-pic-icon{	
 	color: #fff;
 	font-weight: 600;
 	padding: 5px 13px;
+	margin-right: 5px;
+}
+.good-item-pic-icon:last-child{
+	margin-right: 0;
 }
 .good-item-pic-icon.green{
 	background: #0EA45C;
@@ -3448,6 +3458,7 @@ nav{
 }
 .card-images{
 	width: 41.2%;
+	position: relative;
 }
 .card-images-wrap.gallery-top{
 	width: 100%;
