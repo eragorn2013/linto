@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	/*Клик по ссылке О нас открываем модалку и добавляет к ссылке класс active*/
-	$(".header-center-left-link.about-us, .header-center-right-link.geo, .header-center-right-link.basket, .header-center-right-link.profile, .header-center-right-link.search").on("click", function(){
+	$("body").on("click", ".header-center-left-link.about-us, .header-center-right-link.geo, .header-center-right-link.basket, .header-center-right-link.profile, .header-center-right-link.search", function(){
 		var element=$(this);
 		if(element.hasClass("active")) {
 			element.removeClass("active");
@@ -31,29 +31,29 @@ $(document).ready(function(){
 			if(el.hasClass("active")) el.removeClass("active");
 		}
 	});
-	$(".modal-close").on("click", function(){
+	$("body").on("click", ".modal-close", function(){
 		var parent=$(this).parent(".header-modal");
 		if(parent.prev("a").hasClass("active")) parent.prev("a").removeClass("active");
 		if(parent.is(":visible")) parent.fadeOut(200);
 	});
 
 	/*удаление товара из корзины*/
-	$(".modal-basket").on("click", ".modal-basket-item-desc-top-delete", function(){
+	$("body").on("click", ".modal-basket-item-desc-top-delete", function(){
 		var element=$(this).parents(".modal-basket-item");
 		element.remove();
 		$(".modal-basket-goods").jScrollPane();
 	});
 
 	/*Модальное окно Все представители в Москве*/
-	$(".modal-geo-all-close, #modal-geo-all").on("click", function(){
+	$("body").on("click", ".modal-geo-all-close, #modal-geo-all", function(){
 		$("#modal-geo-all").fadeOut(200, function(){
 			$("body").removeClass("fixed");
 		});
 	});
-	$(".modal-geo-all-content").on("click", function(e){
+	$("body").on("click", ".modal-geo-all-content", function(e){
 		e.stopPropagation();
 	});
-	$(".modal-geo-more").on("click", function(){
+	$("body").on("click", ".modal-geo-more", function(){
 		var element=$("#modal-geo-all");
 		if(element.is(":hidden")) {
 			element.fadeIn(200);
@@ -64,7 +64,7 @@ $(document).ready(function(){
 	});
 
 	/*Модальное окно Введите название города*/
-	$(".modal-change-city-close, #modal-change-city").on("click", function(){
+	$("body").on("click", ".modal-change-city-close, #modal-change-city", function(){
 		$("#modal-change-city").fadeOut(200, function(){
 			if($(".header-center-mob-menu").is(":hidden")){
 				$("body").removeClass("fixed");
@@ -80,10 +80,10 @@ $(document).ready(function(){
 		}
 	}, {preventDefault: false});
 
-	$(".modal-change-city-content").on("click", function(e){
+	$("body").on("click", ".modal-change-city-content", function(e){
 		e.stopPropagation();
 	});
-	$(".modal-geo-change-city").on("click", function(){
+	$("body").on("click", ".modal-geo-change-city", function(){
 		var element=$("#modal-change-city");
 		if(element.is(":hidden")) {
 			element.fadeIn(200);
@@ -93,7 +93,7 @@ $(document).ready(function(){
 	});
 
 	/*Всплытие окна при вводе в input при поиске товаров*/
-	$('.form-field-input.search').on("input", function(){
+	$('body').on("input", ".form-field-input.search", function(){
 		var text=$(this).val();
 		if(text.length >= 3){
 			$(".modal-search-list").fadeIn(200, function(){
@@ -104,7 +104,7 @@ $(document).ready(function(){
 			$(".modal-search-list").fadeOut(200);
 		}
 	});
-	$(".form-field").on("click", ".modal-search-item", function(){
+	$("body").on("click", ".modal-search-item", function(){
 		var text=$(this).text();
 		var parent=$(this).parents(".form-field");
 		$(".form-field-input.search").val(text);
@@ -112,7 +112,7 @@ $(document).ready(function(){
 	});
 
 	/*Всплытие окна для смены города*/
-	$('.form-field-input.change-city').on("input", function(){
+	$('body').on("input", ".form-field-input.change-city", function(){
 		var text=$(this).val();
 		if(text.length >= 3){
 			$(".modal-city-list").fadeIn(200);
@@ -122,7 +122,7 @@ $(document).ready(function(){
 			$(".modal-city-list").fadeOut(200);
 		}
 	});
-	$(".form-field").on("click", ".modal-city-item", function(){
+	$("body").on("click", ".modal-city-item", function(){
 		var text=$(this).text();
 		var parent=$(this).parents(".form-field");
 		$(".modal-city-list", parent).fadeOut(200);
@@ -131,7 +131,7 @@ $(document).ready(function(){
 		if($(".header-center-mob-menu").is(":hidden")) $('body').removeClass("fixed");
 		return false;
 	});
-	$(".modal-change-city-item").on("click", function(){
+	$("body").on("click", ".modal-change-city-item", function(){
 		var text=$(this).text();
 		$("#modal-change-city").fadeOut(200);
 		$(".header-center-right-link-span.city").text(text);
@@ -140,7 +140,7 @@ $(document).ready(function(){
 	});
 
 	/*работа футера в мобильной версии*/
-	$(".footer-item-head").on("click", function(){
+	$("body").on("click", ".footer-item-head", function(){
 		var flag=false;
 		if($(window).width() <= 960) flag=true;
 		if(flag==true){
@@ -157,7 +157,7 @@ $(document).ready(function(){
 	});
 
 	/*Аккордион в мобильном меню*/
-	$(".header-center-mob-menu-item-name").on("click", function(){
+	$("body").on("click", ".header-center-mob-menu-item-name", function(){
 		var submenu=$(this).next(".header-center-mob-menu-item-list");
 		var arrow=$(this).children(".header-center-mob-menu-item-name-arrow");
 		if(submenu.is(":hidden")) {
@@ -170,14 +170,14 @@ $(document).ready(function(){
 		}
 	});
 
-	$(".header-center-mob-menu-item-link.sub").on("click", function(){
+	$("body").on("click", ".header-center-mob-menu-item-link.sub", function(){
 		var parent=$(this);
 		var submenu=$(".header-center-mob-menu-item-list-sub", parent);
 		if(submenu.is(":hidden")) submenu.slideDown(300);
 		else submenu.slideUp(300);
 	});
 
-	$(".header-center-mob-icon.menu").on("click", function(){
+	$("body").on("click", ".header-center-mob-icon.menu", function(){
 		var container=$(".header-center-mob-menu");
 		var menu=$(".header-center-mob-menu-wrap");
 		if(container.is(":hidden")){
@@ -186,7 +186,7 @@ $(document).ready(function(){
 			$("body").addClass("fixed");
 		}
 	});
-	$(".header-center-mob-menu-top-close, .header-center-mob-menu").on("click", function(){
+	$("body").on("click", ".header-center-mob-menu-top-close, .header-center-mob-menu", function(){
 		var container=$(".header-center-mob-menu");
 		var menu=$(".header-center-mob-menu-wrap");
 		if(container.is(":visible")){
@@ -204,23 +204,23 @@ $(document).ready(function(){
 		}
 	}, {preventDefault: false});
 
-	$(".header-center-mob-menu-wrap").on("click", function(e){e.stopPropagation()});
+	$("body").on("click", ".header-center-mob-menu-wrap", function(e){e.stopPropagation()});
 
-	$(".header-center-mob-menu-geo").on("click", function(){
+	$("body").on("click", ".header-center-mob-menu-geo", function(){
 		var modal=$("#modal-change-city");
 		if(modal.is(":hidden")) modal.fadeIn();
 		$("body").addClass("fixed");
 	});
 
 	/*Открытие модального окна поиска в мобильной версии*/
-	$(".header-center-mob-icon.search").on("click", function(){
+	$("body").on("click", ".header-center-mob-icon.search", function(){
 		var modal=$(".header-center-mob-search");
 		if(modal.is(":hidden")) {
 			modal.fadeIn(300);
 			$("body").addClass("fixed");
 		}
 	});
-	$(".header-center-mob-search-close").on("click", function(){
+	$("body").on("click", ".header-center-mob-search-close", function(){
 		var modal=$(".header-center-mob-search");
 		if(modal.is(":visible")) {
 			modal.fadeOut(300);
@@ -281,7 +281,7 @@ $(document).ready(function(){
 	for(var i=0; i<required.length; i++){
 		if($(".form-field-input."+required[i]).length > 0){
 			var element=$(".form-field-input."+required[i]);
-			element.on("input", function(){
+			$("body").on("input", element, function(){
 				if($(this).val().length >= 1){
 					$(this).removeClass("error");
 					$(this).next(".form-field-error").hide();
@@ -301,7 +301,7 @@ $(document).ready(function(){
 			});
 		}
 	}
-	$(".form-field-visible-pass-icon").on("click", function(){
+	$("body").on("click", ".form-field-visible-pass-icon", function(){
 		var elementClick=$(this);
 		var parent=elementClick.parents(".form-field-wrap");
 		var input=$(".form-field-input", parent);
@@ -317,7 +317,7 @@ $(document).ready(function(){
 			hint.text("Показать пароль");
 		}
 	});
-	$(".form-field").on("submit", function(){
+	$("body").on("submit", ".form-field", function(){
 		var parent=$(this);
 		if(validate(parent)==true) return false;
 	});
@@ -325,7 +325,7 @@ $(document).ready(function(){
 
 	/*Пользовательский селект*/
 
-	$(".select-wrap").on("click", function(){
+	$("body").on("click", ".select-wrap", function(){
 		var parent=$(this).parents(".select");
 		var arrow=$(".select-arrow", parent);
 		var modal=$(".select-modal", parent);
@@ -334,7 +334,7 @@ $(document).ready(function(){
 		if(modal.is(":hidden")) modal.fadeIn(200);
 		else modal.hide();
 	});
-	$(".select-modal-item, .select-modal-color").on("click", function(e){
+	$("body").on("click", ".select-modal-item, .select-modal-color", function(e){
 		var parent=$(this).parents(".select");		
 		var arrow=$(".select-arrow", parent);
 		var modal=$(".select-modal", parent);
@@ -362,12 +362,12 @@ $(document).ready(function(){
 
 	$(".order-steps-basket-list-wrap").jScrollPane();
 
-	$(".order-steps-step-completion-comment").on("click", function(){
+	$("body").on("click", ".order-steps-step-completion-comment", function(){
 		$(this).next(".form-field-label").show().focus();
 		$(this).hide();
 	});
 
-	$(".button-link.step-1").on("click", function(){
+	$("body").on("click", ".button-link.step-1", function(){
 		var parent=$(this).parents(".order-steps-step-1");
 		if(validate(parent) == false){
 			var name=$(".form-field-input.name", parent).val();
@@ -391,7 +391,7 @@ $(document).ready(function(){
 		}
 		return false;
 	});
-	$(".button-link.step-2").on("click", function(){
+	$("body").on("click", ".button-link.step-2", function(){
 		var parent=$(this).parents(".order-steps-step-2");
 		if(validate(parent) == false){
 			var city=$(".form-field-input.city", parent).val();
@@ -422,7 +422,7 @@ $(document).ready(function(){
 	});
 
 	/*Открытие/закрытие элементов фильтра в каталоге*/
-	$(".catalog-menu-item-head").on("click", function(){
+	$("body").on("click", ".catalog-menu-item-head", function(){
 		var parent=$(this).parents(".catalog-menu-item");
 		var list=$(".catalog-menu-item-list", parent);
 		var arrow=$(".catalog-menu-item-head-arrow", parent);
@@ -480,12 +480,12 @@ $(document).ready(function(){
 		}
 	}, {preventDefault: false});
 
-	$(".catalog-menu-head-mobile-close").on("click", function(){
+	$("body").on("click", ".catalog-menu-head-mobile-close", function(){
 		$(".catalog-menu").fadeOut(300);
 		$('body').removeClass("fixed");
 	});
 
-	$(".catalog-head-filter-mobile-button.first").on("click", function(){
+	$("body").on("click", ".catalog-head-filter-mobile-button.first", function(){
 		if($(".catalog-menu").is(":hidden")) {
 			$(".catalog-menu").fadeIn(300);
 			$('body').addClass("fixed");
@@ -496,7 +496,7 @@ $(document).ready(function(){
 	});
 
 	/*Вкладки в карточке товара*/
-	$(".details-tabs-span").on("click", function(){
+	$("body").on("click", ".details-tabs-span", function(){
 		var element=$(this);
 		var current=null;
 		$(".details-tabs-span.active").removeClass("active");
@@ -519,15 +519,15 @@ $(document).ready(function(){
 		}
 	});
 
-	$(".button-link.modal").on("click", function(){
+	$("body").on("click", ".button-link.modal", function(){
 		$("#modal-report").fadeIn(300);
 		return false;
 	});
-	$(".modal-report-close, #modal-report").on("click", function(){
+	$("body").on("click", ".modal-report-close, #modal-report", function(){
 		$("#modal-report").fadeOut(300);
 		$("#modal-report .form-field-input").val("");
 	});
-	$(".modal-report-content").on("click", function(e){e.stopPropagation()});
+	$("body").on("click", ".modal-report-content", function(e){e.stopPropagation()});
 
 	/*fixed-content*/	
 	$(window).on("scroll", function(){
@@ -546,7 +546,7 @@ $(document).ready(function(){
 	});
 
 	/*страница с сертификатами*/
-	$(".sert-menu-item").on("click", function(){
+	$("body").on("click", ".sert-menu-item", function(){
 		var element=$(this);
 		var id="#sert-list-"+element.attr("data-page");
 		$(".sert-menu-item").removeClass("active");
@@ -556,7 +556,7 @@ $(document).ready(function(){
 	});
 
 	/*Представители на карте*/
-	$(".repres-filter-type-link").on("click", function(){
+	$("body").on("click", ".repres-filter-type-link", function(){
 		var element=$(this);
 		var elMap=$(".repres-list-wrap.map");
 		var elList=$(".repres-list-wrap.list");
