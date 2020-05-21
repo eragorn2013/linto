@@ -1,4 +1,94 @@
 $(document).ready(function(){
+	var data={
+		0:{
+			coords: [55.382433979033515, 36.72783427132507],
+			head: "ЦЕНТРАЛЬНЫЙ ОФИС",
+			address: "Пресненская набережная, д. 6с2, 'Москва-Сити' Башня Империя, 51 этаж, офис 5113",
+			phone: ["+7 (499) 499-19-90"],
+			site: ["parisnail.ru"],
+			inst: ["paris_nail_cafe/", "paris_nail_cafe/"],
+		},
+		1:{
+			coords: [55.387124848460466,36.74491457833191],
+			head: "МУЛЬТИБРЕНДОВЫЙ МАГАЗИН PARIS NAIL SHOP&SCHOOL",
+			address: "м. Кузьминки, ул. Зеленодольская, д. 30",
+			phone: ["+7 (499) 499-19-90","+7 (499) 499-19-90"],
+			site: ["nailbrand.com"],
+			inst: ["nailbrand_com"],
+		},
+		2:{
+			coords: [55.3760319952172,36.73633150948425],
+			head: "МУЛЬТИБРЕНДОВЫЙ МАГАЗИН NAILBRAND",
+			address: "м. Проспект Вернадского, пр-кт. Вернадского, д. 39",
+			phone: ["+7 (499) 499-19-90","+7 (499) 499-19-90"],
+			site: ["parisnail.ru"],
+			inst: ["paris_nail_cafe/", "paris_nail_cafe/"],
+		},
+	};
+	function createMap(lat=55.382433979033515, lon=36.72783427132507, zoom=14){
+		$('#map').html('');
+		var myMap = new ymaps.Map("map", {
+	        center: [lat, lon],
+	        zoom: zoom
+	    });
+	    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+		    //... отключаем перетаскивание карты
+		    myMap.behaviors.disable('drag');
+		}
+		var myCollection = new ymaps.GeoObjectCollection({}, {
+		    preset: 'islands#redIcon',
+		    draggable: false
+		});
+		if(document.documentElement.clientWidth > 960)
+			myMap.geoObjects.options.set('balloonMinWidth', 404);
+		else if(document.documentElement.clientWidth <= 960)
+			myMap.geoObjects.options.set('balloonMinWidth', 292);
+		
+		for (i in data) {
+			var phones="";
+			for(var j=0; j < data[i].phone.length; j++){
+				phones+='<div class="baloon-phone">'+data[i].phone[j]+'</div>';
+			}
+			var sites="";
+			for(var j=0; j < data[i].site.length; j++){
+				sites+='<a class="baloon-site" target="_blank" href="//'+data[i].site[j]+'">'+data[i].site[j]+'</a>';
+			}
+			var inst="";
+			for(var j=0; j < data[i].inst.length; j++){
+				inst+='<a class="baloon-inst" target="_blank" href="//instagram.com/'+data[i].inst[j]+'">'+data[i].inst[j]+'</a>';
+			}
+			var MyBalloonContentLayoutClass = ymaps.templateLayoutFactory.createClass(
+			    '<div class="baloon">'+
+			    	'<div class="baloon-head">'+data[i].head+'</div>'+
+			    	'<div class="baloon-address">'+data[i].address+'</div>'+
+			    	'<div class="baloon-wrap">'+
+			    		'<div class="baloon-phones">'+phones+'</div>'+
+			    		'<div class="baloon-sites">'+sites+'</div>'+
+			    		'<div class="baloon-inst">'+
+			    			'<i class="baloon-icon inst"></i>'+
+			    			'<div class="baloon-inst-links">'+inst+'</div>'+
+			    		'</div>'+
+			    	'</div>'+
+			    '</div>'
+			);
+		    myCollection.add(new ymaps.Placemark(data[i].coords, {},
+		    {balloonContentLayout: MyBalloonContentLayoutClass}));
+		}		
+		myMap.geoObjects.add(myCollection);
+	}
+	$("body").on("click", ".repres-list-item-map-link", function(){
+		var lat=$(this).attr('data-lat');
+		var lon=$(this).attr('data-lon');
+		var elMap=$(".repres-list-wrap.map");
+		var elList=$(".repres-list-wrap.list");	
+		createMap(lat, lon, 18);
+		if(elMap.is(":hidden")){
+			elMap.show();
+			elList.hide();
+			$(".repres-filter-type-link.active").removeClass("active");
+			$(".repres-filter-type-link.map").addClass("active");						
+		}		
+	});
 	/*Клик по ссылке О нас открываем модалку и добавляет к ссылке класс active*/
 	$("body").on("click", ".header-center-left-link.about-us, .header-center-right-link.geo, .header-center-right-link.basket, .header-center-right-link.profile, .header-center-right-link.search", function(){
 		var element=$(this);
@@ -564,6 +654,8 @@ $(document).ready(function(){
 			if(elMap.is(":hidden")){
 				elMap.show();
 				elList.hide();
+				console.log('hello');
+				createMap();
 			}
 		}
 		else if(element.hasClass("list")){

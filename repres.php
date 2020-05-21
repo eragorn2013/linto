@@ -99,7 +99,7 @@
 						</div>
 						<span class="repres-list-item-map">
 							<i class='repres-list-item-map-icon'></i>
-							<a class="repres-list-item-map-link" href="#">Показать на карте</a>
+							<span class="repres-list-item-map-link" data-lat="55.3760319952172" data-lon="36.73633150948425">Показать на карте</span>
 						</span>
 					</div>
 					<div class="repres-list-item">
@@ -125,7 +125,7 @@
 						</div>
 						<span class="repres-list-item-map">
 							<i class='repres-list-item-map-icon'></i>
-							<a class="repres-list-item-map-link" href="#">Показать на карте</a>
+							<span class="repres-list-item-map-link" data-lat="55.387124848460466" data-lon="36.74491457833191">Показать на карте</span>
 						</span>
 					</div>
 					<div class="repres-list-item">
@@ -144,13 +144,13 @@
 							<div class="repres-list-item-inst">
 								<i class="repres-list-item-inst-icon"></i>
 								<div class="repres-list-item-inst-wrap">
-									<a class="repres-list-item-inst-link" target="_blank" href="#">nailbrand_com/</a>								
+									<a class="repres-list-item-inst-link" target="_blank" href="#">nailbrand_com/</a>					
 								</div>
 							</div>
 						</div>
 						<span class="repres-list-item-map">
 							<i class='repres-list-item-map-icon'></i>
-							<a class="repres-list-item-map-link" href="#">Показать на карте</a>
+							<span class="repres-list-item-map-link" data-lat="55.382433979033515" data-lon="36.72783427132507">Показать на карте</span>
 						</span>
 					</div>
 				</div>
@@ -161,82 +161,5 @@
 		</div>
 	</div>
 </section>
-<script>
-ymaps.ready(init);
-function init(){
-    var myMap = new ymaps.Map("map", {
-        center: [55.382433979033515, 36.72783427132507],
-        zoom: 14
-    });
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-	    //... отключаем перетаскивание карты
-	    myMap.behaviors.disable('drag');
-	}
-	var myCollection = new ymaps.GeoObjectCollection({}, {
-	    preset: 'islands#redIcon',
-	    draggable: false
-	});
-	if(document.documentElement.clientWidth > 960)
-		myMap.geoObjects.options.set('balloonMinWidth', 404);
-	else if(document.documentElement.clientWidth <= 960)
-		myMap.geoObjects.options.set('balloonMinWidth', 292);
-	var data={
-		0:{
-			coords: [55.382433979033515, 36.72783427132507],
-			head: "ЦЕНТРАЛЬНЫЙ ОФИС",
-			address: "Пресненская набережная, д. 6с2, 'Москва-Сити' Башня Империя, 51 этаж, офис 5113",
-			phone: ["+7 (499) 499-19-90"],
-			site: ["parisnail.ru"],
-			inst: ["paris_nail_cafe/", "paris_nail_cafe/"],
-		},
-		1:{
-			coords: [55.387124848460466,36.74491457833191],
-			head: "МУЛЬТИБРЕНДОВЫЙ МАГАЗИН PARIS NAIL SHOP&SCHOOL",
-			address: "м. Кузьминки, ул. Зеленодольская, д. 30",
-			phone: ["+7 (499) 499-19-90","+7 (499) 499-19-90"],
-			site: ["nailbrand.com"],
-			inst: ["nailbrand_com"],
-		},
-		2:{
-			coords: [55.3760319952172,36.73633150948425],
-			head: "МУЛЬТИБРЕНДОВЫЙ МАГАЗИН NAILBRAND",
-			address: "м. Проспект Вернадского, пр-кт. Вернадского, д. 39",
-			phone: ["+7 (499) 499-19-90","+7 (499) 499-19-90"],
-			site: ["parisnail.ru"],
-			inst: ["paris_nail_cafe/", "paris_nail_cafe/"],
-		},
-	};
-	for (i in data) {
-		var phones="";
-		for(var j=0; j < data[i].phone.length; j++){
-			phones+='<div class="baloon-phone">'+data[i].phone[j]+'</div>';
-		}
-		var sites="";
-		for(var j=0; j < data[i].site.length; j++){
-			sites+='<a class="baloon-site" target="_blank" href="//'+data[i].site[j]+'">'+data[i].site[j]+'</a>';
-		}
-		var inst="";
-		for(var j=0; j < data[i].inst.length; j++){
-			inst+='<a class="baloon-inst" target="_blank" href="//instagram.com/'+data[i].inst[j]+'">'+data[i].inst[j]+'</a>';
-		}
-		var MyBalloonContentLayoutClass = ymaps.templateLayoutFactory.createClass(
-		    '<div class="baloon">'+			    	
-		    	'<div class="baloon-head">'+data[i].head+'</div>'+
-		    	'<div class="baloon-address">'+data[i].address+'</div>'+
-		    	'<div class="baloon-wrap">'+
-		    		'<div class="baloon-phones">'+phones+'</div>'+
-		    		'<div class="baloon-sites">'+sites+'</div>'+
-		    		'<div class="baloon-inst">'+
-		    			'<i class="baloon-icon inst"></i>'+
-		    			'<div class="baloon-inst-links">'+inst+'</div>'+
-		    		'</div>'+
-		    	'</div>'+
-		    '</div>'
-		);
-	    myCollection.add(new ymaps.Placemark(data[i].coords, {},
-	    {balloonContentLayout: MyBalloonContentLayoutClass}));
-	}		
-	myMap.geoObjects.add(myCollection);}
-</script>
 <?php include './elements/subscription.php'; ?>
 <?php include './elements/footer.php'; ?>

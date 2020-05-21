@@ -239,6 +239,7 @@ a{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
 }
 .button-link-span-text{
 	display: inline-block;
@@ -4762,6 +4763,7 @@ nav{
 	font-size: 13px;
 	line-height: 16px;
 	text-decoration: underline;
+	cursor: pointer;
 }
 .repres-list-item-map-link:hover{
 	text-decoration: none;
