@@ -78,7 +78,7 @@
 					<div class="repres-filter-type-link active list">
 						<span class="repres-filter-type-link-span">СПИСКОМ</span>
 					</div>
-					<div class="repres-filter-type-link map">
+					<div class="repres-filter-type-link map" data-lat="55.382433979033515" data-lon="36.72783427132507">
 						<i class="repres-filter-type-link-icon"></i>
 						<span class="repres-filter-type-link-span">НА КАРТЕ</span>
 					</div>
