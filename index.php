@@ -35,7 +35,7 @@
 	</div>
 </section>
 
-<section id="main-page-goods">
+<section id="main-page-goods" style='background-image: url(img/bg/4.jpg);'>
 	<div class="container">
 		<div class="content main-page-goods-content">
 			<div class="main-page-goods-wrap first">

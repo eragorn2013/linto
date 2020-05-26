@@ -1695,7 +1695,6 @@ nav{
 	margin-bottom: 50px;
 }
 #main-page-goods{
-	background-image: url("../img/bg/4.jpg");
 	background-repeat: no-repeat;
 	background-position: right center;
 	background-size: cover;
@@ -5167,6 +5166,7 @@ footer{
 	#main-page-goods{
 		background-image: none;
 		padding-top: 60px;
+		background-image: none !important;
 	}
 	.main-page-goods-item{
 		margin-right: 72px;
