@@ -5,7 +5,7 @@
 			<h1 class="auth-head">ВХОД</h1>
 			<div class="auth-wrap">
 				<form class="form-field" action="#" method="post">
-					<label class="form-field-label">
+					<label class="form-field-label margin">
 						<span class="form-field-wrap first">
 							<span class="form-field-name">Логин</span>
 						</span>
@@ -15,7 +15,7 @@
 						</span>
 					</label>
 
-					<label class="form-field-label">
+					<label class="form-field-label margin">
 						<span class="form-field-wrap first">
 							<span class="form-field-name">Пароль</span>
 							<a class="form-field-link" href="#">Забыли пароль?</a>
@@ -30,7 +30,7 @@
 						</span>
 					</label>
 
-					<label class="form-field-label">
+					<label class="form-field-label margin">
 						<span class="form-field-wrap">
 							<input class="form-field-checkbox" type="checkbox" name="name">
 							<i class="form-field-icon-check"></i>						
@@ -39,12 +39,12 @@
 					</label>
 
 					<div class="form-field-buttons">
-						<button class="button-link black">
+						<button class="button-link black margin width">
 							<span class="button-link-span">
 								<span class="button-link-span-text">ВОЙТИ</span>
 							</span>
 						</button>
-						<a class="button-link white grey-border" href="#">
+						<a class="button-link white grey-border width" href="#">
 							<span class="button-link-span">
 								<span class="button-link-span-text">ЗАРЕГИСТРИРОВАТЬСЯ</span>
 							</span>

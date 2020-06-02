@@ -6,12 +6,12 @@
 			<p class="recovery-pass-info">Мы отправили письмо для создания нового пароля по адресу viktoria97@gmail.com </p>
 			
 			<div class="recovery-pass-buttons">
-				<a class="button-link black" href="#">
+				<a class="button-link black margin width" href="#">
 					<span class="button-link-span">
 						<span class="button-link-span-text">ОТПРАВИТЬ КОД ПОВТОРНО</span>
 					</span>
 				</a>
-				<a class="button-link white grey-border" href="#">
+				<a class="button-link white grey-border width" href="#">
 					<span class="button-link-span">
 						<span class="button-link-span-text">ВОЙТИ</span>
 					</span>

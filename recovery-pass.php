@@ -6,7 +6,7 @@
 			<p class="recovery-pass-info">Введите в поле адрес электронной почты. Мы отправим вам сообщение по электронной почте с инструкциями по созданию нового пароля.</p>
 			<div class="recovery-pass-wrap">
 				<form class="form-field" action="#" method="post">
-					<label class="form-field-label">
+					<label class="form-field-label margin">
 						<span class="form-field-wrap first">
 							<span class="form-field-name">E-mail</span>
 						</span>
@@ -17,7 +17,7 @@
 					</label>					
 
 					<div class="form-field-buttons">
-						<button class="button-link black">
+						<button class="button-link black width">
 							<span class="button-link-span">
 								<span class="button-link-span-text">ВОССТАНОВИТЬ ПАРОЛЬ</span>
 							</span>

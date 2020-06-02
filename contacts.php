@@ -63,7 +63,7 @@
 					<h2 class="contacts-list-head">ФОРМА ОБРАТНОЙ СВЯЗИ</h2>
 					<p class="contacts-list-info">Оставьте заявку и наш менеджер свяжется с Вами в ближайшее время!</p>
 					<form class="form-field" action="#" method="post">
-						<label class="form-field-label">
+						<label class="form-field-label margin">
 							<span class="form-field-wrap first">
 								<span class="form-field-name">Ваше имя</span>
 							</span>
@@ -73,7 +73,7 @@
 							</span>
 						</label>
 
-						<label class="form-field-label">
+						<label class="form-field-label margin">
 							<span class="form-field-wrap first">
 								<span class="form-field-name">E-mail</span>
 							</span>
@@ -83,7 +83,7 @@
 							</span>
 						</label>
 
-						<label class="form-field-label">
+						<label class="form-field-label margin">
 							<span class="form-field-wrap first">
 								<span class="form-field-name">Телефон</span>
 							</span>
@@ -93,7 +93,7 @@
 							</span>
 						</label>
 
-						<label class="form-field-label">
+						<label class="form-field-label margin">
 							<span class="form-field-wrap first">
 								<span class="form-field-name">Аккаунты в соцсетях</span>
 							</span>
@@ -103,7 +103,7 @@
 							</span>
 						</label>
 						
-						<label class="form-field-label">
+						<label class="form-field-label margin">
 							<span class="form-field-wrap first">
 								<span class="form-field-name">Ваш комментарий</span>
 							</span>
@@ -115,7 +115,7 @@
 						
 						
 						<div class="form-field-buttons">
-							<button class="button-link black">
+							<button class="button-link black width">
 								<span class="button-link-span">
 									<span class="button-link-span-text">ОТПРАВИТЬ</span>
 								</span>

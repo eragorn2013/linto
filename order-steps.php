@@ -19,14 +19,14 @@
 					<div class="order-steps-step-1">
 						<div class="order-steps-step form">
 							<div class="form-field-flexbox">
-								<label class="form-field-label">
+								<label class="form-field-label margin">
 									<span class="form-field-wrap">
 										<input class="form-field-radio" checked type="radio" name="face" value="1">
 										<i class="form-field-icon-select"></i>
 										<span class="form-field-text-radio">Физическое лицо</span>
 									</span>
 								</label>
-								<label class="form-field-label">
+								<label class="form-field-label margin">
 									<span class="form-field-wrap">
 										<input class="form-field-radio" type="radio" name="face" value="2">
 										<i class="form-field-icon-select"></i>
@@ -34,7 +34,7 @@
 									</span>
 								</label>
 							</div>
-							<label class="form-field-label">
+							<label class="form-field-label margin">
 								<span class="form-field-wrap first">
 									<span class="form-field-name">Имя и фамилия</span>
 								</span>
@@ -43,7 +43,7 @@
 									<span class="form-field-error"></span>
 								</span>
 							</label>
-							<label class="form-field-label">
+							<label class="form-field-label margin">
 								<span class="form-field-wrap first">
 									<span class="form-field-name">E-mail</span>
 								</span>
@@ -52,7 +52,7 @@
 									<span class="form-field-error"></span>
 								</span>
 							</label>
-							<label class="form-field-label">
+							<label class="form-field-label margin">
 								<span class="form-field-wrap first">
 									<span class="form-field-name">Телефон</span>
 								</span>
@@ -85,7 +85,7 @@
 					</div>
 					<div class="order-steps-step-2">
 						<div class="order-steps-step form">
-							<label class="form-field-label">
+							<label class="form-field-label margin">
 								<span class="form-field-wrap first">
 									<span class="form-field-name">Город</span>
 								</span>
@@ -94,7 +94,7 @@
 									<span class="form-field-error"></span>
 								</span>
 							</label>
-							<label class="form-field-label">
+							<label class="form-field-label margin">
 								<span class="form-field-wrap">
 									<input class="form-field-radio" checked type="radio" name="delivery" data-name="СДЕК - склад" value="1">
 									<i class="form-field-icon-select"></i>
@@ -103,7 +103,7 @@
 									</span>
 								</span>
 							</label>
-							<label class="form-field-label">
+							<label class="form-field-label margin">
 								<span class="form-field-wrap">
 									<input class="form-field-radio" type="radio" name="delivery" data-name="СДЕК - курьер" value="2">
 									<i class="form-field-icon-select"></i>
@@ -112,7 +112,7 @@
 									</span>
 								</span>
 							</label>
-							<label class="form-field-label">
+							<label class="form-field-label margin">
 								<span class="form-field-wrap">
 									<input class="form-field-radio" type="radio" name="delivery" data-name="Самовывоз" value="3">
 									<i class="form-field-icon-select"></i>
@@ -121,7 +121,7 @@
 									</span>
 								</span>
 							</label>
-							<label class="form-field-label">
+							<label class="form-field-label margin">
 								<span class="form-field-wrap">
 									<input class="form-field-radio" type="radio" name="delivery" data-name="Boxberry - курьер" value="4">
 									<i class="form-field-icon-select"></i>
@@ -130,7 +130,7 @@
 									</span>
 								</span>
 							</label>
-							<label class="form-field-label">
+							<label class="form-field-label margin">
 								<span class="form-field-wrap">
 									<input class="form-field-radio" type="radio" name="delivery" data-name="Boxberry - склад" value="5">
 									<i class="form-field-icon-select"></i>
@@ -139,7 +139,7 @@
 									</span>
 								</span>
 							</label>
-							<label class="form-field-label">
+							<label class="form-field-label margin">
 								<span class="form-field-wrap first">
 									<span class="form-field-name">Улица</span>
 								</span>
@@ -149,7 +149,7 @@
 								</span>
 							</label>
 							<div class="form-field-flexbox nowrap">
-								<label class="form-field-label">
+								<label class="form-field-label margin">
 									<span class="form-field-wrap first">
 										<span class="form-field-name">Дом</span>
 									</span>
@@ -158,7 +158,7 @@
 										<span class="form-field-error"></span>
 									</span>
 								</label>
-								<label class="form-field-label">
+								<label class="form-field-label margin">
 									<span class="form-field-wrap first">
 										<span class="form-field-name">Квартиру/офис</span>
 									</span>
@@ -191,14 +191,14 @@
 					</div>
 					<div class="order-steps-step-3">
 						<div class="order-steps-step form">
-							<label class="form-field-label radio">
+							<label class="form-field-label radio margin">
 								<span class="form-field-wrap">
 									<input class="form-field-radio" type="radio" name="payment" value="1">
 									<i class="form-field-icon-select"></i>
 									<span class="form-field-text-radio">Наличными курьеру</span>
 								</span>
 							</label>
-							<label class="form-field-label radio">
+							<label class="form-field-label radio margin">
 								<span class="form-field-wrap">
 									<input class="form-field-radio" checked type="radio" name="payment" value="1">
 									<i class="form-field-icon-select"></i>
@@ -208,7 +208,7 @@
 							<div class="order-steps-step-completion">
 								<div class="order-steps-step-completion-wrap">
 									<span class="order-steps-step-completion-comment">Добавить комментарий к заказу</span>
-									<label class="form-field-label default-hidden">
+									<label class="form-field-label default-hidden margin">
 										<span class="form-field-wrap first">
 											<span class="form-field-name">Ваш комментарий</span>
 										</span>
@@ -219,7 +219,7 @@
 									</label>
 								</div>
 								<div id="order-steps-step-completion-checkbox" class="order-steps-step-completion-checkbox">
-									<label class="form-field-label">
+									<label class="form-field-label margin">
 										<span class="form-field-wrap">
 											<input class="form-field-checkbox" type="checkbox" name="name">
 											<i class="form-field-icon-check"></i>
@@ -271,7 +271,7 @@
 									
 								</div>
 								<div class="order-steps-step-completion-button">
-									<button class="button-link black">
+									<button class="button-link black width">
 										<span class="button-link-span">
 											<span class="button-link-span-text">ОФОРМИТЬ ЗАКАЗ</span>
 										</span>
