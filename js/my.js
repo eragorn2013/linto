@@ -66,7 +66,8 @@ $(document).ready(function(){
 	/*Клик по ссылке О нас открываем модалку и добавляет к ссылке класс active*/
 	$("body").on("click", ".header-center-left-link.about-us, .header-center-right-link.geo, .header-center-right-link.basket, .header-center-right-link.profile, .header-center-right-link.search", function(){
 		var element=$(this);
-		if(element.hasClass("active")) {
+		if(element.next(".header-modal").length < 1) return false;
+		if(element.hasClass("active")) {			
 			element.removeClass("active");
 			if(element.next(".header-modal").is(":visible")) element.next(".header-modal").fadeOut(200);
 			if(element.hasClass("basket")){
