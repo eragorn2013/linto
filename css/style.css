@@ -3501,6 +3501,16 @@ nav{
 	font-size: 20px;
 	line-height: 24px;
 }
+.card-info-price-sum.red{
+	color: #EA1212;
+	margin-right: 6px;
+}
+.card-info-price-sum.none{
+	font-size: 14px;
+	color: #ABABAB;   
+    text-decoration: line-through;
+    font-family: "HelveticaNeueCyr-Roman";
+}
 .in-basket-wrap{
 	padding-bottom: 32px;
 	border-bottom: 1px solid rgba(0,0,0,0.15);

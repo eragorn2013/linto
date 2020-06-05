@@ -121,6 +121,10 @@
 					<span class="card-info-price-sum">520 RUB</span> /
 					<span class="card-info-price-amount">10 МЛ</span>
 				</div>
+				<div class="card-info-price">
+					<span class="card-info-price-sum red">430 RUB</span>
+					<span class="card-info-price-sum none">520 RUB</span>
+				</div>
 				<div class="in-basket-wrap">
 					<div class="in-basket">
 						<div class="add-count">
