@@ -315,8 +315,8 @@ $(document).ready(function(){
 	/*Страница ВХОД, РЕГИСТРАЦИЯ, ВОССТАНОВЛЕНИЕ ПАРОЛЯ и валидация полей*/
 	var regEmail = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 
-	var required=['login', 'pass', 'name', 'surname', 'email', 'promo', 'phone', 'city'];//валидация на пустые поля
-	var email=['email'];//валидация на корректность email
+	var required=[/*'login', 'pass', 'name', 'surname', 'email', 'promo', 'phone', 'city'*/];//валидация на пустые поля
+	var email=[/*'email'*/];//валидация на корректность email
 
 	function validate(parent){
 		var flagError=false;
@@ -432,57 +432,89 @@ $(document).ready(function(){
 		$(this).hide();
 	});
 
+	function order(parent, parentList, nextStep){
+		var headInput=$('.form-field-input.head', parentList);
+		var headRadio=$('.form-field-radio.head:checked', parentList);
+		var rowsInput=$('.form-field-input.row', parentList);
+		var colsInput=$('.form-field-input.col', parentList);
+		$('.order-steps-step-info', parent).html('');
+
+		if(headInput.length > 0)
+			$('.order-steps-step-head-name-span', parent).text(headInput.val());
+
+		if(headRadio.length > 0)
+			$('.order-steps-step-head-name-span', parent).text(headRadio.attr('data-name'));
+
+		if(rowsInput.length > 0){
+			var rowsSpan='';
+			if(rowsInput.length > 1){
+				for(var i=0; i < rowsInput.length; i++){
+					if(rowsInput[i].value != '')
+						rowsSpan+='<span class="order-steps-step-info-span">'+rowsInput[i].value+'</span>';
+				}
+			}
+			else{
+				rowsSpan='<span class="order-steps-step-info-span">'+rowsInput.val()+'</span>';
+			}			
+			$('.order-steps-step-info', parent).append(rowsSpan);
+		}
+
+		if(colsInput.length > 0){
+			var colsList='';
+			for(var i=0; i < colsInput.length; i++){
+				if(colsInput[i].value != '')
+					colsList+=colsInput[i].value+', ';
+			}
+			colsList=colsList.substring(0, colsList.length - 2);
+			$('.order-steps-step-info', parent).append('<span class="order-steps-step-info-span">'+colsList+'</span>');
+		}
+		$(".order-steps-step.form", parent).hide();//скрывает форму
+		parent.prev(".order-steps-form-head-wrap").hide();//скрывает заголовок
+		
+		$(".order-steps-step.data", parent).show();//показывает свернутую инфу
+
+		$(".order-steps-step.form", nextStep).show();//открывает форму на след шаге
+		nextStep.prev(".order-steps-form-head-wrap").addClass("active"); //active присваивает дополнительные стили к заголовку
+	}
+
+	var face='individual';
+	$("body").on('click', '.form-field-wrap.organization', function(){
+		$('.order-steps-form.individual').hide();
+		$('.order-steps-form.organization').show();
+		face='organization';
+	});
+	$("body").on('click', '.form-field-wrap.individual', function(){
+		$('.order-steps-form.organization').hide();
+		$('.order-steps-form.individual').show();
+		face='individual';
+	});
+
 	$("body").on("click", ".button-link.step-1", function(){
 		var parent=$(this).parents(".order-steps-step-1");
-		if(validate(parent) == false){
-			var name=$(".form-field-input.name", parent).val();
-			var email=$(".form-field-input.email", parent).val();
-			var phone=$(".form-field-input.phone", parent).val();
-			var nextStep=$(".order-steps-step-2");
+		var formParent=parent.parents('.order-steps-form');
+		var parentList=$('.form-field-list', parent); //блок внутри которого ищем заполненные поля
+		var nextStep=$(".order-steps-step-2"); //блок следующего шага		
+		
+		order(parent, parentList, nextStep);		
 
-			$(".order-steps-step.form", parent).hide();
-			parent.prev(".order-steps-form-head-wrap").hide();
-			$(".order-steps-step-head-name-span", parent).text(name);
-			$(".order-steps-step-info-span.phone", parent).text(phone);
-			$(".order-steps-step-info-span.email", parent).text(email);
-			$(".order-steps-step.data", parent).show();
-
-			$(".order-steps-step.form", nextStep).show();
-			nextStep.prev(".order-steps-form-head-wrap").addClass("active");
-
-			$('html, body').animate({
-		      scrollTop: $('.order-steps-step-1').offset().top
-		    }, 500);
-		}
+		$('html, body').animate({//автоскролл к след шагу
+	      scrollTop: $('.order-steps-step-1', formParent).offset().top
+	    }, 500);
+		
 		return false;
 	});
-	$("body").on("click", ".button-link.step-2", function(){
+	$("body").on("click", ".button-link.step-2", function(){		
 		var parent=$(this).parents(".order-steps-step-2");
-		if(validate(parent) == false){
-			var city=$(".form-field-input.city", parent).val();
-			var delivery=$(".form-field-radio:checked", parent).attr("data-name");
-			var street=$(".form-field-input.street", parent).val();
-			var house=$(".form-field-input.house").val();
-			var room=$(".form-field-input.room").val();
-			var nextStep=$(".order-steps-step-3");
+		var formParent=parent.parents('.order-steps-form');
+		var parentList=$('.form-field-list', parent); //блок внутри которого ищем заполненные поля
+		var nextStep=$(".order-steps-step-3");
+		
+		order(parent, parentList, nextStep);		
 
-			$(".order-steps-step.form", parent).hide();
-			parent.prev(".order-steps-form-head-wrap").hide();
-			$(".order-steps-step-head-name-span", parent).text(delivery);
-			var address=city;
-			if(street) address+=", "+street;
-			if(house) address+=", "+house;
-			if(room) address+=", "+room;
-			$(".order-steps-step-info-span.address").text(address);
-			$(".order-steps-step.data", parent).show();
-
-			$(".order-steps-step.form", nextStep).show();
-			nextStep.prev(".order-steps-form-head-wrap").addClass("active");
-
-			$('html, body').animate({
-		      scrollTop: $('.order-steps-step-2').offset().top
-		    }, 500);
-		}
+		$('html, body').animate({
+	      scrollTop: $('.order-steps-step-2', formParent).offset().top
+	    }, 500);
+		
 		return false;
 	});
 

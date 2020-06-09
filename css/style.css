@@ -462,6 +462,9 @@ a{
 	margin-right: 16px;
 	cursor: pointer;
 }
+.form-field-icon-select.active{
+	border: 7px solid #000;
+}
 .form-field-radio:checked + .form-field-icon-select{
 	border: 7px solid #000;
 }
@@ -2594,6 +2597,9 @@ nav{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+}
+.form-field.order-steps-form.organization{
+	display: none;
 }
 .order-steps-form-head-wrap{
 	padding: 30px 0;
@@ -6285,10 +6291,13 @@ footer{
 	.form-field-icon-select{
 		width: 20px;
 		height: 20px;
-	}
+	}	
 	.form-field-radio:checked + .form-field-icon-select{
 		border: 6px solid #000;
 	}
+	.form-field-icon-select.active{
+		border: 6px solid #000;
+	}	
 	.order-steps-form{
 		width: 100%;
 	}
