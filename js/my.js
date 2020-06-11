@@ -425,8 +425,39 @@ $(document).ready(function(){
 	
 	/*Оформление заказа*/
 
-	$(".order-steps-basket-list-wrap").jScrollPane();
+	$('body').on('click', '.order-steps-step-head-span', function(){
+		var element=$(this);
+		var stepData=element.parents('.order-steps-step.data');
+		var stepForm=stepData.prev('.order-steps-step.form');
+		if(element.hasClass('step-1')) var parent=element.parents('.order-steps-step-1');
+		else if(element.hasClass('step-2')) var parent=element.parents('.order-steps-step-2');
+		var formParent=parent.parents('.order-steps-form');
+		var head=parent.prev('.order-steps-form-head-wrap');		
+		$('.order-steps-step.form', formParent).hide();
+		$('.order-steps-form-head-wrap', formParent).removeClass('active');
+		stepData.hide();
+		stepForm.show();
+		head.show();
+		head.addClass('active');
 
+		if(element.hasClass('step-1')){
+			var step2=$('.order-steps-step-2', formParent);
+			step2.prev('.order-steps-form-head-wrap').hide();
+			$('.order-steps-step.data', step2).show();
+			$('html, body').animate({//автоскролл к след шагу
+		      scrollTop: $('.order-steps-step-1', formParent).offset().top
+		    }, 500);
+		} else if(element.hasClass('step-2')){
+			var step1=$('.order-steps-step-1', formParent);
+			step1.prev('.order-steps-form-head-wrap').hide();
+			$('.order-steps-step.data', step1).show();
+			$('html, body').animate({//автоскролл к след шагу
+		      scrollTop: $('.order-steps-step-2', formParent).offset().top
+		    }, 500);
+		}
+	});
+
+	$(".order-steps-basket-list-wrap").jScrollPane();
 	$("body").on("click", ".order-steps-step-completion-comment", function(){
 		$(this).next(".form-field-label").show().focus();
 		$(this).hide();
@@ -438,7 +469,6 @@ $(document).ready(function(){
 		var rowsInput=$('.form-field-input.row', parentList);
 		var colsInput=$('.form-field-input.col', parentList);
 		$('.order-steps-step-info', parent).html('');
-
 		if(headInput.length > 0)
 			$('.order-steps-step-head-name-span', parent).text(headInput.val());
 
@@ -458,7 +488,6 @@ $(document).ready(function(){
 			}			
 			$('.order-steps-step-info', parent).append(rowsSpan);
 		}
-
 		if(colsInput.length > 0){
 			var colsList='';
 			for(var i=0; i < colsInput.length; i++){
@@ -490,11 +519,14 @@ $(document).ready(function(){
 	});
 
 	$("body").on("click", ".button-link.step-1", function(){
-		var parent=$(this).parents(".order-steps-step-1");
+		var parent=$(this).parents(".order-steps-step-1");		
 		var formParent=parent.parents('.order-steps-form');
 		var parentList=$('.form-field-list', parent); //блок внутри которого ищем заполненные поля
-		var nextStep=$(".order-steps-step-2"); //блок следующего шага		
-		
+		var nextStep=$(".order-steps-step-2", formParent); //блок следующего шага
+		var head=nextStep.prev('.order-steps-form-head-wrap', formParent);
+		var dataStep=$('.order-steps-step.data', nextStep);
+		if(head.is(':hidden')) head.show();
+		if(dataStep.is(':visible')) dataStep.hide();
 		order(parent, parentList, nextStep);		
 
 		$('html, body').animate({//автоскролл к след шагу
@@ -508,7 +540,10 @@ $(document).ready(function(){
 		var formParent=parent.parents('.order-steps-form');
 		var parentList=$('.form-field-list', parent); //блок внутри которого ищем заполненные поля
 		var nextStep=$(".order-steps-step-3");
-		
+		var head=nextStep.prev('.order-steps-form-head-wrap', formParent);		
+		var dataStep=$('.order-steps-step.data', nextStep);
+		if(head.is(':hidden')) head.show();
+		if(dataStep.is(':visible')) dataStep.hide();
 		order(parent, parentList, nextStep);		
 
 		$('html, body').animate({

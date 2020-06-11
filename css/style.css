@@ -2748,6 +2748,7 @@ nav{
 }
 .order-steps-step-head-span{
 	text-decoration: underline;
+	cursor: pointer;
 }
 .order-steps-step-head-span:hover{
 	text-decoration: none;

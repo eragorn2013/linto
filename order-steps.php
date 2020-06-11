@@ -71,8 +71,8 @@
 						</div>
 						<div class="order-steps-step data">
 							<div class="order-steps-step-head">
-								<h3 class="order-steps-step-head-name">1. <span class="order-steps-step-head-name-span">ВИКТОРИЯ ИВАНОВА</span></h3>
-								<span class="order-steps-step-head-span">Изменить</span>
+								<h3 class="order-steps-step-head-name">1. <span class="order-steps-step-head-name-span"></span></h3>
+								<span class="order-steps-step-head-span step-1">Изменить</span>
 							</div>
 							<div class="order-steps-step-info">
 								
@@ -179,11 +179,11 @@
 						</div>
 						<div class="order-steps-step data">
 							<div class="order-steps-step-head">
-								<h3 class="order-steps-step-head-name">2. <span class="order-steps-step-head-name-span">СДЕК - КУРЬЕР</span></h3>
-								<span class="order-steps-step-head-span">Изменить</span>
+								<h3 class="order-steps-step-head-name">2. <span class="order-steps-step-head-name-span">СДЕК - склад</span></h3>
+								<span class="order-steps-step-head-span step-2">Изменить</span>
 							</div>
 							<div class="order-steps-step-info">
-								<span class="order-steps-step-info-span address">г. Москва, ул. Кирова, дом № 6, кв. 2</span>
+								<span class="order-steps-step-info-span address"></span>
 							</div>
 						</div>
 					</div>
@@ -354,8 +354,8 @@
 						</div>
 						<div class="order-steps-step data">
 							<div class="order-steps-step-head">
-								<h3 class="order-steps-step-head-name">1. <span class="order-steps-step-head-name-span">ВИКТОРИЯ ИВАНОВА</span></h3>
-								<span class="order-steps-step-head-span">Изменить</span>
+								<h3 class="order-steps-step-head-name">1. <span class="order-steps-step-head-name-span"></span></h3>
+								<span class="order-steps-step-head-span step-1">Изменить</span>
 							</div>
 							<div class="order-steps-step-info">
 								
@@ -426,8 +426,8 @@
 						</div>
 						<div class="order-steps-step data">
 							<div class="order-steps-step-head">
-								<h3 class="order-steps-step-head-name">2. <span class="order-steps-step-head-name-span">СДЕК - КУРЬЕР</span></h3>
-								<span class="order-steps-step-head-span">Изменить</span>
+								<h3 class="order-steps-step-head-name">2. <span class="order-steps-step-head-name-span">СДЕК - склад</span></h3>
+								<span class="order-steps-step-head-span step-2">Изменить</span>
 							</div>
 							<div class="order-steps-step-info">
 								<span class="order-steps-step-info-span address">г. Москва, ул. Кирова, дом № 6, кв. 2</span>
