@@ -116,10 +116,12 @@
 								<a class="repres-list-item-site" target="_blank" href="#">parisnail.ru</a>
 							</div>
 							<div class="repres-list-item-inst">
-								<i class="repres-list-item-inst-icon"></i>
-								<div class="repres-list-item-inst-wrap">
-									<a class="repres-list-item-inst-link" target="_blank" href="#">paris_nail_cafe/</a>
-									<a class="repres-list-item-inst-link" target="_blank" href="#">paris_nail_cafe/</a>
+								<div class="repres-list-item-inst-point">
+									<i class="repres-list-item-inst-icon inst"></i>
+									<div class="repres-list-item-inst-wrap">
+										<a class="repres-list-item-inst-link" target="_blank" href="#">paris_nail_cafe/</a>
+										<a class="repres-list-item-inst-link" target="_blank" href="#">paris_nail_cafe/</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -142,9 +144,81 @@
 								<a class="repres-list-item-site" target="_blank" href="#">nailbrand.com</a>
 							</div>
 							<div class="repres-list-item-inst">
-								<i class="repres-list-item-inst-icon"></i>
-								<div class="repres-list-item-inst-wrap">
-									<a class="repres-list-item-inst-link" target="_blank" href="#">nailbrand_com/</a>					
+								<div class="repres-list-item-inst-point">
+									<i class="repres-list-item-inst-icon inst"></i>
+									<div class="repres-list-item-inst-wrap">
+										<a class="repres-list-item-inst-link" target="_blank" href="#">nailbrand_com/</a>					
+									</div>
+								</div>
+							</div>
+						</div>
+						<span class="repres-list-item-map">
+							<i class='repres-list-item-map-icon'></i>
+							<span class="repres-list-item-map-link" data-lat="55.382433979033515" data-lon="36.72783427132507">Показать на карте</span>
+						</span>
+					</div>
+
+					<div class="repres-list-item">
+						<div class="repres-list-item-head">
+							<h2 class="repres-list-item-head-h">МУЛЬТИБРЕНДОВЫЙ МАГАЗИН NAILBRAND</h2>
+						</div>
+						<div class="repres-list-item-wrap">
+							<span class="repres-list-item-address">м. Петровско-Разумовская, ул. Локомотивный проезд д. 4, ТЦ Парус, 2 этаж</span>
+							<div class="repres-list-item-phones">
+								<span class="repres-list-item-phone">+7 (499) 499-19-90</span>
+								<span class="repres-list-item-phone">+7 (499) 499-19-90</span>
+							</div>
+							<div class="repres-list-item-sites">
+								<a class="repres-list-item-site" target="_blank" href="#">nailbrand.com</a>
+							</div>
+							<div class="repres-list-item-inst">
+								<div class="repres-list-item-inst-point">
+									<i class="repres-list-item-inst-icon vk"></i>
+									<div class="repres-list-item-inst-wrap">
+										<a class="repres-list-item-inst-link" target="_blank" href="#">nailbrand_com/</a>					
+									</div>
+								</div>
+							</div>
+						</div>
+						<span class="repres-list-item-map">
+							<i class='repres-list-item-map-icon'></i>
+							<span class="repres-list-item-map-link" data-lat="55.382433979033515" data-lon="36.72783427132507">Показать на карте</span>
+						</span>
+					</div>
+
+					<div class="repres-list-item">
+						<div class="repres-list-item-head">
+							<h2 class="repres-list-item-head-h">МУЛЬТИБРЕНДОВЫЙ МАГАЗИН NAILBRAND</h2>
+						</div>
+						<div class="repres-list-item-wrap">
+							<span class="repres-list-item-address">м. Петровско-Разумовская, ул. Локомотивный проезд д. 4, ТЦ Парус, 2 этаж</span>
+							<div class="repres-list-item-phones">
+								<span class="repres-list-item-phone">+7 (499) 499-19-90</span>
+								<span class="repres-list-item-phone">+7 (499) 499-19-90</span>
+							</div>
+							<div class="repres-list-item-sites">
+								<a class="repres-list-item-site" target="_blank" href="#">nailbrand.com</a>
+							</div>
+							<div class="repres-list-item-inst">
+								<div class="repres-list-item-inst-point">
+									<i class="repres-list-item-inst-icon fb"></i>
+									<div class="repres-list-item-inst-wrap">
+										<a class="repres-list-item-inst-link" target="_blank" href="#">nailbrand_com/</a>
+										<a class="repres-list-item-inst-link" target="_blank" href="#">nailbrand_com/</a>	
+										<a class="repres-list-item-inst-link" target="_blank" href="#">nailbrand_com/</a>						
+									</div>
+								</div>
+								<div class="repres-list-item-inst-point">
+									<i class="repres-list-item-inst-icon vk"></i>
+									<div class="repres-list-item-inst-wrap">
+										<a class="repres-list-item-inst-link" target="_blank" href="#">nailbrand_com/</a>					
+									</div>
+								</div>
+								<div class="repres-list-item-inst-point">
+									<i class="repres-list-item-inst-icon ok"></i>
+									<div class="repres-list-item-inst-wrap">
+										<a class="repres-list-item-inst-link" target="_blank" href="#">nailbrand_com/</a>					
+									</div>
 								</div>
 							</div>
 						</div>

@@ -154,7 +154,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="header-center-right-item">
+					<div class="header-center-right-item last">
 						<a class="header-center-right-link basket" href="#">
 							<i class="header-center-right-link-icon basket"></i>
 							<span class="header-center-right-link-span">1</span>

@@ -112,7 +112,8 @@
 					<div class="good-line">
 						<div class="good-line-pic">
 							<div class="good-line-pic-icons">
-								<i class="good-line-pic-new">NEW</i>
+								<i class="good-line-pic-item new">NEW</i>
+								<i class="good-line-pic-item hit">HIT</i>
 							</div>
 							<img class="good-line-pic-img" src="img/goods/1.png" alt="товар">
 						</div>
@@ -157,7 +158,7 @@
 					<div class="good-line">
 						<div class="good-line-pic">
 							<div class="good-line-pic-icons">
-								<i class="good-line-pic-hit">HIT</i>
+								<i class="good-line-pic-item hit">HIT</i>
 							</div>
 							<img class="good-line-pic-img" src="img/goods/2.png" alt="товар">
 						</div>
@@ -269,7 +270,7 @@
 					<div class="good-line">
 						<div class="good-line-pic">
 							<div class="good-line-pic-icons">
-								<i class="good-line-pic-new">NEW</i>
+								<i class="good-line-pic-item new">NEW</i>
 							</div>
 							<img class="good-line-pic-img" src="img/goods/1.png" alt="товар">
 						</div>
@@ -314,7 +315,7 @@
 					<div class="good-line">
 						<div class="good-line-pic">
 							<div class="good-line-pic-icons">
-								<i class="good-line-pic-hit">HIT</i>
+								<i class="good-line-pic-item hit">HIT</i>
 							</div>
 							<img class="good-line-pic-img" src="img/goods/2.png" alt="товар">
 						</div>

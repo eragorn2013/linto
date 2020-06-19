@@ -134,7 +134,6 @@ $(document).ready(function(){
 			if($(".header-center-mob-menu").is(":hidden")){
 				$("body").removeClass("fixed");
 			}
-			
 		});
 	});
 
@@ -159,8 +158,8 @@ $(document).ready(function(){
 
 	/*Всплытие окна при вводе в input при поиске товаров*/
 	$('body').on("input", ".form-field-input.search", function(){
-		var text=$(this).val();
-		if(text.length >= 3){
+		var text=$(this).val();		
+		if(text.length >= 1){
 			$(".modal-search-list").fadeIn(200, function(){
 				$(".modal-search-list").jScrollPane();
 			});			
@@ -170,6 +169,7 @@ $(document).ready(function(){
 		}
 	});
 	$("body").on("click", ".modal-search-item", function(){
+		if($(this).hasClass('none')) return false;
 		var text=$(this).text();
 		var parent=$(this).parents(".form-field");
 		$(".form-field-input.search").val(text);
@@ -715,7 +715,12 @@ $(document).ready(function(){
 	/*Фильтрация городов представителей*/
 
 	$(".repres-filter-city .form-field-input.search").quicksearch(".repres-filter-city .modal-search-item", {
-		"onAfter": function(){
+		"onAfter": function(){					
+			if($('.modal-search-item:visible').length < 1){
+				$('.modal-search-none').remove();
+				$('.repres-filter-city .jspPane').prepend('<span class="modal-search-none">Такого города нет</span>');
+			}
+			else $('.modal-search-none').remove();
 			$(".modal-search-list").jScrollPane();
 		}
 	});
