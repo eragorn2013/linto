@@ -2359,7 +2359,6 @@ nav{
 .good-line-pic-item{
 	margin-right: 4px;
 	padding: 7px 5px 4px 5px;
-	font-weight: 600;
 	font-size: 13px;
 	line-height: 10px;
 	letter-spacing: 0.06em;
@@ -3290,7 +3289,6 @@ nav{
 }
 .good-item-pic-icon{	
 	color: #fff;
-	font-weight: 600;
 	padding: 5px 13px;
 	margin-right: 5px;
 }
