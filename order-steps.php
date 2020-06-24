@@ -139,6 +139,12 @@
 										</span>
 									</span>
 								</label>
+								<div class="form-field-list-button">
+									<a class="button-link black" href="#">
+										<span class="button-link-span"><span class="button-link-span-text">ВЫБРАТЬ ПУНКТ</span></span>
+									</a>
+								</div>
+								
 								<label class="form-field-label margin">
 									<span class="form-field-wrap first">
 										<span class="form-field-name">Улица</span>
