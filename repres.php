@@ -78,7 +78,7 @@
 					<div class="repres-filter-type-link active list">
 						<span class="repres-filter-type-link-span">СПИСКОМ</span>
 					</div>
-					<div class="repres-filter-type-link map" data-lat="55.382433979033515" data-lon="36.72783427132507">
+					<div class="repres-filter-type-link map" data-lat="55.382433979033515" data-lon="36.72783427132507" data-zoom="18">
 						<i class="repres-filter-type-link-icon"></i>
 						<span class="repres-filter-type-link-span">НА КАРТЕ</span>
 					</div>
@@ -99,7 +99,7 @@
 						</div>
 						<span class="repres-list-item-map">
 							<i class='repres-list-item-map-icon'></i>
-							<span class="repres-list-item-map-link" data-lat="55.3760319952172" data-lon="36.73633150948425">Показать на карте</span>
+							<span class="repres-list-item-map-link" data-lat="55.3760319952172" data-lon="36.73633150948425" data-zoom="18">Показать на карте</span>
 						</span>
 					</div>
 					<div class="repres-list-item">
@@ -127,7 +127,7 @@
 						</div>
 						<span class="repres-list-item-map">
 							<i class='repres-list-item-map-icon'></i>
-							<span class="repres-list-item-map-link" data-lat="55.387124848460466" data-lon="36.74491457833191">Показать на карте</span>
+							<span class="repres-list-item-map-link" data-lat="55.387124848460466" data-lon="36.74491457833191" data-zoom="18">Показать на карте</span>
 						</span>
 					</div>
 					<div class="repres-list-item">
@@ -154,7 +154,7 @@
 						</div>
 						<span class="repres-list-item-map">
 							<i class='repres-list-item-map-icon'></i>
-							<span class="repres-list-item-map-link" data-lat="55.382433979033515" data-lon="36.72783427132507">Показать на карте</span>
+							<span class="repres-list-item-map-link" data-lat="55.382433979033515" data-lon="36.72783427132507" data-zoom="18">Показать на карте</span>
 						</span>
 					</div>
 
@@ -182,7 +182,7 @@
 						</div>
 						<span class="repres-list-item-map">
 							<i class='repres-list-item-map-icon'></i>
-							<span class="repres-list-item-map-link" data-lat="55.382433979033515" data-lon="36.72783427132507">Показать на карте</span>
+							<span class="repres-list-item-map-link" data-lat="55.382433979033515" data-lon="36.72783427132507" data-zoom="18">Показать на карте</span>
 						</span>
 					</div>
 
@@ -224,7 +224,7 @@
 						</div>
 						<span class="repres-list-item-map">
 							<i class='repres-list-item-map-icon'></i>
-							<span class="repres-list-item-map-link" data-lat="55.382433979033515" data-lon="36.72783427132507">Показать на карте</span>
+							<span class="repres-list-item-map-link" data-lat="55.382433979033515" data-lon="36.72783427132507" data-zoom="18">Показать на карте</span>
 						</span>
 					</div>
 				</div>

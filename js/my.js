@@ -53,9 +53,10 @@ $(document).ready(function(){
 	$("body").on("click", ".repres-list-item-map-link", function(){
 		var lat=$(this).attr('data-lat');
 		var lon=$(this).attr('data-lon');
+		var zoom=$(this).attr('data-zoom');
 		var elMap=$(".repres-list-wrap.map");
 		var elList=$(".repres-list-wrap.list");	
-		createMap(lat, lon, 18);
+		createMap(lat, lon, zoom);
 		if(elMap.is(":hidden")){
 			elMap.show();
 			elList.hide();
