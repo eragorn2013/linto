@@ -697,9 +697,10 @@ $(document).ready(function(){
 			if(elMap.is(":hidden")){
 				var lat=element.attr('data-lat');
 				var lon=element.attr('data-lon');
+				var zoom=element.attr('data-zoom');
 				elMap.show();
 				elList.hide();				
-				createMap(lat, lon, 14);
+				createMap(lat, lon, zoom);
 			}
 		}
 		else if(element.hasClass("list")){
