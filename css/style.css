@@ -2458,6 +2458,7 @@ nav{
 	top: 0;
 	left: 0;
 	display: flex;
+	flex-wrap: wrap;
 }
 .good-line-pic-item{
 	margin-right: 4px;
@@ -2476,6 +2477,22 @@ nav{
 	background: #E51A4B;	
 }
 .good-line-pic-item.new{
+	background: #0EA45C;
+}
+.good-line-pic-marker{
+	color: #fff;
+    padding: 5px 13px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.good-line-pic-marker:last-child{
+	margin-right: 0px;
+}
+.good-line-pic-marker.discount,
+.good-line-pic-marker.hit{
+	background: #E51A4B;
+}
+.good-line-pic-marker.new{
 	background: #0EA45C;
 }
 .good-line-pic-img{

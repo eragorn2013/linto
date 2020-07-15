@@ -27,7 +27,7 @@
 					<div class="good-line">
 						<div class="good-line-pic">
 							<div class="good-line-pic-icons">
-								<i class="good-line-pic-new">NEW</i>
+								<i class="good-line-pic-marker new">NEW</i>
 							</div>
 							<img class="good-line-pic-img" src="img/goods/1.png" alt="товар">
 						</div>
@@ -66,6 +66,9 @@
 
 					<div class="good-line">
 						<div class="good-line-pic">
+							<div class="good-line-pic-icons">								
+								<i class="good-line-pic-marker hit">HIT</i>
+							</div>
 							<img class="good-line-pic-img" src="img/goods/9.png" alt="товар">
 						</div>
 						<div class="good-line-wrap">
@@ -104,8 +107,9 @@
 					<div class="good-line">
 						<div class="good-line-pic">
 							<div class="good-line-pic-icons">
-								<i class="good-line-pic-discount">-30%</i>
-								<i class="good-line-pic-new">NEW</i>
+								<i class="good-line-pic-marker discount">-30%</i>
+								<i class="good-line-pic-marker new">NEW</i>
+								<i class="good-line-pic-marker hit">HIT</i>
 							</div>
 							<img class="good-line-pic-img" src="img/goods/1.png" alt="товар">
 						</div>
