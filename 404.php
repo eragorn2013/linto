@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-	<meta charset="utf-8">	
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>404 Страницы не существует</title>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:700,900" rel="stylesheet">
-	<link type="text/css" rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<div id="notfound">
+<?php include './elements/header.php'; ?>
+	<section id="notfound">
 		<div class="notfound">
 			<div class="notfound-logo"><img src="img/logo/logo.png" alt="Логотип"></div>
 			<div class="notfound-404">				
@@ -28,6 +18,5 @@
 				</div>
 			</div>
 		</div>
-	</div>
-</body>
-</html>
+	</section>
+<?php include './elements/footer.php'; ?>

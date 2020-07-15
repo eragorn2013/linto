@@ -35,18 +35,13 @@ a{
 }
 
 #notfound {
-  position: relative;
-  height: 100vh;
-  margin: 20px;
+  padding: 190px 0;
+  
+  background: #fff;
 }
 
-#notfound .notfound {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+#notfound .notfound {  
+  	margin: 0 auto;
 }
 .notfound {
   max-width: 767px;
@@ -5356,6 +5351,9 @@ footer{
 	}	
 }
 @media (max-width:960px){
+	#notfound{
+		padding: 100px 0;
+	}
 	.repres-list-item-sites{
 		width: auto;
 	}
