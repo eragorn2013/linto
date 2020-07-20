@@ -1,7 +1,6 @@
 <?php include './elements/header.php'; ?>
 	<section id="notfound">
 		<div class="notfound">
-			<div class="notfound-logo"><img src="img/logo/logo.png" alt="Логотип"></div>
 			<div class="notfound-404">				
 				<h1 class="notfound-404-head">404</h1>
 			</div>

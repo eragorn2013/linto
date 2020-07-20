@@ -88,10 +88,10 @@
 				      	<div class="slide-img-wrap swiper-slide" data-src="img/goods/15-big.jpg"><img class="slide-img" src="img/goods/15.jpg" alt=""></div>
 				      	<!--<div class="slide-img-wrap swiper-slide" data-src="img/goods/10.png"><img class="slide-img" src="img/goods/10.png" alt=""></div>
 				      	<div class="slide-img-wrap swiper-slide" data-src="img/goods/9.png"><img class="slide-img" src="img/goods/9.png" alt=""></div>
-				      	<div class="slide-img-wrap swiper-slide" data-src="img/goods/12.png"><img class="slide-img" src="img/goods/12.png" alt=""></div>
+				      	<div class="slide-img-wrap swiper-slide" data-src="img/goods/12.png"><img class="slide-img" src="img/goods/12.png" alt=""></div>-->
 				      	<div class="slide-img-wrap swiper-slide" data-src="img/goods/5.png"><img class="slide-img" src="img/goods/5.png" alt=""></div>
 				      	<div class="slide-img-wrap swiper-slide" data-src="img/goods/9.png"><img class="slide-img" src="img/goods/9.png" alt=""></div>
-				      	<div class="slide-img-wrap swiper-slide" data-src="img/goods/12.png"><img class="slide-img" src="img/goods/12.png" alt=""></div>-->
+				      	<div class="slide-img-wrap swiper-slide" data-src="img/goods/12.png"><img class="slide-img" src="img/goods/12.png" alt=""></div>
 				    </div>
 				    <i class="swiper-button-prev"></i>
 					<i class="swiper-button-next"></i>
@@ -102,10 +102,10 @@
 				      	<div class="slide-img-wrap min swiper-slide"><img class="slide-img" src="img/goods/15.jpg" alt=""></div>
 				      	<!--<div class="slide-img-wrap min swiper-slide"><img class="slide-img" src="img/goods/10.png" alt=""></div>
 				      	<div class="slide-img-wrap min swiper-slide"><img class="slide-img" src="img/goods/9.png" alt=""></div>	
-				      	<div class="slide-img-wrap min swiper-slide"><img class="slide-img" src="img/goods/12.png" alt=""></div>
+				      	<div class="slide-img-wrap min swiper-slide"><img class="slide-img" src="img/goods/12.png" alt=""></div>-->
 				      	<div class="slide-img-wrap min swiper-slide"><img class="slide-img" src="img/goods/5.png" alt=""></div>
 				      	<div class="slide-img-wrap min swiper-slide"><img class="slide-img" src="img/goods/9.png" alt=""></div>	
-				      	<div class="slide-img-wrap min swiper-slide"><img class="slide-img" src="img/goods/12.png" alt=""></div>-->
+				      	<div class="slide-img-wrap min swiper-slide"><img class="slide-img" src="img/goods/12.png" alt=""></div>
 				    </div>
 				</div>				
 			</div>
@@ -118,12 +118,13 @@
 				<h1 class="card-info-head">GEL POLISH 025</h1>
 				<a class="card-info-category" href="#">BASIC COLLECTION</a>
 				<div class="card-info-price">
-					<span class="card-info-price-sum">520 RUB</span> /
-					<span class="card-info-price-amount">10 МЛ</span>
+					<span class="card-info-price-sum">520 RUB</span>
+					<span class="card-info-price-amount">/ 10 МЛ</span>
 				</div>
 				<div class="card-info-price">
 					<span class="card-info-price-sum red">430 RUB</span>
 					<span class="card-info-price-sum none">520 RUB</span>
+					<span class="card-info-price-amount">/ 10 МЛ</span>
 				</div>
 				<div class="in-basket-wrap">
 					<div class="in-basket">
