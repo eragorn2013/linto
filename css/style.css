@@ -513,6 +513,11 @@ a{
 	font-size: 14px;
 	border: 1px solid #E0E0E0;
 }
+.form-field-textarea{
+	padding: 32px 50px 32px 15px;
+	width: 100%;
+	border: 1px solid #E0E0E0;
+}
 .form-field-input.error{
 	border-bottom: 1px solid #EA1212;
 }

@@ -39,7 +39,7 @@
 									</span>
 									<span class="form-field-wrap last">
 										<input class="form-field-input name head" type="text" name="name">
-										<span class="form-field-error"></span>
+										<span class="form-field-error">Поле Имя и Фамилия </span>
 									</span>
 								</label>
 								<label class="form-field-label margin">
@@ -328,6 +328,15 @@
 									</span>
 									<span class="form-field-wrap last">
 										<input class="form-field-input full-name row" type="text" name="full-name">
+										<span class="form-field-error"></span>
+									</span>
+								</label>
+								<label class="form-field-label margin">
+									<span class="form-field-wrap first">
+										<span class="form-field-name">Юридический адрес</span>
+									</span>
+									<span class="form-field-wrap last">
+										<textarea class="form-field-textarea"></textarea>
 										<span class="form-field-error"></span>
 									</span>
 								</label>
