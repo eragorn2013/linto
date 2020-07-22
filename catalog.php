@@ -232,10 +232,10 @@
 							<span class="filter-selected-item-color purple"></span>
 							<i class="filter-selected-item-icon-drop"></i>
 						</div>
-						<a class="filter-selected-item-reset" href="#">
-							<span class="filter-selected-item-reset-name">Сбросить фильтры</span>
-							<i class="filter-selected-item-icon-drop"></i>
-						</a>
+						<div class="filter-selected-item-reset">
+							<input class="filter-selected-item-reset-name" type="submit" id="del_filter_top" name="del_filter_top" value="Сбросить фильтры">
+							<i class="filter-selected-item-icon-drop-filter"></i>
+						</div>
 					</div>
 					<div class="catalog-goods-list">
 						<div class="good-item">

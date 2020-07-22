@@ -3290,14 +3290,6 @@ nav{
 	display: flex;
 	align-items: center;
 }
-.filter-selected-item-icon-drop{
-	width: 18px;
-	height: 18px;
-	background-image: url(../img/sprite2.png);
-    background-repeat: no-repeat;
-    background-position: -225px -49px;
-    background-size: 350px;
-}
 .filter-selected-item-color{
 	margin-right: 14px;
 	width: 20px;
@@ -3343,21 +3335,41 @@ nav{
 .filter-selected-item-color.black{
 	background: #000000;
 }
-.filter-selected-item-reset{
-	padding: 8px 16px;
-	background: rgba(0,0,0,0.03);
-	display: flex;
-	align-items: center;
-	border-radius: 19px;
+.filter-selected-item-reset{	
 	margin-bottom: 14px;
 	margin-right: 14px;
 	box-sizing: border-box;
+	position: relative;
 }
-.filter-selected-item-reset-name{
-	margin-right: 14px;	
-	height: 20px;
-	display: flex;
-	align-items: center;
+.filter-selected-item-reset-name{	
+	border: 0;
+	background: 0;
+	padding: 10px 50px 10px 16px;
+	background: rgba(0,0,0,0.03);
+	border-radius: 19px;
+	display: block;
+	position: relative;
+	z-index: 1;
+}
+.filter-selected-item-icon-drop-filter{
+	width: 18px;
+	height: 18px;
+	background-image: url(../img/sprite2.png);
+    background-repeat: no-repeat;
+    background-position: -225px -49px;
+    background-size: 350px;
+    position: absolute;
+    top: calc(50% - 18px / 2);
+    right: 15px;
+    z-index: 0;
+}
+.filter-selected-item-icon-drop{
+	width: 18px;
+	height: 18px;
+	background-image: url(../img/sprite2.png);
+    background-repeat: no-repeat;
+    background-position: -225px -49px;
+    background-size: 350px;   
 }
 .catalog-goods-list{
 	display: flex;
