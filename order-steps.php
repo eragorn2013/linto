@@ -39,7 +39,7 @@
 									</span>
 									<span class="form-field-wrap last">
 										<input class="form-field-input name head" type="text" name="name">
-										<span class="form-field-error">Поле Имя и Фамилия </span>
+										<span class="form-field-error" style="display: block;">Поле Имя и Фамилия не может быть пустым Поле Имя и Фамилия не может быть пустым Поле Имя и Фамилия не может быть пустым</span>
 									</span>
 								</label>
 								<label class="form-field-label margin">

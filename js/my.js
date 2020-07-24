@@ -726,4 +726,39 @@ $(document).ready(function(){
 			$(".modal-search-list").jScrollPane();
 		}
 	});
+
+	/*Всплывающая иконка корзины*/
+
+
+	function basketFixed(element){
+		var heightHeader=$('.header-top').outerHeight(true) + $('.header-center').outerHeight(true);
+		var scroll=element.scrollTop();
+		if(element.width() > 960){
+			if(scroll >= heightHeader){
+				$('.basket-fixed').slideDown(200);
+				$('.header-modal').addClass('scroll');
+			}
+			else{
+				$('.basket-fixed').slideUp(200);
+				$('.header-modal').removeClass('scroll');
+			}
+		}
+	}
+	$(window).on('scroll', function(){
+		basketFixed($(this));			
+	});
+	$('body').on('click', '.basket-fixed', function(){
+		$('.modal-basket').fadeIn(200);
+		$("body").addClass("fixed");
+		$(".modal-basket-goods").jScrollPane();
+		return false;
+	});
+	if($(window).width() <= 960){
+		if($('.basket-fixed').is(':visible'))
+			$('.basket-fixed').slideUp(200);
+	}
+	$(window).on('resize', function(){
+		if($('.basket-fixed').attr('style') && $(this).width() <= 960)
+			$('.basket-fixed').removeAttr('style')
+	});
 });

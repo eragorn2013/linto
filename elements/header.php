@@ -11,6 +11,10 @@
 </head>
 <body>
 <div class="wrap">
+<a class="basket-fixed" href="#">
+	<i class="basket-fixed-icon"></i>
+	<span class="basket-fixed-count">1</span>
+</a>
 <header>		
 	<div class="container">
 		<div class="content header-content">

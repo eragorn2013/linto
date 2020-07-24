@@ -34,6 +34,48 @@ a{
 	color: #000;
 }
 
+.basket-fixed{
+	background: #fff;
+	position: fixed;
+	top: 113px;
+	right: 0;
+	padding: 10px;
+	box-shadow: 0px 0px 42px rgba(0, 0, 0, 0.07);
+	z-index: 1000;
+	display: none;
+}
+.basket-fixed-icon{
+	background-image: url(../img/sprite2.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 22px;
+    height: 23px;
+    background-size: 211px;
+    background-position: -61px 1px;
+}
+.basket-fixed-count{
+	position: absolute;
+    margin-left: 0px;
+    background: #DC2C73;
+    color: #fff;
+    padding: 2px 2px 0 2px;
+    min-width: 14px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "HelveticaNeueCyr-Roman";
+    font-size: 10px;
+    line-height: 0px;
+    letter-spacing: 0px;
+    border-radius: 50px;
+    top: -3px;
+    left: 12px;
+    box-sizing: border-box;
+    top: 5px;
+    left: 23px;
+}
+
 #notfound {
   padding: 190px 0;
   
@@ -414,6 +456,7 @@ a{
 .form-field-wrap{
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 }
 .form-field-wrap.first{
 	margin-bottom: 8px;
@@ -523,10 +566,9 @@ a{
 }
 .form-field-error{
 	color: #EA1212;
-	position: absolute;
-	bottom: -17px;
-	left: 0;
+	margin-top: 5px;
 	display: none;
+	width: 100%;
 }
 .form-field-input.border{
 	border-bottom: 1px solid #000;
@@ -790,6 +832,11 @@ a{
 	top: 32px;
 	border-top: 2px solid #000;
 	display: none;
+}
+.modal-basket.scroll{
+	position: fixed;
+	right: 46px;
+    top: 113px;
 }
 .modal-geo{
     left: -109px;
@@ -5385,6 +5432,9 @@ footer{
 	}	
 }
 @media (max-width:960px){
+	.basket-fixed{
+		display: none;
+	}
 	#notfound{
 		padding: 100px 0;
 	}
