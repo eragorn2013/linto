@@ -35,7 +35,7 @@
 							<div class="form-field-list">
 								<label class="form-field-label margin">
 									<span class="form-field-wrap first">
-										<span class="form-field-name">Имя и фамилия</span>
+										<span class="form-field-name"><i class="form-field-star">*</i> Имя и фамилия</span>
 									</span>
 									<span class="form-field-wrap last">
 										<input class="form-field-input name head" type="text" name="name">
@@ -44,7 +44,7 @@
 								</label>
 								<label class="form-field-label margin">
 									<span class="form-field-wrap first">
-										<span class="form-field-name">E-mail</span>
+										<span class="form-field-name"><i class="form-field-star">*</i> E-mail</span>
 									</span>
 									<span class="form-field-wrap last">
 										<input class="form-field-input email row" type="text" name="email">
@@ -53,7 +53,7 @@
 								</label>
 								<label class="form-field-label margin">
 									<span class="form-field-wrap first">
-										<span class="form-field-name">Телефон</span>
+										<span class="form-field-name"><i class="form-field-star">*</i> Телефон</span>
 									</span>
 									<span class="form-field-wrap last">
 										<input class="form-field-input phone row" type="text" name="phone">
@@ -87,7 +87,7 @@
 							<div class="form-field-list">
 								<label class="form-field-label margin">
 									<span class="form-field-wrap first">
-										<span class="form-field-name">Город</span>
+										<span class="form-field-name"><i class="form-field-star">*</i> Город</span>
 									</span>
 									<span class="form-field-wrap last">
 										<input class="form-field-input city col" type="text" name="city">
@@ -147,7 +147,7 @@
 								
 								<label class="form-field-label margin">
 									<span class="form-field-wrap first">
-										<span class="form-field-name">Улица</span>
+										<span class="form-field-name"><i class="form-field-star">*</i> Улица</span>
 									</span>
 									<span class="form-field-wrap last">
 										<input class="form-field-input street col" type="text" name="street">
@@ -157,7 +157,7 @@
 								<div class="form-field-flexbox nowrap">
 									<label class="form-field-label margin">
 										<span class="form-field-wrap first">
-											<span class="form-field-name">Дом</span>
+											<span class="form-field-name"><i class="form-field-star">*</i> Дом</span>
 										</span>
 										<span class="form-field-wrap last">
 											<input class="form-field-input house col" type="text" name="house">
@@ -166,7 +166,7 @@
 									</label>
 									<label class="form-field-label margin">
 										<span class="form-field-wrap first">
-											<span class="form-field-name">Квартиру/офис</span>
+											<span class="form-field-name"><i class="form-field-star">*</i> Квартиру/офис</span>
 										</span>
 										<span class="form-field-wrap last">
 											<input class="form-field-input room col" type="text" name="room">

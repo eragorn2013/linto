@@ -541,6 +541,10 @@ a{
 	font-size: 12px;
 	line-height: 14px;
 }
+.form-field-star{
+	color: #EA1212;
+	font-size: 16px;
+}
 .form-field-link{
 	font-size: 14px;
 	line-height: 20px;
