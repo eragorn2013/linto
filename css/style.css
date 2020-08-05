@@ -77,13 +77,13 @@ a{
 }
 
 #notfound {
-  padding: 190px 0;
-  
+  padding: 70px 0 260px 0;  
   background: #fff;
 }
 
 #notfound .notfound {  
   	margin: 0 auto;
+  	box-sizing: border-box;
 }
 .notfound {
   max-width: 767px;
@@ -5440,7 +5440,7 @@ footer{
 		display: none;
 	}
 	#notfound{
-		padding: 100px 0;
+		padding: 50px 0;
 	}
 	.repres-list-item-sites{
 		width: auto;

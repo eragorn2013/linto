@@ -398,9 +398,9 @@
 										<div class="header-center-mob-menu-item">
 											<span class="header-center-mob-menu-item-name">
 												О НАС
-												<i class="header-center-mob-menu-item-name-arrow"></i>
+												<i class="header-center-mob-menu-item-name-arrow active"></i>
 											</span>
-											<div class="header-center-mob-menu-item-list">
+											<div class="header-center-mob-menu-item-list visible">
 												<div class="header-center-mob-menu-item-list-wrap">
 													<span class="header-center-mob-menu-item-span">Компания</span>
 													<a class="header-center-mob-menu-item-link" href="#">
