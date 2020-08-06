@@ -2324,6 +2324,82 @@ nav{
 .news-black .news-text-date.line:after{
 	border-bottom: 1px solid #000;
 }
+
+
+#company{
+	background: #fff;
+}
+.company-container{
+	
+}
+.company-content{
+	width: 1140px;
+	margin: 0 auto;
+}
+.company-block{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 50px;
+}
+.company-left{
+	width: 30%;
+}
+.company-left-span{
+	display: block;
+}
+.company-left-span.top{
+	font-size: 28px;
+	border-bottom: 2px solid black;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.company-left-span.bottom{
+	font-size: 20px;
+	text-align: right;
+}
+.company-right{
+	width: 50%;
+    font-size: 16px;
+    line-height: 24px;
+}
+.company-block-list{
+	margin: 80px 0;
+}
+.company-block-list-head{
+	width: 43%;
+	margin-bottom: 20px;
+}
+.company-block-list-head-span{
+	display: block;
+}
+.company-block-list-head-span.top{
+	font-size: 44px;
+	margin-bottom: 10px;
+}
+.company-block-list-head-span.bottom{
+	font-size: 28px;
+	text-align: right;
+}
+.company-block-list-rows{
+	width: 60%;
+	margin: 0 auto;
+}
+.company-row{
+	list-style: decimal-leading-zero;
+	font-size: 16px;
+    line-height: 24px;
+    padding-left: 60px;
+    margin-bottom: 20px;
+}
+.company-info{
+	font-size: 16px;
+	padding-top: 15px;
+	border-top: 2px solid #000;
+	width: 50%;
+}
+
+
 #main-page-social{
 	background-image: url("../img/bg/9.jpg");
 	background-size: cover;
@@ -5178,6 +5254,9 @@ footer{
 	display: none;
 }
 @media (max-width:1300px){
+	.company-content {
+	    width: 100%;
+	}
 	.fast-filter-select{
 		width: 35.3%;
 	}
@@ -5436,6 +5515,32 @@ footer{
 	}	
 }
 @media (max-width:960px){
+	#company{
+		padding: 32px 0;
+	}
+	.company-block{
+		flex-wrap: wrap;
+	}
+	.company-left{
+		width: 71%;
+		margin-bottom: 30px;
+	}
+	.company-block-list-head{
+		width: 100%;
+	}
+	.company-block-list-rows{
+		width: 100%;
+	}
+	.company-row{
+		padding-left: 10px;
+		margin-left: 35px;
+	}
+	.company-info{
+		width: 100%;
+	}
+	.company-right{
+		width: 100%;
+	}
 	.basket-fixed{
 		display: none;
 	}
@@ -7155,6 +7260,12 @@ footer{
    }   
 }
 @media (max-width:530px){	
+	.company-left{
+		width: 100%;
+	}
+	.company-row{
+		padding-left: 0;
+	}
 	.form-field-text{
 		width: 90%;
 	}
