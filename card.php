@@ -1,4 +1,13 @@
 <?php include './elements/header.php'; ?>
+<div class="bread-crumbs">
+	<div class="container">
+		<div class="content">
+			<a class="bread-crumbs-item"  href="/">Главная</a> /
+			<a class="bread-crumbs-item"  href="/">Каталог</a> /
+			<span class="bread-crumbs-item active">Gel Polish</span>
+		</div>
+	</div>	
+</div>
 <section id="card">
 	<div class="container">
 		<a class="card-back" href="#">Назад</a>
@@ -110,11 +119,6 @@
 				</div>				
 			</div>
 			<div class="card-info">
-				<div class="bread-crumbs">						
-					<a class="bread-crumbs-item"  href="/">Главная</a> /
-					<a class="bread-crumbs-item"  href="/">Каталог</a> /
-					<span class="bread-crumbs-item active">Gel Polish</span>					
-				</div>
 				<h1 class="card-info-head">GEL POLISH 025</h1>
 				<a class="card-info-category" href="#">BASIC COLLECTION</a>
 				<div class="card-info-price">
