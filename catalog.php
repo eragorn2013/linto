@@ -217,7 +217,7 @@
 							<i class="filter-selected-item-icon-drop"></i>
 						</div>
 						<div class="filter-selected-item">
-							<span class="filter-selected-item-color yellow"></span>
+							<span class="filter-selected-item-color white"></span>
 							<i class="filter-selected-item-icon-drop"></i>
 						</div>
 						<div class="filter-selected-item">

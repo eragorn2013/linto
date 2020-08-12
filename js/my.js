@@ -17,6 +17,33 @@ $(document).ready(function(){
 			myMap.geoObjects.options.set('balloonMinWidth', 404);
 		else if(document.documentElement.clientWidth <= 960)
 			myMap.geoObjects.options.set('balloonMinWidth', 292);
+
+		var data={
+			0:{
+				coords: [55.382433979033515, 36.72783427132507],
+				head: "ЦЕНТРАЛЬНЫЙ ОФИС",
+				address: "Пресненская набережная, д. 6с2, 'Москва-Сити' Башня Империя, 51 этаж, офис 5113",
+				phone: ["+7 (499) 499-19-90"],
+				site: ["parisnail.ru"],
+				inst: ["paris_nail_cafe/", "paris_nail_cafe/"],
+			},
+			1:{
+				coords: [55.387124848460466,36.74491457833191],
+				head: "МУЛЬТИБРЕНДОВЫЙ МАГАЗИН PARIS NAIL SHOP&SCHOOL",
+				address: "м. Кузьминки, ул. Зеленодольская, д. 30",
+				phone: ["+7 (499) 499-19-90","+7 (499) 499-19-90"],
+				site: ["nailbrand.com"],
+				inst: ["nailbrand_com"],
+			},
+			2:{
+				coords: [55.3760319952172,36.73633150948425],
+				head: "МУЛЬТИБРЕНДОВЫЙ МАГАЗИН NAILBRAND",
+				address: "м. Проспект Вернадского, пр-кт. Вернадского, д. 39",
+				phone: ["+7 (499) 499-19-90","+7 (499) 499-19-90"],
+				site: ["parisnail.ru"],
+				inst: ["paris_nail_cafe/", "paris_nail_cafe/"],
+			},
+		};
 		
 		for (i in data) {
 			var phones="";

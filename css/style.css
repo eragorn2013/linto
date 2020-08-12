@@ -2328,9 +2328,7 @@ nav{
 
 #company{
 	background: #fff;
-}
-.company-container{
-	
+	padding-bottom: 40px;
 }
 .company-content{
 	width: 1140px;
@@ -3426,9 +3424,6 @@ nav{
 	background: #fff;
 	border: 1px solid #C7C7C7;
 }
-.filter-selected-item-color.white{
-	border: 9px solid #C7C7C7;
-}
 .filter-selected-item-color.yellow{
 	background: #FFDB5A;
 }
@@ -3857,6 +3852,10 @@ nav{
 	margin-bottom: 11px;
 	margin-right: 11px;
 	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	flex-wrap: wrap;	
 }
 .card-info-color.active .card-info-color-square{
 	box-sizing: border-box;
@@ -3872,9 +3871,19 @@ nav{
 	display: inline-block;
 	width: 42px;
 	height: 42px;
+	box-sizing: border-box;
+}
+.card-info-color.active.color-FFFFFF .card-info-color-square{
+	width: 24px;
+	height: 24px;
+	box-sizing: border-box;
 }
 .card-info-color.color-F4E3AF .card-info-color-square{
 	background: #F4E3AF;
+}
+.card-info-color.color-FFFFFF .card-info-color-square{
+	background: #FFFFFF;
+	border: 1px solid #C7C7C7;	
 }
 .card-info-color.color-C5BAA7 .card-info-color-square{
 	background: #C5BAA7;	
@@ -5515,6 +5524,9 @@ footer{
 	}	
 }
 @media (max-width:960px){
+	.card-info-color.active.color-FFFFFF .card-info-color-square{
+		border: 1px solid #C7C7C7;	
+	}
 	#company{
 		padding: 32px 0;
 	}

@@ -201,6 +201,10 @@
 							<span class="card-info-color-square"></span>
 							<span class="card-info-color-name">#026</span>
 						</a>
+						<a class="card-info-color color-FFFFFF active" href="#">
+							<span class="card-info-color-square"></span>
+							<span class="card-info-color-name">#026</span>
+						</a>
 						<a class="card-info-color color-9B977C" href="#">
 							<span class="card-info-color-square"></span>
 							<span class="card-info-color-name">#027</span>
