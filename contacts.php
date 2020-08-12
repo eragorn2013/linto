@@ -55,7 +55,7 @@
 					<a class="socials-item" href="#"><i class="socials-item-icon tw"></i></a>
 					<a class="socials-item" href="#"><i class="socials-item-icon tg"></i></a>
 					<a class="socials-item" href="#"><i class="socials-item-icon hz"></i></a>
-				</div>				
+				</div>
 			</div>
 
 			<div class="contacts-list">
@@ -112,7 +112,14 @@
 								<span class="form-field-error"></span>
 							</span>
 						</label>
-						
+
+						<label class="form-field-label margin">
+							<span class="form-field-wrap">
+								<input class="form-field-checkbox" type="checkbox" name="name">
+								<i class="form-field-icon-check"></i>
+								<span class="form-field-text">Я принимаю условия <a class="form-field-text-link" href="#">пользовательского соглашения</a></span>
+							</span>
+						</label>
 						
 						<div class="form-field-buttons">
 							<button class="button-link black width">
@@ -126,7 +133,7 @@
 				<div class="contacts-list-wrap last">
 					<h2 class="contacts-list-head">РЕКВИЗИТЫ</h2>
 					<p class="contacts-list-info">ИП Севастьянов Андрей Игоревич</p>
-					<div class="contacts-list-requisites">						
+					<div class="contacts-list-requisites">
 						<div class="requisites-item">
 							<span class="requisites-span bold">ОГРНИП:</span>
 							<span class="requisites-span">310503022400026</span>
@@ -150,7 +157,7 @@
 						<div class="requisites-item">
 							<span class="requisites-span bold">к/c:</span>
 							<span class="requisites-span">30101810400000000225</span>
-						</div>						
+						</div>
 					</div>
 				</div>
 			</div>

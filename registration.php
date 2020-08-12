@@ -62,7 +62,7 @@
 					<label class="form-field-label margin">
 						<span class="form-field-wrap">
 							<input class="form-field-checkbox" type="checkbox" name="name">
-							<i class="form-field-icon-check"></i>						
+							<i class="form-field-icon-check"></i>
 							<span class="form-field-text">Я принимаю условия <a class="form-field-text-link" href="#">пользовательского соглашения</a></span>
 						</span>
 					</label>
