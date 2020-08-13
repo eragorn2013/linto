@@ -799,9 +799,11 @@ $(document).ready(function(){
 		basketFixed($(this));			
 	});
 	$('body').on('click', '.basket-fixed', function(){
-		$('.modal-basket').fadeIn(200);
-		$("body").addClass("fixed");
-		$(".modal-basket-goods").jScrollPane();
+		if($('.modal-basket').is(':hidden')){
+			$('.modal-basket').fadeIn(200);
+			$("body").addClass("fixed");
+			$(".modal-basket-goods").jScrollPane();
+		}
 		return false;
 	});
 	if($(window).width() <= 960){
