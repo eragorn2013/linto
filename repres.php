@@ -233,6 +233,10 @@
 				</div>
 			</div>			
 		</div>
+		<div class="modal-map-wrap">
+			<i class="modal-map-close"></i>
+			<div id="modal-map"></div>
+		</div>	
 	</div>
 </section>
 <?php include './elements/subscription.php'; ?>

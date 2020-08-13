@@ -108,6 +108,6 @@
 	<script src="js/gallery/src/js/lightgallery.js"></script>
 	<script src="js/gallery/modules/lg-zoom.min.js"></script>
 	<script src="js/search/jquery.quicksearch.min.js"></script>
-	<script src="js/my.js?1304201505"></script>
+	<script src="js/my.js?120820201840"></script>
 </body>
 </html>

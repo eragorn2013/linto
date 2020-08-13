@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<title>linto</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css?0608201157">
+	<link rel="stylesheet" type="text/css" href="css/style.css?120820201840">
 	<script src="https://api-maps.yandex.ru/2.1/?apikey=2a1b7d82-04ce-4c03-af57-83cbecd96d20&lang=ru_RU" type="text/javascript"></script>
 </head>
 <body>

@@ -4857,6 +4857,7 @@ nav{
 }
 .repres-container{
 	width: 1068px;
+	position: relative;
 }
 .repres-head{
 	font-size: 32px;
@@ -5065,6 +5066,32 @@ nav{
 .repres-list-wrap.map{
 	display: none;
 }
+.modal-map-wrap{
+	position: fixed;
+	background: #fff;
+	width: 1068px;
+	height: 586px;
+	z-index: 10000;
+	top: calc(50% - 586px / 2);
+	left: calc(50% - 1068px / 2);
+	box-shadow: 0 0 170px #a1a1a1;	
+	display: none;
+}
+.modal-map-close{
+	position: absolute;
+    top: -40px;
+    right: 0px;
+    width: 23px;
+    height: 23px;
+    background-image: url(../img/sprite2.png);
+    background-size: 454px;
+    background-repeat: no-repeat;
+    background-position: -292px -63px;
+    cursor: pointer;
+}
+#modal-map{
+	height: 586px;
+}
 #map{
 	width: 100%;
 	height: 586px;
@@ -5263,6 +5290,15 @@ footer{
 	display: none;
 }
 @media (max-width:1300px){
+	.modal-map-wrap{		
+		width: 940px;
+		height: 470px;		
+		top: calc(50% - 470px / 2);
+		left: calc(50% - 940px / 2);		
+	}	
+	#modal-map{
+		height: 470px;
+	}
 	.company-content {
 	    width: 100%;
 	}
@@ -5524,6 +5560,15 @@ footer{
 	}	
 }
 @media (max-width:960px){
+	.modal-map-wrap{		
+		width: 510px;
+		height: 450px;		
+		top: calc(50% - 450px / 2);
+		left: calc(50% - 510px / 2);		
+	}	
+	#modal-map{
+		height: 450px;
+	}
 	.card-info-color.active.color-FFFFFF .card-info-color-square{
 		border: 1px solid #C7C7C7;	
 	}
@@ -7271,7 +7316,20 @@ footer{
    		flex-wrap: wrap;
    }   
 }
-@media (max-width:530px){	
+@media (max-width:530px){
+	.modal-map-wrap{		
+		width: 100%;
+		height: 90%;		
+		top: 91px;
+		left: 0;
+		box-shadow: 0 0 170px #6e6e6e;		
+	}	
+	.modal-map-close{
+		right: 15px;
+	}
+	#modal-map{
+		height: 100%;
+	}	
 	.company-left{
 		width: 100%;
 	}

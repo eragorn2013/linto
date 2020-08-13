@@ -1,13 +1,15 @@
 $(document).ready(function(){
-	function createMap(lat, lon, zoom){
+	function createMap(lat, lon, zoom, type='map'){
 		$('#map').html('');
-		var myMap = new ymaps.Map("map", {
+		var myMap = new ymaps.Map(type, {
 	        center: [lat, lon],
 	        zoom: zoom
 	    });
 	    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-		    //... отключаем перетаскивание карты
-		    myMap.behaviors.disable('drag');
+	    	if(type=='map'){
+	    		//... отключаем перетаскивание карты
+		    	myMap.behaviors.disable('drag');
+	    	}		    
 		}
 		var myCollection = new ymaps.GeoObjectCollection({}, {
 		    preset: 'islands#redIcon',
@@ -81,15 +83,37 @@ $(document).ready(function(){
 		var lat=$(this).attr('data-lat');
 		var lon=$(this).attr('data-lon');
 		var zoom=$(this).attr('data-zoom');
+		var mapModal=$('.modal-map-wrap');
 		var elMap=$(".repres-list-wrap.map");
-		var elList=$(".repres-list-wrap.list");	
-		createMap(lat, lon, zoom);
-		if(elMap.is(":hidden")){
+		var elList=$(".repres-list-wrap.list");
+		$("#modal-map").html('');	
+		createMap(lat, lon, zoom, 'modal-map');
+		mapModal.fadeOut(200, function(){
+			mapModal.fadeIn(200);
+			$("body").addClass("fixed");
+		});
+
+
+		/*if(elMap.is(":hidden")){
 			elMap.show();
 			elList.hide();
 			$(".repres-filter-type-link.active").removeClass("active");
 			$(".repres-filter-type-link.map").addClass("active");						
-		}		
+		}*/		
+	});
+
+	$('body').on('click', '.modal-map-close', function(){
+		$('.modal-map-wrap').fadeOut(200);
+		$("body").removeClass("fixed");
+		$("#modal-map").html('');
+	});
+
+	$(document).mouseup(function (e){
+		if(!$(".modal-map-wrap").is(e.target) && $(".modal-map-wrap").has(e.target).length === 0) {
+			$('.modal-map-wrap').fadeOut(200);
+			$("body").removeClass("fixed");
+			$("#modal-map").html('');
+		}
 	});
 	/*Клик по ссылке О нас открываем модалку и добавляет к ссылке класс active*/
 	$("body").on("click", ".header-center-left-link.about-us, .header-center-right-link.geo, .header-center-right-link.basket, .header-center-right-link.profile, .header-center-right-link.search", function(){
