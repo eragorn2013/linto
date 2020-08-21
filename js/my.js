@@ -19,7 +19,7 @@ $(document).ready(function(){
 			myMap.geoObjects.options.set('balloonMinWidth', 404);
 		else if(document.documentElement.clientWidth <= 960)
 			myMap.geoObjects.options.set('balloonMinWidth', 292);
-		var data={
+		/*var data={
 			0:{
 				coords: [55.382433979033515, 36.72783427132507],
 				head: "ЦЕНТРАЛЬНЫЙ ОФИС",
@@ -47,7 +47,7 @@ $(document).ready(function(){
 				inst: [["//instagram.com/paris_nail_cafe/", "name1"], ["//instagram.com/paris_nail_cafe/", "name2"]],
 				vk: [["//vk.com/", "name3"], ["//vk.com/", "name4"]],
 			},
-		};	
+		};*/	
 		for (i in data) {
 			var phones="";
 			for(var j=0; j < data[i].phone.length; j++){
