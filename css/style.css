@@ -4830,13 +4830,15 @@ nav{
 }
 .baloon-site:last-child,
 .baloon-inst:last-child,
+.baloon-vk:last-child,
 .baloon-phone:last-child{
 	margin-bottom: 0px;
 }
 .baloon-site:hover{
 	text-decoration: none;
 }
-.baloon-inst{
+.baloon-inst,
+.baloon-vk{
 	display: flex;
 	margin-bottom: 8px;
 	letter-spacing: 0.02em;
@@ -4853,6 +4855,10 @@ nav{
 .baloon-icon.inst{
 	background-size: 161px;
     background-position: -107px -67px;
+}
+.baloon-icon.vk{
+	background-size: 161px;
+    background-position: -92px -82px;
 }
 #repres{
 	padding: 10px 0 120px;

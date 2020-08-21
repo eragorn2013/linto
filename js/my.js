@@ -19,7 +19,35 @@ $(document).ready(function(){
 			myMap.geoObjects.options.set('balloonMinWidth', 404);
 		else if(document.documentElement.clientWidth <= 960)
 			myMap.geoObjects.options.set('balloonMinWidth', 292);
-				
+		var data={
+			0:{
+				coords: [55.382433979033515, 36.72783427132507],
+				head: "ЦЕНТРАЛЬНЫЙ ОФИС",
+				address: "Пресненская набережная, д. 6с2, 'Москва-Сити' Башня Империя, 51 этаж, офис 5113",
+				phone: ["+7 (499) 499-19-90"],
+				site: ["parisnail.ru"],
+				inst: [["//instagram.com/paris_nail_cafe/", "name1"], ["//instagram.com/paris_nail_cafe/", "name2"]],
+				vk: [["//vk.com/", "name3"], ["//vk.com/", "name4"]],
+			},
+			1:{
+				coords: [55.387124848460466,36.74491457833191],
+				head: "МУЛЬТИБРЕНДОВЫЙ МАГАЗИН PARIS NAIL SHOP&SCHOOL",
+				address: "м. Кузьминки, ул. Зеленодольская, д. 30",
+				phone: ["+7 (499) 499-19-90","+7 (499) 499-19-90"],
+				site: ["nailbrand.com"],
+				inst: [["//instagram.com/paris_nail_cafe/", "name1"], ["//instagram.com/paris_nail_cafe/", "name2"]],
+				vk: [["//vk.com/", "name3"], ["//vk.com/", "name4"]],
+			},
+			2:{
+				coords: [55.3760319952172,36.73633150948425],
+				head: "МУЛЬТИБРЕНДОВЫЙ МАГАЗИН NAILBRAND",
+				address: "м. Проспект Вернадского, пр-кт. Вернадского, д. 39",
+				phone: ["+7 (499) 499-19-90","+7 (499) 499-19-90"],
+				site: ["parisnail.ru"],
+				inst: [["//instagram.com/paris_nail_cafe/", "name1"], ["//instagram.com/paris_nail_cafe/", "name2"]],
+				vk: [["//vk.com/", "name3"], ["//vk.com/", "name4"]],
+			},
+		};	
 		for (i in data) {
 			var phones="";
 			for(var j=0; j < data[i].phone.length; j++){
@@ -31,7 +59,11 @@ $(document).ready(function(){
 			}
 			var inst="";
 			for(var j=0; j < data[i].inst.length; j++){
-				inst+='<a class="baloon-inst" target="_blank" href="//instagram.com/'+data[i].inst[j]+'">'+data[i].inst[j]+'</a>';
+				inst+='<a class="baloon-inst" target="_blank" href="'+data[i].inst[j][0]+'">'+data[i].inst[j][1]+'</a>';
+			}
+			var vk="";
+			for(var j=0; j < data[i].vk.length; j++){
+				vk+='<a class="baloon-vk" target="_blank" href="'+data[i].vk[j][0]+'">'+data[i].vk[j][1]+'</a>';
 			}
 			var MyBalloonContentLayoutClass = ymaps.templateLayoutFactory.createClass(
 			    '<div class="baloon">'+
@@ -43,6 +75,10 @@ $(document).ready(function(){
 			    		'<div class="baloon-inst">'+
 			    			'<i class="baloon-icon inst"></i>'+
 			    			'<div class="baloon-inst-links">'+inst+'</div>'+
+			    		'</div>'+
+			    		'<div class="baloon-vk">'+
+			    			'<i class="baloon-icon vk"></i>'+
+			    			'<div class="baloon-vk-links">'+vk+'</div>'+
 			    		'</div>'+
 			    	'</div>'+
 			    '</div>'
