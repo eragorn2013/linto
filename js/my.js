@@ -19,7 +19,7 @@ $(document).ready(function(){
 			myMap.geoObjects.options.set('balloonMinWidth', 404);
 		else if(document.documentElement.clientWidth <= 960)
 			myMap.geoObjects.options.set('balloonMinWidth', 292);
-		/*var data={
+		var data={
 			0:{
 				coords: [55.382433979033515, 36.72783427132507],
 				head: "ЦЕНТРАЛЬНЫЙ ОФИС",
@@ -27,7 +27,7 @@ $(document).ready(function(){
 				phone: ["+7 (499) 499-19-90"],
 				site: ["parisnail.ru"],
 				inst: [["//instagram.com/paris_nail_cafe/", "name1"], ["//instagram.com/paris_nail_cafe/", "name2"]],
-				vk: [["//vk.com/", "name3"], ["//vk.com/", "name4"]],
+				//vk: [["//vk.com/", "name3"], ["//vk.com/", "name4"]],
 			},
 			1:{
 				coords: [55.387124848460466,36.74491457833191],
@@ -35,7 +35,7 @@ $(document).ready(function(){
 				address: "м. Кузьминки, ул. Зеленодольская, д. 30",
 				phone: ["+7 (499) 499-19-90","+7 (499) 499-19-90"],
 				site: ["nailbrand.com"],
-				inst: [["//instagram.com/paris_nail_cafe/", "name1"], ["//instagram.com/paris_nail_cafe/", "name2"]],
+				//inst: [["//instagram.com/paris_nail_cafe/", "name1"], ["//instagram.com/paris_nail_cafe/", "name2"]],
 				vk: [["//vk.com/", "name3"], ["//vk.com/", "name4"]],
 			},
 			2:{
@@ -47,7 +47,7 @@ $(document).ready(function(){
 				inst: [["//instagram.com/paris_nail_cafe/", "name1"], ["//instagram.com/paris_nail_cafe/", "name2"]],
 				vk: [["//vk.com/", "name3"], ["//vk.com/", "name4"]],
 			},
-		};*/	
+		};	
 		for (i in data) {
 			var phones="";
 			for(var j=0; j < data[i].phone.length; j++){
@@ -58,13 +58,23 @@ $(document).ready(function(){
 				sites+='<a class="baloon-site" target="_blank" href="//'+data[i].site[j]+'">'+data[i].site[j]+'</a>';
 			}
 			var inst="";
-			for(var j=0; j < data[i].inst.length; j++){
-				inst+='<a class="baloon-inst" target="_blank" href="'+data[i].inst[j][0]+'">'+data[i].inst[j][1]+'</a>';
+			var instIcon="";
+			if(data[i].inst){
+				instIcon="inst";
+				for(var j=0; j < data[i].inst.length; j++){
+					inst+='<a class="baloon-inst" target="_blank" href="'+data[i].inst[j][0]+'">'+data[i].inst[j][1]+'</a>';
+				}
 			}
+			
 			var vk="";
-			for(var j=0; j < data[i].vk.length; j++){
-				vk+='<a class="baloon-vk" target="_blank" href="'+data[i].vk[j][0]+'">'+data[i].vk[j][1]+'</a>';
+			var vkIcon="";
+			if(data[i].vk){
+				vkIcon="vk";
+				for(var j=0; j < data[i].vk.length; j++){
+					vk+='<a class="baloon-vk" target="_blank" href="'+data[i].vk[j][0]+'">'+data[i].vk[j][1]+'</a>';
+				}
 			}
+			
 			var MyBalloonContentLayoutClass = ymaps.templateLayoutFactory.createClass(
 			    '<div class="baloon">'+
 			    	'<div class="baloon-head">'+data[i].head+'</div>'+
@@ -73,11 +83,11 @@ $(document).ready(function(){
 			    		'<div class="baloon-phones">'+phones+'</div>'+
 			    		'<div class="baloon-sites">'+sites+'</div>'+
 			    		'<div class="baloon-inst">'+
-			    			'<i class="baloon-icon inst"></i>'+
+			    			'<i class="baloon-icon '+instIcon+'"></i>'+
 			    			'<div class="baloon-inst-links">'+inst+'</div>'+
 			    		'</div>'+
 			    		'<div class="baloon-vk">'+
-			    			'<i class="baloon-icon vk"></i>'+
+			    			'<i class="baloon-icon '+vkIcon+'"></i>'+
 			    			'<div class="baloon-vk-links">'+vk+'</div>'+
 			    		'</div>'+
 			    	'</div>'+

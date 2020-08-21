@@ -4847,16 +4847,17 @@ nav{
 	width: 14px;
 	height: 14px;
 	display: inline-block;
-	background-image: url("../img/sprite2.png");
 	background-repeat: no-repeat;
 	margin-right: 9px;
 	margin-top: 2px;
 }
 .baloon-icon.inst{
+	background-image: url("../img/sprite2.png");
 	background-size: 161px;
     background-position: -107px -67px;
 }
 .baloon-icon.vk{
+	background-image: url("../img/sprite2.png");
 	background-size: 161px;
     background-position: -92px -82px;
 }
