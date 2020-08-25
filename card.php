@@ -195,55 +195,55 @@
 					<div class="card-info-colors-list-wrap">
 						<div class="card-info-color color-F4E3AF active">
 							<span class="card-info-color-square"></span>
-							<span class="card-info-color-name">#025</span>
+							<span class="card-info-color-name" title="#025 Длинное название">#025 Длинное название</span>
 						</div>
 						<a class="card-info-color color-C5BAA7" href="#">
 							<span class="card-info-color-square"></span>
-							<span class="card-info-color-name">#026</span>
+							<span class="card-info-color-name" title="#026">#026</span>
 						</a>
 						<a class="card-info-color color-FFFFFF active" href="#">
 							<span class="card-info-color-square"></span>
-							<span class="card-info-color-name">#026</span>
+							<span class="card-info-color-name" title="#026">#026</span>
 						</a>
 						<a class="card-info-color color-9B977C" href="#">
 							<span class="card-info-color-square"></span>
-							<span class="card-info-color-name">#027</span>
+							<span class="card-info-color-name" title="#027">#027</span>
 						</a>
 						<a class="card-info-color color-C09ABF" href="#">
 							<span class="card-info-color-square"></span>
-							<span class="card-info-color-name">#028</span>
+							<span class="card-info-color-name" title="#028">#028</span>
 						</a>
 						<a class="card-info-color color-B58CB8" href="#">
 							<span class="card-info-color-square"></span>
-							<span class="card-info-color-name">#029</span>
+							<span class="card-info-color-name" title="#029">#029</span>
 						</a>
 						<a class="card-info-color color-D8C1D7" href="#">
 							<span class="card-info-color-square"></span>
-							<span class="card-info-color-name">#030</span>
+							<span class="card-info-color-name" title="#030">#030</span>
 						</a>
 						<a class="card-info-color color-E4D5DD" href="#">
 							<span class="card-info-color-square"></span>
-							<span class="card-info-color-name">#031</span>
+							<span class="card-info-color-name" title="#031">#031</span>
 						</a>
 						<a class="card-info-color color-F4C4C0" href="#">
 							<span class="card-info-color-square"></span>
-							<span class="card-info-color-name">#032</span>
+							<span class="card-info-color-name" title="#032">#032</span>
 						</a>
 						<a class="card-info-color color-F9C0C9" href="#">
 							<span class="card-info-color-square"></span>
-							<span class="card-info-color-name">#033</span>
+							<span class="card-info-color-name" title="#033">#033</span>
 						</a>
 						<a class="card-info-color color-EBA0B6" href="#">
 							<span class="card-info-color-square" href="#"></span>
-							<span class="card-info-color-name">#034</span>
+							<span class="card-info-color-name" title="#034">#034</span>
 						</a>
 						<a class="card-info-color color-FCC9DC" href="#">
 							<span class="card-info-color-square"></span>
-							<span class="card-info-color-name">#035</span>
+							<span class="card-info-color-name" title="#035">#035</span>
 						</a>
 						<a class="card-info-color color-F19ABD" href="#">
 							<span class="card-info-color-square"></span>
-							<span class="card-info-color-name">#036</span>
+							<span class="card-info-color-name" title="#036">#036</span>
 						</a>
 					</div>
 					<div class="card-info-not-available">

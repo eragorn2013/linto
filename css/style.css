@@ -2068,7 +2068,9 @@ nav{
 }
 .news-full-preview-img{
 	display: block;
-	width: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0 auto;
 }
 .news-full-preview-text{
 	margin-bottom: 64px;
@@ -2272,7 +2274,10 @@ nav{
 	width: 100%;
 }
 .news-pic-img{
-	width: 100%;
+	max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
 }
 .news-button{
 	display: none;
@@ -3863,6 +3868,21 @@ nav{
 }
 .card-info-color-name{
 	line-height: 19px;
+	display: inline-block;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	position: relative;
+}
+.card-info-color-name:after{
+	content: "";
+	position: absolute;
+	width: 7px;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background: rgb(255,255,255);
+	background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
 }
 .card-info-color.active .card-info-color-name{
 	font-family: "HelveticaNeueCyr-Bold";
