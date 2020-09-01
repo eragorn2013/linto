@@ -1463,8 +1463,16 @@ header{
     margin-left: 5px;
     transition: all .2s ease-out;
 }
+.header-center-logo{
+	width: 14.8%;
+}
 .header-center-logo-link{
 	display: inline-block;
+	width: 100%;
+}
+.header-center-logo-img{
+	width: 100%;
+	display: block;
 }
 .header-center-right{
 	display: flex;
@@ -2073,7 +2081,7 @@ nav{
 	margin: 0 auto;
 }
 .news-full-preview-text{
-	margin-bottom: 64px;
+	margin-bottom: 30px;
 }
 .news-full-preview-text-p{
 	font-size: 16px;
@@ -5233,7 +5241,10 @@ footer{
 }
 .footer-logo{
 	text-align: center;
-	margin-bottom: 115px;
+	margin-bottom: 115px;	
+}
+.footer-logo-img{
+	width: 71px;
 }
 .footer-list{
 	display: flex;
@@ -6961,7 +6972,7 @@ footer{
 		padding: 42px 0 48px;
 	}
 	.news-full-preview-text{
-		margin-bottom: 54px;
+		margin-bottom: 25px;
 	}
 	.news-full-preview-text-p{
 		font-size: 13px;

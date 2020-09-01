@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<title>linto</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css?120820201840">
+	<link rel="stylesheet" type="text/css" href="css/style.css?3108200857">
 	<script src="https://api-maps.yandex.ru/2.1/?apikey=2a1b7d82-04ce-4c03-af57-83cbecd96d20&lang=ru_RU" type="text/javascript"></script>
 </head>
 <body>
@@ -74,7 +74,7 @@
 					</div>
 				</div>
 				<div class="header-center-logo">
-					<a class="header-center-logo-link" href="#"><img class="header-center-logo-img" src="img/logo/logo.png" alt="Логотип"></a>
+					<a class="header-center-logo-link" href="#"><img class="header-center-logo-img" src="img/logo/logo.png?3108200847" alt="Логотип"></a>
 				</div>
 				<div class="header-center-right">
 					<div class="header-center-right-item">
@@ -591,7 +591,7 @@
 					</div>
 				</div>
 				<div class="header-center-mob-logo">
-					<a class="header-center-mob-logo-link" href="#"><img class="header-center-mob-logo-img" src="img/logo/logo.png" alt="Логотип"></a>
+					<a class="header-center-mob-logo-link" href="#"><img class="header-center-mob-logo-img" src="img/logo/logo.png?3108200847" alt="Логотип"></a>
 				</div>
 				<div class="header-center-mob-right">
 					<div class="header-center-mob-wrap">

@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="content">
 			<div class="footer-logo">
-				<img class="footer-logo-img" src="img/logo/logo-min.png" alt="Логотип">
+				<img class="footer-logo-img" src="img/logo/logo-min.png?3108200847" alt="Логотип">
 			</div>
 			<div class="footer-button">
 				<a class="button-link black white-border full" href="#">							
