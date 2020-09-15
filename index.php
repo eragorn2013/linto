@@ -35,17 +35,18 @@
 	</div>
 </section>
 
-<section id="main-page-goods" style='background-image: url(img/bg/4.jpg);'>
+<section id="main-page-goods">
+	<div style='background-image: url(img/bg/4.jpg);' class="main-page-goods-bg"></div>
 	<div class="container">
 		<div class="content main-page-goods-content">
 			<div class="main-page-goods-wrap first">
 				<div class="main-page-goods-list">
 					<a class="main-page-goods-item" href="#">
 						<span class="main-page-goods-item-pic">
-							<img class="main-page-goods-item-pic-img" src="img/goods/1.png" alt="товар">
+							<img class="main-page-goods-item-pic-img" src="img/goods/1.jpg" alt="товар">
 						</span>
 						<span class="main-page-goods-item-name">
-							<span class="main-page-goods-item-name-link">GEL POLISH GREENERY</span>
+							<span class="main-page-goods-item-name-link">GEL POLISH, #028</span>
 						</span>
 						<span class="main-page-goods-item-price">
 							<span class="main-page-goods-item-price-volume">10 МЛ</span>
@@ -61,10 +62,10 @@
 
 					<a class="main-page-goods-item" href="#">
 						<span class="main-page-goods-item-pic">
-							<img class="main-page-goods-item-pic-img" src="img/goods/2.png" alt="товар">
+							<img class="main-page-goods-item-pic-img" src="img/goods/2.jpg" alt="товар">
 						</span>
 						<span class="main-page-goods-item-name">
-							<span class="main-page-goods-item-name-link">GEL POLISH ROSE QUARTZ</span>
+							<span class="main-page-goods-item-name-link">GEL POLISH, #065</span>
 						</span>
 						<span class="main-page-goods-item-price">
 							<span class="main-page-goods-item-price-volume">10 МЛ</span>
@@ -80,10 +81,10 @@
 
 					<a class="main-page-goods-item" href="#">
 						<span class="main-page-goods-item-pic">
-							<img class="main-page-goods-item-pic-img" src="img/goods/3.png" alt="товар">
+							<img class="main-page-goods-item-pic-img" src="img/goods/3.jpg" alt="товар">
 						</span>
 						<span class="main-page-goods-item-name">
-							<span class="main-page-goods-item-name-link">GEL POLISH LIVING CORAL GEL POLISH LIVING CORAL</span>
+							<span class="main-page-goods-item-name-link">GEL POLISH, #066</span>
 						</span>
 						<span class="main-page-goods-item-price">
 							<span class="main-page-goods-item-price-volume">10 МЛ</span>
@@ -99,10 +100,10 @@
 
 					<a class="main-page-goods-item" href="#">
 						<span class="main-page-goods-item-pic">
-							<img class="main-page-goods-item-pic-img" src="img/goods/4.png" alt="товар">
+							<img class="main-page-goods-item-pic-img" src="img/goods/4.jpg" alt="товар">
 						</span>
 						<span class="main-page-goods-item-name">
-							<span class="main-page-goods-item-name-link">GEL POLISH SERENITY</span>
+							<span class="main-page-goods-item-name-link">GEL POLISH, #072</span>
 						</span>
 						<span class="main-page-goods-item-price">
 							<span class="main-page-goods-item-price-volume">10 МЛ</span>
@@ -118,10 +119,10 @@
 
 					<a class="main-page-goods-item" href="#">
 						<span class="main-page-goods-item-pic">
-							<img class="main-page-goods-item-pic-img" src="img/goods/5.png" alt="товар">
+							<img class="main-page-goods-item-pic-img" src="img/goods/5.jpg" alt="товар">
 						</span>
 						<span class="main-page-goods-item-name">
-							<span class="main-page-goods-item-name-link">GEL POLISH CLASSIC BLUE</span>
+							<span class="main-page-goods-item-name-link">GEL POLISH, #074</span>
 						</span>
 						<span class="main-page-goods-item-price">
 							<span class="main-page-goods-item-price-volume">10 МЛ</span>
@@ -137,10 +138,10 @@
 
 					<a class="main-page-goods-item" href="#">
 						<span class="main-page-goods-item-pic">
-							<img class="main-page-goods-item-pic-img" src="img/goods/5.png" alt="товар">
+							<img class="main-page-goods-item-pic-img" src="img/goods/6.jpg" alt="товар">
 						</span>
 						<span class="main-page-goods-item-name">
-							<span class="main-page-goods-item-name-link">GEL POLISH ULTRA VIOLET</span>
+							<span class="main-page-goods-item-name-link">GEL POLISH, #187</span>
 						</span>
 						<span class="main-page-goods-item-price">
 							<span class="main-page-goods-item-price-volume">10 МЛ</span>

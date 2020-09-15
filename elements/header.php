@@ -3,10 +3,21 @@
 <head>
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1.0">
 	<meta charset="UTF-8">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<title>linto</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css?3108200857">
+	<meta name="description" content="В нашем блоге мы много пишем о создании почтовых рассылок — их верстке, дизайне и интересных статистических фактах. Однако рассылки — не единственный коммуникационный инструмент, при использовании...">
+	<meta name="keywords" content="соцсети, изображения, картинки, выбор изображения, алгоритм">
+	<title>Алгоритм выбора размера изображения для социальных сетей: Руководство от эксперта Buffer</title>
+	<meta property="og:title" content="Алгоритм выбора размера изображения для социальных сетей: Руководство от эксперта Buffer">
+	<meta property="og:site_name" content="linto-nails.ru">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="https://linto-nails.ru/">
+	<meta property="og:description" content="description">
+	<meta property="og:image" content="http://afy-tmp.ru/linto/img/logo/logo-social.png">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta property="vk:image" content="http://afy-tmp.ru/linto/img/logo/logo-social-vk.png?format=vk&amp;v=1">
+	<meta name="twitter:image" content="http://afy-tmp.ru/linto/img/logo/logo-social.png?v=1">
+	<link rel="image_src" href="http://afy-tmp.ru/linto/img/logo/logo-social.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css?0909201958">
 	<script src="https://api-maps.yandex.ru/2.1/?apikey=2a1b7d82-04ce-4c03-af57-83cbecd96d20&lang=ru_RU" type="text/javascript"></script>
 </head>
 <body>

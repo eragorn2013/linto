@@ -6,7 +6,7 @@
 			<a class="bread-crumbs-item"  href="/">Каталог</a> /
 			<span class="bread-crumbs-item active">Gel Polish</span>
 		</div>
-	</div>	
+	</div>
 </div>
 <section id="catalog">
 	<div class="container">
