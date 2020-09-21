@@ -1,58 +1,17 @@
 <?php include "./elements/header.php" ?>
+<section id="main-page-shade-1" class="main-page-shade">
+	<div class="container">
+		<div class="content main-page-shade-content">				
+			<span class="main-page-shade-text">КОЛЛЕКЦИЯ ОТТЕНКОВ</span>
+			<h1 class="main-page-shade-head">WITH LOVE FOR BELARUS</h1>
+			<a class="button-link white" href="#">
+				<span class="button-link-span"><span class="button-link-span-text">ПОДРОБНЕЕ</span></span>
+			</a>
+		</div>
+	</div>
+</section>
 
-<a class="main-page-shade bg-img" style='background-image: url("img/bg/10-2.png");' data-img-max="img/bg/10.jpg" data-img-min="img/bg/10-2.png" href="#">
-	<span class="container">
-		<span class="content main-page-shade-content">
-			
-		</span>
-	</span>
-</a>
-
-<a class="main-page-shade bg-img" style='background-image: url("img/bg/11.jpg");' data-img-max="img/bg/11.jpg" data-img-min="img/bg/11-1.jpg" href="#">
-	<span class="container">
-		<span class="content main-page-shade-content">
-			<span class="main-page-shade-content-wrap">
-				<span class="main-page-shade-text">КОЛЛЕКЦИЯ ОТТЕНКОВ</span>
-				<span class="main-page-shade-head">WITH LOVE FOR BELARUS</span>
-				<span class="button-link white">
-					<span class="button-link-span"><span class="button-link-span-text">ПОДРОБНЕЕ</span></span>
-				</span>
-			</span>
-		</span>
-	</span>
-</a>
-
-<a class="main-page-shade stat-img" data-img-max="img/bg/11.jpg" data-img-min="img/bg/11-1.jpg" href="#">
-	<img class="main-page-shade-img" src="img/bg/11.jpg" alt="">
-	<span class="container">
-		<span class="content main-page-shade-content">
-			<span class="main-page-shade-content-wrap">
-				<span class="main-page-shade-text">КОЛЛЕКЦИЯ ОТТЕНКОВ</span>
-				<span class="main-page-shade-head">WITH LOVE FOR BELARUS</span>
-				<span class="button-link white">
-					<span class="button-link-span"><span class="button-link-span-text">ПОДРОБНЕЕ</span></span>
-				</span>
-			</span>
-		</span>
-	</span>
-</a>
-
-<a class="main-page-shade stat-img" data-img-max="img/bg/12.jpg" href="#">
-	<img class="main-page-shade-img" src="img/bg/11.jpg" alt="">
-	<span class="container">
-		<span class="content main-page-shade-content">
-			<span class="main-page-shade-content-wrap">
-				<span class="main-page-shade-text">КОЛЛЕКЦИЯ ОТТЕНКОВ</span>
-				<span class="main-page-shade-head">WITH LOVE FOR BELARUS</span>
-				<span class="button-link white">
-					<span class="button-link-span"><span class="button-link-span-text">ПОДРОБНЕЕ</span></span>
-				</span>
-			</span>
-		</span>
-	</span>
-</a>
-
-<!--<section id="main-page-shade-2" class="main-page-shade">
+<section id="main-page-shade-2" class="main-page-shade">
 	<div class="container">
 		<div class="content main-page-shade-content">				
 			<span class="main-page-shade-text">КОЛЛЕКЦИЯ ОТТЕНКОВ</span>
@@ -74,7 +33,7 @@
 			</a>
 		</div>
 	</div>
-</section>-->
+</section>
 
 <section id="main-page-goods">
 	<div style='background-image: url(img/bg/4.jpg);' class="main-page-goods-bg"></div>
@@ -101,7 +60,7 @@
 						</span>
 					</a>
 
-					<a class="main-page-goods-item" href="#">
+					<!--<a class="main-page-goods-item" href="#">
 						<span class="main-page-goods-item-pic">
 							<img class="main-page-goods-item-pic-img" src="img/goods/2.jpg" alt="товар">
 						</span>
@@ -118,9 +77,9 @@
 								<i class="main-page-goods-item-details-link-icon"></i>
 							</span>
 						</span>
-					</a>
+					</a>-->
 
-					<a class="main-page-goods-item" href="#">
+					<!--<a class="main-page-goods-item" href="#">
 						<span class="main-page-goods-item-pic">
 							<img class="main-page-goods-item-pic-img" src="img/goods/3.jpg" alt="товар">
 						</span>
@@ -137,7 +96,7 @@
 								<i class="main-page-goods-item-details-link-icon"></i>
 							</span>
 						</span>
-					</a>
+					</a>-->
 
 					<a class="main-page-goods-item" href="#">
 						<span class="main-page-goods-item-pic">
@@ -201,7 +160,7 @@
 					<a class="button-link white grey-border" href="#">
 						<span class="button-link-span"><span class="button-link-span-text">ПОДРОБНЕЕ</span></span>
 					</a>
-				</div>
+				</div>						
 			</div>
 			<div class="main-page-goods-wrap last">
 				<div class='main-page-goods-shade'>
@@ -216,17 +175,17 @@
 	</div>
 </section>
 
-<!--<section id="main-page-shade-4" class="main-page-shade">
+<section id="main-page-shade-4" class="main-page-shade">
 	<div class="container">
-		<div class="content main-page-shade-content">
+		<div class="content main-page-shade-content">				
 			<span class="main-page-shade-text">КОЛЛЕКЦИЯ ОТТЕНКОВ</span>
 			<h2 class="main-page-shade-head">SUMMER GARDEN 2019</h2>
 			<a class="button-link white" href="#">
 				<span class="button-link-span"><span class="button-link-span-text">ПОДРОБНЕЕ</span></span>
-			</a>
+			</a>								
 		</div>
 	</div>
-</section>-->
+</section>
 
 <section id="main-page-events">
 	<div class="container main-page-events-container">

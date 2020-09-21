@@ -78,7 +78,7 @@
 					<a class="socials-item" href="#"><i class="socials-item-icon tw"></i></a>
 					<a class="socials-item" href="#"><i class="socials-item-icon tg"></i></a>
 					<a class="socials-item" href="#"><i class="socials-item-icon hz"></i></a>
-				</div>				
+				</div>
 			</div>
 		</div>
 	</div>
