@@ -1881,8 +1881,10 @@ nav{
 	height: auto;
 	position: relative;
 }
-
-.main-page-shade-content-wrap{
+.main-page-shade.bg-img .main-page-shade-content-wrap{
+	margin-bottom: 30px;
+}
+.main-page-shade.stat-img .main-page-shade-content-wrap{
 	position: absolute;
 	bottom: 30px;
 }
