@@ -77,7 +77,7 @@
 </section>-->
 
 <section id="main-page-goods">
-	<div style='background-image: url(img/bg/4.jpg);' class="main-page-goods-bg"></div>
+	<div class="main-page-goods-bg"><img class="main-page-goods-bg-img" src="img/bg/4.jpg"></div>
 	<div class="container">
 		<div class="content main-page-goods-content">
 			<div class="main-page-goods-wrap first">
