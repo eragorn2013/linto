@@ -237,6 +237,16 @@
 							<i class="filter-selected-item-icon-drop-filter"></i>
 						</div>
 					</div>
+					<div class="catalog-search">
+						<form class="form-field" action="#" method="post">
+							<label class="form-field-label">
+								<span class="form-field-wrap">
+									<input class="form-field-input search" type="text" name="search" placeholder="Я ищу...">
+									<button class="form-field-submit">ИСКАТЬ</button>
+								</span>
+							</label>
+						</form>
+					</div>
 					<div class="catalog-goods-list">
 						<div class="good-item">
 							<a class="good-item-link" href="#">
