@@ -262,7 +262,7 @@ header{background:#fff;padding-top:11px;border-bottom:1px solid rgba(0,0,0,0.15)
 .header-center-left-link.active{opacity:.5;transition:all .2s ease-out}
 .header-center-left-link.active > .header-arrow-icon,.header-center-right-link.active > .header-arrow-icon{transform:rotate(180deg);transition:all .2s ease-out}
 .header-arrow-icon{width:11px;height:4px;background-image:url(../img/sprite2.png);background-repeat:no-repeat;background-size:273px;background-position:-197px -45px;margin-left:5px;transition:all .2s ease-out}
-.header-center-logo{width:14.8%}
+.header-center-logo{width:14.8%;margin-right:80px}
 .header-center-logo-link{display:inline-block;width:100%}
 .header-center-logo-img{width:100%;display:block}
 .header-center-right{display:flex;align-items:center}
@@ -1189,7 +1189,7 @@ footer{background:#000;padding:90px 0 34px;position:fixed;width:100%;left:0;bott
 .modal-search{left:-220px}
 .wrap{margin-bottom:595px}
 .container{width:940px}
-.header-center-logo{width:13%}
+.header-center-logo{width:13%;margin-right:62px}
 .header-center-logo-link{width:100%}
 .header-center-logo-img{width:100%}
 .header-center-left-link{margin-right:22px}
