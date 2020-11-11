@@ -900,4 +900,17 @@ $(document).ready(function(){
 			});
 		}
 	}
+
+	if($('.header-center-logo-link').length==2){
+		setInterval(function(){
+			if($('.header-center-logo').hasClass('hover')) $('.header-center-logo').removeClass('hover');
+			else $('.header-center-logo').addClass('hover');			
+		}, 4000);
+	}
+	if($('.header-center-mob-logo-link').length==2){
+		setInterval(function(){
+			if($('.header-center-mob-logo').hasClass('hover')) $('.header-center-mob-logo').removeClass('hover');			
+			else $('.header-center-mob-logo').addClass('hover');			
+		}, 4000);
+	}
 });

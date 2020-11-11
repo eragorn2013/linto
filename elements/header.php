@@ -85,7 +85,10 @@
 					</div>
 				</div>
 				<div class="header-center-logo">
-					<a class="header-center-logo-link" href="#"><img class="header-center-logo-img" src="img/logo/logo.png?3108200847" alt="Логотип"></a>
+					<div class="header-center-logo-wrap">
+						<a class="header-center-logo-link front" href="#"><img class="header-center-logo-img" src="img/logo/logo.png?3108200847" alt="Логотип"></a>
+						<a class="header-center-logo-link back" href="#"><img class="header-center-logo-img" src="img/logo/logo-ng.png?3108200847" alt="Логотип"></a>
+					</div>
 				</div>
 				<div class="header-center-right">
 					<div class="header-center-right-item">
@@ -602,7 +605,10 @@
 					</div>
 				</div>
 				<div class="header-center-mob-logo">
-					<a class="header-center-mob-logo-link" href="#"><img class="header-center-mob-logo-img" src="img/logo/logo.png?3108200847" alt="Логотип"></a>
+					<div class="header-center-mob-logo-wrap">
+						<a class="header-center-mob-logo-link front" href="#"><img class="header-center-mob-logo-img" src="img/logo/logo.png?3108200847" alt="Логотип"></a>
+						<a class="header-center-mob-logo-link back" href="#"><img class="header-center-mob-logo-img" src="img/logo/logo-ng.png?3108200847" alt="Логотип"></a>
+					</div>
 				</div>
 				<div class="header-center-mob-right">
 					<div class="header-center-mob-wrap">
