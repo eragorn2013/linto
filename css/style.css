@@ -1123,62 +1123,12 @@ footer{background:#000;padding:90px 0 34px;position:fixed;width:100%;left:0;bott
 .footer-socials-link.fb{width:7px;height:15px;background-size:240px;background-position:-129px -32px}
 .footer-socials-link.inst{width:14px;height:14px;background-size:210px;background-position:-43px -27px}
 .footer-button{display:none}
-/*Анимация логотипа*/
-.header-center-logo,
-.header-center-mob-logo{
-	-webkit-perspective: 1000;
-  	-moz-perspective: 1000;
-  	-o-perspective: 1000;
-  	perspective: 1000;
-}
-.header-center-logo.hover .header-center-logo-wrap,
-.header-center-mob-logo.hover .header-center-mob-logo-wrap{
-	-webkit-transform: rotateY(180deg);
-	-moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-	transform: rotateY(180deg);
-}
-.header-center-logo-wrap,
-.header-center-mob-logo-wrap{
-	-webkit-transition: 0.6s;
-	-webkit-transform-style: preserve-3d;
-
-	-moz-transition: 0.6s;
-	-moz-transform-style: preserve-3d;
-  
-  	-o-transition: 0.6s;
-	-o-transform-style: preserve-3d;
-
-	transition: 0.6s;
-	transform-style: preserve-3d;
-
-	height: 51px;
-	position: relative;
-}
-.header-center-logo-link.front, 
-.header-center-logo-link.back,
-.header-center-mob-logo-link.front, 
-.header-center-mob-logo-link.back{
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-  	-o-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-.header-center-logo-link.back,
-.header-center-mob-logo-link.back{
-	-webkit-transform: rotateY(180deg);
-	-moz-transform: rotateY(180deg);
-  	-o-transform: rotateY(180deg);
-	transform: rotateY(180deg);	
-}
-.header-center-logo-link,
-.header-center-mob-logo-link{
-	position: absolute;
-	top: 0; left: 0;
-	width: 100%;
-	height: 100%;
-	background: #fff;
-}
+.header-center-logo,.header-center-mob-logo{-webkit-perspective:1000;-moz-perspective:1000;-o-perspective:1000;perspective:1000px}
+.header-center-logo.hover .header-center-logo-wrap,.header-center-mob-logo.hover .header-center-mob-logo-wrap{-webkit-transform:rotateY(180deg);-moz-transform:rotateY(180deg);-o-transform:rotateY(180deg);transform:rotateY(180deg)}
+.header-center-logo-wrap,.header-center-mob-logo-wrap{-webkit-transition:.6s;-webkit-transform-style:preserve-3d;-moz-transition:.6s;-moz-transform-style:preserve-3d;-o-transition:.6s;-o-transform-style:preserve-3d;transition:.6s;transform-style:preserve-3d;height:51px;position:relative}
+.header-center-logo-link.front,.header-center-logo-link.back,.header-center-mob-logo-link.front,.header-center-mob-logo-link.back{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-o-backface-visibility:hidden;backface-visibility:hidden}
+.header-center-logo-link.back,.header-center-mob-logo-link.back{-webkit-transform:rotateY(180deg);-moz-transform:rotateY(180deg);-o-transform:rotateY(180deg);transform:rotateY(180deg)}
+.header-center-logo-link,.header-center-mob-logo-link{position:absolute;top:0;left:0;width:100%;height:100%;background:#fff}
 @media (max-width:1300px) {
 .main-page-goods-list{margin:0 auto}
 .courses-new-buttons .button-link:first-child{margin-bottom:0}
@@ -1272,10 +1222,7 @@ footer{background:#000;padding:90px 0 34px;position:fixed;width:100%;left:0;bott
 .main-page-social-content{width:39.7%}
 .subscription-text{width:42.7%}
 .footer-logo{margin-bottom:50px}
-.header-center-logo-wrap,
-.header-center-mob-logo-wrap{
-	height: 31px;
-}
+.header-center-logo-wrap,.header-center-mob-logo-wrap{height:31px}
 }
 @media (max-width:960px) {
 .catalog-search{width:100%}
@@ -1754,9 +1701,7 @@ footer{position:static;padding:48px 0 38px}
 .footer-item-head-arrow{display:block;position:absolute;width:10px;height:6px;top:5px;right:0;background-image:url(../img/sprite2.png);background-repeat:no-repeat;background-position:-85px -44px;background-size:134px;transition:all .2s ease-out}
 .footer-item-head-arrow.active{transform:rotate(180deg);opacity:.4;transition:all .2s ease-out}
 .modal-city-item{font-size:12px;line-height:16px}
-.header-center-mob-logo-wrap{
-	height: 24px;
-}
+.header-center-mob-logo-wrap{height:24px}
 }
 @media screen and (-ms-high-contrast: active),(-ms-high-contrast: none) and (max-width : 960px) {
 .filter-selected{flex-wrap:wrap}
