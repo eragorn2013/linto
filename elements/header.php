@@ -18,6 +18,7 @@
 	<meta name="twitter:image" content="http://afy-tmp.ru/linto/img/logo/logo-social.png?v=1">
 	<link rel="image_src" href="http://afy-tmp.ru/linto/img/logo/logo-social.png">
 	<link rel="stylesheet" type="text/css" href="css/style.css?202012221746">
+	<link rel="stylesheet" type="text/css" href="css/club.css?202012221746">
 	<script src="https://api-maps.yandex.ru/2.1/?apikey=2a1b7d82-04ce-4c03-af57-83cbecd96d20&lang=ru_RU" type="text/javascript"></script>
 </head>
 <body>
