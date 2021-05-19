@@ -1,0 +1,52 @@
+.card-info-scales{
+	padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+.card-info-scale{
+	margin-bottom: 10px;
+}
+.card-info-scale-head{
+	font-family: "HelveticaNeueCyr-Roman";
+	margin-bottom: 5px;
+}
+.card-info-scale-head.roman{
+	font-family: "HelveticaNeueCyr-Roman";
+}
+.card-info-scale-lines{
+	display: flex;
+	margin-bottom: 5px;
+}
+.card-info-scale-line{
+	width: 100%;
+	height: 4px;
+	margin-right: 2px;
+	background: #e7e7e7;
+}
+.card-info-scales.ping .card-info-scale-line.active{
+	background: #dc2c73;
+}
+.card-info-scales.black .card-info-scale-line.active{
+	background: #000;
+}
+.card-info-scales.border .card-info-scale-line.active{
+	background: #fff;
+	border: 1px solid #000;
+	box-sizing: border-box;
+}
+.card-info-scale-names{
+	display: flex;
+	justify-content: space-between;
+}
+.card-info-scale-name{
+	color: #9C9C9C;
+}
+@media (max-width:530px) {
+	.card-info-scale-head{
+		font-size: 10px;
+		font-family: "HelveticaNeueCyr-Bold";
+	}
+	.card-info-scale-name{
+		font-size: 11px;
+	}
+}

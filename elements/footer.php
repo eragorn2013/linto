@@ -84,6 +84,26 @@
 				</div>
 			</div>
 
+			<div class="footer-icons">
+				<div class="footer-icons-pay-wrap">
+					<a class="footer-icons-pay-text" href="#">Способы оплаты</a>
+					<div class="footer-icons-pay-item-icons">
+						<i class="footer-icons-pay-item-icon visa"></i>
+						<i class="footer-icons-pay-item-icon mastercard"></i>
+						<i class="footer-icons-pay-item-icon a-pay"></i>
+						<i class="footer-icons-pay-item-icon g-pay"></i>
+					</div>
+				</div>
+				<div class="footer-icons-delivery-wrap">
+					<a class="footer-icons-delivery-text" href="#">Службы доставки</a>
+					<div class="footer-icons-delivery-item-icons">
+						<i class="footer-icons-delivery-item-icon mail-rus"></i>
+						<i class="footer-icons-delivery-item-icon sdek"></i>
+						<i class="footer-icons-delivery-item-icon ya"></i>
+					</div>
+				</div>
+			</div>
+
 			<div class="footer-socials">
 				<div class="footer-socials-text">Ⓒ 2020 LiNTO</div>
 				<div class="footer-socials-links">
@@ -92,6 +112,7 @@
 					<a class="footer-socials-link inst" href="#"></a>
 				</div>
 			</div>
+			
 		</div>
 	</div>
 </footer>

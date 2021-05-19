@@ -228,6 +228,252 @@
 	</div>
 </section>-->
 
+<section class="main-page-special-goods">
+	<div class="container">
+		<div class="content main-page-special-goods">
+			<h2 class="main-page-special-goods-head">НОВИНКИ И БЕСТСЕЛЛЕРЫ</h2>
+			<div class="main-page-special-goods-wrap">
+				<div class="good-item">
+					<a class="good-item-link" href="#">
+						<span class="good-item-pic">
+							<span class="good-item-pic-icons">
+								<span class="good-item-pic-icon green">NEW</span>
+								<span class="good-item-pic-icon red">HIT</span>
+							</span>
+							<img class="good-item-pic-img" src="http://linto-nails.ru/upload/resize_cache/iblock/ca3/500_500_1/ca315896c23c0e3ed586ef1268a6a69a.jpg" alt="Товар">
+						</span>
+						<span class="good-item-name">GEL POLISH GREENERY</span>
+						<span class="good-item-price">
+							<span class="good-item-price-amount">10 МЛ</span>
+							<span class="good-item-price-sum">520 RUB</span>
+						</span>
+						<span class="good-item-details">
+							<span class="good-item-details-name">Посмотреть детали</span>
+							<i class="good-item-details-arrow"></i>
+						</span>
+					</a>
+					<a class="add-more" href="#">
+						<span class="add-more-button">
+							<i class="add-more-button-icon"></i>
+							<span class="add-more-button-name"> 
+								<span class="add-more-button-name-hidden">ДОБАВИТЬ</span>
+								ЕЩЕ
+							</span>
+						</span>
+						<span class="add-more-basket">
+							<i class="add-more-basket-icon"></i>
+							<span class="add-more-basket-count">5</span>
+						</span>
+					</a>
+				</div>
+
+				<div class="good-item">
+					<a class="good-item-link" href="#">
+						<span class="good-item-pic">
+							<span class="good-item-pic-icons">
+								<span class="good-item-pic-icon red">HIT</span>
+							</span>
+							<img class="good-item-pic-img" src="http://linto-nails.ru/upload/resize_cache/iblock/477/500_500_1/477186e2be80e4e4bfe5cd4c98835e1d.png" alt="Товар">
+						</span>
+						<span class="good-item-name">GEL POLISH 027</span>
+						<span class="good-item-price">
+							<span class="good-item-price-amount">10 МЛ</span>
+							<span class="good-item-price-sum">520 RUB</span>
+						</span>
+						<span class="good-item-details">
+							<span class="good-item-details-name">Посмотреть детали</span>
+							<i class="good-item-details-arrow"></i>
+						</span>
+					</a>
+					<a class="button-link black" href="#">
+						<span class="button-link-span">
+							<span class="button-link-span-text">
+								<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+							</span>
+						</span>
+					</a>
+				</div>
+
+				<div class="good-item">
+					<a class="good-item-link" href="#">
+						<span class="good-item-pic">
+							<img class="good-item-pic-img" src="http://linto-nails.ru/upload/resize_cache/iblock/ebe/500_500_1/ebe6de003cafac3e0f4d2382d2a81e26.jpg" alt="Товар">
+						</span>
+						<span class="good-item-name">GEL POLISH 028</span>
+						<span class="good-item-price">
+							<span class="good-item-price-amount">10 МЛ</span>
+							<span class="good-item-price-sum">520 RUB</span>
+						</span>
+						<span class="good-item-details">
+							<span class="good-item-details-name">Посмотреть детали</span>
+							<i class="good-item-details-arrow"></i>
+						</span>
+					</a>
+					<a class="button-link black" href="#">
+						<span class="button-link-span">
+							<span class="button-link-span-text">
+								<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+							</span>
+						</span>
+					</a>
+				</div>
+
+				<div class="good-item">
+					<a class="good-item-link" href="#">
+						<span class="good-item-pic">
+							<img class="good-item-pic-img" src="http://linto-nails.ru/upload/resize_cache/iblock/4a0/500_500_1/4a02b890308c7fc00ecc91ed0ee15d6d.jpg" alt="Товар">
+						</span>
+						<span class="good-item-name">GEL POLISH 030</span>
+						<span class="good-item-price">
+							<span class="good-item-price-amount">10 МЛ</span>
+							<span class="good-item-price-sum">520 RUB</span>
+						</span>
+						<span class="good-item-details">
+							<span class="good-item-details-name">Посмотреть детали</span>
+							<i class="good-item-details-arrow"></i>
+						</span>
+					</a>
+					<a class="button-link black" href="#">
+						<span class="button-link-span">
+							<span class="button-link-span-text">
+								<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+							</span>
+						</span>
+					</a>
+				</div>
+
+				<div class="good-item">
+					<a class="good-item-link" href="#">
+						<span class="good-item-pic">
+							<span class="good-item-pic-icons">
+								<span class="good-item-pic-icon green">NEW</span>
+								<span class="good-item-pic-icon red">HIT</span>
+							</span>
+							<img class="good-item-pic-img" src="http://linto-nails.ru/upload/resize_cache/iblock/205/500_500_1/2051aede5d7c06a4b5900e6ef84ffc2a.jpg" alt="Товар">
+						</span>
+						<span class="good-item-name">GEL POLISH GREENERY</span>
+						<span class="good-item-price">
+							<span class="good-item-price-amount">10 МЛ</span>
+							<span class="good-item-price-sum">520 RUB</span>
+						</span>
+						<span class="good-item-details">
+							<span class="good-item-details-name">Посмотреть детали</span>
+							<i class="good-item-details-arrow"></i>
+						</span>
+					</a>
+					<a class="add-more" href="#">
+						<span class="add-more-button">
+							<i class="add-more-button-icon"></i>
+							<span class="add-more-button-name"> 
+								<span class="add-more-button-name-hidden">ДОБАВИТЬ</span>
+								ЕЩЕ
+							</span>
+						</span>
+						<span class="add-more-basket">
+							<i class="add-more-basket-icon"></i>
+							<span class="add-more-basket-count">5</span>
+						</span>
+					</a>
+				</div>
+
+				<div class="good-item">
+					<a class="good-item-link" href="#">
+						<span class="good-item-pic">
+							<span class="good-item-pic-icons">
+								<span class="good-item-pic-icon red">HIT</span>
+							</span>
+							<img class="good-item-pic-img" src="http://linto-nails.ru/upload/resize_cache/iblock/843/500_500_1/843480d58d3dfa6989eefd964b1b31c6.jpg" alt="Товар">
+						</span>
+						<span class="good-item-name">GEL POLISH 027</span>
+						<span class="good-item-price">
+							<span class="good-item-price-amount">10 МЛ</span>
+							<span class="good-item-price-sum">520 RUB</span>
+						</span>
+						<span class="good-item-details">
+							<span class="good-item-details-name">Посмотреть детали</span>
+							<i class="good-item-details-arrow"></i>
+						</span>
+					</a>
+					<a class="button-link black" href="#">
+						<span class="button-link-span">
+							<span class="button-link-span-text">
+								<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+							</span>
+						</span>
+					</a>
+				</div>
+
+				<div class="good-item">
+					<a class="good-item-link" href="#">
+						<span class="good-item-pic">
+							<img class="good-item-pic-img" src="http://linto-nails.ru/upload/resize_cache/iblock/7c7/500_500_1/7c71c32a6b4bbf934c27b56a8c505637.jpg" alt="Товар">
+						</span>
+						<span class="good-item-name">GEL POLISH 028</span>
+						<span class="good-item-price">
+							<span class="good-item-price-amount">10 МЛ</span>
+							<span class="good-item-price-sum">520 RUB</span>
+						</span>
+						<span class="good-item-details">
+							<span class="good-item-details-name">Посмотреть детали</span>
+							<i class="good-item-details-arrow"></i>
+						</span>
+					</a>
+					<a class="button-link black" href="#">
+						<span class="button-link-span">
+							<span class="button-link-span-text">
+								<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+							</span>
+						</span>
+					</a>
+				</div>
+
+				<div class="good-item">
+					<a class="good-item-link" href="#">
+						<span class="good-item-pic">
+							<img class="good-item-pic-img" src="http://linto-nails.ru/upload/resize_cache/iblock/01c/500_500_1/01cc6385e106ebc31cc0dff061d6bd86.png" alt="Товар">
+						</span>
+						<span class="good-item-name">GEL POLISH 030</span>
+						<span class="good-item-price">
+							<span class="good-item-price-amount">10 МЛ</span>
+							<span class="good-item-price-sum">520 RUB</span>
+						</span>
+						<span class="good-item-details">
+							<span class="good-item-details-name">Посмотреть детали</span>
+							<i class="good-item-details-arrow"></i>
+						</span>
+					</a>
+					<a class="button-link black" href="#">
+						<span class="button-link-span">
+							<span class="button-link-span-text">
+								<span class="button-link-span-text-hidden">ДОБАВИТЬ</span> В КОРЗИНУ
+							</span>
+						</span>
+					</a>
+				</div>
+			</div>
+			<div class="main-page-special-goods-button">
+				<a class="button-link black" href="#">
+					<span class="button-link-span"><span class="button-link-span-text">ВСЕ НОВИНКИ И БЕСТСЕЛЛЕРЫ</span></span>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="main-page-delivery">
+	<div class="container">
+		<div class="content main-page-delivery-content">
+			<div class="main-page-delivery-pic">
+				<img class="main-page-delivery-pic-img" src="img/delivery.svg" alt="#">
+			</div>
+			<div class="main-page-delivery-info">
+				<p class="main-page-delivery-info-p"><b>Бесплатная доставка</b> по России при оплате заказов <b>онлайн</b> на сумму <b>от 3 000 руб.</b></p>
+				<a class="main-page-delivery-info-a" href="#">Условия оплаты и доставки</a>
+			</div>
+		</div>
+	</div>
+</section>
+
 <section id="main-page-events">
 	<div class="container main-page-events-container">
 		<div class="content main-page-events-content">
