@@ -233,7 +233,7 @@
 		<div class="content main-page-special-goods">
 			<h2 class="main-page-special-goods-head">НОВИНКИ И БЕСТСЕЛЛЕРЫ</h2>
 			<div class="main-page-special-goods-wrap">
-				<div class="good-item">
+				<div class="good-item white-button">
 					<a class="good-item-link" href="#">
 						<span class="good-item-pic">
 							<span class="good-item-pic-icons">
@@ -267,7 +267,7 @@
 					</a>
 				</div>
 
-				<div class="good-item">
+				<div class="good-item white-button">
 					<a class="good-item-link" href="#">
 						<span class="good-item-pic">
 							<span class="good-item-pic-icons">
@@ -294,7 +294,7 @@
 					</a>
 				</div>
 
-				<div class="good-item">
+				<div class="good-item white-button">
 					<a class="good-item-link" href="#">
 						<span class="good-item-pic">
 							<img class="good-item-pic-img" src="http://linto-nails.ru/upload/resize_cache/iblock/ebe/500_500_1/ebe6de003cafac3e0f4d2382d2a81e26.jpg" alt="Товар">
@@ -318,7 +318,7 @@
 					</a>
 				</div>
 
-				<div class="good-item">
+				<div class="good-item white-button">
 					<a class="good-item-link" href="#">
 						<span class="good-item-pic">
 							<img class="good-item-pic-img" src="http://linto-nails.ru/upload/resize_cache/iblock/4a0/500_500_1/4a02b890308c7fc00ecc91ed0ee15d6d.jpg" alt="Товар">
@@ -342,7 +342,7 @@
 					</a>
 				</div>
 
-				<div class="good-item">
+				<div class="good-item white-button">
 					<a class="good-item-link" href="#">
 						<span class="good-item-pic">
 							<span class="good-item-pic-icons">
@@ -376,7 +376,7 @@
 					</a>
 				</div>
 
-				<div class="good-item">
+				<div class="good-item white-button">
 					<a class="good-item-link" href="#">
 						<span class="good-item-pic">
 							<span class="good-item-pic-icons">
@@ -403,7 +403,7 @@
 					</a>
 				</div>
 
-				<div class="good-item">
+				<div class="good-item white-button">
 					<a class="good-item-link" href="#">
 						<span class="good-item-pic">
 							<img class="good-item-pic-img" src="http://linto-nails.ru/upload/resize_cache/iblock/7c7/500_500_1/7c71c32a6b4bbf934c27b56a8c505637.jpg" alt="Товар">
@@ -427,7 +427,7 @@
 					</a>
 				</div>
 
-				<div class="good-item">
+				<div class="good-item white-button">
 					<a class="good-item-link" href="#">
 						<span class="good-item-pic">
 							<img class="good-item-pic-img" src="http://linto-nails.ru/upload/resize_cache/iblock/01c/500_500_1/01cc6385e106ebc31cc0dff061d6bd86.png" alt="Товар">
@@ -502,7 +502,7 @@
 <section id="news" class="news-white">
 	<div class="container">
 		<div class="content">
-			<h2 class="news-head">Новости</h2>
+			<h2 class="news-head">НОВОСТИ</h2>
 			<a class="news-all-link" href="/news-list.php">ПЕРЕЙТИ КО ВСЕМ НОВОСТЯМ</a>
 			<div class="news-list">
 				<a class="news-item" href="#">
